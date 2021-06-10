@@ -19,8 +19,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/', indexRouter);
-/*
-
 app.use('/future', futureRouter);
 
 // catch 404 and forward to error handler
@@ -37,6 +35,6 @@ app.use(function(err, req, res, next) {
     // render the error page
     res.status(err.status || 500);
     res.render('error');
-}); */
+});
 
 module.exports = app;
