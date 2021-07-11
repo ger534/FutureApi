@@ -23,7 +23,7 @@ router.post('/threezerofive', (req, res) => {
 
 })
 
-router.post('/threezerofive/download',(req, res, next) => {
+router.post('/threezerofive/download', (req, res, next) => {
 
     //creates empty pdf to write later
     let pdfPath = path.join(__dirname, '..', 'pdfs', 'hello_world.pdf');
@@ -34,23 +34,26 @@ router.post('/threezerofive/download',(req, res, next) => {
     const data = fs.readFileSync(textPath, 'utf8')
 
     //write pdf 
-    pdf.create(data).toFile(pdfPath, function(err, res) {
-        if (err){
+    pdf.create(data).toFile(pdfPath, function (err, response) {
+        if (err) {
             console.log(err);
         } else {
             console.log("Creating pdf...");
+
+            const src = fs.createReadStream(pdfPath);
+
+            res.writeHead(200, {
+                'Content-Type': 'application/pdf',
+                'Content-Disposition': 'attachment; filename=sample.pdf',
+                'Content-Transfer-Encoding': 'Binary'
+            });
+
+            src.pipe(res);
+            console.log("file sent")
         }
     });
 
-    const src = fs.createReadStream(pdfPath);
-  
-    res.writeHead(200, {
-      'Content-Type': 'application/pdf',
-      'Content-Disposition': 'attachment; filename=sample.pdf',
-      'Content-Transfer-Encoding': 'Binary'
-    });
-  
-    src.pipe(res); 
-  });
+
+});
 
 module.exports = router;
