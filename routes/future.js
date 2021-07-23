@@ -10,20 +10,20 @@ const pdf = require('html-pdf');
 
 //post endpoint
 /* POST Three Zero Five text. */
-router.post('/threezerofive', (req, res) => {
-
+router.post('/chapter', (req, res) => {
+    const chapter = req.body.chapter
     //Output the book to console for debugging
-    console.log("Sending Three Zero Five text...");
+    console.log("Sending chapter "+ chapter + "...");
 
     //read txt
-    const textPath = path.join(__dirname, '..', 'texts', 'hello_world.html');
+    const textPath = path.join(__dirname, '..', 'texts', chapter + '.html');
     const data = fs.readFileSync(textPath, 'utf8')
 
     res.send(data);
 
 })
 
-router.post('/threezerofive/download', (req, res, next) => {
+router.post('/hello_world/download', (req, res, next) => {
 
     //creates empty pdf to write later
     let pdfPath = path.join(__dirname, '..', 'pdfs', 'hello_world.pdf');
