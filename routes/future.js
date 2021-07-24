@@ -8,9 +8,9 @@ const path = require('path');
 //to write pdf
 const pdf = require('html-pdf');
 
-//post endpoint
-/* POST Three Zero Five text. */
+/* returns chapter requested in body  */
 router.post('/chapter', (req, res) => {
+
     const chapter = req.body.chapter
     //Output the book to console for debugging
     console.log("Sending chapter "+ chapter + "...");
@@ -23,14 +23,18 @@ router.post('/chapter', (req, res) => {
 
 })
 
-router.post('/hello_world/download', (req, res, next) => {
+router.post('/download', (req, res) => {
+
+    const chapter = req.body.chapter
+    //Output the book to console for debugging
+    console.log("Downloading chapter "+ chapter + "...");
 
     //creates empty pdf to write later
-    let pdfPath = path.join(__dirname, '..', 'pdfs', 'hello_world.pdf');
+    let pdfPath = path.join(__dirname, '..', 'pdfs', chapter + '.pdf');
     fs.closeSync(fs.openSync(pdfPath, 'w'))
 
     //read txt
-    const textPath = path.join(__dirname, '..', 'texts', 'hello_world.html');
+    const textPath = path.join(__dirname, '..', 'texts', chapter + '.html');
     const data = fs.readFileSync(textPath, 'utf8')
 
     //write pdf 
