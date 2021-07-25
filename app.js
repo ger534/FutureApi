@@ -6,7 +6,6 @@ var cookieParser = require('cookie-parser');
 //import cors module
 const cors = require('cors');
 
-var indexRouter = require('./routes/index');
 var futureRouter = require('./routes/future');
 
 var app = express();
@@ -18,7 +17,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use('/', indexRouter);
 app.use('/future', futureRouter);
 
 // catch 404 and forward to error handler
@@ -36,7 +34,7 @@ app.use(function(err, req, res, next) {
 
     // render the error page
     res.status(err.status || 500);
-    res.send('error');
+    res.send(err);
 });
 
 module.exports = app;
