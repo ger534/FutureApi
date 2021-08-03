@@ -98,4 +98,25 @@ router.post('/download', async function (req, res) {
 
 });
 
+router.get('/character/:name', (req, res) => {
+
+    const name = req.params.name
+
+    //Output the book to console for debugging
+    console.log("Sending character " + name + "...");
+
+    const char =  {
+        suspensionOfJudgment: {
+            keywords: "Responsabilidad / Protección", 
+            meaning: "Significa dar hasta el último soplo de aliento con tal de asegurar el bienestar del sistema.", 
+            why: "Dentro de una sociedad utópica, se le concedió el rol de protector del sistema que estructura toda la sociedad humana."
+        }
+    }
+
+    const data = char
+
+    res.send(data);
+
+})
+
 module.exports = router;

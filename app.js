@@ -23,6 +23,7 @@ app.use('/future', futureRouter);
 app.use(function(req, res, next) {
     //next(createError(404));
     //res.json({ error: err })
+    console.log("error...")
     res.send("<style>.align{text-align:center}</style> <h1 class=\"align\">404 not found</h1>")
 });
 
