@@ -8,6 +8,9 @@ const path = require('path');
 //to write pdf
 const pdf = require('html-pdf');
 
+//characters
+var char = require('../characters/characters');
+
 /* returns chapter requested in body  */
 router.post('/chapter', (req, res) => {
 
@@ -105,23 +108,7 @@ router.get('/character/:name', (req, res) => {
     //Output the book to console for debugging
     console.log("Sending character " + name + "...");
 
-    const char =  {
-        physiologicalRecord: "Su composición fisiológica es similar a la de otros los habitantes de TecnoTOPIA, sus modificaciones genéticas son las estándar del cuidado promedio.",
-        psychologicalRecord: "Es un individuo determinado y responsable, puede perder la paciencia ante una situación frustrante. Situaciones extraordinarias lo pueden hacer dudar del sistema y su propia existencia.",
-        sociologicalRecord: "Su posición en el Comando Logístico le permite tener acceso a dispositivos electrónicos ajenos e información clasificada para el público.",
-        HowItTalks: "Siempre se refiere a sus \"pacientes\" con usted.",
-        catchphrase: "",
-        manias: "Cuando un evento no parece seguir la lógica o puede vulnerar al sistema, tiende a obsesionarse en el por qué",
-        motivations: "Mantener la estabilidad en el sistema.",
-        moral: "Utilizar cual truco o atajo siempre es válido con tal de preservar la vida de sus pacientes y la seguridad del sistema.", 
-        suspensionOfJudgment: {
-            keywords: "Responsabilidad / Protección", 
-            meaning: "Significa dar hasta el último soplo de aliento con tal de asegurar el bienestar del sistema.", 
-            why: "Dentro de una sociedad utópica, se le concedió el rol de protector del sistema que estructura toda la sociedad humana."
-        }
-    }
-
-    const data = char
+    const data = char.getCharacters().find(char => name === char.name)
 
     res.send(data);
 
