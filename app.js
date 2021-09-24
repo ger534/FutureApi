@@ -6,8 +6,6 @@ var cookieParser = require('cookie-parser');
 //import cors module
 const cors = require('cors');
 
-var futureRouter = require('./routes/future');
-
 var app = express();
 
 //enable all cors
@@ -17,7 +15,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+/**
+ * routes
+ */
+ var futureRouter = require('./routes/future');
+ var gamesRouter = require('./routes/game');
 app.use('/future', futureRouter);
+app.use('/games', gamesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

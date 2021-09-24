@@ -7,6 +7,9 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 
+# Tests
+texts/testing
+
 # Firebase cache
 .firebase/
 
