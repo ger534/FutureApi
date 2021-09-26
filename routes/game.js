@@ -23,4 +23,20 @@ router.get('/:id', (req, res) => {
 
 })
 
+/* returns game screens requested in body  */
+router.post('/:id/screens', (req, res) => {
+
+    const game = req.params.id
+    const screens = req.body.screens
+
+    //Output the book to console for debugging
+    console.log("Sending screens for game " + game + "...");
+
+    //get array game
+    const data = games.getGameByScreens(game, screens)
+
+    res.send(data);
+
+})
+
 module.exports = router;
