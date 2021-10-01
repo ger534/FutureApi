@@ -174,7 +174,7 @@ const games = [
             },
             {
                 id: "cubiculo_no",
-                text: "<p>—<span style=\"background-color:red\">No</span>. Un triángulo...</p>",
+                text: "<p>—<span style=\"background-color:red\">No</span>. El cubículo...</p>",
                 options: [
                     { id: "mundo_yes", option: "El cubículo me protege." },
                     { id: "mundo_no", option: "Un cubículo es un cuadra\'o." }
@@ -182,7 +182,7 @@ const games = [
             },
             {
                 id: "cubiculo_yes",
-                text: "<p>—<span style=\"background-color:green\">Sí</span>. Un triángulo...</p>",
+                text: "<p>—<span style=\"background-color:green\">Sí</span>. El cubículo...</p>",
                 options: [
                     { id: "mundo_yes", option: "El cubículo me protege." },
                     { id: "mundo_no", option: "Un cubículo es un cuadra\'o." }
@@ -280,13 +280,13 @@ const games = [
             }, 
             {
                 id: "gobierno_no",
-                text: "<p>—El gobierno...</p>",
+                text: "<p>—<span style=\"background-color:red\">No</span>. El gobierno...</p>",
                 options: [
                     { id: "game", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
             },
             {
                 id: "gobierno_yes",
-                text: "<p>—El gobierno...</p>",
+                text: "<p>—<span style=\"background-color:green\">Sí</span>. El gobierno...</p>",
                 options: [
                     { id: "game", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
             },
