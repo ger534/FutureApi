@@ -53,6 +53,65 @@ const games = [
         ]
     },
     {
+        id: "spaceship",
+        title: "Navecita",
+        html: true,
+        data: [
+            {
+                id: "start",
+                text: "<p>Hasta este momento, ni Dios ni los alienígenas se habían vuelto visibles en la inmensidad del universo, pero esto\
+                parecía haber cambiado en un santiamén. Fue imperativo desplegar la aeronave más rápida. No tenía mucho armamento\
+                ni espacio. Espacio único para un tripulante, el piloto 305. La curiosidad lo lanzó tan rápido al volante que no\
+                se cuestionó lo irracional de su misión. Si luego de tantos años de avances tecnológicos, un objeto volador no\
+                identificado había sido capaz de penetrar, no solo el sistema solar, sino la atmósfera de la Tierra y además, sin\
+                ser detectado hasta el momento de tocar la integridad de los metaversos, definitivamente un piloto de\
+                mantenimiento no lo iba a neutralizar con un par de cañones de plasma.</p>\
+                <p>El GPS dicta: <i>Turn right.</i> &#129034;<!--gire a la derecha--></p>",
+                options: [
+                    { id: "izquierda", option: "🚀 Girar a la izquierda &#129032;.", noShow: true },
+                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;." },
+                ]
+            },
+            {
+                id: "izquierda",
+                text: "<p>305, sin prestar mucha atención a las instrucciones y tal vez aún aturdido por la noticia, decide no tomar en consideración la ruta sugerida por\
+                el Sistema de Posicionamiento Global y en cambio, se dirige en dirección contraria al sitio del incidente. Siguiendo este rumbo, 305 tiene la oportunidad de \
+                visualizar desde las alturas, las grandes aglomeraciones de casas-puerto, que se propagan  por toda la árida superficie terrestre.\
+                </p> \
+                <p>El GPS dicta: <i>Please, turn to your right.</i> &#129034;</p>",
+                options: [
+                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;." },
+                    { id: "mantener", option: "🚀 Mantener rumbo &#129033;.", noShow: true },
+                ]
+            },
+            {
+                id: "mantener",
+                text: "<p>Aún sin entrar en personaje, 305 decide mantener el rumbo equivocado. Siguiendo esta dirección, la aeronave tendría que orbitar gran parte del planeta\
+                antes de acercarse al punto de interés, lo que comprometería el interés público de mitigar cualquier inconveniente en la infraestructura de los metaversos lo antes posible. \
+                Desde la base, otros monitores comenzaron a quejarse de sus decisiones erráticas y le advirtieron tomar con seriedad su rol \
+                en la sociedad. Mientras esto sucedía, el vehículo comenzó a estremecerse. Entre la súbita turbulencia, por un instante le pareció escuchar un ruido\
+                inusual, una especie de graznido.\
+                </p> \
+                <p>El GPS dicta: <span style=\"background-color:red\"><strong>TURN TO YOUR RIGHT.</strong> &#129034;</span></p>",
+                options: [
+                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;." },
+                    { id: "derecha_no", option: "No." },
+                ]
+            },
+            {
+                id: "derecha_no",
+                text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a descender, cada vez más rápido, en dirección a la Tierra.\
+                El monitor, que hasta el momento había tomado decisiones poco sabías, activó el mecánismo de eyección y salió disparado de la nave. Lo que segundos antes era\
+                su medio de transporte, quedó desintegrado por el sistema de defensa de las casas-puerto. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
+                </p>",
+                options: [
+                    { id: "derecha", option: "a." },
+                    { id: "derecha_no", option: "a." },
+                ]
+            },
+        ]
+    },
+    {
         id: "terms_and_conditions",
         title: "Términos y condiciones",
         html: true,
@@ -101,7 +160,7 @@ const games = [
                 text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
                 <p>—2+2...</p>",
                 options: [
-                    { id: "triangulo_no_suma_no", option: "3." },
+                    { id: "triangulo_no_suma_no", option: "3.", noShow: true },
                     { id: "lenguaje_yes", option: "4." }
                 ]
             },
@@ -327,7 +386,7 @@ const games = [
                 options: [
                     { id: "gobierno_yes", option: "La pobreza no existe, en el sistema todos somos ricos." },
                     { id: "gobierno_no", option: "Es que es pobre es porque quiere." }]
-            }, 
+            },
             {
                 id: "pobreza1",
                 text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
@@ -335,7 +394,7 @@ const games = [
                 options: [
                     { id: "gobierno_yes", option: "La pobreza no existe, en el sistema todos somos ricos." },
                     { id: "gobierno_no", option: "Es que es pobre es porque quiere." }]
-            }, 
+            },
             {
                 id: "gobierno_no",
                 text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
@@ -358,7 +417,57 @@ const games = [
             //HOLA MUNDO
             {
                 id: "start_hola_mundo",
-                text: "<p>HOLA MUNDO</p>",
+                text: "<h1 class=\"chapter-title\" style=\"text-align:center\">Hola mundo</h1>\
+                \
+                <p>Se pueden colonizar otros planetas y ceder el control a las máquinas, pero en la Tierra siempre habrá alguien que\
+                  deba mantener el orden, de manera para que la arquitectura de los metaversos no colapse. Por avanzada\
+                  que esté la tecnología, sigue necesitando de un factor humano. Los equipos de mantenimiento que se encargan de\
+                  esta labor están distribuidos como clústers de pequeños grupos de personas alrededor del globo. Estos equipos forman\
+                  una red que protege a otra red. A pesar de esto, no existe mucha comunicación entre estos\
+                  nodos de soporte. A no ser que aparezca un problema tan grande que más de un equipo de reparación sea necesario,\
+                  no hay ningún tipo de conversación entre los encargados de mantenimiento, continuando su rutina de no convivir.\
+                  Así sería generalmente, a no ser que suceda lo insólito. Como que se levante una alerta roja tipo 5. Algo tan\
+                  extraño, que el primero en ser notificado tuvo que revisar múltiples veces el significado de la alarma, a pesar de\
+                  estar grabado en su memoria. Es irrefutable.</p>\
+                  \
+                <p class=\"dialog\">—Red alarm, level 5, alien attack.</p>\
+                \
+                <p>Hasta este momento, ni Dios ni los alienígenas se habían vuelto visibles en la inmensidad del universo, pero esto\
+                  parecía haber cambiado en un santiamén. Fue imperativo saltar a la aeronave más rápida. No tenía mucho armamento\
+                  ni espacio. Espacio único para un tripulante, el piloto 305. La curiosidad lo lanzó tan rápido al volante que no\
+                  se cuestionó lo irracional de su misión. Si luego de tantos años de avances tecnológicos, un objeto volador no\
+                  identificado había sido capaz de penetrar, no solo el sistema solar, sino la atmósfera de la Tierra y además, sin\
+                  ser detectado hasta el momento de tocar la integridad del metaverso, definitivamente un piloto de\
+                  mantenimiento no lo iba a neutralizar con un par de cañones de plasma.</p>\
+                  \
+                <p>Al llegar al lugar, a 305 no le pareció extraño que no hubiera ni un rastro de nada en la superficie terrestre.\
+                  La mayoría del planeta estaba desolado, descartando las casas-puertos de conexión al metaverso o las\
+                  localidades de los Rastreros. Pero la alarma disparada, roja y de nivel 5, indicaba que por fuerza algo debió\
+                  invadir algún sector de infraestructura del internet con esteroides que son los meta-universos.</p>\
+                  \
+                <p>La vida de los ingenieros del metaverso no es muy distinta a la de las máquinas. Consiste en seguir\
+                  protocolos, cumplir con las rutinas de mantenimiento, hacer exámenes al sistema… Durante décadas el gremio fue\
+                  optimizando su trabajo y perdiendo su humanidad. Tampoco es tan necesaria para cumplir su labor. La mayoría de\
+                  entornos que un encargado de mantenimiento habita son controlados, predecibles. El honor de la tarea no está en el\
+                  riesgo o la complejidad, sino en mantener el orden, en ser los mediadores de la falsa naturaleza impuesta para\
+                  cumplir las fantasías de los habitantes virtuales.</p>\
+                  \
+                <p>Tal vez por esto, antes de que 305 se diera cuenta, se encontraba caminando la superficie terrestre, a la\
+                  intemperie. Por primera vez (y probablemente siendo pionero en esto), se enfrentaba a una situación que no estaba\
+                  controlada. En el peor de los casos, La Armada Intergaláctica lanzaría un ataque desde la Luna, sin importar\
+                  cuánta infraestructura tuviera que destruir. 305 sabía que la única forma de evitar que la situación escalara era\
+                  suprimir la señal inicial antes de que pasaran <code>3.6 millones de milisegundos</code>, como lo estipula el\
+                  protocolo.</p>\
+                  \
+                <p>Sus colegas le llamaban. Respondió la radio y les dijo</p>",
+                options: [
+                    { id: "a", option: "<div class=\"dialog\">—Nothing to report. I will turn off the alarm and then I will check the area. Over and out.</div>", }
+                ]
+            },
+            {
+                id: "a",
+                text: "<p>Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. \
+                Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. </p>",
                 options: []
             },
         ]
