@@ -66,10 +66,10 @@ const games = [
                 identificado había sido capaz de penetrar, no solo el sistema solar, sino la atmósfera de la Tierra y además, sin\
                 ser detectado hasta el momento de tocar la integridad de los metaversos, definitivamente un piloto de\
                 mantenimiento no lo iba a neutralizar con un par de cañones de plasma.</p>\
-                <p>El GPS dicta: <i>Turn right.</i> &#129034;</p>",
+                <p>El GPS dicta: <i>Turn right.</i> ▶️</p>",
                 options: [
-                    { id: "izquierda", option: "🚀 Girar a la izquierda &#129032;.", noShow: true },
-                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;.", noShow: true },
+                    { id: "izquierda", option: "🚀 Girar a la izquierda ◀️.", noShow: true },
+                    { id: "derecha", option: "🚀 Girar a la derecha ▶️.", noShow: true },
                 ]
             },
             {
@@ -78,10 +78,10 @@ const games = [
                 el Sistema de Posicionamiento Global y en cambio, se dirige en dirección contraria al sitio del incidente. Siguiendo este rumbo, 305 tiene la oportunidad de \
                 visualizar desde las alturas, las grandes aglomeraciones de casas-puerto, que se propagan  por toda la árida superficie terrestre.\
                 </p> \
-                <p>El GPS dicta: <i>Please, turn to your right.</i> &#129034;</p>",
+                <p>El GPS dicta: <i>Please, turn to your right.</i> ▶️</p>",
                 options: [
-                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;.", noShow: true },
-                    { id: "mantener", option: "🚀 Mantener rumbo &#129033;.", noShow: true },
+                    { id: "derecha", option: "🚀 Girar a la derecha ▶️.", noShow: true },
+                    { id: "mantener", option: "🚀 Mantener rumbo 🔼.", noShow: true },
                 ]
             },
             {
@@ -92,9 +92,9 @@ const games = [
                 en la sociedad. Mientras esto sucedía, el vehículo comenzó a estremecerse. Entre la súbita turbulencia, por un instante le pareció escuchar un ruido\
                 inusual, una especie de graznido.\
                 </p> \
-                <p>El GPS dicta: <span style=\"background-color:red\"><strong>TURN TO YOUR RIGHT.</strong> &#129034;</span></p>",
+                <p>El GPS dicta: <span style=\"background-color:red\"><strong>TURN TO YOUR RIGHT.</strong> ▶️</span></p>",
                 options: [
-                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;.", noShow: true },
+                    { id: "derecha", option: "🚀 Girar a la derecha .", noShow: true },
                     { id: "explosion_nave_tierra", option: "No." },
                 ]
             },
@@ -115,19 +115,19 @@ const games = [
                 la aeronave es una de las pocas zonas en el planeta que no está saturada por casas-puerto. El monitor inclina su cabeza por el parabrisas del vehículo y logra ver \
                 la circuitería que conecta la red mundial de información. Ahora el cableado se encuentra al descubierto, pero mucho tiempo atrás, solía estar en el fondo del océano, \
                 cuando aún había agua en él.</p> \
-                <p>El GPS dicta: <i>Lower your altitude.</i> &#x1F80B;</p>",
+                <p>El GPS dicta: <i>Lower your altitude.</i> 🔽</p>",
                 options: [
-                    { id: "descender", option: "Descender al fondo del vacío océano &#x1F80B;.", noShow: true },
-                    { id: "ascender", option: "Ascender hacia la atmósfera 	&#129033;.", noShow: true },
+                    { id: "descender", option: "Descender al fondo del vacío océano 🔽.", noShow: true },
+                    { id: "ascender", option: "Ascender hacia la atmósfera 	.", noShow: true },
                 ]
             },
             {
                 id: "descender",
                 text: "<p>Descendiendo 8.000 mil metros, de entre la maraña de enormes cables industriales, se hizo visible el repetidor cuyo sistema de monitoreo había disparado la \
                 alarma extraterrestre.</p> \
-                <p>El GPS dicta: <i>You have reach your destination.</i> 📌📍🎯⚓⛩️🔖❕⚠️◀️🔼🔽▶️⬅️⬆️⬇️➡️✔️✖️</p>",
+                <p>El GPS dicta: <i>You have reach your destination.</i> 🎯</p>",
                 options: [
-                    { id: "llegada", option: "Aterrizar 📌📍🎯⚓⛩️🔖❕⚠️◀️🔼🔽▶️⬅️⬆️⬇️➡️✔️✖️."/*, noShow: true*/ },
+                    { id: "llegada", option: "Aterrizar 🎯.", noShow: true },
                     { id: "b", option: "b." },
                 ]
             },
@@ -137,16 +137,18 @@ const games = [
                 Al superar las grises y artificiales nubes que cubren el cielo de día y de noche; el monitor fue encandilado por el exceso de luz que emitían los edificios espaciales.\
                 El ecosistema atmosférico de la Tierra está plagado de hogares burocráticos, donde las industrias de cada tecnología vital para la humanidad habitan y organizan sus actividades.\
                  </p> \
-                <p>El GPS dicta: <i>Please, lower your altitude.</i> &#x1F80B;</p>",
+                <p>El GPS dicta: <i>Please, lower your altitude.</i> 🔽</p>",
                 options: [
-                    { id: "ascender_2", option: "Seguir ascendiendo &#129033;." },
+                    { id: "ascender_2", option: "Seguir ascendiendo 🔼.", noShow: true },
                     { id: "b", option: "b." },
                 ]
             },
             {
                 id: "ascender_2",
-                text: "<p>Describir el uso de la luna.</p> \
-                <p>El GPS dicta: <span style=\"background-color:red\"><strong>LOWER YOUR ALTITUDE.</strong> &#x1F80B;</span></p>",
+                text: "<p>Subiendo aún más, y acercándose peligrosamente a zonas restringidas y sin directa relevancia para alguien de mantenimiento, 305 mantuvo su rumbo de forma ascendente.\
+                Su comportamiento errático e insubordinado hizo que su transmisor comenzaba a chorrear toda clase de advertencias y represalias. No solo sus compañeros en el nodo de monitores estaban\
+                confundidos y molestos con él, también era posible percibir un comunicado por parte de La Armada Intergaláctica. Describir el uso de la luna.</p> \
+                <p>El GPS dicta: <span style=\"background-color:red\"><strong>LOWER YOUR ALTITUDE.</strong> 🔽</span></p>",
                 options: [
                     { id: "explosion_nave_luna", option: "No." },
                     { id: "b", option: "b." },
@@ -167,7 +169,7 @@ const games = [
                 id: "llegada",
                 text: "<p>Descendiendo 8.000 mil metros, de entre la maraña de enormes cables industriales, se hizo visible el repetidor cuyo sistema de monitoreo había disparado la \
                 alarma extraterrestre.</p> \
-                <p>El GPS dicta: <i>Lower your altitude.</i> &#129034;</p>",
+                <p>El GPS dicta: <i>Lower your altitude.</i> ▶️</p>",
                 options: [
                     { id: "a", option: "a." },
                     { id: "b", option: "b." },
