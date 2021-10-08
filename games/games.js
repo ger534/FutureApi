@@ -66,10 +66,10 @@ const games = [
                 identificado había sido capaz de penetrar, no solo el sistema solar, sino la atmósfera de la Tierra y además, sin\
                 ser detectado hasta el momento de tocar la integridad de los metaversos, definitivamente un piloto de\
                 mantenimiento no lo iba a neutralizar con un par de cañones de plasma.</p>\
-                <p>El GPS dicta: <i>Turn right.</i> &#129034;<!--gire a la derecha--></p>",
+                <p>El GPS dicta: <i>Turn right.</i> &#129034;</p>",
                 options: [
                     { id: "izquierda", option: "🚀 Girar a la izquierda &#129032;.", noShow: true },
-                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;." },
+                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;.", noShow: true },
                 ]
             },
             {
@@ -80,7 +80,7 @@ const games = [
                 </p> \
                 <p>El GPS dicta: <i>Please, turn to your right.</i> &#129034;</p>",
                 options: [
-                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;." },
+                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;.", noShow: true },
                     { id: "mantener", option: "🚀 Mantener rumbo &#129033;.", noShow: true },
                 ]
             },
@@ -94,21 +94,85 @@ const games = [
                 </p> \
                 <p>El GPS dicta: <span style=\"background-color:red\"><strong>TURN TO YOUR RIGHT.</strong> &#129034;</span></p>",
                 options: [
-                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;." },
-                    { id: "derecha_no", option: "No." },
+                    { id: "derecha", option: "🚀 Girar a la derecha &#129034;.", noShow: true },
+                    { id: "explosion_nave_tierra", option: "No." },
                 ]
             },
             {
-                id: "derecha_no",
+                id: "explosion_nave_tierra",
                 text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a descender, cada vez más rápido, en dirección a la Tierra.\
                 El monitor, que hasta el momento había tomado decisiones poco sabías, activó el mecánismo de eyección y salió disparado de la nave. Lo que segundos antes era\
                 su medio de transporte, quedó desintegrado por el sistema de defensa de las casas-puerto. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
                 </p>",
                 options: [
-                    { id: "derecha", option: "a." },
-                    { id: "derecha_no", option: "a." },
+                    { id: "a", option: "a." },
+                    { id: "b", option: "b." },
                 ]
             },
+            {
+                id: "derecha",
+                text: "<p>Siguiendo las indicaciones del Sistema de Posicionamiento Global, 305 toma la ruta más pronta al sitio del incidente. La región por la cual sobrevuela\
+                la aeronave es una de las pocas zonas en el planeta que no está saturada por casas-puerto. El monitor inclina su cabeza por el parabrisas del vehículo y logra ver \
+                la circuitería que conecta la red mundial de información. Ahora el cableado se encuentra al descubierto, pero mucho tiempo atrás, solía estar en el fondo del océano, \
+                cuando aún había agua en él.</p> \
+                <p>El GPS dicta: <i>Lower your altitude.</i> &#x1F80B;</p>",
+                options: [
+                    { id: "descender", option: "Descender al fondo del vacío océano &#x1F80B;.", noShow: true },
+                    { id: "ascender", option: "Ascender hacia la atmósfera 	&#129033;.", noShow: true },
+                ]
+            },
+            {
+                id: "descender",
+                text: "<p>Descendiendo 8.000 mil metros, de entre la maraña de enormes cables industriales, se hizo visible el repetidor cuyo sistema de monitoreo había disparado la \
+                alarma extraterrestre.</p> \
+                <p>El GPS dicta: <i>You have reach your destination.</i> 📌📍🎯⚓⛩️🔖❕⚠️◀️🔼🔽▶️⬅️⬆️⬇️➡️✔️✖️</p>",
+                options: [
+                    { id: "llegada", option: "Aterrizar 📌📍🎯⚓⛩️🔖❕⚠️◀️🔼🔽▶️⬅️⬆️⬇️➡️✔️✖️."/*, noShow: true*/ },
+                    { id: "b", option: "b." },
+                ]
+            },
+            {
+                id: "ascender",
+                text: "<p>En un acto contrario al indicado, 305 decidió aumentar la latitud de su posición, acercándose la atmósfera. \
+                Al superar las grises y artificiales nubes que cubren el cielo de día y de noche; el monitor fue encandilado por el exceso de luz que emitían los edificios espaciales.\
+                El ecosistema atmosférico de la Tierra está plagado de hogares burocráticos, donde las industrias de cada tecnología vital para la humanidad habitan y organizan sus actividades.\
+                 </p> \
+                <p>El GPS dicta: <i>Please, lower your altitude.</i> &#x1F80B;</p>",
+                options: [
+                    { id: "ascender_2", option: "Seguir ascendiendo &#129033;." },
+                    { id: "b", option: "b." },
+                ]
+            },
+            {
+                id: "ascender_2",
+                text: "<p>Describir el uso de la luna.</p> \
+                <p>El GPS dicta: <span style=\"background-color:red\"><strong>LOWER YOUR ALTITUDE.</strong> &#x1F80B;</span></p>",
+                options: [
+                    { id: "explosion_nave_luna", option: "No." },
+                    { id: "b", option: "b." },
+                ]
+            },
+            {
+                id: "explosion_nave_luna",
+                text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a descender, cada vez más rápido, en dirección a la Tierra.\
+                El monitor, que hasta el momento había tomado decisiones poco sabías, activó el mecánismo de eyección y salió disparado de la nave. Lo que segundos antes era\
+                su medio de transporte, quedó desintegrado por el sistema de defensa de las casas-puerto. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
+                </p>",
+                options: [
+                    { id: "a", option: "a." },
+                    { id: "b", option: "b." },
+                ]
+            },
+            {
+                id: "llegada",
+                text: "<p>Descendiendo 8.000 mil metros, de entre la maraña de enormes cables industriales, se hizo visible el repetidor cuyo sistema de monitoreo había disparado la \
+                alarma extraterrestre.</p> \
+                <p>El GPS dicta: <i>Lower your altitude.</i> &#129034;</p>",
+                options: [
+                    { id: "a", option: "a." },
+                    { id: "b", option: "b." },
+                ]
+            }
         ]
     },
     {
@@ -169,33 +233,26 @@ const games = [
                 text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
                 <p>—2+2...</p>",
                 options: [
-                    { id: "triangulo_yes_suma_no", option: "3." },
+                    { id: "triangulo_yes_suma_no", option: "3.", noShow: true },
                     { id: "lenguaje_yes", option: "4." }
                 ]
             },
             {
                 id: "triangulo_no_suma_no",
-                text: "<p>—<span class=\"info-action-box\"><code class=\"info-action\"><span style=\"font-size: 16px;\">(&#11148;) </span>No siempre tienes derecho a equivocarte.</code></span> 2+2...</p>",
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                <p>—<span class=\"info-action-box\"><code class=\"info-action\"><span style=\"font-size: 16px;\">(&#11148;) </span>No siempre tienes derecho a equivocarte.</code></span> 2+2...</p>",
                 options: [
                     { id: "lenguaje_yes", option: "4." }
                 ]
             },
             {
                 id: "triangulo_yes_suma_no",
-                text: "<p>—<span class=\"info-action-box\"><code class=\"info-action\"><span style=\"font-size: 16px;\">(&#11148;) </span>No siempre tienes derecho a equivocarte.</code></span> 2+2...</p>",
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                <p>—<span class=\"info-action-box\"><code class=\"info-action\"><span style=\"font-size: 16px;\">(&#11148;) </span>No siempre tienes derecho a equivocarte.</code></span> 2+2...</p>",
                 options: [
                     { id: "lenguaje_yes", option: "4." }
                 ]
             },
-            /*{
-                id: "lenguaje_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
-                <p>—El lenguaje natural...</p>",
-                options: [
-                    { id: "humano_no", option: "El lenguaje natural es de la naturaleza." },
-                    { id: "humano_yes", option: "El lenguaje natural es solo uno. Todas las voces se unifican en él." }
-                ]
-            },*/
             {
                 id: "lenguaje_yes",
                 text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
