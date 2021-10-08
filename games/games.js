@@ -192,7 +192,7 @@ const games = [
                 seleccione alguna de las actividades físicas en el menú de entrenamiento. O, si desea postergar su cuota de\
                 movimiento, por favor,\
                 piénselo en voz alta —de acuerdo,\
-                <span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Actividad física Reagendada</code></span>.\
+                <span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Actividad física Reagendada</code></span>.\
                 )</p>-->Antes de continuar, por favor\
                 complete\
                 las frases a continuación.</p>\
@@ -203,7 +203,7 @@ const games = [
             },
             {
                 id: "triangulo_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—Un triángulo...</p>",
                 options: [
                     { id: "suma_no_discardable", option: "Un triángulo puede ser el techo de una casa." },
@@ -212,7 +212,7 @@ const games = [
             },
             {
                 id: "triangulo_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—Un triángulo...</p>",
                 options: [
                     { id: "suma_no_discardable", option: "Un triángulo puede ser el techo de una casa." },
@@ -221,7 +221,7 @@ const games = [
             },
             {
                 id: "suma_no_discardable",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—2+2...</p>",
                 options: [
                     { id: "triangulo_no_suma_no", option: "3.", noShow: true },
@@ -230,7 +230,7 @@ const games = [
             },
             {
                 id: "suma_yes_discardable",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—2+2...</p>",
                 options: [
                     { id: "triangulo_yes_suma_no", option: "3.", noShow: true },
@@ -239,23 +239,23 @@ const games = [
             },
             {
                 id: "triangulo_no_suma_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
-                <p>—<span class=\"info-action-box\"><code class=\"info-action\"><span style=\"font-size: 16px;\">(&#11148;) </span>No siempre tienes derecho a equivocarte.</code></span> 2+2...</p>",
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
+                <p>—<span class=\"info-action-box\"><code class=\"info-action\"><span style=\"font-size: 16px;\">(❕) </span>No siempre tienes derecho a equivocarte.</code></span> 2+2...</p>",
                 options: [
                     { id: "lenguaje_yes", option: "4." }
                 ]
             },
             {
                 id: "triangulo_yes_suma_no",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
-                <p>—<span class=\"info-action-box\"><code class=\"info-action\"><span style=\"font-size: 16px;\">(&#11148;) </span>No siempre tienes derecho a equivocarte.</code></span> 2+2...</p>",
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
+                <p>—<span class=\"info-action-box\"><code class=\"info-action\"><span style=\"font-size: 16px;\">(❕) </span>No siempre tienes derecho a equivocarte.</code></span> 2+2...</p>",
                 options: [
                     { id: "lenguaje_yes", option: "4." }
                 ]
             },
             {
                 id: "lenguaje_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—El lenguaje natural...</p>",
                 options: [
                     { id: "humano_no", option: "El lenguaje natural es de la naturaleza." },
@@ -264,7 +264,7 @@ const games = [
             },
             {
                 id: "humano_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—El ser humano...</p>",
                 options: [
                     { id: "humanidad_no", option: "Todos somos humanos." },
@@ -273,7 +273,7 @@ const games = [
             },
             {
                 id: "humano_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—El ser humano...</p>",
                 options: [
                     { id: "humanidad_no", option: "Todos somos humanos." },
@@ -282,7 +282,7 @@ const games = [
             },
             {
                 id: "humanidad_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—La humanidad...</p>",
                 options: [
                     { id: "sustento_yes", option: "La humanidad se expande, conquistando otros planetas y aumentando las posibilidades de supervivencia." },
@@ -290,7 +290,7 @@ const games = [
             },
             {
                 id: "humanidad_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La humanidad...</p>",
                 options: [
                     { id: "sustento_yes", option: "La humanidad se expande, conquistando otros planetas y aumentando las posibilidades de supervivencia." },
@@ -298,7 +298,7 @@ const games = [
             },
             {
                 id: "sustento_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—El sustento...</p>",
                 options: [
                     {
@@ -308,7 +308,7 @@ const games = [
             },
             {
                 id: "sustento_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—El sustento...</p>",
                 options: [
                     {
@@ -318,7 +318,7 @@ const games = [
             },
             {
                 id: "mandibula_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—La mandíbula...</p>",
                 options: [
                     { id: "cubiculo_yes", option: "La mandíbula de un tiburón blanco puede albergar cerca de 3 mil dientes distribuidos en 5 hileras." },
@@ -326,7 +326,7 @@ const games = [
             },
             {
                 id: "mandibula_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La mandíbula...</p>",
                 options: [
                     { id: "cubiculo_yes", option: "La mandíbula de un tiburón blanco puede albergar cerca de 3 mil dientes distribuidos en 5 hileras." },
@@ -334,7 +334,7 @@ const games = [
             },
             {
                 id: "cubiculo_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—El cubículo...</p>",
                 options: [
                     { id: "mundo_yes", option: "El cubículo me protege." },
@@ -343,7 +343,7 @@ const games = [
             },
             {
                 id: "cubiculo_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—El cubículo...</p>",
                 options: [
                     { id: "mundo_yes", option: "El cubículo me protege." },
@@ -352,7 +352,7 @@ const games = [
             },
             {
                 id: "mundo_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—El mundo...</p>",
                 options: [
                     { id: "paz_yes", option: "El mundo es mío, puedo crear en él lo que sea. Siempre y cuando lo haga en el espacio designado para mí." },
@@ -361,7 +361,7 @@ const games = [
             },
             {
                 id: "mundo_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—El mundo...</p>",
                 options: [
                     { id: "paz_yes", option: "El mundo es mío, puedo crear en él lo que sea. Siempre y cuando lo haga en el espacio designado para mí." },
@@ -370,7 +370,7 @@ const games = [
             },
             {
                 id: "paz_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La paz...</p>",
                 options: [
                     { id: "mitocondrias_yes", option: "La paz reina, el conflicto es innecesario." },
@@ -379,7 +379,7 @@ const games = [
             },
             {
                 id: "paz_yes1",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La paz...</p>",
                 options: [
                     { id: "mitocondrias_yes", option: "La paz reina, el conflicto es innecesario." },
@@ -388,7 +388,7 @@ const games = [
             },
             {
                 id: "mitocondrias_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—Las mitocondrias...</p>",
                 options: [
                     { id: "muerte_yes", option: "Las mitocondrias de una célula eucariota se encuentran en el citoplasma." },
@@ -396,7 +396,7 @@ const games = [
             },
             {
                 id: "mitocondrias_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—Las mitocondrias...</p>",
                 options: [
                     { id: "muerte_yes", option: "Las mitocondrias de una célula eucariota se encuentran en el citoplasma." },
@@ -404,7 +404,7 @@ const games = [
             },
             {
                 id: "muerte_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—La muerte...</p>",
                 options: [
                     { id: "mentira", option: "La muerte es opcional." },
@@ -412,7 +412,7 @@ const games = [
             },
             {
                 id: "muerte_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La muerte...</p>",
                 options: [
                     { id: "mentira", option: "La muerte es opcional." },
@@ -420,7 +420,7 @@ const games = [
             },
             {
                 id: "mentira",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La mentira...</p>",
                 options: [
                     { id: "pobreza", option: "La mentira no puede existir cuando la lógica es el camino." },
@@ -429,7 +429,7 @@ const games = [
             },
             {
                 id: "mentira1",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La mentira...</p>",
                 options: [
                     { id: "pobreza", option: "La mentira no puede existir cuando la lógica es el camino." },
@@ -438,7 +438,7 @@ const games = [
             },
             {
                 id: "pobreza",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La pobreza...</p>",
                 options: [
                     { id: "gobierno_yes", option: "La pobreza no existe, en el sistema todos somos ricos." },
@@ -446,7 +446,7 @@ const games = [
             },
             {
                 id: "pobreza1",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La pobreza...</p>",
                 options: [
                     { id: "gobierno_yes", option: "La pobreza no existe, en el sistema todos somos ricos." },
@@ -454,21 +454,21 @@ const games = [
             },
             {
                 id: "gobierno_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(&#128473;) </span>Incorrecto.</code></span>\
+                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—El gobierno...</p>",
                 options: [
                     { id: "completado", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
             },
             {
                 id: "gobierno_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Correcto.</code></span>\
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—El gobierno...</p>",
                 options: [
                     { id: "completado", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
             },
             {
                 id: "completado",
-                text: "<p>—De acuerdo, <span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(&#10004;) </span>Análisis psicológico y social completado</code></span>.</p>",
+                text: "<p>—De acuerdo, <span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Análisis psicológico y social completado</code></span>.</p>",
                 options: []
             },
             //HOLA MUNDO
