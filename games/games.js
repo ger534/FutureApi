@@ -59,7 +59,25 @@ const games = [
         data: [
             {
                 id: "start",
-                text: "<p>Hasta este momento, ni Dios ni los alienígenas se habían vuelto visibles en la inmensidad del universo, pero esto\
+                text: "<p>La tecnología le ha permitido a la humanidad visualizar el alba de la colonización interplanetaria. Ahora el humano está en un segundo plano, \
+                disfrutando del piloto automático que controla su destino. Sin embargo, es importante que siempre haya alguien quién vigile el sistema.\
+                En el viejo mundo, por ejemplo, la mayoría de la población vive en un paraíso virtual, dentro de la comodidad de sus casas-puerto y\
+                sin preocuparse de su entorno físico. Pero detrás de esa calma impoluta, existe una red de mantenimiento que se encarga salvaguardar \
+                la arquitectura que hace posible los metaversos de la ciudadanía. Mientras cierta persona sueña que gana la lotería todas las mañanas o \
+                que es famosa y amada por toda la humanidad, un grupo de especialistas velan que no sucedan eventos extraordinarios que obstruyan \
+                con el funcionamiento habitual de la utopía tecnológica. \
+                </p>\
+                \
+              <p>Las tareas de soporte son de vital importancia y por lo tanto, las estaciones de trabajo están distribuídas a lo\
+                largo del globo terrícola. La comunicación entre estos clústers está reservada para incidentes de máximo nivel,\
+                donde es necesaria la cooperación de multiples nodos de mantenimiento o incluso, en ocasiones especiales, para notificar a toda la red. \
+                Existe un robusto y detallado protocolo que todos los monitores tienen grabados en su memoria y que les permite ejecutar sus tareas y saber que\
+                procedimientos seguir según cada situación. Sin embargo, los monitores, después de todo, siguen siendo humanos y aún si \
+                conocen a la perfección que deben hacer, puede suceder en raras ocasiones que los hechos les parezcan insólitos.</p>\
+                \
+              <p class=\"dialog\">—Red alarm, level 5, alien attack.</p>\
+                \
+                <p>Hasta este momento, ni Dios ni los alienígenas se habían vuelto visibles en la inmensidad del universo, pero esto\
                 parecía haber cambiado en un santiamén. Fue imperativo desplegar la aeronave más rápida. No tenía mucho armamento\
                 ni espacio. Espacio único para un tripulante, el piloto 305. La curiosidad lo lanzó tan rápido al volante que no\
                 se cuestionó lo irracional de su misión. Si luego de tantos años de avances tecnológicos, un objeto volador no\
@@ -103,9 +121,13 @@ const games = [
                 text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a descender, cada vez más rápido, en dirección a la Tierra.\
                 El monitor, que hasta el momento había tomado decisiones poco sabías, activó el mecánismo de eyección y salió disparado de la nave. Lo que segundos antes era\
                 su medio de transporte, quedó desintegrado por el sistema de defensa de las casas-puerto. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
+                El atuendo que portan los monitores es el instrumento de defensa y control más poderoso que posee el gremio. Entre sus cuales, posee la virtud de ser virtualmente \
+                indestructible.\
+                <p>305, we have already deploy another monitor, 301, to take care of the alarm. We will discuss your behavior later, in the base, for now, just stay still ⏳⌛🕒⏱️⌚⏰🕰️⏲️, \
+                we are sending 304 in another ship to take you home.</p>\
                 </p>",
                 options: [
-                    { id: "a", option: "a." },
+                    { id: "a", option: "a ⏳⌛🕒⏱️⌚⏰🕰️⏲️." },
                     { id: "b", option: "b." },
                 ]
             },
@@ -118,12 +140,12 @@ const games = [
                 <p>El GPS dicta: <i>Lower your altitude.</i> 🔽</p>",
                 options: [
                     { id: "descender", option: "Descender al fondo del vacío océano 🔽.", noShow: true },
-                    { id: "ascender", option: "Ascender hacia la atmósfera 	.", noShow: true },
+                    { id: "ascender", option: "Ascender hacia la atmósfera 	🔼.", noShow: true },
                 ]
             },
             {
                 id: "descender",
-                text: "<p>Descendiendo 8.000 mil metros, de entre la maraña de enormes cables industriales, se hizo visible el repetidor cuyo sistema de monitoreo había disparado la \
+                text: "<p>Haciendo caso al GPS, 305 descendió ocho mil metros bajo el nivel del inexistente mar. De entre la maraña de enormes cables industriales, se hizo visible el repetidor cuyo sistema de monitoreo había disparado la \
                 alarma extraterrestre.</p> \
                 <p>El GPS dicta: <i>You have reach your destination.</i> 🎯</p>",
                 options: [
@@ -140,25 +162,25 @@ const games = [
                 <p>El GPS dicta: <i>Please, lower your altitude.</i> 🔽</p>",
                 options: [
                     { id: "ascender_2", option: "Seguir ascendiendo 🔼.", noShow: true },
-                    { id: "b", option: "b." },
+                    { id: "descender", option: "Descender 🔽.", noShow: true },
                 ]
             },
             {
                 id: "ascender_2",
                 text: "<p>Subiendo aún más, y acercándose peligrosamente a zonas restringidas y sin directa relevancia para alguien de mantenimiento, 305 mantuvo su rumbo de forma ascendente.\
                 Su comportamiento errático e insubordinado hizo que su transmisor comenzaba a chorrear toda clase de advertencias y represalias. No solo sus compañeros en el nodo de monitores estaban\
-                confundidos y molestos con él, también era posible percibir un comunicado por parte de La Armada Intergaláctica. Describir el uso de la luna.</p> \
+                confundidos y molestos con él, también era posible percibir un comunicado por parte de El Muro de Fuego. Describir el uso de la luna.</p> \
                 <p>El GPS dicta: <span style=\"background-color:red\"><strong>LOWER YOUR ALTITUDE.</strong> 🔽</span></p>",
                 options: [
                     { id: "explosion_nave_luna", option: "No." },
-                    { id: "b", option: "b." },
+                    { id: "descender", option: "descender 🔽." },
                 ]
             },
             {
                 id: "explosion_nave_luna",
                 text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a descender, cada vez más rápido, en dirección a la Tierra.\
                 El monitor, que hasta el momento había tomado decisiones poco sabías, activó el mecánismo de eyección y salió disparado de la nave. Lo que segundos antes era\
-                su medio de transporte, quedó desintegrado por el sistema de defensa de las casas-puerto. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
+                su medio de transporte, quedó desintegrado por El Muro de Fuego. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
                 </p>",
                 options: [
                     { id: "a", option: "a." },
@@ -167,11 +189,29 @@ const games = [
             },
             {
                 id: "llegada",
-                text: "<p>Descendiendo 8.000 mil metros, de entre la maraña de enormes cables industriales, se hizo visible el repetidor cuyo sistema de monitoreo había disparado la \
-                alarma extraterrestre.</p> \
-                <p>El GPS dicta: <i>Lower your altitude.</i> ▶️</p>",
+                text: "<p><p>Al llegar al lugar, a 305 no le pareció extraño que no hubiera una ofensiva extraterrestre.\
+                Incluso si era su trabajo hacerlo, en el fondo nunca creyó que la notificación fuera un reflejo de la realidad.\
+                Pero la alarma disparada, roja y de nivel 5, indicaba que por fuerza algo debió\
+                invadir algún sector de la infraestructura que forma las <strong><u>metá</u></strong>foras \
+                del uni<strong><u>verso</u></strong> que tantos utilizan con inmensa felicidad; y por ende, su labor consistía en inspeccionar el lugar.</p>\
+                \
+                <p>La vida de los monitores de los metaversos no es muy distinta a la de las máquinas. Consiste en seguir\
+                protocolos, cumplir con las rutinas de mantenimiento, hacer exámenes al sistema… Durante décadas el gremio fue\
+                optimizando su trabajo y perdiendo su humanidad. Tampoco es tan necesaria para cumplir su labor. La mayoría de\
+                entornos que un monitor habita son controlados, predecibles. El honor de la tarea no está en el\
+                riesgo o la complejidad, sino en mantener el orden, en ser los mediadores de la falsa naturaleza impuesta para\
+                cumplir las fantasías de los habitantes que viven en la virtualidad.</p>\
+                \
+                <p>Tal vez por esto, antes de que 305 se diera cuenta, se encontraba caminando la superficie terrestre, a la\
+                intemperie. Por primera vez (y probablemente siendo pionero en esto), se enfrentaba a una situación que no estaba\
+                controlada. En el peor de los casos, El Muro de Fuego lanzaría un ataque desde la Luna, sin importar\
+                cuánta infraestructura tuviera que destruir. 305 sabía que la única forma de evitar que la situación escalara era\
+                suprimir la señal inicial antes de que pasaran <code>3.6 millones de milisegundos</code>, como lo estipula el\
+                protocolo.</p>\
+                \
+                <p>Sus colegas le llamaban. Respondió la radio y les dijo</p>",
                 options: [
-                    { id: "a", option: "a." },
+                    { id: "a", option: "Nothing to report. I will turn off the alarm and then I will check the area. Over and out." },
                     { id: "b", option: "b." },
                 ]
             }
@@ -513,7 +553,7 @@ const games = [
                   \
                 <p>Tal vez por esto, antes de que 305 se diera cuenta, se encontraba caminando la superficie terrestre, a la\
                   intemperie. Por primera vez (y probablemente siendo pionero en esto), se enfrentaba a una situación que no estaba\
-                  controlada. En el peor de los casos, La Armada Intergaláctica lanzaría un ataque desde la Luna, sin importar\
+                  controlada. En el peor de los casos, El Muro de Fuego lanzaría un ataque desde la Luna, sin importar\
                   cuánta infraestructura tuviera que destruir. 305 sabía que la única forma de evitar que la situación escalara era\
                   suprimir la señal inicial antes de que pasaran <code>3.6 millones de milisegundos</code>, como lo estipula el\
                   protocolo.</p>\
