@@ -94,7 +94,7 @@ const games = [
                 id: "izquierda",
                 text: "<p>305, sin prestar mucha atención a las instrucciones y tal vez aún aturdido por la noticia, decide no tomar en consideración la ruta sugerida por\
                 el Sistema de Posicionamiento Global y en cambio, se dirige en dirección contraria al sitio del incidente. Siguiendo este rumbo, 305 tiene la oportunidad de \
-                visualizar desde las alturas, las grandes aglomeraciones de casas-puerto, que se propagan  por toda la árida superficie terrestre.\
+                visualizar desde las alturas, las grandes aglomeraciones de casas-puerto, que se propagan por toda la árida superficie terrestre.\
                 </p> \
                 <p>El GPS dicta: <i>Please, turn to your right.</i> ▶️</p>",
                 options: [
@@ -121,14 +121,42 @@ const games = [
                 text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a descender, cada vez más rápido, en dirección a la Tierra.\
                 El monitor, que hasta el momento había tomado decisiones poco sabías, activó el mecánismo de eyección y salió disparado de la nave. Lo que segundos antes era\
                 su medio de transporte, quedó desintegrado por el sistema de defensa de las casas-puerto. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
-                El atuendo que portan los monitores es el instrumento de defensa y control más poderoso que posee el gremio. Entre sus cuales, posee la virtud de ser virtualmente \
-                indestructible.\
-                <p>305, we have already deploy another monitor, 301, to take care of the alarm. We will discuss your behavior later, in the base, for now, just stay still ⏳⌛🕒⏱️⌚⏰🕰️⏲️, \
+                El atuendo que portan los monitores es el instrumento de defensa y control más poderoso que posee el gremio. Entre sus cuales, posee la virtud de ser una\
+                armadura virtualmente indestructible.\
+                <p>—305, we have already deploy another monitor, 301, to take care of the alarm. We will discuss your behavior later, in the base, for now, just stay still 🕒, \
                 we are sending 304 in another ship to take you home.</p>\
                 </p>",
                 options: [
-                    { id: "a", option: "a ⏳⌛🕒⏱️⌚⏰🕰️⏲️." },
-                    { id: "b", option: "b." },
+                    { id: "esperar", option: "Esperar 🕒.", noShow: true },
+                    { id: "alrededores", option: "Mirar los alrededores.", noShow: true },
+                ]
+            },
+            {
+                id: "esperar",
+                text: "<p>305 decidió tomar asiento y esperar a que su colega viniera a su recuperación. El monitor no estaba demasiado preocupado por la señal de \
+                amenaza alienígena, en el fondo, sabía que luego de tanta exploración planetaria sin un solo encuentro interespacial, \
+                era poco probable que seres de otro planeta aparecieran súbitamente en la Tierra. Incluso si los sensores de un centinela de la infraestructura \
+                metavérsica decía que era así. Primero había que cerciorarse que la máquina en cuestión estuviera en correcto funcionamiento. Aúnque había aludido la labor,\
+                305 sabía que alguien debía ir a revisar el estado físico de la máquina, apersonarse en el lugar, verificar la situación. Algún problemas solo se pueden resolver así.\
+                Mientras seguía meditando, le llamó la atención ver una pequeña mancha blanca en el horizonte. Era minúscula, pero negaba a estar estática, al contrario, oscilaba sin armonía. \
+                </p> ",
+                options: [
+                    { id: "esperar_2", option: "Seguir esperando.", noShow: true },
+                    { id: "alrededores", option: "Investigar el avistamiento.", noShow: true },
+                ]
+            },
+            {
+                id: "alrededores",
+                text: "<p>La eyección               había lanzado al monitor a la cima de una torre de casas-puerto. Estas colosales pilas de hogares tomaban la forma de \
+                enormes rascacielos, que no son solo grandes en la superficie sino, simulando a los extintos árboles, también se extienden debajo de la tierra. Prácticamente todo el espacio\
+                habitable está cubierto por estas viviendas especialmente diseñadas como puertos de conexión a la tecnología que le permite a los ciudadanos del viejo mundo \
+                utilizar los metaversos, ya sea de manera individual o colectiva. Ahora 305 se encontraba recorriendo los techos de estas edificaciones. Afuera de las casas por supuesto que no \
+                había ningún otro humano, después de todo, el territorio es hostil y la indumentaria para estar en el exterior no es necesariamente cómoda.</p>\
+                \
+                <p>Acercándose a lo que antes fue su horizonte, el monitor se topó con un hallazgo particular: plumas.</p>",
+                options: [
+                    { id: "a", option: "a.", noShow: true },
+                    { id: "b", option: "b.", noShow: true },
                 ]
             },
             {
@@ -145,12 +173,42 @@ const games = [
             },
             {
                 id: "descender",
-                text: "<p>Haciendo caso al GPS, 305 descendió ocho mil metros bajo el nivel del inexistente mar. De entre la maraña de enormes cables industriales, se hizo visible el repetidor cuyo sistema de monitoreo había disparado la \
+                text: "<p>Haciendo caso al GPS, 305 descendió ocho mil metros bajo el nivel del inexistente mar. De entre la maraña de enormes cables industriales, se hizo visible el centinela cuyo sistema de monitoreo había disparado la \
                 alarma extraterrestre.</p> \
                 <p>El GPS dicta: <i>You have reach your destination.</i> 🎯</p>",
                 options: [
                     { id: "llegada", option: "Aterrizar 🎯.", noShow: true },
-                    { id: "b", option: "b." },
+                    { id: "meditar", option: "b. Meditar por un momento." },
+                ]
+            },
+            {
+                id: "meditar",
+                text: "<p>305 decidió meditar por un momento sobre la situación en la que se hallaba. En el momento que decidiera salir de su vehículo e \
+                investigar la amenazaba de seres inteligentes sin descendencia humana, su vida estaría en peligro. La sección del protocolo donde se estipula \
+                como se debe actuar en caso de \"<code>Red alarm, level 5, alien attack.</code>\" dice lo siguiente:</p>\
+                <ul>\
+                <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
+                <li>Verifique que los sensores del centinela estén en correcto funcionamiento. Eventos cuánticos pueden descalibrar estos instrumentos.\
+                también observe con detenimiento sus alrededores y active el mecánismo más agresivo de defensa que tenga a disposición.\
+                </li>\
+                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code>3600 ms</code> desde su disparo, ya sea por \
+                muerte del monitor o por negligencia, El Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
+                \
+                <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
+                en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
+                </ul>\
+                <!--<li>Si la amenaza alien expresa un comportamiento hostil, la humanidad terrícola está dispuesta a la inmolarse de su especie, \
+                en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
+                </ul>-->\
+                <p><i>Muerte del monitor</i>... El protocolo de los monitores tiene 18.500 palabras, la única vez que se utiliza la palabra \"muerte\". \
+                La vida en la tierra está asegurada para la humanidad en la Tierra. Incluso sí ya sabía que un incidente así podría pasar... Nunca evalué la posibilidad\
+                de que de verdad pasara. La premisa en general no tiene sentido ¿cómo van a llegar los aliens al punto más profundo de la superficie terrestre? Tendría más\
+                más sentido que los colonizadores interespaciales se toparan con vida inteligente en sus exploraciones y conquistas. Y no me parece posible que nada ni nadie \
+                pueda burlar la seguridad de El Muro de Fuego, nuestro protector espacial.\
+                </p>",
+                options: [
+                    { id: "llegada", option: "Bajar del vehículo.", noShow: true },
+                    { id: "ascender", option: "Ascender hacia la atmósfera 	🔼.", noShow: true },
                 ]
             },
             {
@@ -189,14 +247,14 @@ const games = [
             },
             {
                 id: "llegada",
-                text: "<p><p>Al llegar al lugar, a 305 no le pareció extraño que no hubiera una ofensiva extraterrestre.\
+                text: "<p>Al inspeccionar el lugar, a 305 no le pareció extraño que no hubiera una ofensiva extraterrestre.\
                 Incluso si era su trabajo hacerlo, en el fondo nunca creyó que la notificación fuera un reflejo de la realidad.\
                 Pero la alarma disparada, roja y de nivel 5, indicaba que por fuerza algo debió\
                 invadir algún sector de la infraestructura que forma las <strong><u>metá</u></strong>foras \
                 del uni<strong><u>verso</u></strong> que tantos utilizan con inmensa felicidad; y por ende, su labor consistía en inspeccionar el lugar.</p>\
                 \
                 <p>La vida de los monitores de los metaversos no es muy distinta a la de las máquinas. Consiste en seguir\
-                protocolos, cumplir con las rutinas de mantenimiento, hacer exámenes al sistema… Durante décadas el gremio fue\
+                protocolos, cumplir con las rutinas de mantenimiento, hacer exámenes al sistema… Durante décadas, el gremio fue\
                 optimizando su trabajo y perdiendo su humanidad. Tampoco es tan necesaria para cumplir su labor. La mayoría de\
                 entornos que un monitor habita son controlados, predecibles. El honor de la tarea no está en el\
                 riesgo o la complejidad, sino en mantener el orden, en ser los mediadores de la falsa naturaleza impuesta para\
@@ -206,15 +264,121 @@ const games = [
                 intemperie. Por primera vez (y probablemente siendo pionero en esto), se enfrentaba a una situación que no estaba\
                 controlada. En el peor de los casos, El Muro de Fuego lanzaría un ataque desde la Luna, sin importar\
                 cuánta infraestructura tuviera que destruir. 305 sabía que la única forma de evitar que la situación escalara era\
-                suprimir la señal inicial antes de que pasaran <code>3.6 millones de milisegundos</code>, como lo estipula el\
+                suprimir la señal inicial antes de que pasaran <code>3600 de milisegundos</code>, como lo estipula el\
                 protocolo.</p>\
                 \
                 <p>Sus colegas le llamaban. Respondió la radio y les dijo</p>",
                 options: [
-                    { id: "a", option: "Nothing to report. I will turn off the alarm and then I will check the area. Over and out." },
+                    { id: "no_aliens", option: "Nada que reportar.", noShow: true },
+                    { id: "b", option: "b (Tengo miedo??)." },
+                ]
+            },
+            {
+                id: "no_aliens",
+                text: "<p class=\"dialog\">—Nothing to report. I will turn off the alarm and then I will check the area. Over and out.</p>\
+                \
+                <p>Su tono era estoico y seco, característico del gremio. Sin embargo, por dentro una amalgama de sensaciones\
+                extrañas le invadía, se podría decir que incluso sentía decepción de no haber encontrado nada. Realizó la labor\
+                indicada, tal y como lo dijo, no encontró nada extraño en los sensores que dispararon la alarma, pero sí encontró\
+                un material peculiar posando sobre ellos.</p>\
+                \
+                <p class=\"dialog\">—feathers!? dijo para sí mismo. Sabía que eran plumas, pero encontrárselas le parecía increíble.\
+                </p>\
+                \
+                <p>Todo infante considerado parte de la sociedad debe pasar sus primeros 5 años de vida en un almacén educativo. En\
+                estos lugares, los retoños reciben una instalación de enciclopedias por medio de ondas cerebrales. Nunca verán en\
+                el mundo real la gran mayoría de conceptos que aprenden durante su vida lectiva, pero es conocimiento que nunca se\
+                borrará siempre y cuando se le dé el mantenimiento adecuado al órgano cerebral.</p>\
+                \
+                <p>De esta manera, 305 sabía qué eran las plumas, sabía de dónde venían y el uso que tuvieron en sociedades\
+                rudimentarias de unos antiguos ancestros, conocidos como <em>homo sapiens sapiens</em>. Pero jamás en su vida\
+                pensó que se las encontraría sobre parte del equipo del <code>sector A45</code>. Ni siquiera había pensado que\
+                pensaría en ello algún día. Nunca había pensado que nunca vería una mariposa, o un conejo o un dragón. De haber\
+                sentido la necesidad de dar un paseo por la historia animal, habría entrado al metaverso e imaginado lo\
+                que quería ver. O incluso, si le daba pereza, podía simplemente implementar el diseño de algún museo público del\
+                almacén educativo. Pero nunca hubo un deseo en hacerlo.Y ahora, en la más extraña de las situaciones, plumas.</p>",
+                options: [
+                    { id: "plumas", option: "Tomar las plumas.", noShow: true },
+                    { id: "no_plumas", option: "No tomar las plumas.", noShow: true },
+                ]
+            },
+            {
+                id: "plumas",
+                text: "<p> \"Evidence 🔎\", pensó. Hizo un escaneo completo del material\
+                y luego las guardó en una bolsa hermética de su traje. De pronto tenía muchas preguntas. Nunca había tocado una\
+                pluma, en su memoria estaba quemado los orígenes, sus usos, las miles de formas y colores que podían tener, pero\
+                nunca había tocado una, no en el mundo real. Tímido, extrajo el guante una de sus manos y sacó de nuevo una de las\
+                plumas utilizando su mano desnuda.</p>\
+                \
+                <p class=\"dialog\">—It's the same...—dijo, un poco decepcionado mientras examinaba con sus dedos las fibras del\
+                objeto.</p>\
+                \
+                <p>En su mente, por una pequeña fracción de tiempo, consideró que tal vez habría una diferencia entre las\
+                sensaciones simuladas y las reales, pero claro, esa idea es un sinsentido, pues las simulaciones actuales calcan la\
+                realidad a la perfección. Y aún más, si la tecnología fuera una religión, tales cuestionamientos y dudas serían\
+                blasfemia. Religiones y dragones, \"🙄\", pensó. De manera automática, caminó hasta la\
+                nave y retornó a su posición de piloto. Cerró la cabina y se preparó para despejar cuando, un graznido que le\
+                pareció rebotar por todo el interior de su cráneo, lo interrumpió. Se dio la vuelta en su asiento y revisó el\
+                interior de la pequeña nave, mas no encontró ningún intruso. Al volver su vista al frente se encontró con un gran\
+                ganso desplegando sus alas a lo ancho. Apenas si podía creerlo. Le fue necesario limpiar rápidamente el visor de\
+                su traje para cerciorarse de que no estaba alucinando.</p>\
+                \
+                <p class=\"dialog\">—A goose…? But how?—se dijo a sí mismo, intentando procesar la información.</p>\
+                \
+                <p>Y ahí estaba, delante de él, la prueba fehaciente del correcto funcionamiento de los sensores aéreos del\
+                centinela. Y lo inaudito, el objeto volador no identificado resulta ser un enorme y blanco ganso. Mentalmente\
+                recorrió todos los protocolos de seguridad pero no pudo rescatar nada que explicara cómo proceder en caso de\
+                anátida. Analizó si debía contarle a sus colegas sobre el hallazgo, pero la situación le pareció tan estrafalaria\
+                que no sabía siquiera cómo podría explicarla.</p>",
+                //solo la idea de explicarla le generó un repulsión enorme y el deseo de postergar lo inevitable
+                options: [
+                    { id: "notificar_luego", option: "Notificarlo luego.", noShow: true },
+                    { id: "notificar", option: "b." },
+                ]
+            },
+            {
+                id: "notificar_luego",
+                text: "<p>Solo el hecho de imaginarse explicando la situación por la radio le generó un desánimo enorme y el deseo de postergar lo inevitable. \
+                Decidió que lo mejor sería avanzar y preocuparse del asunto luego. La cabina era impenetrable mientras la nave estuviera cerrada y solamente 305 tenía \
+                la llave. Si podía aguantar el viaje de regreso con el ganso, podría desplazar el problema hasta llegar a la base. Remover el ave del panel de control provocó una \
+                lluvia de picotazos sobre el monitor, sin embargo, su traje de seguridad es virtualmente indestructible y lo protegió con vehemencia del ataque. Con dificultad, colocó el ganso \
+                detrás de su asiento y emprendió su viaje de retorno a la estación.</p>\
+                \
+                <p>Apenas entrando al hangar, uno de sus colegas le dijo que se apresurara a la sala de conferencias, pues El Muro de Fuego\
+                debía hacer la respectiva evaluación de la situación y su testimonio era clave. Tratando de\
+                quitarse con rapidez el cinturón de seguridad, se notaba disperso e intentando recolectar y ensamblar la\
+                información de manera clara y concisa.</p>",
+                //Delante de sus colegas y de los representantes de El Muro, explicó la
+                //situación lo mejor que pudo. Incluso mostró las plumas como evidencia, sin embargo, la perplejidad y la
+                //incredulidad de los oyentes era palpable y tan sólida como el metal que constituía la base de mantenimiento.</p>
+                options: [
+                    { id: "mostrar_ganso", option: "Enseñarles el ganso." },
                     { id: "b", option: "b." },
                 ]
-            }
+            },
+            {
+                id: "mostrar_ganso",
+                text: "<p>Como su as bajo la manga, 305 decidió mostrarles el ganso en cuestión. Pero, para su sorpresa; y la tranquilidad\
+                de sus colegas, en la nave utilizada para la inspección, no había rastro de ningún animal. Se le aconsejó a 305\
+                tomarse un descanso y retomar el asunto luego.</p>",
+                options: [
+                    { id: "hola_mundo_1_completado", option: "Ir a descansar." },
+                ]
+            },
+            {
+                id: "no_plumas",
+                text: "<p> \"Evidence 🔎\", pensó. Hizo un escaneo completo del material, sin embargo, se abstuvo de tocar el material con sus manos.\
+                Tenía mucha curiosidad. Nunca había tocado una pluma, conocía sus usos y las miles de formas y colores que podían tener, pero\
+                nunca había tocado una, no en el mundo real. A pesar de esto, la situación actual del planeta no permitía ningún tipo de vida\
+                salvaje. Incluso si parecía solo un inofensivo puñado de vestimenta ovípara, el mero hecho de que estuviera al aire libre en una atmósfera \
+                hostil era suficiente para sospechar que la situación tal vez era más compleja de lo que aparentaba a simple vista. Quizá la alarma \
+                que comenzó todo esto había captado una amenaza real. \
+                .</p>",
+                options: [
+                    { id: "a", option: "a." },
+                    { id: "b", option: "b." },
+                ]
+            },
         ]
     },
     {
@@ -511,62 +675,6 @@ const games = [
             {
                 id: "completado",
                 text: "<p>—De acuerdo, <span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Análisis psicológico y social completado</code></span>.</p>",
-                options: []
-            },
-            //HOLA MUNDO
-            {
-                id: "start_hola_mundo",
-                text: "<h1 class=\"chapter-title\" style=\"text-align:center\">Hola mundo</h1>\
-                \
-                <p>Se pueden colonizar otros planetas y ceder el control a las máquinas, pero en la Tierra siempre habrá alguien que\
-                  deba mantener el orden, de manera para que la arquitectura de los metaversos no colapse. Por avanzada\
-                  que esté la tecnología, sigue necesitando de un factor humano. Los equipos de mantenimiento que se encargan de\
-                  esta labor están distribuidos como clústers de pequeños grupos de personas alrededor del globo. Estos equipos forman\
-                  una red que protege a otra red. A pesar de esto, no existe mucha comunicación entre estos\
-                  nodos de soporte. A no ser que aparezca un problema tan grande que más de un equipo de reparación sea necesario,\
-                  no hay ningún tipo de conversación entre los encargados de mantenimiento, continuando su rutina de no convivir.\
-                  Así sería generalmente, a no ser que suceda lo insólito. Como que se levante una alerta roja tipo 5. Algo tan\
-                  extraño, que el primero en ser notificado tuvo que revisar múltiples veces el significado de la alarma, a pesar de\
-                  estar grabado en su memoria. Es irrefutable.</p>\
-                  \
-                <p class=\"dialog\">—Red alarm, level 5, alien attack.</p>\
-                \
-                <p>Hasta este momento, ni Dios ni los alienígenas se habían vuelto visibles en la inmensidad del universo, pero esto\
-                  parecía haber cambiado en un santiamén. Fue imperativo saltar a la aeronave más rápida. No tenía mucho armamento\
-                  ni espacio. Espacio único para un tripulante, el piloto 305. La curiosidad lo lanzó tan rápido al volante que no\
-                  se cuestionó lo irracional de su misión. Si luego de tantos años de avances tecnológicos, un objeto volador no\
-                  identificado había sido capaz de penetrar, no solo el sistema solar, sino la atmósfera de la Tierra y además, sin\
-                  ser detectado hasta el momento de tocar la integridad del metaverso, definitivamente un piloto de\
-                  mantenimiento no lo iba a neutralizar con un par de cañones de plasma.</p>\
-                  \
-                <p>Al llegar al lugar, a 305 no le pareció extraño que no hubiera ni un rastro de nada en la superficie terrestre.\
-                  La mayoría del planeta estaba desolado, descartando las casas-puertos de conexión al metaverso o las\
-                  localidades de los Rastreros. Pero la alarma disparada, roja y de nivel 5, indicaba que por fuerza algo debió\
-                  invadir algún sector de infraestructura del internet con esteroides que son los meta-universos.</p>\
-                  \
-                <p>La vida de los ingenieros del metaverso no es muy distinta a la de las máquinas. Consiste en seguir\
-                  protocolos, cumplir con las rutinas de mantenimiento, hacer exámenes al sistema… Durante décadas el gremio fue\
-                  optimizando su trabajo y perdiendo su humanidad. Tampoco es tan necesaria para cumplir su labor. La mayoría de\
-                  entornos que un encargado de mantenimiento habita son controlados, predecibles. El honor de la tarea no está en el\
-                  riesgo o la complejidad, sino en mantener el orden, en ser los mediadores de la falsa naturaleza impuesta para\
-                  cumplir las fantasías de los habitantes virtuales.</p>\
-                  \
-                <p>Tal vez por esto, antes de que 305 se diera cuenta, se encontraba caminando la superficie terrestre, a la\
-                  intemperie. Por primera vez (y probablemente siendo pionero en esto), se enfrentaba a una situación que no estaba\
-                  controlada. En el peor de los casos, El Muro de Fuego lanzaría un ataque desde la Luna, sin importar\
-                  cuánta infraestructura tuviera que destruir. 305 sabía que la única forma de evitar que la situación escalara era\
-                  suprimir la señal inicial antes de que pasaran <code>3.6 millones de milisegundos</code>, como lo estipula el\
-                  protocolo.</p>\
-                  \
-                <p>Sus colegas le llamaban. Respondió la radio y les dijo</p>",
-                options: [
-                    { id: "a", option: "<div class=\"dialog\">—Nothing to report. I will turn off the alarm and then I will check the area. Over and out.</div>", }
-                ]
-            },
-            {
-                id: "a",
-                text: "<p>Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. \
-                Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. Ok testing. </p>",
                 options: []
             },
         ]
