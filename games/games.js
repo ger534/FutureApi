@@ -53,8 +53,8 @@ const games = [
         ]
     },
     {
-        id: "spaceship",
-        title: "Navecita",
+        id: "hello_world_1",
+        title: "Hola Mundo: Acto I",
         html: true,
         data: [
             {
@@ -71,19 +71,19 @@ const games = [
               <p>Las tareas de soporte son de vital importancia y por lo tanto, las estaciones de trabajo están distribuídas a lo\
                 largo del globo terrícola. La comunicación entre estos clústers está reservada para incidentes de máximo nivel,\
                 donde es necesaria la cooperación de multiples nodos de mantenimiento o incluso, en ocasiones especiales, para notificar a toda la red. \
-                Existe un robusto y detallado protocolo que todos los monitores tienen grabados en su memoria y que les permite ejecutar sus tareas y saber que\
+                Existe un robusto y detallado manual que todos los monitores tienen grabados en su memoria y que les permite ejecutar sus tareas y saber que\
                 procedimientos seguir según cada situación. Sin embargo, los monitores, después de todo, siguen siendo humanos y aún si \
                 conocen a la perfección que deben hacer, puede suceder en raras ocasiones que los hechos les parezcan insólitos.</p>\
                 \
-              <p class=\"dialog\">—Red alarm, level 5, alien attack.</p>\
+                <p class=\"dialog\">—Red alarm, level 5, alien attack—. Y el contador anuncia: T-MINUS 3600.</p>\
                 \
                 <p>Hasta este momento, ni Dios ni los alienígenas se habían vuelto visibles en la inmensidad del universo, pero esto\
                 parecía haber cambiado en un santiamén. Fue imperativo desplegar la aeronave más rápida. No tenía mucho armamento\
                 ni espacio. Espacio único para un tripulante, el piloto 305. La curiosidad lo lanzó tan rápido al volante que no\
                 se cuestionó lo irracional de su misión. Si luego de tantos años de avances tecnológicos, un objeto volador no\
                 identificado había sido capaz de penetrar, no solo el sistema solar, sino la atmósfera de la Tierra y además, sin\
-                ser detectado hasta el momento de tocar la integridad de los metaversos, definitivamente un piloto de\
-                mantenimiento no lo iba a neutralizar con un par de cañones de plasma.</p>\
+                ser detectado hasta el momento de tocar la integridad de los metaversos, definitivamente un monitor, \
+                alguien que suele trabajar en labores de mantenimiento, no lo iba a neutralizar con un par de cañones de plasma.</p>\
                 <p>El GPS dicta: <i>Turn right.</i> ▶️</p>",
                 options: [
                     { id: "izquierda", option: "🚀 Girar a la izquierda ◀️.", noShow: true },
@@ -92,37 +92,55 @@ const games = [
             },
             {
                 id: "izquierda",
-                text: "<p>305, sin prestar mucha atención a las instrucciones y tal vez aún aturdido por la noticia, decide no tomar en consideración la ruta sugerida por\
+                text: "<p>305, sin prestar mucha atención a las instrucciones y tal vez aturdido por la noticia, decidió no tomar en consideración la ruta sugerida por\
                 el Sistema de Posicionamiento Global y en cambio, se dirige en dirección contraria al sitio del incidente. Siguiendo este rumbo, 305 tiene la oportunidad de \
-                visualizar desde las alturas, las grandes aglomeraciones de casas-puerto, que se propagan por toda la árida superficie terrestre.\
+                visualizar desde las alturas las grandes aglomeraciones de casas-puerto, que se propagan por toda la árida superficie terrestre.\
                 </p> \
-                <p>El GPS dicta: <i>Please, turn to your right.</i> ▶️</p>",
+                \
+                <p class=\"dialog\">—Red alarm, level 5, alien attack—. Y el contador anuncia: T-MINUS 3600.</p>\
+                \
+                <p>El GPS dicta: <i>Please, turn around.</i> ↩️</p>",
                 options: [
-                    { id: "derecha", option: "🚀 Girar a la derecha ▶️.", noShow: true },
+                    { id: "derecha", option: "🚀 Retomar la ruta inicial ↩️.", noShow: true },
                     { id: "mantener", option: "🚀 Mantener rumbo 🔼.", noShow: true },
                 ]
             },
             {
                 id: "mantener",
-                text: "<p>Aún sin entrar en personaje, 305 decide mantener el rumbo equivocado. Siguiendo esta dirección, la aeronave tendría que orbitar gran parte del planeta\
+                text: "<p>Aún sin entrar en personaje, 305 mantuvo el rumbo equivocado. Si no cambiaba de sentido pronto, la aeronave tendría que orbitar gran parte del planeta\
                 antes de acercarse al punto de interés, lo que comprometería el interés público de mitigar cualquier inconveniente en la infraestructura de los metaversos lo antes posible. \
-                Desde la base, otros monitores comenzaron a quejarse de sus decisiones erráticas y le advirtieron tomar con seriedad su rol \
-                en la sociedad. Mientras esto sucedía, el vehículo comenzó a estremecerse. Entre la súbita turbulencia, por un instante le pareció escuchar un ruido\
+                Desde la base, otros monitores comenzaron a consternarse debido sus decisiones erráticas y le advirtieron tomar con seriedad su rol \
+                en la perfecta maquinaria que, como un reloj bien ensamblado, mantiene el bienestar social. También se encendió una pantalla en el interior del visor de su traje, que comenzó a \
+                proyectar en una lengua pérdida, el protocolo que debía seguirse en caso de \"<code>Red alarm, \
+                level 5, alien attack.</code>\", a pesar de que ya se lo sabía de memoria.\
+                <ul>\
+                <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
+                <li>Verifique que los sensores del centinela en cuestión estén en correcto funcionamiento. Eventos a nivel cuántico pueden descalibrar estos instrumentos.\
+                También observe con detenimiento sus alrededores y active el mecánismo de defensa más agresivo que tenga a disposición.\
+                </li>\
+                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code>3600 ms</code> desde su disparo, ya sea por \
+                muerte del monitor o por negligencia, El Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
+                \
+                <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
+                en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
+                </ul>\
+                Mientras esto sucedía, el vehículo comenzó a estremecerse. Entre la súbita turbulencia, por un instante le pareció escuchar un ruido\
                 inusual, una especie de graznido.\
                 </p> \
-                <p>El GPS dicta: <span style=\"background-color:red\"><strong>TURN TO YOUR RIGHT.</strong> ▶️</span></p>",
+                <p>El GPS dicta: <span style=\"background-color:red\"><strong>TURN AROUND.</strong> ↩️</span></p>",
                 options: [
-                    { id: "derecha", option: "🚀 Girar a la derecha .", noShow: true },
+                    { id: "derecha", option: "🚀 Dirigirse al sitio del incidente ↩️.", noShow: true },
                     { id: "explosion_nave_tierra", option: "No." },
                 ]
             },
             {
                 id: "explosion_nave_tierra",
-                text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a descender, cada vez más rápido, en dirección a la Tierra.\
-                El monitor, que hasta el momento había tomado decisiones poco sabías, activó el mecánismo de eyección y salió disparado de la nave. Lo que segundos antes era\
-                su medio de transporte, quedó desintegrado por el sistema de defensa de las casas-puerto. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
+                text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a perder altitud, cada vez más rápido, en dirección a la Tierra.\
+                El monitor, que hasta el momento había tomado decisiones poco sabías, rompió la racha al activar el mecánismo de eyección, que lo lanzó disparado de la nave. \
+                Lo que segundos antes era su medio de transporte, quedó desintegrado por el sistema anticolisiones de las casas-puerto. \
                 El atuendo que portan los monitores es el instrumento de defensa y control más poderoso que posee el gremio. Entre sus cuales, posee la virtud de ser una\
                 armadura virtualmente indestructible.\
+                Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
                 <p>—305, we have already deploy another monitor, 301, to take care of the alarm. We will discuss your behavior later, in the base, for now, just stay still 🕒, \
                 we are sending 304 in another ship to take you home.</p>\
                 </p>",
@@ -133,30 +151,111 @@ const games = [
             },
             {
                 id: "esperar",
-                text: "<p>305 decidió tomar asiento y esperar a que su colega viniera a su recuperación. El monitor no estaba demasiado preocupado por la señal de \
-                amenaza alienígena, en el fondo, sabía que luego de tanta exploración planetaria sin un solo encuentro interespacial, \
-                era poco probable que seres de otro planeta aparecieran súbitamente en la Tierra. Incluso si los sensores de un centinela de la infraestructura \
+                text: "<p>305 decidió tomar asiento y esperar que su colega viniera al punto de extracción. Luego comenzó a pensar. \
+                <i>Muerte del monitor</i>... El protocolo de los monitores tiene 18.500 palabras, y esta entrada es la única vez donde se utiliza la palabra \"muerte\". \
+                Su creencia siempre había sido que la vida en la Tierra es un paraíso, no un cementerio. Incluso si ya sabía que un incidente así podía pasar... El monitor nunca evaluó la autenticidad\
+                probabilística de la idea. La premisa en general le parecía absurda. Tendría más sentido que los colonizadores interespaciales se toparan con vida inteligente \
+                en sus exploraciones y conquistas. Tampoco le parecía posible que nada ni nadie fuera capaz de burlar la seguridad de El Muro de Fuego, el protector doméstico y espacial de los terrícolas. \
+                Su súbita actitud rebelde nacía de la completa negación de una amenaza alienígena. Incluso si los sensores de un centinela de la infraestructura \
                 metavérsica decía que era así. Primero había que cerciorarse que la máquina en cuestión estuviera en correcto funcionamiento. Aúnque había aludido la labor,\
-                305 sabía que alguien debía ir a revisar el estado físico de la máquina, apersonarse en el lugar, verificar la situación. Algún problemas solo se pueden resolver así.\
-                Mientras seguía meditando, le llamó la atención ver una pequeña mancha blanca en el horizonte. Era minúscula, pero negaba a estar estática, al contrario, oscilaba sin armonía. \
+                305 sabía que alguien apersonarse en el lugar y verificar la situación. Algunas soluciones requieren del factor humano.\
+                Mientras seguía meditando, le llamó la atención ver un puñado de manchas blancas en el horizonte. Las partículas eran minúsculas, pero negaban a permanecer estáticas, al contrario, oscilaban sin armonía. \
                 </p> ",
                 options: [
-                    { id: "esperar_2", option: "Seguir esperando.", noShow: true },
+                    { id: "esperar_2", option: "Consultar sobre el estado de la alarma.", noShow: true },
                     { id: "alrededores", option: "Investigar el avistamiento.", noShow: true },
                 ]
             },
             {
+                id: "esperar_2",
+                text: "<p>Utilizando el intercomunicador de su traje, consultó sobre la amenaza alienígena al clúster. Luego de unos segundos de ruido blanco e incertidumbre, \
+                los monitores le comentaron que 304 había descartado la situación como verdadera y que estaba a punto de desactivar la alarma. Segundos después llegó la notificación.</p>\
+                \
+                <p class=\"dialog\">—FALSE ALARM. No red alarm, level 5, alien attack. FALSE ALARM. No red alarm, level 5, alien attack. </p>\
+                \
+                <p>Mientras sentía un profundo alivio, el monitor cayó en cuenta de que aquellas manchas que había visto en la lejanía, ahora se posaban delante de él.</p>\
+                \
+                <p class=\"dialog\">—feathers!? dijo para sí mismo. Sabía que eran plumas, pero encontrárselas en un punto aleatorio de la Tierra y de manera fortuita le parecía increíble.\
+                </p>\
+                \
+                <p>Todo infante considerado parte de la sociedad debe pasar sus primeros 5 años de vida en un almacén educativo. En\
+                estos lugares, los retoños reciben una instalación de enciclopedias por medio de ondas cerebrales. Nunca verán en\
+                el mundo real la gran mayoría de conceptos que aprenden durante su vida lectiva, pero es conocimiento que no se\
+                borrará, siempre y cuando se le dé el mantenimiento adecuado al órgano encefálico.</p>\
+                \
+                <p>De esta manera, 305 sabía qué eran las plumas, sabía de dónde venían y el uso que tuvieron en sociedades\
+                rudimentarias de unos antiguos ancestros, conocidos como <em>homo sapiens sapiens</em>. Pero jamás en su vida\
+                pensó que se las encontraría en medio de la nada, la nada que queda si se descarta del paisaje las casas-puerto. Ni siquiera había pensado que\
+                pensaría en ello algún día. Nunca había pensado que nunca vería una mariposa, o un conejo o un dragón. De haber\
+                sentido la necesidad de dar un paseo por la historia animal, habría entrado a su propio metaverso e imaginado lo\
+                que quería ver. O incluso, si le daba pereza, podía simplemente ingresar en algún metaverso público empleado a modo de museo, o algún metarverso del\
+                almacén educativo. Pero nunca hubo un deseo en hacerlo.Y ahora, en la más extraña de las situaciones, plumas.</p>",
+                options: [
+                    { id: "plumas_techos", option: "Tomar las plumas.", noShow: true },
+                    { id: "no_plumas_techos", option: "No tomar las plumas.", noShow: true },
+                ]
+            },
+            {
                 id: "alrededores",
-                text: "<p>La eyección               había lanzado al monitor a la cima de una torre de casas-puerto. Estas colosales pilas de hogares tomaban la forma de \
+                text: "<p>La eyección había lanzado al monitor a la cima de una torre de casas-puerto. Estas colosales pilas de hogares tomaban la forma de \
                 enormes rascacielos, que no son solo grandes en la superficie sino, simulando a los extintos árboles, también se extienden debajo de la tierra. Prácticamente todo el espacio\
                 habitable está cubierto por estas viviendas especialmente diseñadas como puertos de conexión a la tecnología que le permite a los ciudadanos del viejo mundo \
-                utilizar los metaversos, ya sea de manera individual o colectiva. Ahora 305 se encontraba recorriendo los techos de estas edificaciones. Afuera de las casas por supuesto que no \
+                utilizar los metaversos, ya sea de manera individual o colectiva. Ahora 305 se encontraba recorriendo los techos de estas edificaciones. Afuera de las casas, por supuesto que no \
                 había ningún otro humano, después de todo, el territorio es hostil y la indumentaria para estar en el exterior no es necesariamente cómoda.</p>\
+                Mientras caminaba, 304 notificó la desactivación de la alarma.\
+                <p class=\"dialog\">—FALSE ALARM. No red alarm, level 5, alien attack. FALSE ALARM. No red alarm, level 5, alien attack. </p>\
                 \
-                <p>Acercándose a lo que antes fue su horizonte, el monitor se topó con un hallazgo particular: plumas.</p>",
+                <p>Mientras sentía un profundo alivio, el monitor se topó con un hallazgo particular: plumas, las cuales se movían de manera caótica gracias a los ínfimos vientos de la Tierra.</p>\
+                \
+                <p class=\"dialog\">—feathers!? dijo para sí mismo. Sabía que eran plumas, pero encontrárselas le parecía increíble.\
+                </p>\
+                \
+                <p>Todo infante considerado parte de la sociedad debe pasar sus primeros 5 años de vida en un almacén educativo. En\
+                estos lugares, los retoños reciben una instalación de enciclopedias por medio de ondas cerebrales. Nunca verán en\
+                el mundo real la gran mayoría de conceptos que aprenden durante su vida lectiva, pero es conocimiento que no se\
+                borrará, siempre y cuando se le dé el mantenimiento adecuado al órgano encefálico.</p>\
+                \
+                <p>De esta manera, 305 sabía qué eran las plumas, sabía de dónde venían y el uso que tuvieron en sociedades\
+                rudimentarias de unos antiguos ancestros, conocidos como <em>homo sapiens sapiens</em>. Pero jamás en su vida\
+                pensó que se las encontraría en medio de la nada, la nada que queda si se descarta del paisaje las casas-puerto. Ni siquiera había pensado que\
+                pensaría en ello algún día. Nunca había pensado que nunca vería una mariposa, o un conejo o un dragón. De haber\
+                sentido la necesidad de dar un paseo por la historia animal, habría entrado a su propio metaverso e imaginado lo\
+                que quería ver. O incluso, si le daba pereza, podía simplemente ingresar en algún metaverso público empleado a modo de museo, o algún metarverso del\
+                almacén educativo. Pero nunca hubo un deseo en hacerlo.Y ahora, en la más extraña de las situaciones, plumas.</p>",
                 options: [
-                    { id: "a", option: "a.", noShow: true },
-                    { id: "b", option: "b.", noShow: true },
+                    { id: "plumas_techos", option: "Tomar las plumas.", noShow: true },
+                    { id: "no_plumas_techos", option: "No tomar las plumas.", noShow: true },
+                ]
+            },
+            {
+                id: "plumas_techos",
+                text: "<p> \"Evidence 🔎\", pensó. Hizo un escaneo completo del material\
+                y luego las guardó en una bolsa hermética de su traje. De pronto tenía muchas preguntas. Nunca había tocado una\
+                pluma, en su memoria estaba quemado los orígenes, sus usos, las miles de formas y colores que podían tener, pero\
+                nunca había tocado una, no en el mundo real. Tímido, extrajo el guante una de sus manos y sacó de nuevo una de las\
+                plumas utilizando su mano desnuda.</p>\
+                \
+                <p class=\"dialog\">—It's the same...—dijo, un poco decepcionado mientras examinaba con sus dedos las fibras del\
+                objeto.</p>\
+                \
+                <p>En su mente, por una pequeña fracción de tiempo, consideró que tal vez habría una diferencia entre las\
+                sensaciones simuladas y las reales, pero claro, esa idea es un sinsentido, pues las simulaciones actuales calcan la\
+                realidad a la perfección. Y aún más, si la tecnología fuera una religión, tales cuestionamientos y dudas serían\
+                blasfemia. Religiones y dragones, \"🙄\", pensó. Justo en ese momento, visualizó desde la lejanía la nave de transporte a cargo de 301,\
+                quién venía a llevarlo de nuevo a la base. Cuando su colega abrió la compuerta trasera para que 305 tomara asiento, \
+                se encontró con que su puesto ya estaba ocupado por un gran ganso desplegando sus alas a lo ancho. Apenas si podía creerlo. \
+                Le fue necesario limpiar rápidamente el visor de su traje para cerciorarse de que no estaba alucinando.</p>\
+                \
+                <p class=\"dialog\">—A goose…? But how?—se dijo a sí mismo, intentando procesar la información.</p>\
+                \
+                <p>Y ahí estaba, delante de él. Mentalmente\
+                recorrió todos los protocolos de seguridad pero no pudo rescatar nada que explicara cómo proceder en caso de\
+                anátida. Analizó si debía consultar a su colega sobre el ave.</p>",
+                //, la prueba fehaciente del correcto funcionamiento de los sensores aéreos del\
+                //centinela. Y lo inaudito, el objeto volador no identificado resulta ser un enorme y blanco ganso
+                options: [
+                    { id: "notificar", option: "Preguntar por el ganso.", noShow: true },
+                    { id: "notificar_luego", option: "No decir nada.", noShow: true },
                 ]
             },
             {
@@ -178,18 +277,18 @@ const games = [
                 <p>El GPS dicta: <i>You have reach your destination.</i> 🎯</p>",
                 options: [
                     { id: "llegada", option: "Aterrizar 🎯.", noShow: true },
-                    { id: "meditar", option: "b. Meditar por un momento." },
+                    { id: "meditar", option: "Meditar por un momento.", noShow: true },
                 ]
             },
             {
                 id: "meditar",
                 text: "<p>305 decidió meditar por un momento sobre la situación en la que se hallaba. En el momento que decidiera salir de su vehículo e \
-                investigar la amenazaba de seres inteligentes sin descendencia humana, su vida estaría en peligro. La sección del protocolo donde se estipula \
-                como se debe actuar en caso de \"<code>Red alarm, level 5, alien attack.</code>\" dice lo siguiente:</p>\
+                investigar la amenazaba de seres inteligentes sin descendencia humana, su vida estaría en peligro. Para mantener la calma, comenzó a recitar, \
+                utilizando una lengua muerta, la sección del protocolo donde se estipula como se debe actuar en caso de \"<code>Red alarm, level 5, alien attack.</code>\".</p>\
                 <ul>\
                 <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
-                <li>Verifique que los sensores del centinela estén en correcto funcionamiento. Eventos cuánticos pueden descalibrar estos instrumentos.\
-                también observe con detenimiento sus alrededores y active el mecánismo más agresivo de defensa que tenga a disposición.\
+                <li>Verifique que los sensores del centinela en cuestión estén en correcto funcionamiento. Eventos a nivel cuántico pueden descalibrar estos instrumentos.\
+                También observe con detenimiento sus alrededores y active el mecánismo de defensa más agresivo que tenga a disposición.\
                 </li>\
                 <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code>3600 ms</code> desde su disparo, ya sea por \
                 muerte del monitor o por negligencia, El Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
@@ -197,17 +296,15 @@ const games = [
                 <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
                 en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
                 </ul>\
-                <!--<li>Si la amenaza alien expresa un comportamiento hostil, la humanidad terrícola está dispuesta a la inmolarse de su especie, \
-                en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
-                </ul>-->\
-                <p><i>Muerte del monitor</i>... El protocolo de los monitores tiene 18.500 palabras, la única vez que se utiliza la palabra \"muerte\". \
-                La vida en la tierra está asegurada para la humanidad en la Tierra. Incluso sí ya sabía que un incidente así podría pasar... Nunca evalué la posibilidad\
-                de que de verdad pasara. La premisa en general no tiene sentido ¿cómo van a llegar los aliens al punto más profundo de la superficie terrestre? Tendría más\
-                más sentido que los colonizadores interespaciales se toparan con vida inteligente en sus exploraciones y conquistas. Y no me parece posible que nada ni nadie \
-                pueda burlar la seguridad de El Muro de Fuego, nuestro protector espacial.\
+                <i>Muerte del monitor</i>... El protocolo de los monitores tiene 18.500 palabras, y esta entrada es la única vez donde se utiliza la palabra \"muerte\". \
+                Su creencia siempre había sido que la vida en la Tierra es un paraíso, no un cementerio. Incluso si ya sabía que un incidente así podía pasar... El monitor nunca evaluó la autenticidad\
+                probabilística de la idea. La premisa en general le parecía absurda. Tendría más sentido que los colonizadores interespaciales se toparan con vida inteligente \
+                en sus exploraciones y conquistas. Tampoco le parecía posible que nada ni nadie fuera capaz de burlar la seguridad de El Muro de Fuego, el protector doméstico y espacial de los terrícolas. \
+                Pero 305 sabía que antes de sobrepensar la circunstancia y dar todo por pérdido, alguien apersonarse en el lugar y verificar la situación. Toda la especie había decidido \
+                miles de años atrás dejar el destino de la raza en las manos de un solo humando. . Y en esta ocasión, él es ese humano.\
                 </p>",
                 options: [
-                    { id: "llegada", option: "Bajar del vehículo.", noShow: true },
+                    { id: "llegada", option: "Verificar el estado de la situación.", noShow: true },
                     { id: "ascender", option: "Ascender hacia la atmósfera 	🔼.", noShow: true },
                 ]
             },
@@ -269,18 +366,39 @@ const games = [
                 \
                 <p>Sus colegas le llamaban. Respondió la radio y les dijo</p>",
                 options: [
-                    { id: "no_aliens", option: "Nada que reportar.", noShow: true },
-                    { id: "b", option: "b (Tengo miedo??)." },
+                    { id: "no_aliens", option: "Nada que reportar. Apagaré la alarma", noShow: true },
+                    { id: "boom_discardable", option: "No apagaré la alarma." },
+                ]
+            },
+            {
+                id: "boom_discardable", 
+                text: "<p>305 decidió quitarse el casco y cerrar los ojos mientras esperaba el impacto. Los monitores saturaron todos los canales de comunicación \
+                con gritos y discursos, tratando de encontrar una solución a este imperdonable acto de rebeldía. Pero era demasiado tarde.\
+                </p>",
+                discardable: "fin_no",
+                options: [
+                    { id: "fin_no", option: "Fin" },
+                    { id: "restart", option: "Volver a empezar." },
+                ]
+            },
+            {
+                id: "fin_no", 
+                text: "<p>305 decidió quitarse el casco y cerrar los ojos mientras esperaba el impacto. Los monitores saturaron todos los canales de comunicación \
+                con gritos y discursos, tratando de encontrar una solución a este imperdonable acto de rebeldía. Pero era demasiado tarde.\
+                <p style='text-align:center'><strong>FIN</strong></p> \
+                </p>",
+                options: [
+                    { id: "restart", option: "¿Volver a empezar?." },
                 ]
             },
             {
                 id: "no_aliens",
-                text: "<p class=\"dialog\">—Nothing to report. I will turn off the alarm and then I will check the area. Over and out.</p>\
+                text: "<p class=\"dialog\">—Nothing to report. I I will check the area and then will turn off the alarm. Over and out. —Segundos después, el mensaje se propagó por toda la red.</p>\
+                <p class=\"dialog\">—FALSE ALARM. No red alarm, level 5, alien attack. FALSE ALARM. No red alarm, level 5, alien attack. </p>\
                 \
-                <p>Su tono era estoico y seco, característico del gremio. Sin embargo, por dentro una amalgama de sensaciones\
-                extrañas le invadía, se podría decir que incluso sentía decepción de no haber encontrado nada. Realizó la labor\
-                indicada, tal y como lo dijo, no encontró nada extraño en los sensores que dispararon la alarma, pero sí encontró\
-                un material peculiar posando sobre ellos.</p>\
+                <p>Había apagado la alarma y sin embargo, por dentro una amalgama de sensaciones\
+                extrañas le invadía. Podría decir que incluso sentía decepción de no haber encontrado nada. Pero justo cuando estaba apunto de marcharse, notó \
+                algo que segundos antes no estaba ahí, un material peculiar posando sobre el centinela.</p>\
                 \
                 <p class=\"dialog\">—feathers!? dijo para sí mismo. Sabía que eran plumas, pero encontrárselas le parecía increíble.\
                 </p>\
@@ -292,7 +410,7 @@ const games = [
                 \
                 <p>De esta manera, 305 sabía qué eran las plumas, sabía de dónde venían y el uso que tuvieron en sociedades\
                 rudimentarias de unos antiguos ancestros, conocidos como <em>homo sapiens sapiens</em>. Pero jamás en su vida\
-                pensó que se las encontraría sobre parte del equipo del <code>sector A45</code>. Ni siquiera había pensado que\
+                pensó que se las encontraría sobre un centinela. Ni siquiera había pensado que\
                 pensaría en ello algún día. Nunca había pensado que nunca vería una mariposa, o un conejo o un dragón. De haber\
                 sentido la necesidad de dar un paseo por la historia animal, habría entrado al metaverso e imaginado lo\
                 que quería ver. O incluso, si le daba pereza, podía simplemente implementar el diseño de algún museo público del\
@@ -316,14 +434,14 @@ const games = [
                 <p>En su mente, por una pequeña fracción de tiempo, consideró que tal vez habría una diferencia entre las\
                 sensaciones simuladas y las reales, pero claro, esa idea es un sinsentido, pues las simulaciones actuales calcan la\
                 realidad a la perfección. Y aún más, si la tecnología fuera una religión, tales cuestionamientos y dudas serían\
-                blasfemia. Religiones y dragones, \"🙄\", pensó. De manera automática, caminó hasta la\
+                blasfemia. Religiones y dragones. De manera automática, caminó hasta la\
                 nave y retornó a su posición de piloto. Cerró la cabina y se preparó para despejar cuando, un graznido que le\
                 pareció rebotar por todo el interior de su cráneo, lo interrumpió. Se dio la vuelta en su asiento y revisó el\
                 interior de la pequeña nave, mas no encontró ningún intruso. Al volver su vista al frente se encontró con un gran\
                 ganso desplegando sus alas a lo ancho. Apenas si podía creerlo. Le fue necesario limpiar rápidamente el visor de\
                 su traje para cerciorarse de que no estaba alucinando.</p>\
                 \
-                <p class=\"dialog\">—A goose…? But how?—se dijo a sí mismo, intentando procesar la información.</p>\
+                <p class=\"dialog\">—A goose…? 🦢 But how?—se dijo a sí mismo, intentando procesar la información.</p>\
                 \
                 <p>Y ahí estaba, delante de él, la prueba fehaciente del correcto funcionamiento de los sensores aéreos del\
                 centinela. Y lo inaudito, el objeto volador no identificado resulta ser un enorme y blanco ganso. Mentalmente\
@@ -333,7 +451,31 @@ const games = [
                 //solo la idea de explicarla le generó un repulsión enorme y el deseo de postergar lo inevitable
                 options: [
                     { id: "notificar_luego", option: "Notificarlo luego.", noShow: true },
-                    { id: "notificar", option: "b." },
+                    { id: "notificar", option: "Intentar explicar el hallazgo.", noShow: true },
+                ]
+            },
+            {
+                id: "notificar",
+                text: "<p>Mantuvo la línea de trasmisión abierta por varios segundos pero no encontró las palabras decir lo que quería decir. \
+                Sin embargo, esta acción fue suficiente para advertir a sus receptores. Desde el otro lado de la línea, le preguntaron si había algo que reportar \
+                Tartamudeando, rasgo impensable es el carácter de un monitor, intentó explicar como un ganso se había consumado en el interior de su cabina. \
+                La respuesta fue confusión e incredulidad. \
+                <p>—Just come to the base 🛐. We can discuss it here.</p>\
+                \
+                La cabina era impenetrable, así que mientras la nave estuviera cerrada nada debía ser capaz de entrar o salir. Sin embargo, el ganso parecía haber demostrado que era capaz de teletransportarse. \
+                A pesar de este riesgo, 305 se mentalizó con la idea de que si podía aguantar el viaje de regreso con el ganso, podría desplazar el problema hasta llegar a la base. \
+                Remover el ave del panel de control provocó una lluvia de picotazos sobre el monitor, por dicha, su traje de seguridad es virtualmente indestructible y lo protegió \
+                con vehemencia del ataque. Con dificultad, colocó el ganso detrás de su asiento y emprendió su viaje de retorno a la estación.</p>\
+                \
+                <p>Apenas entrando al hangar, uno de sus colegas le dijo que se apresurara a la sala de conferencias, pues El Muro de Fuego\
+                debía hacer la respectiva evaluación de la situación y su testimonio era clave. Tratando de\
+                quitarse con rapidez el cinturón de seguridad, se notaba disperso e intentando recolectar y ensamblar la\
+                información de manera clara y concisa. Los fluorescentes que iluminaban los largos pasillos de manera sistemática le mareaban. No sé sentía bien. \
+                Su malestar era visible y apestaba. \
+                Cuando llegó a la habitación, su aspecto era tal que toda la sala decidió que la platica debía ser postergada debido a la indisposición del individuo.</p>",
+                options: [
+                    { id: "mostrar_ganso", option: "Resistir la decisión.", noShow: true },
+                    { id: "hola_mundo_1_completado", option: "Ir a descansar.", noShow: true },
                 ]
             },
             {
@@ -347,22 +489,27 @@ const games = [
                 <p>Apenas entrando al hangar, uno de sus colegas le dijo que se apresurara a la sala de conferencias, pues El Muro de Fuego\
                 debía hacer la respectiva evaluación de la situación y su testimonio era clave. Tratando de\
                 quitarse con rapidez el cinturón de seguridad, se notaba disperso e intentando recolectar y ensamblar la\
-                información de manera clara y concisa.</p>",
-                //Delante de sus colegas y de los representantes de El Muro, explicó la
-                //situación lo mejor que pudo. Incluso mostró las plumas como evidencia, sin embargo, la perplejidad y la
-                //incredulidad de los oyentes era palpable y tan sólida como el metal que constituía la base de mantenimiento.</p>
+                información de manera clara y concisa. Los fluorescentes que iluminaban los largos pasillos de manera sistemática le mareaban. No sé sentía bien.\
+                 Su malestar era visible y apestaba. \
+                Cuando llegó a la habitación, su aspecto era tal que toda la sala decidió que la platica debía ser postergada debido a la indisposición del individuo.</p>",
+                
                 options: [
-                    { id: "mostrar_ganso", option: "Enseñarles el ganso." },
-                    { id: "b", option: "b." },
+                    { id: "mostrar_ganso", option: "Resistir la decisión.", noShow: true },
+                    { id: "hola_mundo_1_completado", option: "Ir a descansar.", noShow: true },
                 ]
             },
             {
                 id: "mostrar_ganso",
-                text: "<p>Como su as bajo la manga, 305 decidió mostrarles el ganso en cuestión. Pero, para su sorpresa; y la tranquilidad\
-                de sus colegas, en la nave utilizada para la inspección, no había rastro de ningún animal. Se le aconsejó a 305\
-                tomarse un descanso y retomar el asunto luego.</p>",
+                text: "<p>305 trato de revocar la resignación de sus colegas. Delante de ellos y de los representantes de El Muro, explicó la \
+                situación lo mejor que pudo. Incluso mostró la evidencia de las plumas, sin embargo, la perplejidad y la\
+                incredulidad de los oyentes era palpable y tan sólida como el metal que constituía la base de mantenimiento. \
+                El colmo fue cuando el monitor salió corriendo hacia el hangar, vociferando que en la cabina todavía estaba el ganso, solo para encontrarse con una\
+                nave vacía, sin un solo rastro del ave. Se le dio la orden de tomarse un descanso.</p>",
+                //Delante de sus colegas y de los representantes de El Muro, explicó la
+                //situación lo mejor que pudo. Incluso mostró las plumas como evidencia, sin embargo, la perplejidad y la
+                //incredulidad de los oyentes era palpable y tan sólida como el metal que constituía la base de mantenimiento.</p>
                 options: [
-                    { id: "hola_mundo_1_completado", option: "Ir a descansar." },
+                    { id: "hola_mundo_1_completado", option: "Ir a descansar.", noShow: true },
                 ]
             },
             {
