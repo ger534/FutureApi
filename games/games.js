@@ -138,7 +138,7 @@ const games = [
                 text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a perder altitud, cada vez más rápido, en dirección a la Tierra.\
                 El monitor, que hasta el momento había tomado decisiones poco sabías, rompió la racha al activar el mecánismo de eyección, que lo lanzó disparado de la nave. \
                 Lo que segundos antes era su medio de transporte, quedó desintegrado por el sistema anticolisiones de las casas-puerto. \
-                El atuendo que portan los monitores es el instrumento de defensa y control más poderoso que posee el gremio. Entre sus cuales, posee la virtud de ser una\
+                El atuendo que portan los monitores es el instrumento de defensa y control más poderoso que posee el gremio. Entre sus cualidades, posee la virtud de ser una\
                 armadura virtualmente indestructible.\
                 Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
                 <p>—305, we have already deploy another monitor, 301, to take care of the alarm. We will discuss your behavior later, in the base, for now, just stay still 🕒, \
@@ -284,7 +284,7 @@ const games = [
                 id: "meditar",
                 text: "<p>305 decidió meditar por un momento sobre la situación en la que se hallaba. En el momento que decidiera salir de su vehículo e \
                 investigar la amenazaba de seres inteligentes sin descendencia humana, su vida estaría en peligro. Para mantener la calma, comenzó a recitar, \
-                utilizando una lengua muerta, la sección del protocolo donde se estipula como se debe actuar en caso de \"<code>Red alarm, level 5, alien attack.</code>\".</p>\
+                utilizando una lengua perdida en el tiempo, la sección del protocolo donde se estipula como se debe actuar en caso de \"<code>Red alarm, level 5, alien attack.</code>\".</p>\
                 <ul>\
                 <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
                 <li>Verifique que los sensores del centinela en cuestión estén en correcto funcionamiento. Eventos a nivel cuántico pueden descalibrar estos instrumentos.\
@@ -305,7 +305,7 @@ const games = [
                 </p>",
                 options: [
                     { id: "llegada", option: "Verificar el estado de la situación.", noShow: true },
-                    { id: "ascender", option: "Ascender hacia la atmósfera 	🔼.", noShow: true },
+                    { id: "boom_discardable", option: "Dejar que el contador llegue a cero.", noShow: true },
                 ]
             },
             {
@@ -323,23 +323,41 @@ const games = [
             {
                 id: "ascender_2",
                 text: "<p>Subiendo aún más, y acercándose peligrosamente a zonas restringidas y sin directa relevancia para alguien de mantenimiento, 305 mantuvo su rumbo de forma ascendente.\
-                Su comportamiento errático e insubordinado hizo que su transmisor comenzaba a chorrear toda clase de advertencias y represalias. No solo sus compañeros en el nodo de monitores estaban\
-                confundidos y molestos con él, también era posible percibir un comunicado por parte de El Muro de Fuego. Describir el uso de la luna.</p> \
+                Su comportamiento errático e insubordinado hizo que su transmisor comenzara a chorrear toda clase de advertencias y represalias. No solo sus compañeros en el nodo de monitores estaban\
+                confundidos y molestos con él, también era posible percibir un comunicado por parte de El Muro de Fuego.  El visor de su traje comenzó a \
+                proyectar en una lengua pérdida, el protocolo que debía seguirse en caso de \"<code>Red alarm, level 5, alien attack.</code>\", a pesar de que ya se lo sabía de memoria.\
+                <ul>\
+                <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
+                <li>Verifique que los sensores del centinela en cuestión estén en correcto funcionamiento. Eventos a nivel cuántico pueden descalibrar estos instrumentos.\
+                También observe con detenimiento sus alrededores y active el mecánismo de defensa más agresivo que tenga a disposición.\
+                </li>\
+                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code>3600 ms</code> desde su disparo, ya sea por \
+                muerte del monitor o por negligencia, El Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
+                \
+                <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
+                en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
+                </ul>\
+                Mientras esto sucedía, el vehículo comenzó a estremecerse. </p> \
+                \
                 <p>El GPS dicta: <span style=\"background-color:red\"><strong>LOWER YOUR ALTITUDE.</strong> 🔽</span></p>",
                 options: [
                     { id: "explosion_nave_luna", option: "No." },
-                    { id: "descender", option: "descender 🔽." },
+                    { id: "descender", option: "descender 🔽.", noShow: true },
                 ]
             },
             {
                 id: "explosion_nave_luna",
                 text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a descender, cada vez más rápido, en dirección a la Tierra.\
                 El monitor, que hasta el momento había tomado decisiones poco sabías, activó el mecánismo de eyección y salió disparado de la nave. Lo que segundos antes era\
-                su medio de transporte, quedó desintegrado por El Muro de Fuego. Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
-                </p>",
+                su medio de transporte, quedó desintegrado por El Muro de Fuego, como represalia por acercarse demasiado a un espacio restringido. \
+                El atuendo que portan los monitores es el instrumento de defensa y control más poderoso que posee el gremio. Entre sus cualidades, posee la virtud de ser una\
+                armadura virtualmente indestructible. Gracias a su traje de seguridad, a pesar de caer más de ocho mil metros, el monitor no sufrió ningún daño. \
+                Ahora, habiendo caído desde el cielo, se encontraba cerca de la zona del incidente.</p>\
+                \
+                <p>—We are sending another ship for you 🚀 and we will discuss your behavior later in the base 🛐. For now, <strong>take care of the alarm</strong>.</p>",
                 options: [
-                    { id: "a", option: "a." },
-                    { id: "b", option: "b." },
+                    { id: "llegada", option: "Hacerse cargo de la alarma.", noShow: true },
+                    { id: "boom_discardable", option: "Dejar que el contador llegue a cero.", noShow: true },
                 ]
             },
             {
@@ -372,7 +390,7 @@ const games = [
             },
             {
                 id: "boom_discardable", 
-                text: "<p>305 decidió quitarse el casco y cerrar los ojos mientras esperaba el impacto. Los monitores saturaron todos los canales de comunicación \
+                text: "<p>Contra todo pronóstico y sin dar ninguna explicación, 305 decidió quitarse el casco y cerrar los ojos mientras esperaba el impacto. Los monitores saturaron todos los canales de comunicación \
                 con gritos y discursos, tratando de encontrar una solución a este imperdonable acto de rebeldía. Pero era demasiado tarde.\
                 </p>",
                 discardable: "fin_no",
@@ -393,7 +411,7 @@ const games = [
             },
             {
                 id: "no_aliens",
-                text: "<p class=\"dialog\">—Nothing to report. I I will check the area and then will turn off the alarm. Over and out. —Segundos después, el mensaje se propagó por toda la red.</p>\
+                text: "<p class=\"dialog\">—Nothing to report. I will check the area and then I will turn off the alarm. Over and out. —Segundos después, el mensaje se propagó por toda la red.</p>\
                 <p class=\"dialog\">—FALSE ALARM. No red alarm, level 5, alien attack. FALSE ALARM. No red alarm, level 5, alien attack. </p>\
                 \
                 <p>Había apagado la alarma y sin embargo, por dentro una amalgama de sensaciones\
@@ -514,16 +532,30 @@ const games = [
             },
             {
                 id: "no_plumas",
-                text: "<p> \"Evidence 🔎\", pensó. Hizo un escaneo completo del material, sin embargo, se abstuvo de tocar el material con sus manos.\
+                text: "<p>Se abstuvo de tomar el material con sus manos, sin embargo, el hallazgo era tan impresionante que no podía dejar pasar la oportunidad de \
+                escanearlo. Mientras lo hacía, en 305 crecía un discrepante deseo por descubrir sus manos e inspeccionar las plumas.\
                 Tenía mucha curiosidad. Nunca había tocado una pluma, conocía sus usos y las miles de formas y colores que podían tener, pero\
-                nunca había tocado una, no en el mundo real. A pesar de esto, la situación actual del planeta no permitía ningún tipo de vida\
-                salvaje. Incluso si parecía solo un inofensivo puñado de vestimenta ovípara, el mero hecho de que estuviera al aire libre en una atmósfera \
-                hostil era suficiente para sospechar que la situación tal vez era más compleja de lo que aparentaba a simple vista. Quizá la alarma \
-                que comenzó todo esto había captado una amenaza real. \
-                .</p>",
+                nunca había tocado una, no en el mundo real. Pero, incluso si parecía solo un inofensivo puñado de vestimenta ovípara, el mero hecho de que estuviera al aire \
+                libre en una atmósfera hostil era suficiente para sospechar que la situación tal vez era más compleja de lo que aparentaba a simple vista. \
+                La actualidad no permitía ningún tipo de vida silvestre en la Tierra.\
+                Quizá el centinela que había disparado la alarma si había captado algo inusual. </p>\
+                <p> Mientras consideraba el extraño descubrimiento y qué debería hacer, caminó en automático hasta la\
+                nave y retornó a su posición de piloto. Cerró la cabina y se preparó para despejar cuando, un graznido que le\
+                pareció rebotar por todo el interior de su cráneo, lo interrumpió. Se dio la vuelta en su asiento y revisó el\
+                interior de la pequeña nave, mas no encontró ningún intruso. Al volver su vista al frente se encontró con un gran\
+                ganso desplegando sus alas a lo ancho. Apenas si podía creerlo. Le fue necesario limpiar rápidamente el visor de\
+                su traje para cerciorarse de que no estaba alucinando.</p>\
+                \
+                <p class=\"dialog\">—A goose…? 🦢 But how?—se dijo a sí mismo, intentando procesar la información.</p>\
+                \
+                <p>Y ahí estaba, delante de él, la prueba fehaciente del correcto funcionamiento de los sensores aéreos del\
+                centinela. Y lo inaudito, el objeto volador no identificado resulta ser un enorme y blanco ganso. Mentalmente\
+                recorrió todos los protocolos de seguridad pero no pudo rescatar nada que explicara cómo proceder en caso de\
+                anátida. Analizó si debía contarle a sus colegas sobre el hallazgo, pero la situación le pareció tan estrafalaria\
+                que no sabía siquiera cómo podría explicarla.</p>",
                 options: [
-                    { id: "a", option: "a." },
-                    { id: "b", option: "b." },
+                    { id: "notificar_luego", option: "Notificarlo luego.", noShow: true },
+                    { id: "notificar", option: "Intentar explicar el hallazgo.", noShow: true },
                 ]
             },
         ]
