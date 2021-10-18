@@ -876,12 +876,76 @@ const games = [
                 También es la causa de que literalmente ya no se sueñe, como tal, destruye el ciclo de sueño conocido por los\
                 <em>Homo Sapiens Sapiens</em>, dejando únicamente la fase 3: el sueño profundo. Todo lo demás desaparece, por\
                 ende, ya no hay MOR, por ende, ya no hay sueños. Así que lo que sucede a continuación, en un principio parece\
-                inexplicable.\
-                </p>",
+                inexplicable.</p>\
+                \
+                <p class=\"dialog\">—¿Dónde estoy? ¿Estoy… flotando?—dijo muy confundido 305, encontrándose en un espacio\
+                completamente vacío donde lo único visible era una oscuridad absorbente y sideral.</p>",
                 options: [
-                    { id: "no_contrato_b_contrato_a_1", option: "> Empleador B te despide." },
-                    { id: "contrato_b_1", option: "> Empleador B te asigna otro contrato.", }]
-            }
+                    { id: "vacio_moverse", option: "Intentar moverse.", noShow: true },
+                    { id: "vacio_inmovil", option: "Permanecer inmóvil.", noShow: true }]
+            }, 
+            {
+                id: "vacio_moverse",
+                text: "<p>El monitor, determinado a retomar algo de control sobre la extraña situación, comenzó a hacer un esfuerzo para desplazarse a través del vacío.\
+                Mientras intentaba generar momentum aleteando sus manos y sus piernas, sin saber cómo, sintió que una criatura comenzaba a acercarse.</p>\
+                <p class=\"dialog\">—Hemos estado intentando contactarte, anunció una voz omnisciente que resonó en su cabeza con un\
+                ligero eco</p>",
+                options: [
+                    { id: "preguntar_quien", option: "Preguntar quién anda ahí." },
+                    { id: "revisar_vacío", option: "Inspeccionar el vacío.", }]
+            }, 
+            {
+                id: "vacio_inmovil",
+                //And hope that this is just imagination, but all the while, You hear the creature creepin' up behind. You're out of time
+                text: "<p>El monitor, en un estado de shock, no pudo hacer más que quedarse quieto y cerrar sus ojos, esperando que fuera \
+                solo su imaginación y que esto en realidad no estaba ocurriendo, sin embargo, incluso sin utilizar su vista, una inexplicable \
+                sensación de que una criatura se estaba acercando.\
+                 </p>\
+                <p class=\"dialog\">—Hemos estado intentando contactarte, anunció una voz omnisciente que resonó en su cabeza con un\
+                ligero eco</p>",
+                options: [
+                    { id: "preguntar_quien", option: "Preguntar quién anda ahí." },
+                    { id: "revisar_vacío", option: "Inspeccionar el vacío.", }]
+            }, 
+            {
+                id: "preguntar_quien",
+                text: "<p class=\"dialog\">—¿Qué? ¿Quién dijo eso? </p>\
+                \
+                <p>Como respuesta recibió un potente graznido lo tumbó al suelo,\
+                pero la ausencia de éste lo hizo caer en posición de sentadilla sin un destino tangible en cual reposar.</p>\
+                \
+                <p>El ganso de hace unas horas había vuelto a aparecer delante de él. A diferencia de 305, el ave posaba sin esfuerzo\
+                delante de su rostro. El monitor era incapaz de procesar en su mente lo estaba sucediendo.\
+                Mientras él caía eternamente, el ganso parecía no moverse en lo absoluto, pero tampoco dejaba de estar delante de\
+                él, incluso si él no paraba de caer. La paradoja del ganso constante y el movimiento eterno le causó un terrible\
+                dolor de cabeza. La voz omnisciente volvió a romper el silencio.</p>",
+                options: [
+                    { id: "a", option: "a." },
+                    { id: "b", option: "b.", }]
+            }, 
+            {
+                id: "revisar_vacío",
+                text: "<p class=\"dialog\">305 se giró para inspeccionar la nada y un potente graznido lo tumbó al suelo,\
+                pero la ausencia de éste lo hizo caer en posición de sentadilla sin un destino tangible en cual reposar.</p>\
+                \
+                <p>El ganso de hace unas horas había vuelto a aparecer delante de él. A diferencia de 305, el ave posaba sin esfuerzo\
+                delante de su rostro. El monitor era incapaz de procesar en su mente lo estaba sucediendo.\
+                Mientras él caía eternamente, el ganso parecía no moverse en lo absoluto, pero tampoco dejaba de estar delante de\
+                él, incluso si él no paraba de caer. La paradoja del ganso constante y el movimiento eterno le causó un terrible\
+                dolor de cabeza. La voz omnisciente volvió a romper el silencio.</p>",
+                options: [
+                    { id: "a", option: "a." },
+                    { id: "b", option: "b.", }]
+            }, 
+
+
+            {
+                id: "id",
+                text: "",
+                options: [
+                    { id: "a", option: "a." },
+                    { id: "b", option: "b.", }]
+            }, 
         ]
     },
 
