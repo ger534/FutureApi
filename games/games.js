@@ -61,7 +61,7 @@ const games = [
                 id: "start",
                 text: "<p>Bienvenido. Le tengo buenas noticias. Usted está vivo y está aquí, ahora mismo. El análisis fisiológico indica\
                 que\
-                su recipiente actual es fuerte y está sano; y los resultados de su informe de bienestar\
+                su recipiente actual es fuerte y está sano, y los resultados de su informe de bienestar\
                 indican que es un miembro apto para realizar tareas productivas y con un impacto positivo en nuestra\
                 sociedad.\
                 <!--<p>Descartar?(Antes\
@@ -215,7 +215,7 @@ const games = [
                 <p>—El cubículo...</p>",
                 options: [
                     { id: "mundo_yes", option: "El cubículo me protege." },
-                    { id: "mundo_no", option: "Un cubículo es un cuadra\'o." }
+                    { id: "mundo_no", option: "Un cubículo es un cuadrado." }
                 ]
             },
             {
@@ -358,27 +358,27 @@ const games = [
             {
                 id: "start",
                 text: "<p>La tecnología le ha permitido a la humanidad visualizar el alba de la colonización interplanetaria. Ahora el humano está en un segundo plano, \
-                disfrutando del piloto automático que controla su destino. Sin embargo, es importante que siempre haya alguien quién vigile el sistema.\
-                En el viejo mundo, por ejemplo, la mayoría de la población vive en un paraíso virtual, dentro de la comodidad de sus casas-puerto y\
-                sin preocuparse de su entorno físico. Pero detrás de esa calma impoluta, existe una red de mantenimiento que se encarga salvaguardar \
-                la arquitectura que hace posible los metaversos de la ciudadanía. Mientras cierta persona sueña que gana la lotería todas las mañanas o \
+                disfrutando del piloto automático que controla su destino. Sin embargo, es importante que siempre haya alguien quien vigile el sistema.\
+                En el viejo mundo, por ejemplo, la mayoría de la población vive en un paraíso virtual dentro de la comodidad de sus casas-puerto y\
+                sin preocuparse de su entorno físico. Pero detrás de esa calma impoluta existe una red de mantenimiento que se encarga salvaguardar \
+                la arquitectura que hace posibles los metaversos de la ciudadanía. Mientras cierta persona sueña que gana la lotería todas las mañanas o \
                 que es famosa y amada por toda la humanidad, un grupo de especialistas velan que no sucedan eventos extraordinarios que obstruyan \
                 con el funcionamiento habitual de la utopía tecnológica. \
                 </p>\
                 \
-              <p>Las tareas de soporte son de vital importancia y por lo tanto, las estaciones de trabajo están distribuídas a lo\
+              <p>Las tareas de soporte son de vital importancia y, por lo tanto, las estaciones de trabajo están distribuídas a lo\
                 largo del globo terrícola. La comunicación entre estos clústers está reservada para incidentes de máximo nivel,\
                 donde es necesaria la cooperación de multiples nodos de mantenimiento o incluso, en ocasiones especiales, para notificar a toda la red. \
-                Existe un robusto y detallado manual que todos los monitores tienen grabados en su memoria y que les permite ejecutar sus tareas y saber que\
-                procedimientos seguir según cada situación. Sin embargo, los monitores, después de todo, siguen siendo humanos y aún si \
-                conocen a la perfección que deben hacer, puede suceder en raras ocasiones que los hechos les parezcan insólitos.</p>\
+                Existe un robusto y detallado manual que todos los monitores tienen grabados en su memoria y que les permite ejecutar sus tareas y saber qué\
+                procedimientos seguir según cada situación. Sin embargo, los monitores, después de todo, siguen siendo humanos y aun si \
+                conocen a la perfección lo que deben hacer, puede suceder en raras ocasiones que los hechos les parezcan insólitos.</p>\
                 \
-                <p class=\"dialog\">—Red alarm, level 5, alien attack—. Y el contador anuncia: T-MINUS 3600.</p>\
+                <p class=\"dialog\">—<i>Red alarm, level 5, alien attack</i>—. Y el contador anuncia: T-MINUS 3600.</p>\
                 \
                 <p>Hasta este momento, ni Dios ni los alienígenas se habían vuelto visibles en la inmensidad del universo, pero esto\
                 parecía haber cambiado en un santiamén. Fue imperativo desplegar la aeronave más rápida. No tenía mucho armamento\
                 ni espacio. Espacio único para un tripulante, el piloto 305. La curiosidad lo lanzó tan rápido al volante que no\
-                se cuestionó lo irracional de su misión. Si luego de tantos años de avances tecnológicos, un objeto volador no\
+                se cuestionó lo irracional de su misión. Si luego de tantos años de avances tecnológicos un objeto volador no\
                 identificado había sido capaz de penetrar, no solo el sistema solar, sino la atmósfera de la Tierra y además, sin\
                 ser detectado hasta el momento de tocar la integridad de los metaversos, definitivamente un monitor, \
                 alguien que suele trabajar en labores de mantenimiento, no lo iba a neutralizar con un par de cañones de plasma.</p>\
@@ -391,11 +391,11 @@ const games = [
             {
                 id: "izquierda",
                 text: "<p>305, sin prestar mucha atención a las instrucciones y tal vez aturdido por la noticia, decidió no tomar en consideración la ruta sugerida por\
-                el Sistema de Posicionamiento Global y en cambio, se dirige en dirección contraria al sitio del incidente. Siguiendo este rumbo, 305 tiene la oportunidad de \
-                visualizar desde las alturas las grandes aglomeraciones de casas-puerto, que se propagan por toda la árida superficie terrestre.\
+                el Sistema de Posicionamiento Global, y en cambio se dirige en dirección contraria al sitio del incidente. Siguiendo este rumbo, 305 tiene la oportunidad de \
+                visualizar desde las alturas las grandes aglomeraciones de casas-puerto que se propagan por toda la árida superficie terrestre.\
                 </p> \
                 \
-                <p class=\"dialog\">—Red alarm, level 5, alien attack—. Y el contador anuncia: T-MINUS 3600.</p>\
+                <p class=\"dialog\">—<i>Red alarm, level 5, alien attack</i>—. Y el contador anuncia: T-MINUS 3600.</p>\
                 \
                 <p>El GPS dicta: <i>Please, turn around.</i> ↩️</p>",
                 options: [
@@ -408,16 +408,16 @@ const games = [
                 text: "<p>Aún sin entrar en personaje, 305 mantuvo el rumbo equivocado. Si no cambiaba de sentido pronto, la aeronave tendría que orbitar gran parte del planeta\
                 antes de acercarse al punto de interés, lo que comprometería el interés público de mitigar cualquier inconveniente en la infraestructura de los metaversos lo antes posible. \
                 Desde la base, otros monitores comenzaron a consternarse debido sus decisiones erráticas y le advirtieron tomar con seriedad su rol \
-                en la perfecta maquinaria que, como un reloj bien ensamblado, mantiene el bienestar social. También se encendió una pantalla en el interior del visor de su traje, que comenzó a \
-                proyectar en una lengua pérdida, el protocolo que debía seguirse en caso de \"<code>Red alarm, \
-                level 5, alien attack.</code>\", a pesar de que ya se lo sabía de memoria.\
+                en la perfecta maquinaria que, como un reloj bien ensamblado, mantiene el bienestar social. También se encendió una pantalla en el interior del visor de su traje, la cual comenzó a \
+                proyectar en una lengua perdida, el protocolo que debía seguirse en caso de \"<code><i>Red alarm, \
+                level 5, alien attack</i></code>\", a pesar de que ya se lo sabía de memoria.\
                 <ul>\
                 <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
                 <li>Verifique que los sensores del centinela en cuestión estén en correcto funcionamiento. Eventos a nivel cuántico pueden descalibrar estos instrumentos.\
-                También observe con detenimiento sus alrededores y active el mecánismo de defensa más agresivo que tenga a disposición.\
+                También observe con detenimiento sus alrededores y active el mecanismo de defensa más agresivo que tenga a disposición.\
                 </li>\
                 <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code>3600 ms</code> desde su disparo, ya sea por \
-                muerte del monitor o por negligencia, El Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
+                muerte del monitor o por negligencia, el Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
                 \
                 <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
                 en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
@@ -433,14 +433,14 @@ const games = [
             },
             {
                 id: "explosion_nave_tierra",
-                text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a perder altitud, cada vez más rápido, en dirección a la Tierra.\
-                El monitor, que hasta el momento había tomado decisiones poco sabías, rompió la racha al activar el mecánismo de eyección, que lo lanzó disparado de la nave. \
-                Lo que segundos antes era su medio de transporte, quedó desintegrado por el sistema anticolisiones de las casas-puerto. \
+                text: "<p>De imprevisto, la máquina que tripulaba 305 se quedó inmóvil y luego comenzó a perder altitud cada vez más rápido en dirección a la Tierra.\
+                El monitor, que hasta el momento había tomado decisiones poco sabias, rompió la racha al activar el mecanismo de eyección, el cual lo lanzó disparado de la nave. \
+                Lo que segundos antes era su medio de transporte quedó desintegrado por el sistema anticolisiones de las casas-puerto. \
                 El atuendo que portan los monitores es el instrumento de defensa y control más poderoso que posee el gremio. Entre sus cualidades, posee la virtud de ser una\
                 armadura virtualmente indestructible.\
                 Gracias a su traje de seguridad, 305 no sufrió ningún daño.\
-                <p>—305, we have already deploy another monitor, 301, to take care of the alarm. We will discuss your behavior later, in the base, for now, just stay still 🕒, \
-                we are sending 304 in another ship to take you home.</p>\
+                <p>—<i>305, we have already deploy another monitor, 301, to take care of the alarm. We will discuss your behavior later, in the base, for now, just stay still 🕒, \
+                we are sending 304 in another ship to take you home</i>.</p>\
                 </p>",
                 options: [
                     { id: "esperar", option: "Esperar 🕒.", noShow: true },
