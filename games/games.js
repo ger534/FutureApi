@@ -56,6 +56,7 @@ const games = [
         id: "terms_and_conditions",
         title: "Términos y condiciones",
         html: true,
+        exam: true,
         data: [
             {
                 id: "start",
@@ -334,14 +335,20 @@ const games = [
                 text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—El gobierno...</p>",
                 options: [
-                    { id: "completado", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
+                    { id: "calificacion", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
             },
             {
                 id: "gobierno_yes",
                 text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—El gobierno...</p>",
                 options: [
-                    { id: "completado", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
+                    { id: "calificacion", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
+            },
+            {
+                id: "calificacion",
+                //text: "",
+                options: [
+                    { id: "completado", option: "Comenzar \"Hola Mundo\".", noShow: true }]
             },
             {
                 id: "completado",
@@ -2375,20 +2382,549 @@ const games = [
                 demasiado extraña para vos, nuestra mejor arma y defensa. El lenguaje. En esta ocasión, el lenguaje que nos permite la programación. \
                 </p>\
                 \
-                <p class=\"dialog\">—En otro momento podemos concentrarnos en la teoría, por ahora ¿qué le parece un ejemplo práctico?</p>",
+                <p class=\"dialog\">—En otro momento podemos concentrarnos en la teoría, por ahora ¿qué le parece un realizar una modificación de la realidad?</p>",
                 options: [
-                    { id: "a", option: "a. Insisto, quiero saber sobre la teoría." },
-                    { id: "submundo_practico", option: "Ok, vamos con un ejemplo práctico." }]
+                    { id: "submundo_teoria", option: "Insisto, repasemos cómo funciona la programación." },
+                    { id: "submundo_practico", option: "Ok, vamos con la modificación." }]
             },
 
             {
-                id: "submundo_practico",
-                text: "<p class=\"dialog\">—¿Qué te parece algo como... ¿cambiar la textura de ese árbol?— dijo el ganso mientras señalaba un árbol de \
+                id: "submundo_teoria",
+                text: "<p class=\"dialog\">—El Muro de Fuego debe estar buscándonos como desquiciados, pero se me hace imposible negarte a vos un \
+                un poco de nuestro tiempo con tal de que aprendás un poco más y practiqués ¿verdad, señor ganso?</p> \
+                <p>Un silencio que se postergó hasta la incomodidad se hizo presente.</p>\
+                \
+                <p class=\"dialog\">—Ok... Iré por partes. Le voy a explicar un poco sobre qué es la programación, los lenguajes de programación y su gramática. \
+                Usted ya debería saber todas estas cosas, pero entiendo que los nervios pueden distorsionar a las personas ¿Comenzamos?</p>",
+                options: [
+                    { id: "submundo_practica_programacion", option: "Adelante." },
+                    { id: "submundo_practico", option: "Me arrepentí, mejor veamos cómo puedo modificar esta realidad." }]
+            },
+            {
+                id: "submundo_practica_programacion",
+                text: "<p class=\"dialog\">—La programación es el arte de organizar la complejidad y no necesariamente está ligada a aplicaciones computacionales. \
+                En el contexto informático, busca modelar la solución a un problema y representarla en un lenguaje apropiado.\
+                La acción de programar una máquina se ejecuta mediante la escritura de código. El código son las instrucciones que deseamos sean manifestadas.\
+                Un <i>script</i>, por ejemplo, es un documento que contiene una secuencia de comandos, un programa sencillo. El código que compone el núcleo de un programa específico \
+                suele ser llamado <u>código</u> <u>fuente</u>. En teoría, la programación no tiene limites, si se puede imaginar, se puede programar.\
+                \
+                Pero el código no se desarrolla en lenguaje natural, los humanos somos redundantes y ambiguos por naturaleza; para resolver este problema de comunicación humano-máquina,\
+                hemos creado centenas de lenguajes de programación.\
+                Cada lenguaje cumple su propósito de manera determinada y por norma, suelen estar diseñados para resolver una gama específica de problemas. \
+                </p>\
+                <p class>EJERCICIO: Papá Pepito le dice a Pepito: \"ve a la pulpe y trae una botella de leche. Si hay huevos, trae media docena.\", Pepito va a la tienda y\
+                logra ver que hay huevos ¿Cuántas botellas de leche debería comprar Pepito? </p>\
+                ",
+                options: [
+                    { id: "submundo_practica_programacion_rmal", option: "Una." },
+                    { id: "submundo_practica_programacion_rbien", option: "Seis." }]
+            },
+
+            {
+                id: "submundo_practica_programacion_rmal",
+                text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
+                 Habían huevos, Papá Pepito dijo que si habían huevos, debían comprarse seis botellas. \
+                </p>\
+                <p class=\"dialog\">—Aunque... puede ser que Papá Pepito realmente solo quería una botella y seis huevos ¿verdad? La orden es <u>ambigua</u>, se puede interpretar de maneras \
+                que generan resultados muy diferentes.\
+                \</p>\
+                <p class=\"dialog\">—¿Continuamos, chica?</p>",
+                options: [
+                    { id: "submundo_practica_lenguajes", option: "Aprender más sobre los lenguajes de programación.", noShow: true },
+                    { id: "submundo_practico", option: "Suficiente teoría, estoy listo para realizar milagros." }]
+            },
+            {
+                id: "submundo_practica_programacion_rbien",
+                text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
+                 En caso de haber huevos, Papá Pepito quería una botella y seis huevos. \
+                <p class=\"dialog\">—Pero... tal vez usted tiene razón, puede ser que Papá Pepito realmente quería definir su cantidad de leche en función de la presencia de huevos\
+                en la tienda. Esto es lo complicado del lenguaje natural, le da cabida a las ambiguedades.</p>\
+                <p class=\"dialog\">—¿Continuamos, chica?</p>",
+                options: [
+                    { id: "submundo_practica_lenguajes", option: "Aprender más sobre los lenguajes de programación.", noShow: true },
+                    { id: "submundo_practico", option: "Suficiente teoría, estoy listo para realizar milagros." }]
+            },
+
+            {
+                id: "submundo_practica_lenguajes",
+                text: "<p class=\"dialog\">—Sigamos.</p>\
+                <p class=\"dialog\">—Cuando la naturaleza era quien decidía el curso de nuestra evolución, ella decidió dotarnos con la habilidad de \
+                comunicarnos de forma compleja, como ningún otro animal en el planeta. Aún es un enigma para nosotros con qué propósito ocurrió esto...\
+                Evolucionamos cuando somos incapaces de resolver un problema presente con nuestras habilidades adquiridas. \
+                ¿A qué clase de problema nos estabamos enfretando cuando la Madre Tierra nos arrastró hacia el lenguaje? ¿Pudo haber sido la mortalidad?\
+                </p>\
+                \
+                <p class=\"dialog\">—No nos salgamos del tema... —se dijo el ganso a sí mismo.</p>\
+                \
+                <p class=\"dialog\">—Los lenguajes de programación, en esencia, nos permiten estructurar el lenguaje natural \
+                de manera que sea sencillo traducir a lenguaje máquina. Tome por ejemplo las matemáticas, \"dos más tres es igual a cinco\". Esta oración\
+                está escrita en español, pero su composición lógica es exacta y precisa. Se puede representar así: \
+                \
+                <p><code> 2 + 3 = 5 </code></p>\
+                \
+                <p class=\"dialog\">—2 + cinco = siete </p>",
+
+                options: [
+                    { id: "submundo_practica_lenguajes_rbien", option: "dos más 5 es igual a 7." },
+                    { id: "submundo_practica_lenguajes_rmal", option: "cinco + 2 = siete." }]
+            },
+
+            {
+                id: "submundo_practica_lenguajes_rbien",
+                text: "<p class=\"dialog\">—<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
+                \
+                <p class=\"dialog\">—Sin embargo, las matemáticas no se consideran un lenguaje de programación. Las matemáticas son parte del viaje, pero la lógica es el destino. \
+                La meta es organizar la composición física de la máquina que debe cumplir la instrucción una determinada instrucción. Hace mucho tiempo, solíamos usar utilizar unos y ceros \
+                para cumplir con esta tarea. El sistema de numeración de base dos, también llamado sistema binario. Se ve así: \
+                <p><code>01101100 01111001 01101000</code></p>\
+                Donde <ul>\
+                        <li>ENCENDIDO = 1</li>\
+                        <li>APAGADO = 0</li>\
+                </ul>\
+                <p class=\"dialog\">—Esta solución es antigua, ahora dominamos la <strong>computación cuántica</strong>, sin embargo en esencia buscan lo mismo, ordenar a cada átomo de la máquina\
+                a encenderse o apagarse, según los deseos del programador. Elaborando en el proceso, se inicia con el padre de Pepito que quiere comprar \"leche y huevos\" (lenguaje de alto nivel)\
+                y terminamos con <code>01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
+                \
+                <p class=\"dialog\">—¡No tenemos tiempo para hablar de todo eso!</p>\
+                \
+                <p class=\"dialog\">—Lo sé. Hablemos del compilador y del intérprete.</p>",
+                options: [
+                    { id: "submundo_practica_lenguajes_1", option: "Sí." },
+                    { id: "submundo_practico", option: "No, prefiero ver cómo puedo poner en práctica las modificaciones de la realidad." }]
+            },
+            {
+                id: "submundo_practica_lenguajes_rmal",
+                text: "<p class=\"dialog\">—<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
+                \
+                <p class=\"dialog\">Sin embargo, las matemáticas no se consideran un lenguaje de programación. Las matemáticas son parte del viaje, pero la lógica es el destino. \
+                La meta es organizar la composición física de la máquina que debe cumplir la instrucción una determinada instrucción. Hace mucho tiempo, solíamos usar utilizar unos y ceros \
+                para cumplir con esta tarea. El sistema de numeración de base dos, también llamado sistema binario. Se ve así: \
+                <p><code>01101100 01111001 01101000</code></p>\
+                Donde <ul>\
+                        <li>ENCENDIDO = 1</li>\
+                        <li>APAGADO = 0</li>\
+                    </ul>\
+                <p class=\"dialog\">—Esta solución es antigua, ahora dominamos la <strong>computación cuántica</strong>, sin embargo en esencia buscan lo mismo, ordenar a cada átomo de la máquina\
+                a encenderse o apagarse, según los deseos del programador. Elaborando en el proceso, se inicia con el padre de Pepito que quiere comprar \"leche y huevos\" (lenguaje de alto nivel)\
+                y terminamos con <code>01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
+                \
+                <p class=\"dialog\">—¡No tenemos tiempo para hablar de todo eso!</p>\
+                \
+                <p class=\"dialog\">—Lo sé. Hablemos del compilador y del intérprete.</p>",
+                options: [
+                    { id: "submundo_practica_lenguajes_1", option: "Sí." },
+                    { id: "submundo_practico", option: "No, prefiero ver cómo puedo poner en práctica las modificaciones de la realidad." }]
+            },
+
+            {
+                id: "submundo_practica_lenguajes_1",
+                text: "\
+                <p class=\"dialog\">El compilador es el encargado de la traducción. Toma código escrito en un lenguaje de alto nivel y lo convierte en una orden\
+                que la computadora debe ejecutar. Para hacer esto, el compilador utiliza lenguajes de <u>bajo</u> <u>nivel</u>. Para un humano hablar este tipo de lenguajes es complicado y muy tedioso.\
+                Se les dice así porque están más cerca de la computadora que de los humanos. Y las computadoras son inferiores a los humanos, están por debajo. \
+                </p>\
+                <p> Lenguaje de alto nivel: </p>\
+                    <ul>\
+                        <li>PP = L + H</li>\
+                    </ul>\
+                <p> Lenguaje de bajo nivel: </p>\
+                <ul>\
+                        <li><code>Cargar L</code></li>\
+                        <li><code>Sumar H</code></li>\
+                        <li><code>Guardar PP</code></li>\
+                    </ul>\
+                <p> Lenguaje máquina: </p>\
+                <ul>\
+                        <li><code>00000010101111001010</code></li>\
+                        <li><code>00000010101111101010</code></li>\
+                        <li><code>00000011001100100110</code></li>\
+                    </ul>\
+                </p>\
+                <p class=\"dialog\">¿Seguimos con el intérprete?</p>",
+                options: [
+                    { id: "submundo_practica_lenguajes_2", option: "Sí." },
+                    { id: "submundo_practico", option: "Me aburro, hagamos una modificación de la realidad." }]
+            },
+
+            {
+                id: "submundo_practica_lenguajes_2",
+                text: "<p class=\"dialog\">—El origen del intérprete data de cuando el compilador usaba pañales y gateaba. \
+                Su propósito era aumentar la productividad del proceso de escritura de código. Cuando nació, la humanidad aún era joven y generaba muy poco código,\
+                 escribirlo era laborioso. El intérprete volvió la vida más sencilla, pero también congestinó más la comunicación humano-máquina.</p>\
+                \
+                <p class=\"dialog\">—Es por eso que todavía existen muchos sistemas que se comunican únicamente a bajo nivel.</p>\
+                \
+                <p class=\"dialog\">—Así es, un lenguaje compilado por lo general es más rápido y esto es porque antes de ejecutarse se traduce todo a lenguaje máquina. \
+                Por el contrario, los lenguajes interpretados se van traduciendo a la vez que se ejecutan. Recapitulando...\
+                Los lenguajes pueden ser de alto nivel o bajo nivel y pueden depender de un intérprete o de un compilador. Pero no solo eso, \
+                también pueden ser clasificados según paradigma.</p>\
+                \
+                <p class=\"dialog\">—¡No tenemos tiempo para hablar de todos los paradigmas!</p>\
+                \
+                <p class=\"dialog\">—Puedo explicar un par de ellos ¿le gustaría aprender un poco sobre algunos paradigmas?</p>\
+                ",
+                options: [
+                    { id: "submundo_practica_lenguajes_3", option: "Sí." },
+                    { id: "submundo_practico", option: "Nah. Quiero cambiar algo aquí, ahora mismo." }]
+            },
+
+            {
+                id: "submundo_practica_lenguajes_3",
+                text: "<p class=\"dialog\">—Los paradigmas se pueden considerar como estilos o formas especificas de programar. Existen muchos paradigmas \
+                y cada uno de ellos busca ser óptimos para solucionar un conjuto de problemas específicos. Un lenguaje puede ser capaz de manejar multiples paradigmas. \
+                En esta ocasión solo le hablaré de dos paradigmas: el funcional y el orientado a objetos.</p>\
+                \
+                <p class=\"dialog\">—No le tengás miedo a estos términos, vas a ver que es muy fácil.</p>\
+                \
+                <p class=\"dialog\">—Hablemos del paradigma funcional.</p>",
+                options: [
+                    { id: "submundo_funcional", option: "De acuerdo." },
+                    { id: "submundo_practico", option: "Me gustaría probar si puedo modificar algo en esta realidad." },
+                ]
+            },
+
+            {
+                id: "submundo_funcional",
+                text: "<p class=\"dialog\">—Cuando hablamos del paradigma funcional, hacemos referencias a que el lenguaje hace únicamente uso de funciones para cumplir su próposito.\
+                Se entiende como función cualquier tipo de procesamiento que ocurre de manera independiente al resto del programa. Una función suele tener una definición como la siguiente:</p>\
+                \
+                <ul>\
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+escribeHolaMundo(){\n\
+    print(\"hola mundo\");\n\
+}\
+                    </code>\
+                    </li>\
+                </ul>\
+                <p class=\"dialog\">Las funciones también pueden recibir parámetros, de esta manera pueden tomar una entrada y modificarla.</p>\
+                <ul>\
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+suma(numero_1, numero_2){\n\
+    resultado = numero_1 + numero_2\n\
+    return resultado;\n\
+}\
+                    </code>\
+                    </li>\
+                </ul>\
+                \
+                <p class=\"dialog\">EJERCICIO: Si yo mando a llamar la función:</p>\
+                <ul>\
+                    <li><code>suma(1, 1)</code></li>\
+                </ul>\
+                <p class=\"dialog\">¿qué resultado debería obtener?</p>",
+                options: [
+                    { id: "submundo_funcional_rbien", option: "2." },
+                    { id: "submundo_funcional_rmal", option: "\"dos\"." }]
+            },
+
+            {
+                id: "submundo_funcional_rbien",
+                text: "<p class=\"dialog\">—<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span></p>\
+                \
+                <p class=\"dialog\">—Algunos lenguajes son puramente funcionales, pero lo más común es que los lenguajes admitan funciones combinadas con el uso de otros paradigmas.</p>",
+                options: [
+                    { id: "submundo_poo", option: "¿Como el paradigma funcional?" },
+                    { id: "submundo_practico", option: "¿Y si mejor vemos como puedo cambiar la realidad?." }]
+            },
+            {
+                id: "submundo_funcional_rmal",
+                text: "<p class=\"dialog\">—<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Casi.</code></span> En este caso \
+                la máquina está programada para retornar resultados numéricos y \"dos\" no es un número, pero 2, sí lo es.\</p>\
+                \
+                <p class=\"dialog\">—Algunos lenguajes son puramente funcionales, pero lo más común es que los lenguajes admitan funciones combinadas con el uso de otros paradigmas.</p>",
+                options: [
+                    { id: "submundo_poo", option: "¿Como el paradigma funcional?" },
+                    { id: "submundo_practico", option: "¿Y si mejor vemos como puedo cambiar la realidad?." }]
+            },
+
+            {
+                id: "submundo_poo",
+                text: " <p class=\"dialog\">—Sí. El paradigma orientado a la programación, también llamado programación orienta a objetos (POO), utiliza objetos para modelar sus soluciones.\
+                Los objetos en este paradigma son abstracciones de la realidad. Por ejemplo, si un programador quiere programar una calculadora, puede crear una clase <code>calculadora</code>\
+                y programarle acciones y atributos pertinentes a una calculadora, como sumar, restar, etcétera.\
+                <ul>\
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+class Calculadora{\n\
+int resultado;\n\
+    void sumar(int numero_1, int numero_2){\n\
+        this.resultado = numero_1 + numero_2;\n\
+    }\n\
+}\
+                    </code>\
+                    </li>\
+                </ul>\
+                <p class=\"dialog\">En este contexto, la clase <code>calculadora</code> se vuelve un <u>objeto</u> al ser instanciado. Y este objeto, \
+                tiene los <u>métodos</u> de <code>sumar</code> y el <u>atributo</u> <code>resultado</code>.</p>\
+                <ul>\
+                        <li>Para instanciar una clase: <ul><li>Calculadora mi_calculadora_1 = new Calculadora();</code></li></ul></li>\
+                        <li>Para crear un objeto: <ul><li><code>Calculadora mi_calculadora_2 = new Calculadora();</code></li></ul>(es lo mismo).</li>\
+                        <li>Para accionar un objeto: <ul><li><code>mi_calculadora_2.sumar(2, 5);</code></li></ul></li>\
+                        <li>Para obtener un atributo: <ul><li><code>mi_calculadora_1.resultado;</code></li></ul></li>\
+                </ul>\
+                \
+                <p class=\"dialog\">—Lo anterior fue una breve introducción a dos populares paradigmas, sin embargo, existen muchos más \
+                y como mi compañera dijo, no tenemos demasiado tiempo\
+                ¿Le parece si conversamos acerca de la sintaxis que utilizan algunos lenguajes?</p>",
+                options: [
+                    { id: "submundo_practica_sintaxis", option: "Sí." },
+                    { id: "submundo_practico", option: "No. Ha sido suficiente. Avancemos con la modificación de la realidad." }]
+            },
+
+            {
+                id: "submundo_practica_sintaxis",
+                text: "<p class=\"dialog\">—Un programador puede no conocer los detalles en la implementación del interprete o del compilador, \
+                pero es inaceptable que no conozca la sintaxis del lenguaje que está utilizando. \
+                La semántica de un lenguaje de alto nivel suele ser sencilla, busca ser amena para agradar a los escritores de código.\
+                Es por esto que un buen programador puede hablar muchos lenguajes de programación. En esencia todos buscan decir lo mismo, \
+                todos buscan dar órdenes. La acción introductoria a un lenguaje de programación es llamada \"hola mundo\", consiste en  \
+                comunicar, mediante un determinado lenguaje, esta expresión de saludo.</p>\
+                <p class=\"dialog\">—¡Veamos algunos ejemplos!</p>\
+                \
+                <p class=\"dialog\">—Sí, daré ejemplos de hola mundo algunos lenguajes de programación.</p>\
+                <ul>\
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+print(\"Hola Mundo!\")\
+                    </code>\</li> \
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+#!/bin/sh \n\
+echo \"Hola, Mundo!\"\
+                    </code>\</li> \
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+console.log(\"Hola Mundo\")\
+                    </code>\</li> \
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+#include \n\
+main() {\n\
+    printf(\"Hola Mundo\");\n\
+}\
+                    </code></li> \
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+public class HelloWorld {\n\
+    public static void main(String[] args) {\n\
+        System.out.println(\"Hola Mundo!\");\n\
+    }\n\
+}\
+                    </code></li>\
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+.text \n\
+.global _start\n\
+_start:\n\
+mov r0, #1\n\
+ldr r1, =message\n\
+ldr r2, =len\n\
+\n\
+mov r7, #4\n\
+swi 0\n\
+mov r7, #1\n\
+swi 0\n\
+\n\
+.data\n\
+message:\n\
+    .asciz \"hola mundo\"\n\
+len = .-message\
+                    </code><span class=\"no_p\">(este último es un lenguaje de bajo nivel).</span></li>\
+                </ul>\
+                \
+                <p class=\"dialog\">—<i>print</i>, <i>echo</i>, <i>console.log</i>... Son distintas formas, en lenguajes distintos, de ordenar a la computadora repetir un determinado mensaje. \
+                Ser capaz de escribir un \"hola mundo\" en un lenguaje de programación, es el primer paso para dominarlo.</p>\
+                \
+                <p class=\"dialog\">—¿Vemos algunas de las otras operaciones que se pueden realizar escribiendo código?</p>",
+                options: [
+                    { id: "submundo_practica_sintaxis_1", option: "Sí." },
+                    { id: "submundo_practico", option: "Mejor me enseñas como cambiar las cosas en esta realidad." }]
+            },
+
+            {
+                id: "submundo_practica_sintaxis_1",
+                text: "<p class=\"dialog\">—Hay que apurarle a esto amigo.</p>\
+                \
+                <p class=\"dialog\">—Lo sé. Pero aún debemos cubrir el concepto de variables, el tipado, las estructuras de datos y \
+                algunas formas de navegarlas.</p>\
+                \
+                <p class=\"dialog\">—¡Apurale!</p>\
+                \
+                <p class=\"dialog\">—¡Las variables! son una forma de almacenar datos, de manera temporal. Por ejemplo.</p>\
+                \
+                <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+variable_1 = 10; \n\
+variable_2 = 5; \n\
+resultado = variable_1 + variable_2; \n\
+print(resultado);\
+                </code>\
+                \
+                <p class=\"dialog\">—¿Qué debería imprimir el anterior código?</p>\
+                ",
+                options: [
+                    { id: "submundo_practica_sintaxis_1_rbien", option: "15." },
+                    { id: "submundo_practica_sintaxis_1_rmal", option: "\"15\"." }]
+            },
+
+            {
+                id: "submundo_practica_sintaxis_1_rmal",
+                text: "<p class=\"dialog\">—<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Casi.</code></span></p>\
+                \
+                <p class=\"dialog\">— Los números 10 y 5, en lugar de ser utilizados directamente, se almacenan en \
+                variables para manipular los datos de esta manera. La simpleza del ejemplo puede hacer ver a las variables como un paso innecesario en una operación, \
+                sin embargo, imagine que esta variable almacena el correo electrónico de un usuario, o su nombre. En un escenario de ese estilo, toda la lógica puede estar \
+                ligada a una variable <code>email</code> o <code>nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
+                \
+                <p class=\"dialog\">—Y las variables pueden ser tipadas o no tipadas.\
+                \
+                <p>Correcto, existen lenguajes tipados y lenguajes no tipados. Una variable tipada se debe asociar explicitamente a un tipo de dato, por ejemplo: números, letras, \
+                estructuras de datos u objetos. De esta forma una variable destinada a guardar números no puede guardar letras. \
+                Cuando un lenguaje es de tipado débil o no tipado, es posible olvidarse de esas asociaciones \
+                y disfrutar de escribir código sin preocuparse por utilizar las palabras reservadas para cada tipo. Algunos ejemplos de estas palabras son:\
+                \
+                \
+                </p>\
+                <ul>\
+                        <li><code>int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
+                        <li><code>string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
+                        <li><code>char</code>, <code>float</code>, <code>double</code>, <code>any</code>, <code>array</code>, <code>list</code> y muchas, muchas más.</li> \
+                </ul>\
+                \
+            <p>EJERCICIO: </p>\
+            <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+string papas = \"4\"; \n\
+string chayotes = \"2\"; \n\
+print(papas + chayotes);\
+                </code>\
+                <p class=\"dialog\">—¿Qué tipo de datos se están manipulando en el código anterior?</p>\
+                ",
+                options: [
+                    { id: "submundo_practica_sintaxis_2_rmal", option: "Papas y chayotes." },
+                    { id: "submundo_practica_sintaxis_2_rbien", option: "Datos de tipo <code>string</code>." }]
+            },
+
+            {
+                id: "submundo_practica_sintaxis_1_rbien",
+                text: "<p class=\"dialog\">—<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span></p>\
+                \
+                <p class=\"dialog\">— Los números 10 y 5, en lugar de ser utilizados directamente, se almacenan en \
+                variables para manipular los datos de esta manera. La simpleza del ejemplo puede hacer ver a las variables como un paso innecesario en una operación, \
+                sin embargo, imagine que esta variable almacena el correo electrónico de un usuario, o su nombre. En un escenario de ese estilo, toda la lógica puede estar \
+                ligada a una variable <code>email</code> o <code>nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
+                \
+                <p class=\"dialog\">—Y las variables pueden ser tipadas o no tipadas.\
+                \
+                <p>Correcto, existen lenguajes tipados y lenguajes no tipados. Una variable tipada se debe asociar explicitamente a un tipo de dato, por ejemplo: números, letras, \
+                estructuras de datos u objetos. De esta forma una variable destinada a guardar números no puede guardar letras. \
+                Cuando un lenguaje es de tipado débil o no tipado, es posible olvidarse de esas asociaciones \
+                y disfrutar de escribir código sin preocuparse por utilizar las palabras reservadas para cada tipo. Algunos ejemplos de estas palabras son:\
+                \
+                </p>\
+                <ul>\
+                        <li><code>int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
+                        <li><code>string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
+                        <li><code>char</code>, <code>float</code>, <code>double</code>, <code>any</code>, <code>array</code>, <code>list</code> y muchas, muchas más.</li> \
+                </ul>\
+                \
+            <p>EJERCICIO: </p>\
+            <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+string papas = \"4\"; \n\
+string chayotes = \"2\"; \n\
+print(papas + chayotes);\
+                </code>\
+                <p class=\"dialog\">—¿Qué tipo de datos se están manipulando en el código anterior?</p>\
+                ",
+                options: [
+                    { id: "submundo_practica_sintaxis_2_rmal", option: "Papas y chayotes." },
+                    { id: "submundo_practica_sintaxis_2_rbien", option: "Datos de tipo <code>string</code>." }]
+            },
+
+            {
+                id: "submundo_practica_sintaxis_2_rmal",
+                text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
+                La palabra reservada antes de la variable (en este caso <code>string</code>) muestra el tipo de dato que la variable puede almacenar.</p>\
+                \
+                <p class=\"dialog\">—¿Continuamos con las estructuras de datos y cómo manipularlas?</p>",
+                options: [
+                    { id: "submundo_practica_sintaxis_3", option: "Sí." },
+                    { id: "submundo_practico", option: "El Muro debe estar buscándonos, es mejor que aprenda a modificar la realidad." }]
+            },
+            {
+                id: "submundo_practica_sintaxis_2_rbien",
+                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
+                La palabra reservada antes de la variable muestra el tipo de dato que la variable puede almacenar.</p>\
+                \
+                <p class=\"dialog\">—¿Continuamos con las estructuras de datos y cómo manipularlas?</p>",
+                options: [
+                    { id: "submundo_practica_sintaxis_3", option: "Sí." },
+                    { id: "submundo_practico", option: "El Muro debe estar buscándonos, es mejor que aprenda a modificar la realidad." }]
+            },
+            {
+                id: "submundo_practica_sintaxis_3",
+                text: "<p class=\"dialog\">—Los datos como números y letras, entre otros, son llamados datos primitivos o elementales. Sin embargo, existen datos complejos que son abstracciones más \
+                profundas de la realidad. Las estructuras de datos permiten elaborar soluciones mucho más elaboradas, sin embargo, no contamos con el tiempo para \
+                explicar el tema en plenitud. Limitando la conversación a listas, podemos definir una lista la compras de esta manera:</p>\
+                <code>[\"leche\", \"huevos\", \"carne\", \"pan\"];</code>\
+                <p>Y esta lista se puede almacenar en una variable.</p>\
+                <code>lista_de_compras = [\"leche\", \"huevos\", \"carne\", \"pan\"];</code>\
+                <p>Podemos pensar en esta lista como un objeto (haciendo hizo de la POO). Un atributo de este objeto puede ser la capacidad de expresar \
+                cuantos elementos contiene.\
+                <ul><li></code>lista_de_compras.length;</code>\</li></ul>\
+                \
+                <p class=\"dialog\">—Solicitar este dato daría como resultado 4.</p>\
+                \
+                <p class=\"dialog\">—Correcto. Hablemos sobre cómo navegar estructuras de datos.</p>\
+                \
+                ",
+                options: [
+                    { id: "submundo_practica_sintaxis_4", option: "Sí." },
+                    { id: "submundo_practico", option: "Llevamos demasiado tiempo hablando, enséñame a modificar la realidad." }]
+            },
+
+            {
+                id: "submundo_practica_sintaxis_4",
+                text: "<p class=\"dialog\">—Se puede recorrer una lista utilizando estrategias muy diferentes, por ejemplo: recursividad o iteración. Por ahora, solo \
+                hablaremos de la iteración. Los métodos iterativos más famosos se pueden utilizan con las palabras reservadas <code>for</code> y <code>while</code> </p>\
+                <ul>\
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+for(int i = 0; i <=lista_de_compras.lenght; i++){\n\
+    console.log(lista_de_compras[i]); \n\
+}\
+                    </code>\</li> \
+                    <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+i = 0\n\
+while i < len(lista_de_compras):\n\
+    print(lista_de_compras[i])\n\
+    i = i + 1\
+                    </code>\</li> \
+                </ul>\
+                <p class=\"dialog\">—A mí me gusta mucho el <code>map</code>.</p>\
+                \
+                <p class=\"dialog\">—Algo interesante de <code>while</code> es que permite crear un bucle infinito de forma muy sencilla.</p>\
+                <ul>\
+                <li><code style='display: block; white-space: pre; border: 1px solid #999;'>\
+while True:{\n\
+    print(\"eternidad\"); \n\
+}\
+                </code>\</li> \
+                <span class=\"no_p\">(Decir \"while True\" es como decir \"Mientras la verdad sea verdadera\").</span>\
+            </ul>\
+            <p class=\"dialog\">—Hablando de eternidad, creo que hemos abusado de nuestro tiempo destinado a la teoría</p>\
+            \
+            <p class=\"dialog\">—¿Qué te parece intentar algo como... cambiar la textura de ese árbol?— dijo el ganso mientras señalaba un árbol de \
                 caramelo</p>\
                 \
-                <p class=\"dialog\">—¿Cómo puedo hacerlo?</p>\
-                \
-                <p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                ",
+                options: [
+                    { id: "submundo_como_puedo", option: "¿Cómo puedo hacerlo?" },
+                    { id: "submundo_como_nose", option: "No sé como hacerlo." }]
+            },
+            
+            {
+                id: "submundo_como_puedo",
+                text: "<p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
+                ",
+                options: [
+                    { id: "submundo_saber", option: "¡Qué? ¿Cómo es posible que sepas eso!" },
+                    { id: "submundo_sudo", option: "¿Acceso <code>sudo</code>?" }]
+            },
+            {
+                id: "submundo_como_nose",
+                text: "<p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
                 necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
                 ",
                 options: [
@@ -3529,7 +4065,7 @@ swi 0\n\
 message:\n\
     .asciz \"hola mundo\"\n\
 len = .-message\
-                    </code>(este último es un lenguaje de bajo nivel).</li>\
+                    </code><span class=\"no_p\">(este último es un lenguaje de bajo nivel).</span></li>\
                 </ul>\
                 \
                 <p class=\"dialog\">—<i>print</i>, <i>echo</i>, <i>console.log</i>... Son distintas formas, en lenguajes distintos, de ordenar a la computadora repetir un determinado mensaje. \
@@ -3707,7 +4243,7 @@ while True:{\n\
     print(\"eternidad\"); \n\
 }\
                 </code>\</li> \
-                (Decir \"while True\" es como decir \"Mientras la verdad sea verdadera\").\
+                <span>(Decir \"while True\" es como decir \"Mientras la verdad sea verdadera\").</span>\
             </ul>\
             <p class=\"dialog\">—Hablando de eternidad, creo que hemos abusado de nuestro tiempo ¿Estás listo para acabar con tu Gran Hermano?</p>",
                 options: [
@@ -3730,7 +4266,7 @@ const screenMapper = (game, screens) => {
     let currentGame = [...game.data.filter(screen => screens.includes(screen.id))].sort(function (a, b) {
         return screens.indexOf(a.id) - screens.indexOf(b.id);
     });
-    return { id: game.id, title: game.title, htmlFlag: game.html, data: currentGame }
+    return { id: game.id, title: game.title, htmlFlag: game.html, exam: game.exam, data: currentGame }
 }
 
 module.exports = {
