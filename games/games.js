@@ -2912,6 +2912,21 @@ while True:{\n\
                     { id: "submundo_como_puedo", option: "¿Cómo puedo hacerlo?" },
                     { id: "submundo_como_nose", option: "No sé como hacerlo." }]
             },
+
+            {
+                id: "submundo_practico",
+                text: "<p class=\"dialog\">—¿Qué te parece algo como... ¿cambiar la textura de ese árbol?— dijo el ganso mientras señalaba un árbol de \
+                caramelo</p>\
+                \
+                <p class=\"dialog\">—¿Cómo puedo hacerlo?</p>\
+                \
+                <p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
+                ",
+                options: [
+                    { id: "submundo_saber", option: "¡Qué? ¿Cómo es posible que sepas eso!" },
+                    { id: "submundo_sudo", option: "¿Acceso <code>sudo</code>?" }]
+            },
             
             {
                 id: "submundo_como_puedo",
