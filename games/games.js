@@ -216,7 +216,7 @@ const games = [
                 <p>—El cubículo...</p>",
                 options: [
                     { id: "mundo_yes", option: "El cubículo me protege." },
-                    { id: "mundo_no", option: "Un cubículo es un cuadrado." }
+                    { id: "mundo_no", option: "Un cubículo es un <em>cuadrao</em>." }
                 ]
             },
             {
@@ -225,7 +225,7 @@ const games = [
                 <p>—El cubículo...</p>",
                 options: [
                     { id: "mundo_yes", option: "El cubículo me protege." },
-                    { id: "mundo_no", option: "Un cubículo es un cuadra\'o." }
+                    { id: "mundo_no", option: "Un cubículo es un <em>cuadrao</em>." }
                 ]
             },
             {
