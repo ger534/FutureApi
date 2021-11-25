@@ -4,6 +4,7 @@ const games = [
         title: "Términos y condiciones",
         html: true,
         exam: true,
+        
         data: [
             {
                 id: "start",
