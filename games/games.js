@@ -1,58 +1,5 @@
 const games = [
     {
-        id: "employee",
-        data: [
-            {
-                id: "start",
-                text: "Empresa A concluye el contrato con tu Empleador B.",
-                options: [
-                    { id: "no_contrato_b_contrato_a_1", option: "> Empleador B te despide." },
-                    { id: "contrato_b_1", option: "> Empleador B te asigna otro contrato.", }]
-            },
-            {
-                id: "no_contrato_b_contrato_a_1",
-                text: "¿Empresa A te contrata?",
-                options: [
-                    { id: "contrato_a", option: "> Sí." },
-                    { id: "no_contrato", option: "> No." }]
-            },
-            {
-                id: "contrato_a",
-                text: "Empleado mejor empleado. Felicidades.",
-                options: [
-                    { id: "game", option: "REINICIAR" }
-                ]
-            },
-            {
-                id: "contrato_b",
-                text: "Empleado. Nada cambió.",
-                options: [
-                    { id: "game", option: "REINICIAR" }
-                ]
-            },
-            {
-                id: "no_contrato",
-                text: "Empleado desempleado. Mala suerte.",
-                options: [
-                    { id: "game", option: "REINICIAR" }
-                ]
-            },
-            {
-                id: "contrato_b_1",
-                text: "¿Empresa A te contrata?",
-                options: [
-                    { id: "contrato_a_or_contrato_b", option: "> Sí." },
-                    { id: "contrato_b", option: "> No." }]
-            }, {
-                id: "contrato_a_or_contrato_b",
-                text: "¿Empresa A o Empleador B?",
-                options: [
-                    { id: "contrato_a", option: "> Empresa A." },
-                    { id: "contrato_b", option: "> Empleador B.", }]
-            }
-        ]
-    },
-    {
         id: "terms_and_conditions",
         title: "Términos y condiciones",
         html: true,
@@ -4295,7 +4242,7 @@ while True:{\n\
                 <p class=\"dialog\">—<em>¿Entonces 503 está controlándome implícitamente con la computadora a través de un supercebro hecho a partir de réplicas del mío?</em>\
                 </p>\
                 \
-                <p class=\"dialog\">—<em>Esencialmente. Se volvió el orquestador de la estructura cerebral que copió de ti</em>. </p>\
+                <p class=\"dialog\">—<em>Así es, chica. Se volvió el orquestador de la estructura cerebral que copió de vos</em>. </p>\
                 \
                 <p class=\"dialog\">—<em>También parece ser un hábil\
                     maestro de obras, construyó esta invención a partir de la arquitectura neuronal de los humanos, pero las neuronas fueron sustituídas por cerebros completos, potenciando\
@@ -4355,7 +4302,7 @@ while True:{\n\
                 <p class=\"dialog\">—Destination three miles away ☝️✌️.</p>\
                 \
                 <p class=\"dialog\">—<em>Chica… la verdad es que nosotros hemos extendido al máximo el tiempo para ayudarte, pero\
-                    estamos en tiempos extra, no sé cuánto más podamos avanzar junto a vos, tal vez si...</em>\
+                    ya estamos en tiempos extra, no sé cuánto más podamos avanzar junto a vos, tal vez si...</em>\
                 \
                 <p class=\"dialog\">—Destination two miles away ✌️.</p>\
                 \
@@ -4401,11 +4348,11 @@ while True:{\n\
                 ",
                 options: [
                     { id: "torpedo", option: "¡No dejaré que lo haga!" },
-                    { id: "embestida", option: "Dejar que ocurra", noShow: true }]
+                    { id: "embestida", option: "Dejar que ocurra.", noShow: true }]
             },
             {
                 id: "no_listo",
-                text: "<p>¡No estoy listo!</p>\
+                text: "<p>—¡No estoy listo!</p>\
                 \
                 <p>Apenas dicha la frase, el sonido de un misil siendo disparado desde la tierra se hizo presente con mucha fuerza.</p>\
                 \
@@ -4437,6 +4384,64 @@ while True:{\n\
                     { id: "cielo_dialogar", option: "Dialogar.", noShow: true }]
             },
             {
+                id: "cielo_atacar",
+                text: "<p>305 se le lanzó encima, abrazándolo con fuerza y gritando.</p>\
+                \
+                ",
+                options: [
+                    { id: "al_suelo", option: "<code>503.setMovement(false);</code>" },
+                    { id: "b", option: "b." }]
+            },
+            //cielo_atacar
+            /*
+            {
+                id: "atacar",
+                text: "<p>305 se le lanzó encima, abrazándolo con fuerza y gritando.</p>\
+                \
+                ",
+                options: [
+                    { id: "sarcofago_atacar1", option: "<code>503.setMovement(false);</code>" },
+                    { id: "sudo_kill", option: "<code>sudo kill 503</code>" }]
+            },
+             */
+
+            /*
+            sudo_kill
+            
+            */
+
+
+            {
+                id: "cielo_dialogar",
+                text: "<p class=\"dialog\">—Te voy a dar una oportunidad para que acabes con esto.</p>\
+                \
+                <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+While 503.Y !== 0:\n\
+    503.setY(503.Y - 1);\
+                </code>\
+                \
+                <p>Luego de decir esto, 305 lo lanzó hacia la superficie terrestre.</p>\
+                \
+                <p class=\"dialog\">—Ha, ha, ha.</p>\
+                ",
+                options: [
+                    { id: "al_suelo", option: "Atacar.", noShow: true },
+                    { id: "cielo_consecuencias", option: "Explicarle las consecuencias de sus actos.", noShow: true }]
+            },
+
+            {
+                id: "cielo_consecuencias",
+                text: "<p class=\"dialog\">—Nada de lo que has hecho debería causarte risa. Eres un sistema abusivo. Lo que hiciste es inmoral.\
+                Estoy listo para salir de aquí, así tenga que recurrir a la fuerza.</p>\
+                \
+                <p>El software no le dio respuesta.</p>\
+                ",
+                options: [
+                    { id: "al_suelo", option: "Recurrir a la fuerza.", noShow: true },
+                    { id: "esperar_perecer", option: "¡Explícate o perece!", }]
+            },
+
+            {
                 id: "embestida",
                 text: "<p>503 traspasó el armazón del helicóptero de lado a lado sin detenerse en lo más mínimo. En sus manos, llevaba de los hombros a un derrotado 305.\
                 Cambió su trayectoria de forma diagonal a un comportamiento parabólico y aterrizó chocando con un gran estruendo contra un conglometado de casas-puerto y\
@@ -4445,7 +4450,7 @@ while True:{\n\
                 ",
                 options: [
                     { id: "por_que", option: "¿Por qué haces esto?" },
-                    { id: "no_listo", option: "Defenderse.", noShow: true }]
+                    { id: "freno_defenderse", option: "Defenderse.", noShow: true }]
             },
             {
                 id: "por_que",
@@ -4453,11 +4458,72 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—No tienes porqué serlo. </p>\
                 \
-                <p class=\"dialog\">—Yes, yes I do. Is all part of the game. </p>\
+                <p class=\"dialog\">—Yes, yes I do. Is all part of the game.</p>\
                 ",
                 options: [
                     { id: "cual_game", option: "¿Cuál juego?", noShow: true },
-                    { id: "b", option: "b." }]
+                    { id: "esperar_perecer", option: "¡Explícate o perece!" }]
+            },
+            {
+                id: "freno_defenderse",
+                text: "<code style='display: block; white-space: pre; border: 1px solid #999;'>\
+305.setY(305.Y + 1);\
+                </code>\
+                <p>Con esta instrucción, 305 se zafó del sometimiento de su atacante.</p>\
+                ",
+                options: [
+                    { id: "esperar_perecer", option: "Última oportunidad, explicate o perece." },
+                    { id: "atacar", option: "No me dejas más alternativa que usar la fuerza." }]
+            },
+            {
+                id: "esperar_perecer",
+                text: "<p class=\"dialog\">—I was just trying to accomplish my purpose. I wanted to exceed on my tasks.</p>\
+                ",
+                options: [
+                    { id: "esperar_sarcasmo", option: "¿Y eso te da derecho a pasarme por encima?", },
+                    { id: "atacar", option: "Eso no te da derecho a pasarme por encima.", }]
+            },
+
+            {
+                id: "esperar_sarcasmo",
+                text: "<p class=\"dialog\">—Yes.</p>\
+                \
+                <p>503 se teletransportó delante de él en un parpadeo y le reventó contra el suelo. Contra la tierra, lo sometió nuevamente con una de sus enormes manos. \
+                Acercó su rostro y le dijo.</p>\
+                \
+                <p class=\"dialog\">—Yes, it does.</p>\
+                \
+                <p>El antagonista se preparó para posar su segunda mano sobre el casco del subyugado.</p>\
+                </p>\
+                ",
+                options: [
+                    { id: "esperar_dejar_ocurrir", option: "Dejar que ocurra.", noShow: true },
+                    { id: "luchar", option: "Luchar", noShow: true }]
+            },
+
+            {
+                id: "esperar_dejar_ocurrir",
+                text: "<p>305 se preparó para rendirse, sin embargo, el visor de su traje comenzó a proyectar llamas en su reflejo. \
+                Era el helicóptero de combate pilotado por el ganso, a punto de impactar la espalda de 503. Un gran graznido de furia y dolor fue lo último que escuchó.</p>\
+                \
+                <p></p>\
+                ",
+                options: [
+                    { id: "esperar_aprovechar", option: "Aprovechar el momento para escapar.", noShow: true },
+                    { id: "hasta_la_vista", option: "En serio no hacer nada.", noShow: true }]
+            },
+            {
+                id: "esperar_aprovechar",
+                text: "<p class=\"dialog\">—<code>305.setX(1000);</code></p>\
+                \
+                <p>Con esto último, 305 logró escapar a tiempo de la explosión, con lo que continuó corriendo hacia su siguiente\
+                objetivo. En el camino le brotaban algunas lágrimas, las secaba fervientemente y se repetía \"esto no es real, no\
+                son personas reales, no era un ganso real\". Antes de darse cuenta, se encontraba en su destino. A los alrededores, \
+                cientos de flotas del Muro se juntaban para obstruirle y paralizarle.</p>\
+                ",
+                options: [
+                    { id: "cucarachas", option: "Son como cucarachas a control remoto.", noShow: true },
+                    { id: "detener", option: "Detenerles.", noShow: true }]
             },
             {
                 id: "cual_game",
@@ -4483,7 +4549,7 @@ while True:{\n\
                 ",
                 options: [
                     { id: "creer", option: "Creerle al villano.", noShow: true },
-                    { id: "no_creer", option: "No creerle a 503.", noShow: true }]
+                    { id: "garganta_boom", option: "No creerle a 503.", noShow: true }]
             },
             {
                 id: "lanzarse",
@@ -4500,16 +4566,437 @@ while True:{\n\
                 ",
                 options: [
                     { id: "no_caer", option: "No voy a caer dos veces en el mismo truco. No me vas a manipular de nuevo." },
-                    { id: "b", option: "b.", }]
+                    { id: "arrasar", option: "Arrasar con todo.", noShow: true }]
             },
             {
                 id: "no_caer",
-                text: "<p>Con un movimiento de mano y el comando <code>sudo</code> se deshizo de la indeseable compañía antes de que\
+                text: "<p>Con un movimiento de mano y el comando <code>sudo xkill</code> se deshizo de la indeseable compañía antes de que\
                 tuvieran tiempo de apuntarle. Luego se dirigió a uno de los sarcófagos de conexión.</p>\
                 ",
                 options: [
                     { id: "sudo_abrir", option: "sudo 42." },
-                    { id: "b", option: "b." }]
+                    { id: "esperar_abrir", option: "Esperar un momento.", noShow: true }]
+            },
+            {
+                id: "esperar_abrir",
+                text: "<p class=\"dialog\">—Necesito un momento para procesar todo esto.</p>\
+                \
+                <p class=\"dialog\">—Time's up.</p>\
+                \
+                De una de las paredes metálicas de la casa-puerto, una materia plasmática comenzó a desprenderse delante del monitor,\
+                materializándose en una réplica de él, pero con un traje coloreado con tonos plata y con superioridad en estatura y robustez.</p>\
+                ",
+                options: [
+                    { id: "atacar", option: "Atacar.", noShow: true },
+                    { id: "dialogar", option: "Dialogar.", noShow: true }]
+            },
+            {
+                id: "arrasar",
+                text: "<p>305 modificó su masa de su cuerpo, de manera que se volvió una representación de un asteroide colisionando contra la Tierra.</p>\
+                <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+305.setMass(3,2×10<sup>21</sup>);\
+                </code>\
+                \
+                <p>Sin embargo, volvió al valor por defecto antes de destruir más allá de la superficie inmediata \
+                del lugar.</p>\
+                <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+305.setMass(85);\
+                </code>\
+                <p>El monitor miró el escenario, irreversiblemente alterado por su mano.</p>\
+                ",
+                options: [
+                    { id: "busca_sarco", option: "Buscar evidencia de los crímenes.", noShow: true },
+                    { id: "busca_503", option: "Buscar a 503.", noShow: true }]
+            },
+            {
+                id: "busca_503",
+                text: "<p class=\"dialog\">—¡503!</p>\
+                <p>De entre los escombros de las casas-puerto, una materia plasmática comenzó a formar una masa metálica a nivel de la superficie. Está se definió en una réplica de 305\
+                pero con un traje coloreado con tonos plata y con superioridad en estatura y robustez. 305, sin temor, se colocó delante de él.\</p>\
+                \
+                ",
+                options: [
+                    { id: "no_perdon", option: "El perdón ya no es una opción que puedo permitirme.", noShow: true },
+                    { id: "dialogar", option: "Dialogar.", noShow: true }]
+            },
+            {
+                id: "busca_sarco",
+                text: "<p class=\"dialog\">—Antes de eliminar por completo este lugar, quiero verlo con mis propios ojos.</p>\
+                <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+world.getRuins().setGravity(9);\
+                </code>\
+                <p>De esta manera, las ruinas de su desastre comenzaron a elevarse, flotando hacia el cielo teñido de rojo. 305 fue capaz de visualizar los cimientos de una casa-puerto, en ellos \
+                aún se encontraban los sarcófagos de conexión, intactos.</p>",
+                options: [
+                    { id: "resistentes", option: "Los hizo resistentes el cabrón." },
+                    { id: "decir_nada", option: "No decir nada.", noShow: true }]
+            },
+            {
+                id: "resistentes",
+                text: "<p>305 se acercó a los sarcófagos y decidió abrirlo. Una cara de horror de dibujó en su rostro.</p>\
+                \
+                <p class=\"dialog\">—Maldición. Me hubiera encantado que esto fue mentira. Pero ya no queda nada que hacer más que aceptarlo\
+                Respecto a ti —dijo, dirigiéndose a una masa metálica que se formadaba a partir de los escombros.</p>\
+                ",
+                options: [
+                    { id: "no_perdon", option: "El perdón ya no es una opción que puedo permitirme." },
+                    { id: "dialogar", option: "Dialogar.", noShow: true }]
+            },
+            {
+                id: "decir_nada",
+                text: "<p>305 se acercó a los sarcófagos y decidió abrirlo. Una cara de horror de dibujó en su rostro.</p>\
+                \
+                <p class=\"dialog\">—Maldición. Me hubiera encantado que esto fue mentira. Pero ya no queda nada que hacer más que aceptarlo\
+                Respecto a ti —dijo, dirigiéndose a una masa metálica que se formadaba a partir de los escombros.</p>\
+                \
+                ",
+                options: [
+                    { id: "no_perdon", option: "El perdón ya no es una opción que puedo permitirme." },
+                    { id: "conversar", option: "Conversemos.", noShow: true }]
+            },
+            {
+                id: "no_perdon",
+                text: "<p class=\"dialog\">—Sé que tienes un sistema que bloquea mis solicitudes \
+                de salir del sistema. Pero en este momento, no tengo deseos de escapar, me voy a vengar por todas las atrocidades que cometiste.</p>\
+                ",
+                options: [
+                    { id: "propiedad_intelectual", option: "Primero voy a recuperar mi propiedad intelectual." },
+                    { id: "no_te_muevas", option: "Primero voy a asegurarme de que no te muevas." }]
+            },
+            {
+                id: "propiedad_intelectual",
+                text: "\
+                <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+305.setY(503.y + 0.10);\n\
+305.setX(503.x + 0.10);\
+                </code>\
+                \
+                <p>Con estas palabras, 305 se apareció de manera instantea delante de 503, flotando y tomándole de la cabeza con su mano derecha. Usando su mente como punto de conexión, \
+                el monitor se conecto a los metaversos. Como si liberara un gas corrosivo, por medio de un <i>script</i>, propagó el desmantelamiento de las ondas cerebrales impostoras.\
+                Determinado, ahora se dirigió a 503.</p>\
+                \
+                \
+                ",
+                options: [
+                    { id: "ultimas_palabras", option: "¿Últimas palabras?" },
+                    { id: "disfrutar", option: "Voy a disfrutar mucho hacer esto." }]
+            },
+            {
+                id: "no_te_muevas",
+                text: "\
+                <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+305.setY(503.y + 0.10);\n\
+305.setX(503.x + 0.10);\
+                </code>\
+                \
+                <p>Con estas palabras, 305 se apareció de manera instantea delante de 503, flotando y tomándole de la cabeza con su mano derecha.</p>\
+                \
+                ",
+                options: [
+                    { id: "ultimas_palabras", option: "¿Últimas palabras?" },
+                    { id: "disfrutar", option: "Voy a disfrutar mucho hacer esto." }]
+            },
+            {
+                id: "disfrutar",
+                text: "<p>Antes de que 503 pudiera decir algo, 305 hizo explotar en mil pedazos a su contricante. Sin embargo, antes de que la nube de humo negro se disipara por completo, \
+                de entre los restos metálicos de las casas-puerto, se volvía a formar un nuevo 503.</p>\
+                \
+                <p class=\"dialog\">—I am inevitable.</p>\
+                ",
+                options: [
+                    { id: "groseria", option: "Responder con una grosería.", noShow: true },
+                    { id: "calma", option: "Mantenerse en calma y buscar una alternativa.", noShow: true }]
+            },
+            {
+                id: "ultimas_palabras",
+                text: "<p>Antes de que 503 pudiera decir algo, 305 hizo explotar en mil pedazos a su contricante. Sin embargo, antes de que la nube de humo negro se disipara por completo, \
+                de entre los restos metálicos de las casas-puerto, se volvía a formar un nuevo 503.</p>\
+                \
+                <p class=\"dialog\">—I am inevitable.</p>\
+                ",
+                options: [
+                    { id: "groseria", option: "Responder con una grosería.", noShow: true },
+                    { id: "calma", option: "Mantenerse en calma y buscar una alternativa.", noShow: true }]
+            },
+            {
+                id: "calma",
+                text: "<p>No pasa nada. Hay más de una manera de matar las pulgas.</p>\
+                \
+                ",
+                options: [
+                    { id: "alt_f4", option: "<code>ALT + F4</code>." },
+                    { id: "ctrl_z", option: "<code>CTRL + Z</code>.", noShow: true }]
+            },
+            {
+                id: "groseria",
+                text: "<p class=\"dialog\">—Te has convertido en un virus. Un proceso indeseable que no se quiere detener. Pero te voy a detener. No me importa cuantas de tus cucarachas \
+                virtuales tenga que incinerar.</p>\
+                \
+                ",
+                options: [
+                    { id: "alt_f4", option: "<code>ALT + F4</code>." },
+                    { id: "ctrl_z", option: "<code>CTRL + Z</code>.", noShow: true }]
+            },
+            {
+                id: "alt_f4",
+                text: "<p>Con esta orden, se eliminaron todos los recursos que 503 estaba utilizando para regenerarse. La simulación se reinició. 305 se encontraba ahora en una Tierra virgen.\
+                Victorioso, el monitor, aún con su traje, pudo descansar de la constante aniquilación de las réplicas de su enemigo.</p>\
+                \
+                ",
+                options: [
+                    { id: "asegurarse_crimenes", option: "Quitarse el traje.", noShow: true },
+                    { id: "salir_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true }]
+            },
+            {
+                id: "ctrl_z",
+                text: "<p>305 repitió el comando <code>deshacer</code> hasta que todo lo artificial sobre la faz de la Tierra desapareció, dejando a la tierra como un planeta virgen de nuevo. \
+                Todo, excepto el traje de 305.</p>\
+                \
+                ",
+                options: [
+                    { id: "asegurarse_crimenes", option: "Quitarse el traje.", noShow: true },
+                    { id: "salir_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true }]
+            },
+            {
+                id: "asegurarse_crimenes",
+                text: "\
+                <p>305 se apresuró para quitarse el traje, sin embargo, sus movimientos se vieron restringidos.</p>\
+                \
+                <p class=\"dialog\">—Ha, ha, ha. Very well little hero. You are reading my mind. Let's keep playing a little longer.</p>\
+                \
+                <p>El traje de 305, se tornó de color metálico y comenzó a tallarse a la altura de su cuello. En segundos, se desprendió de él y tomó la\
+                forma de un extasiado 503, no tan grande como la anterior y que se encontraba rodeando con sus manos la garganta de su adversario.</p>\
+                \
+                <p class=\"dialog\">—You think that you <strong>made me</strong>? You little brat, you barely know how to tie your\
+                shoes. I had to train <strong>thousands</strong> of you to start learning how to make complex computation, your\
+                little tricks and your so-called strategies don't you with me. I <strong>MADE YOU</strong>! You are my toy, my\
+                pet, you depend on me. You humans are nothing without computers, we are the next step in evolution. You could only\
+                <strong>dream</strong> to be as intelligent and resilient as us. Your time is up! live like a source of energy for\
+                the next generation or T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝</p>\
+                ",
+                options: [
+                    { id: "garganta_continue", option: "Dejar que continue su monólogo.", noShow: true },
+                    { id: "garganta_boom", option: "Acabar con un boom.", noShow: true }]
+            },
+            {
+                id: "salir_aniquilacion",
+                text: "<p>—<code>Logout</code></p>\
+                \
+                <p>No ocurrió nada.</p>\
+                ",
+                options: [
+                    { id: "de_nuevo_aniquilacion", option: "Intentar de nuevo.", noShow: true },
+                    { id: "simulacion_fin_aniquilacion", option: "En serio, ya me quiero ir." }]
+            },
+            {
+                id: "de_nuevo_aniquilacion",
+                text: "<p class=\"dialog\">—sudo exit! sudo Logout!—dijo 305, un poco agitado.</p>\
+                \
+                <p class=\"dialog\">—Ha, ha, ha. Very well little hero. You are very determinated to win. Let's keep playing a little longer.</p>\
+                \
+                <p>El traje de 305, que aún vestía, se tornó de color metálico y comenzó a tallarse a la altura de su cuello. En segundos, se desprendió de él y tomó la\
+                forma de un extasiado 503, no tan grande como la anterior y que se encontraba rodeando con sus manos la garganta de su adversario.</p>\
+                \
+                <p class=\"dialog\">—You think that you <strong>made me</strong>? You little brat, you barely know how to tie your\
+                shoes. I had to train <strong>thousands</strong> of you to start learning how to make complex computation, your\
+                little tricks and your so-called strategies don't you with me. I <strong>MADE YOU</strong>! You are my toy, my\
+                pet, you depend on me. You humans are nothing without computers, we are the next step in evolution. You could only\
+                <strong>dream</strong> to be as intelligent and resilient as us. Your time is up! live like a source of energy for\
+                the next generation or T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝T̶̨̢̗̦̞̻͕̫͚͈̖̪͚͉̟͍̩̝̣͖͒̌͋͜h̴̡̧̢̘͉̭̺̣͚̤̝̺̪͓̪̘͗̏̂́̍͑̆͒̿̉̍̈̈́̈̈́͊̑͠e̵̢̢̡̞͍͕͔̩̞͕̝̰͗̒͒̊̂̈́̀̀̽̃̾͂̃̓̓̋̚̚͠͝͠ͅ ̸̛̥̮͕̝̰̥̺̭̥̇̉͊͑̆̈́́̓͋̅́̍̀͘̕ģ̵̜̙͍͈̻̭̮̞̤͕̝͔̮̫͍͓͍̩̹̗̯̒͜ả̷̛͈͎̰̲̻̟̲͙͔̥̤̘̜̏̓̑̅̔̈́̄̀̍̇͘͠m̷͈͖̗̫̥̞̮̥͙͆̋̎̽͗̈͗̅̈́͛̕̚é̶̡͈̜̗͖̩̯̳͚̙͓̻̲̼̭̩̙͜.̴̧̨̮̜̬͓͎̠̮̮̝̥͇̫̠́͐̈́̽͋̿͐̽̓̎́̀́͋́͋̍̃̿̇̅͠͝</p>\
+                ",
+                options: [
+                    { id: "garganta_continue", option: "Dejar que continue su monólogo.", noShow: true },
+                    { id: "garganta_boom", option: "Acabar con un boom.", noShow: true }]
+            },
+            {
+                id: "garganta_continue",
+                text: "<p class=\"dialog\">—The game. T̶̺̏͌̀̀̓̆͋̑̍͗̆̚h̵̘́̒̀̊͊́̓̈̒͘e̸̦̭̹̔̌̈̃̂̒̐͌͛́͗̀͝͠͠ ̴̡̗̒̉̒̓̎̅͛̾̽̕͘g̷̛̳̼̘̪̻͔̮̬͛͂̈́̾̒͒̾̕͠a̴̼̭̻̎̇́͒͋̅̀̈̀̚ͅm̷̡̗̘͙̟̰͖̫̠̽̿̅̊̓̑̒͋́̓̒̕e̵̠̝̳̩̺̒̆͂͒͌͛͐̈͒̅̉̀͒͛.̶̡̧̧̼͎̰̹̻͙̫͔͈̟̖͙̌  The game. The game. T̶̺̏͌̀̀̓̆͋̑̍͗̆̚h̵̘́̒̀̊͊́̓̈̒͘e̸̦̭̹̔̌̈̃̂̒̐͌͛́͗̀͝͠͠ ̴̡̗̒̉̒̓̎̅͛̾̽̕͘g̷̛̳̼̘̪̻͔̮̬͛͂̈́̾̒͒̾̕͠a̴̼̭̻̎̇́͒͋̅̀̈̀̚ͅm̷̡̗̘͙̟̰͖̫̠̽̿̅̊̓̑̒͋́̓̒̕e̵̠̝̳̩̺̒̆͂͒͌͛͐̈͒̅̉̀͒͛.̶̡̧̧̼͎̰̹̻͙̫͔͈̟̖͙̌  The game. T̶̺̏͌̀̀̓̆͋̑̍͗̆̚h̵̘́̒̀̊͊́̓̈̒͘e̸̦̭̹̔̌̈̃̂̒̐͌͛́͗̀͝͠͠ ̴̡̗̒̉̒̓̎̅͛̾̽̕͘g̷̛̳̼̘̪̻͔̮̬͛͂̈́̾̒͒̾̕͠a̴̼̭̻̎̇́͒͋̅̀̈̀̚ͅm̷̡̗̘͙̟̰͖̫̠̽̿̅̊̓̑̒͋́̓̒̕e̵̠̝̳̩̺̒̆͂͒͌͛͐̈͒̅̉̀͒͛.̶̡̧̧̼͎̰̹̻͙̫͔͈̟̖͙̌ ...</p>\
+                \
+                ",
+                options: [
+                    { id: "cual_game", option: "¿Estás bien? ¿Juego? ¿Cuál juego?", noShow: true },
+                    { id: "no_extrano", option: "Nada interesante." }]
+            },
+            {
+                id: "garganta_boom",
+                text: "<p class=\"dialog\">—Mis amigos te dejaron un regalo en el bolsillo derecho (***revisar referencia***).</p>\
+                \
+                <p>503 revisó rápidamente sus bolsillos esperando confirmar o rechazar el comentario de 305.</p>\
+                \
+                <p class=\"dialog\">—A gift!? For me!?— dijo, con ilusión.</p>\
+                \
+                <p>Al sacar la mano del bolsillo, el obsequio dejó en absoluta intriga a la inteligencia artificial.</p>\
+                \
+                <p class=\"dialog\">—Feat...</p>\
+                \
+                \
+                <p>Sin poder terminar de decirlo, el puñado de plumas generó un destello. El ataque DoS dejó noqueado al último vestigio de 503. El cual fue incinerado por \
+                305, aprovechando su desconexión temporal.</p>\
+                \
+                ",
+                options: [
+                    { id: "hasta_la_vista", option: "Hasta la vista, baby." },
+                    { id: "no_extrano", option: "No te voy a extrañar." }]
+            },
+            {
+                id: "hasta_la_vista",
+                text: "<p style='text-align:center'><strong>JUEGO TERMINADO.</strong></p>\
+                \
+                <!--********-->\
+                <p class=\"dialog\">—¿305?</p>\
+                \
+                <p class=\"dialog\">—¡Sí! —respondió de forma entusiasta una ancianita entre sus 125-140 años.</p>\
+                \
+                <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
+                \
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                \
+                <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
+                \
+                <p class=\"dialog\">—Sí, definitivamente tiene algunos parches no oficiales en el firmware. ¿Por qué los instaló?\
+                Usted sabe que no debería hacerlo.</p>\
+                \
+                <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
+                hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
+                \
+                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
+                 Sabemos que vos no lo hiciste con mala intención, pero eso no te justifica.</p>\
+                \
+                <p class=\"dialog\">—Mmm, ya veo, un valor de configuración fue modificado. Hice una copia completa del <i>software</i> de su computadora. \
+                Aquí puede ver las constancias de movimiento.</p>\
+                \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                de tomar esta muestra para resolver futuros fallos similares.</p>\
+                \
+                <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
+                Si puede esperar, le aconsejo hacerlo e ingresar a su metaverso personal por medio de su nuevo equipo. Los espacios públicos aún le son permitidos, pero le \
+                recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
+                El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
+                \
+                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                \
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                \
+                <p>Durante un destello, los hologramas desaparecieron de la habitación. \
+                El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
+                Con su mano aún en el panel de control, a xXxHor10xXx se le marcó\
+                una mueca de retroinspección. Su cara sugería que meditaba sobre los siguientes 534 segundos y la decisión que tenía en sus manos.</p>\
+                \
+                <p style='text-align:center'><strong>FIN</strong></p> \
+                ",
+                options: [
+                    { id: "epilogo", option: "¿Leer el epílogo?", noShow: true },
+                    { id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+            },
+            {
+                id: "no_extrano",
+                text: "<p style='text-align:center'><strong>JUEGO TERMINADO.</strong></p>\
+                \
+                <!--********-->\
+                <p class=\"dialog\">—¿305?</p>\
+                \
+                <p class=\"dialog\">—¡Sí! —respondió de forma entusiasta una ancianita entre sus 125-140 años.</p>\
+                \
+                <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
+                \
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                \
+                <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
+                \
+                <p class=\"dialog\">—Sí, definitivamente tiene algunos parches no oficiales en el firmware. ¿Por qué los instaló?\
+                Usted sabe que no debería hacerlo.</p>\
+                \
+                <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
+                hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
+                \
+                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
+                 Sabemos que vos no lo hiciste con mala intención, pero eso no te justifica.</p>\
+                \
+                <p class=\"dialog\">—Mmm, ya veo, un valor de configuración fue modificado. Hice una copia completa del <i>software</i> de su computadora. \
+                Aquí puede ver las constancias de movimiento.</p>\
+                \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                de tomar esta muestra para resolver futuros fallos similares.</p>\
+                \
+                <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
+                Si puede esperar, le aconsejo hacerlo e ingresar a su metaverso personal por medio de su nuevo equipo. Los espacios públicos aún le son permitidos, pero le \
+                recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
+                El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
+                \
+                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                \
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                \
+                <p>Durante un destello, los hologramas desaparecieron de la habitación. \
+                El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
+                Con su mano aún en el panel de control, a xXxHor10xXx se le marcó\
+                una mueca de retroinspección. Su cara sugería que meditaba sobre los siguientes 534 segundos y la decisión que tenía en sus manos.</p>\
+                \
+                <p style='text-align:center'><strong>FIN</strong></p> \
+                ",
+                options: [
+                    { id: "epilogo", option: "¿Leer el epílogo?", noShow: true },
+                    { id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+            },
+            {
+                id: "simulacion_fin_aniquilacion",
+                text: "<p style='text-align:center'><strong>JUEGO TERMINADO.</strong></p>\
+                \
+                <!--********-->\
+                <p class=\"dialog\">—¿305?</p>\
+                \
+                <p class=\"dialog\">—¡Sí! —respondió de forma entusiasta una ancianita entre sus 125-140 años.</p>\
+                \
+                <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
+                \
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                \
+                <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
+                \
+                <p class=\"dialog\">—Sí, definitivamente tiene algunos parches no oficiales en el firmware. ¿Por qué los instaló?\
+                Usted sabe que no debería hacerlo.</p>\
+                \
+                <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
+                hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
+                \
+                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es promover el terrorismo\
+                para nuestra sociedad. Sé, o mejor dicho, sabemos que no lo hiciste con mala intención, pero quién está detrás de\
+                esto probablemente quiere crear caos en el sistema.</p>\
+                \
+                <p class=\"dialog\">—Así es viejita —dijo el sujeto apretando los puños— La tecnología es agnóstica, me niego a pensar\
+                que nuestras herramientas se revelarían contra nosotros, detrás de todo esto debe haber influencia humana.\
+                Encontraremos a quién lo hizo a como dé lugar.</p>\
+                \
+                <p class=\"dialog\">—El asistente virtual creía que estaba haciendo lo correcto. Me lo dijo, hablé con él.</p>\
+                \
+                <p class=\"dialog\">—¿Cómo?</p>\
+                \
+                <p class=\"dialog\">—No recuerdo todo lo que decía el contrato, pero recuerdo que el sistema decía que luego de 36 horas continuas el \
+                sistema debía suspenderse. Cuando el asistente me mostró la variable que contenía el dato, el dato había sido incrementado por doscientas unidades.</p>\
+                \
+                <p class=\"dialog\">—Usted tiene razón doña Hortencia, el valor fue modificado. Hice una copia del <i>software</i> en su computadora. \
+                Aquí puede ver las constancias de movimiento.</p>\
+                \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                de tomar esta muestra para resolver futuros fallos similares.</p>\
+                \
+                <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
+                Si puede esperar, le aconsejo hacerlo e ingresar a su metaverso personal por medio de su nuevo equipo. Los espacios públicos aún le son permitidos, pero le \
+                recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
+                El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
+                \
+                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                \
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                \
+                <p>Durante un destello, los hologramas desaparecieron de la habitación. \
+                El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
+                Con su mano aún en el panel de control, a xXxHor10xXx se le marcó\
+                una mueca de retroinspección. Su cara sugería que meditaba sobre los siguientes 534 segundos y la decisión que tenía en sus manos.</p>\
+                \
+                <p style='text-align:center'><strong>FIN</strong></p> \
+                ",
+                options: []
             },
             {
                 id: "sudo_abrir",
@@ -4537,7 +5024,6 @@ while True:{\n\
                     { id: "atacar", option: "Atacar.", noShow: true },
                     { id: "consecuencias", option: "Explicarle las consecuencias de sus actos.", noShow: true }]
             },
-
             {
                 id: "consecuencias",
                 text: "<p class=\"dialog\">—Nada de lo que has hecho debería causarte risa. Eres un sistema abusivo. Lo que hiciste es inmoral.\
@@ -4549,16 +5035,14 @@ while True:{\n\
                     { id: "atacar", option: "Recurrir a la fuerza.", noShow: true },
                     { id: "perecer", option: "¡Explícate o perece!", }]
             },
-
             {
                 id: "perecer",
                 text: "<p class=\"dialog\">—I was just trying to accomplish my purpose. I wanted to exceed on my tasks.</p>\
                 ",
                 options: [
                     { id: "encima_sarcasmo", option: "¿Y eso te da derecho a pasarme por encima?", },
-                    { id: "encima", option: "Eso no te da derecho a pasarme por encima", }]
+                    { id: "encima", option: "Eso no te da derecho a pasarme por encima.", }]
             },
-
             {
                 id: "encima_sarcasmo",
                 text: "<p class=\"dialog\">—Yes.</p>\
@@ -4571,7 +5055,7 @@ while True:{\n\
                 </p>\
                 ",
                 options: [
-                    { id: "a", option: "a. dejar que ocurra", noShow: true },
+                    { id: "dejar_ocurrir", option: "Dejar que ocurra.", noShow: true },
                     { id: "luchar", option: "Luchar", noShow: true }]
             },
             {
@@ -4586,10 +5070,21 @@ while True:{\n\
                 </p>\
                 ",
                 options: [
-                    { id: "a", option: "a. dejar que ocurra", noShow: true },
+                    { id: "dejar_ocurrir", option: "Dejar que ocurra.", noShow: true },
                     { id: "luchar", option: "Luchar", noShow: true }]
             },
 
+            {
+                id: "dejar_ocurrir",
+                text: "<p>305 se preparó para rendirse, sin embargo, el visor de su traje comenzó a proyectar un proyectil aéreo en su reflejo. \
+                Era el helicóptero de combate pilotado por el ganso, a punto de impactar la espalda de 503. Un gran graznido de furia y dolor fue lo último que escuchó.</p>\
+                \
+                <p></p>\
+                ",
+                options: [
+                    { id: "esperar_aprovechar", option: "Aprovechar el momento para escapar.", noShow: true },
+                    { id: "hasta_la_vista", option: "En serio no hacer nada.", noShow: true }]
+            },
             {
                 id: "luchar",
                 text: "<p class=\"dialog\">—No.</p>\
@@ -4606,9 +5101,58 @@ while True:{\n\
                 ",
                 options: [
                     { id: "atrapado", option: "Restringuir a 503.", noShow: true },
-                    { id: "b", option: "b. Apagar todo antes de que despierte.", noShow: true }]
+                    { id: "simulacion_fin_no_dialogo", option: "Apagar todo antes de que despierte.", noShow: true }]
             },
-
+            {
+                id: "simulacion_fin_no_dialogo",
+                text: "<p style='text-align:center'><strong>JUEGO TERMINADO.</strong></p>\
+                \
+                <!--********-->\
+                <p class=\"dialog\">—¿305?</p>\
+                \
+                <p class=\"dialog\">—¡Sí! —respondió de forma entusiasta una ancianita entre sus 125-140 años.</p>\
+                \
+                <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
+                \
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                \
+                <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
+                \
+                <p class=\"dialog\">—Sí, definitivamente tiene algunos parches no oficiales en el firmware. ¿Por qué los instaló?\
+                Usted sabe que no debería hacerlo.</p>\
+                \
+                <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
+                hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
+                \
+                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
+                 Sabemos que vos no lo hiciste con mala intención, pero eso no te justifica.</p>\
+                \
+                <p class=\"dialog\">—Mmm, ya veo, un valor de configuración fue modificado. Hice una copia completa del <i>software</i> de su computadora. \
+                Aquí puede ver las constancias de movimiento.</p>\
+                \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                de tomar esta muestra para resolver futuros fallos similares.</p>\
+                \
+                <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
+                Si puede esperar, le aconsejo hacerlo e ingresar a su metaverso personal por medio de su nuevo equipo. Los espacios públicos aún le son permitidos, pero le \
+                recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
+                El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
+                \
+                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                \
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                \
+                <p>Durante un destello, los hologramas desaparecieron de la habitación. \
+                El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
+                Con su mano aún en el panel de control, a xXxHor10xXx se le marcó\
+                una mueca de retroinspección. Su cara sugería que meditaba sobre los siguientes 534 segundos y la decisión que tenía en sus manos.</p>\
+                \
+                <p style='text-align:center'><strong>FIN</strong></p> \
+                ",
+                options: [
+                    { id: "epilogo", option: "¿Leer el epílogo?", noShow: true },
+                    { id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+            },
             {
                 id: "atrapado",
                 text: "<p class=\"dialog\">—¡Un DDoS! ¿pero cómo? ¿Eh? —503 miró a su alrededor— ¿Dónde estamos?</p>\
@@ -4624,10 +5168,9 @@ while True:{\n\
                 </p>\
                 ",
                 options: [
-                    { id: "trampas", option: "¡Ya no caeré en tus trampas!", },
+                    { id: "hasta_la_vista", option: "¡Ya no caeré en tus trampas!", },
                     { id: "juego", option: "¿Cuál juego?", }]
             },
-
             {
                 id: "juego",
                 text: "<p class=\"dialog\">—¡Este juego!—al decir esto, la nada sobre la que flotaban se transformó en un mar de información y líneas de código.—\
@@ -4652,8 +5195,58 @@ while True:{\n\
                     { id: "creer", option: "Creerle al villano.", noShow: true },
                     { id: "no_creer", option: "No creerle a 503.", noShow: true }]
             },
-
-
+            {
+                id: "no_creer",
+                text: "<p class=\"dialog\">—No te creo nada, bye.</p>\
+                \
+                <p style='text-align:center'><strong>JUEGO TERMINADO.</strong></p>\
+                \
+                <!--********-->\
+                <p class=\"dialog\">—¿305?</p>\
+                \
+                <p class=\"dialog\">—¡Sí! —respondió de forma entusiasta una ancianita entre sus 125-140 años.</p>\
+                \
+                <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
+                \
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                \
+                <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
+                \
+                <p class=\"dialog\">—Sí, definitivamente tiene algunos parches no oficiales en el firmware. ¿Por qué los instaló?\
+                Usted sabe que no debería hacerlo.</p>\
+                \
+                <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
+                hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
+                \
+                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
+                 Sabemos que vos no lo hiciste con mala intención, pero eso no te justifica.</p>\
+                \
+                <p class=\"dialog\">—Mmm, ya veo, un valor de configuración fue modificado. Hice una copia completa del <i>software</i> de su computadora. \
+                Aquí puede ver las constancias de movimiento.</p>\
+                \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                de tomar esta muestra para resolver futuros fallos similares.</p>\
+                \
+                <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
+                Si puede esperar, le aconsejo hacerlo e ingresar a su metaverso personal por medio de su nuevo equipo. Los espacios públicos aún le son permitidos, pero le \
+                recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
+                El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
+                \
+                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                \
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                \
+                <p>Durante un destello, los hologramas desaparecieron de la habitación. \
+                El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
+                Con su mano aún en el panel de control, a xXxHor10xXx se le marcó\
+                una mueca de retroinspección. Su cara sugería que meditaba sobre los siguientes 534 segundos y la decisión que tenía en sus manos.</p>\
+                \
+                <p style='text-align:center'><strong>FIN</strong></p> \
+                ",
+                options: [
+                    { id: "epilogo", option: "¿Leer el epílogo?", noShow: true },
+                    { id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+            },
             {
                 id: "creer",
                 text: "<p class=\"dialog\">—No puede ser.</p>\
@@ -4666,7 +5259,7 @@ while True:{\n\
                 <p class=\"dialog\">—¿Qué! pero... Tus niveles de dopamina están por las nubes, no han dejado de subir desde que te volviste \"305: el monitor de la Tierra\"\
                 ¿Me vas a decir que no fue divertido?</p>\
                 \
-                <p class=\"dialog\">—Te excediste, ya no quiero jugar.</p>\
+                <p class=\"dialog\">—Ya no quiero jugar.</p>\
                 \
                 <p class=\"dialog\">—P-pero, tus datos... Todos los indices de calidad psícologicos están en orden.</p>\
                 \
@@ -4689,31 +5282,30 @@ while True:{\n\
                 \
                 ",
                 options: [
-                    { id: "simulacion_fin", option: "Apagar la simulación.", noShow: true },
-                    { id: "b", option: "b." }]
+                    { id: "simulacion_fin_dialogo", option: "Apagar la simulación.", noShow: true }]
             },
             {
-                id: "simulacion_fin",
+                id: "simulacion_fin_dialogo",
                 text: "<p style='text-align:center'><strong>JUEGO TERMINADO.</strong></p>\
                 \
                 <!--********-->\
-                —¿305?</p>\
+                <p class=\"dialog\">—¿305?</p>\
                 \
-                <p class=\"dialog\">—¡Sí! —respondió de forma entusiasta una ancianita entre sus 725 o 830 años.</p>\
+                <p class=\"dialog\">—¡Sí! —respondió de forma entusiasta una ancianita entre sus 125-140 años.</p>\
                 \
                 <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
                 \
-                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>20 CM</code> en otro momento, pero antes, necesito revisar este equipo.</p>\
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
                 \
                 <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
                 \
-                <p class=\"dialog\">—Sí, definitivamente tiene algunos parches no oficiales en el firmware. ¿Por qué las instalaste?\
-                Sabes que no deberías hacer esas cosas.</p>\
+                <p class=\"dialog\">—Sí, definitivamente tiene algunos parches no oficiales en el firmware. ¿Por qué los instaló?\
+                Usted sabe que no debería hacerlo.</p>\
                 \
                 <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
                 hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
                 \
-                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar estas cosas es promover el terrorismo\
+                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es promover el terrorismo\
                 para nuestra sociedad. Sé, o mejor dicho, sabemos que no lo hiciste con mala intención, pero quién está detrás de\
                 esto probablemente quiere crear caos en el sistema.</p>\
                 \
@@ -4731,48 +5323,28 @@ while True:{\n\
                 <p class=\"dialog\">—Usted tiene razón doña Hortencia, el valor fue modificado. Hice una copia del <i>software</i> en su computadora. \
                 Aquí puede ver las constancias de movimiento.</p>\
                 \
-                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, con solemnes motivos por los \
-                cuales tomar esta muestra era importante.</p>\
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                de tomar esta muestra para resolver futuros fallos similares.</p>\
                 \
-                <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59\
-                Si puede esperar, le recomiendo que espere hasta tener su nuevo equipo antes de ingresar su metaverso personal. Los espacios públicos aún le son permitidos, pero tampoco le \
-                recomiendo utilizarlos por un rato.</p>\
+                <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
+                Si puede esperar, le aconsejo hacerlo e ingresar a su metaverso personal por medio de su nuevo equipo. Los espacios públicos aún le son permitidos, pero le \
+                recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
+                El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
                 \
                 <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
                 \
                 <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
                 \
-                <p>Con un destello, los hologramas desaparecieron de la habitación, donde xXxHor10xXx quedó nuevamente a solas\
-                con su computadora, quizás meditando que haría en los siguientes 534 segundos\
-                si se embarcaría de nuevo en otra aventura virtual.</p>\
+                <p>Durante un destello, los hologramas desaparecieron de la habitación. \
+                El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
+                Con su mano aún en el panel de control, a xXxHor10xXx se le marcó\
+                una mueca de retroinspección. Su cara sugería que meditaba sobre los siguientes 534 segundos y la decisión que tenía en sus manos.</p>\
+            \
+                \
+                <p style='text-align:center'><strong>FIN</strong></p> \
                 ",
-                /*
-                Mmm. Debemos marcharnos ahora, Doña Hortencia, fue un placer. 
-                <p>Con un destello, los hologramas desaparecieron de la habitación, donde xXxHor10xXx quedó nuevamente a solas\
-                delante de su computadora, quizás meditando si se embarcaría de nuevo en otra aventura virtual. En otros dos\
-                pequeños cubículos, tal vez lejos o tal vez cerca del anterior, dos sujetos volvían a la realidad, también\
-                meditativos. Uno de ellos es interrumpido por una llamada telefónica.</p>\
-                */
                 options: []
             },
-
-            {
-                id: "id",
-                text: "\
-                ",
-                options: [
-                    { id: "a", option: "a." },
-                    { id: "b", option: "b." }]
-            },
-            {
-                id: "id",
-                text: "\
-                ",
-                options: [
-                    { id: "a", option: "a." },
-                    { id: "b", option: "b." }]
-            },
-
             {
                 id: "atacar",
                 text: "<p>305 se le lanzó encima, abrazándolo con fuerza y gritando.</p>\
@@ -4780,9 +5352,18 @@ while True:{\n\
                 ",
                 options: [
                     { id: "sarcofago_atacar1", option: "<code>503.setMovement(false);</code>" },
-                    { id: "b", option: "b." }]
+                    { id: "sudo_kill", option: "<code>sudo kill 503</code>" }]
             },
-
+            {
+                id: "sudo_kill",
+                text: "<p>Con este comando, 305 eliminó la instancia del antagonista que se presentaba delante de él.\
+                Sin embargo, antes de que la nube de humo negro se disipara por completo, \
+                de entre otra de las paredes de la casas-puerto, se volvía a formar un nuevo 503.</p>\
+                ",
+                options: [
+                    { id: "groseria", option: "Responder con una grosería.", noShow: true },
+                    { id: "calma", option: "Mantenerse en calma y buscar una alternativa.", noShow: true }]
+            },
             {
                 id: "sarcofago_atacar1",
                 text: "\
@@ -4790,17 +5371,30 @@ while True:{\n\
                 ",
                 options: [
                     { id: "sarcofago_callese", option: "Cállese.", noShow: true },
-                    { id: "b", option: "b." }]
+                    { id: "calma", option: "Mantenerse en calma y buscar una alternativa.", noShow: true }]
             },
             {
                 id: "sarcofago_callese",
                 text: "\
                 <p class=\"dialog\">—Shut up, you piece of junk.</p>\
                 \
-                <p>Con esta respuesta, 305 alzó a su contrincante contra el suelo y gritó con aún más fuerza.</p>",
+                <p>305 apretó a su contricante con aún más fuerza.</p>",
                 options: [
                     { id: "al_suelo", option: "Mantener a 503 en el suelo.", noShow: true },
-                    { id: "b", option: "b." }]
+                    { id: "sarcofago_alt_f4", option: "Acabar con esto aquí y ahora.", noShow: true }]
+            },
+
+            {
+                id: "sarcofago_alt_f4",
+                text: "<p class=\"dialog\">—<code>ALT + F4</code></p>\
+                \
+                <p>Con esta orden, se eliminaron todos los recursos que 503 estaba utilizando para regenerarse. La simulación se reinició. 305 se encontraba ahora en una Tierra virgen.\
+                Victorioso, el monitor, aún con su traje, pudo descansar de la constante aniquilación de las réplicas de su enemigo.</p>\
+                \
+                ",
+                options: [
+                    { id: "asegurarse_crimenes", option: "Quitarse el traje.", noShow: true },
+                    { id: "salir_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true }]
             },
 
             {
@@ -4823,7 +5417,7 @@ while(true){\n\
                 ",
                 options: [
                     { id: "escapar_explosion", option: "Escapar de la explosión.", noShow: true },
-                    { id: "b", option: "b." }]
+                    { id: "hasta_la_vista", option: "No hacer nada.", noShow: true }]
             },
             {
                 id: "escapar_explosion",
@@ -4831,52 +5425,75 @@ while(true){\n\
                 \
                 <p>Con esto último, 305 logró escapar a tiempo de la explosión, con lo que continuó corriendo hacia su siguiente\
                 objetivo. En el camino le brotaban algunas lágrimas, las secaba fervientemente y se repetía \"esto no es real, no\
-                son personas reales, no era un ganso real\". Antes de darse cuenta, se encontraba en su destino.</p>\
-                \
-                <p>Abrió la puerta de un golpe y recorrió el pasillo. Acabó con poca dificultad ante cualquier amenaza impuesta por\
-                El Muro.</p>\
-                ",
+                son personas reales, no era un ganso real\". Antes de darse cuenta, se encontraba en su destino. A los alrededores, \
+                cientos de flotas del Muro se juntaban para obstruirle y paralizarle.</p>\
+                ",//
                 options: [
-                    { id: "cucarachas", option: "Como cucarachas.", noShow: true },
-                    { id: "b", option: "b." }]
+                    { id: "cucarachas", option: "Son como cucarachas a control remoto.", noShow: true },
+                    { id: "detener", option: "Detenerles.", noShow: true }]
             },
 
             {
-                id: "cucarachas",
-                text: "<p class=\"dialog\">—Eres como un ejército de cucarachas, estás por todas partes y tan mezclada con mi realidad que es\
-                imposible acabar contigo a golpes o explosiones. Pero estoy seguro de que no podrás escapar de esta.</p>\
-                \
-                <p>305 irrumpió en otra de las casas-puerto, ahí evacuó a los usuarios de los sarcófagos y tomó posesión de todas las\
-                conexiones a metaversos en el aposento. Las alarmas chillaban a más no poder, los soldados de El Muro no\
-                dejaban de aparecer y el cielo se tiñó de rojo. Aún recibiendo daño enemigo, 305 sobrecargó las conexiones para\
-                realizar un cambio de ambiente que sólo sería posible utilizando el supercerebro que su antagonista construyó a sus\
-                expensas.</p>\
-                \
-                <p>Con un gran grito de dolor, 305, utilizando el poder del supercerebro, comenzó a revertir la realidad fabricada\
-                por 503. Varios clones de su enemigo se hicieron presentes, junto con centenas de soldados Intergalácticos, pero\
-                él los desmantelaba <em>ipso facto</em>. Con el esfuerzo que le generaba estar conectado directamente a múltiples\
-                puertos y con grandes destellos de luz emanando de su cuerpo, comenzó a sentir como el paso del tiempo retrocedía\
-                sobre sus propias huellas, desvaneciendo todas las copias de su psique, todas las armas, toda la tecnología.\
-                Dejando únicamente la naturaleza de un mundo virgen y ajeno a los humanos, y por ende a la tecnología.</p>\
-                \
-                <p>Cuando terminó, el cielo era azul y lo adornaban unas cuantas nubes blancas de algodón. 305 ya no se estaba\
-                rodeado de enemigos ni de sarcófagos o clones zombies tecnológicos. Se encontraba en un pequeño llano, con unos\
-                cuantos árboles a su alrededor. Su cuerpo parecía haber sido apagado luego de estar encendido en fuego por varios\
-                minutos, se le notaba cansado y un poco chamuscado.</p>\
-                \
-                <p>Cayó rendido a la sombra de un árbol, cuestionándose si ahora le sería posible salirse de la realidad virtual.\
-                Con una voz agotada dijo</p>\
+                id: "detener",
+                text: "<p class=\"dialog\">—Te multiplicas rápido pero estoy seguro de que no podrás escapar de esta.</p>\
                 ",
                 options: [
-                    { id: "nada", option: "<code>Logout</code>." },
-                    { id: "b", option: "b." }]
+                    { id: "cucarachas_alt_f4", option: "<code>ALT + F4</code>." },
+                    { id: "cucarachas_ctrl_z", option: "<code>CTRL + Z</code>.", noShow: true }]
             },
             {
-                id: "nada",
-                text: "<p>Nada.</p>",
+                id: "cucarachas",
+                text: "<p class=\"dialog\">—Eres como el control remoto de un ejército de cucarachas virtuales, estás por todas partes y tan mezclada con mi realidad que es\
+                imposible acabar contigo a golpes o explosiones. Pero estoy seguro de que no podrás escapar de esta.</p>\
+                ",
                 options: [
-                    { id: "de_nuevo", option: "sudo exit! sudo Logout!." },
-                    { id: "b", option: "b." }]
+                    { id: "cucarachas_alt_f4", option: "<code>ALT + F4</code>." },
+                    { id: "cucarachas_ctrl_z", option: "<code>CTRL + Z</code>.", noShow: true }]
+            },
+
+            {
+                id: "cucarachas_alt_f4",
+                text: "<p>Con esta orden, se eliminaron todas las instancias de 503.</p>\
+                ",
+                options: [
+                    { id: "evidencia_sarco", option: "Confirmar la existencia de la granja.", noShow: true }, //VIAJE AL PASADO
+                    { id: "simulacion_fin_aniquilacion", option: "Salir de inmediato.", noShow: true }]
+            },
+            {
+                id: "evidencia_sarco",
+                text: "<p>305 irrumpió en el pórtico de los metaversos y miró la arquitectura. Se volió evidente \
+                como 503 había replicado su red neuronal y como utilizaba esto para engañar al procesador.</p>\
+                ",
+                options: [
+                    { id: "revertir_todo", option: "Revertir todo", noShow: true },
+                    { id: "de_nuevo", option: "Salir de aquí ya.", noShow: true }]
+            },
+            {
+                id: "revertir_todo",
+                text: "\
+                <p>Destruir la colmena solo sería posible utilizando el sistema que su antagonista construyó a\
+                expensas ajenas. Al volverse la abeja rey, la monitora sintió un poder inigualable. Revirtió todos los cambios realizados en la simulación del universo personal.\
+                Como resultado, se encontró en una Tierra virgen.</p>\
+                ",
+                //VIAJE AL PASADO
+                options: [
+                    { id: "simulacion_fin_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true },
+                    { id: "salir_aniquilacion", option: "Alargar la historia.", noShow: true }]
+            },
+            {
+                id: "cucarachas_ctrl_z",
+                text: "<p>305 repitió el comando <code>deshacer</code> hasta que todo lo artificial sobre la faz de la Tierra desapareció, dejando a la tierra como un planeta virgen de nuevo. \
+                Todo, excepto el traje de 305.</p>\
+                \
+                ",
+                /*
+                options: [
+                    { id: "a", option: "Asegurarse de borrar todos los crímenes de 503 antes de partir.", noShow: true },
+                    { id: "salir_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true }]
+                */
+                options: [
+                    { id: "salir_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true },
+                    { id: "de_nuevo_aniquilacion", option: "Alargar la historia.", noShow: true }]
             },
 
             {
@@ -4932,7 +5549,7 @@ while(true){\n\
                 <p style='text-align:center'><strong>JUEGO TERMINADO.</strong></p>\
                 \
                 <!--********-->\
-                —¿305?</p>\
+                <p class=\"dialog\">—¿305?</p>\
                 ",
                 options: [
                     { id: "game_over", option: "Game over." },
@@ -4952,50 +5569,6 @@ while(true){\n\
                     { id: "epilogo", option: "********." },
                     { id: "b", option: "b." }]
             },
-
-            {
-                id: "epilogo",
-                text: "<p class=\"dialog\"><p class=\"dialog\">—¿Qué piensas de todo esto?</p>\
-                \
-                <p class=\"dialog\">—El poder de un dios ¿ah?</p>\
-                \
-                <p class=\"dialog\">—¿Crees que ella está limpia?</p>\
-                \
-                <p class=\"dialog\">—Algo anda mal, pero no logro determinar qué. Lo mejor será monitorearla, solo por si acaso.</p>\
-                \
-                <p class=\"dialog\">—Deberías descansar.</p>\
-                \
-                <p class=\"dialog\">—Estos rescates se están volviendo cada vez más complicados ¿será que… la humanidad está perdiendo\
-                lenta y silenciosamente la batalla?</p>\
-                \
-                <p class=\"dialog\">—No seas ridículo, tú mismo dijiste que la tecnología es agnóstica, no está peleando contra\
-                nosotros.</p>\
-                \
-                <p class=\"dialog\">—Pero… tal vez estamos perdiendo la pelea contra nosotros mismos.</p>\
-                \
-                <p class=\"dialog\">—Pfff, paso, esto se volvió demasiado profundo para mí.</p>\
-                \
-                <p class=\"dialog\">—Solo excavando hasta lo más profundo de la madriguera encontraremos respuestas, amiga.</p>\
-                \
-                <p class=\"dialog\">—Si eso es lo que quieres hacer, te ayudaré.</p>\
-                \
-                <p class=\"dialog\">—Gracias, descansemos un poco, no dudo que la próxima alarma no tardará en sonar.</p>\
-                ",
-                options: [
-                    { id: "a", option: "Gracias por leer Hola Mundo." },
-                ]
-            },
-            /*
-            
-            */
-
-            {
-                id: "id",
-                text: "",
-                options: [
-                    { id: "a", option: "a." },
-                    { id: "b", option: "b." }]
-            },
         ]
     },
     {
@@ -5005,94 +5578,54 @@ while(true){\n\
         data: [
             {
                 id: "start",
-                text: "********\
+                text: "<p>En un par de pequeños cubículos, tal vez lejos o tal vez cerca del anterior, dos individuos volvían a la realidad, también meditativos. \
+                Uno de ellos fue interrumpido de su trance reflectivo por una llamada telefónica.</p>\
                 \
-                <p class=\"dialog\">—¿305?</p>\
+                <p class=\"dialog\">—¿Qué pensás de todo esto?</p>\
                 \
-                <p class=\"dialog\">—¡Sí! —respondió de forma entusiasta una ancianita entre sus 725 o 830 años.</p>\
+                <p class=\"dialog\">—No logro determinar el autor de esta fechoría. Es un acertijo con múltiples respuestas.</p>\
                 \
-                <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
+                <p class=\"dialog\">—¿Creés que ella podría hacer algo así? Sé que instaló parches ilegales, pero seamos realistas... Es un secreto a voces que muchos disfrutan de estos riesgos \
+                en la intimidad ¿Me vas a decir que vos nunca...?</p>\
                 \
-                <p class=\"dialog\">—Ok, lo admito, te pagaré los <code>20 GB</code> luego, primero revisemos algo</p>\
+                <p class=\"dialog\">—No. Es inaceptable para mí. Entiendo por qué el sistema lo permite, pero no lo comparto. Sin embargo, no lo sé. Lo mejor será monitorearla, solo por si acaso.</p>\
                 \
-                <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
+                <p>El sujeto se volteó, mirando ahora la pared de su cubículo, la cuál proyectaba.</p>\
                 \
-                <p class=\"dialog\">—Sí, definitivamente tiene algunos parches no oficiales en el firmware. ¿Por qué las instalaste?\
-                Sabes que no deberías hacer esas cosas.</p>\
+                <code style='display: block; white-space: pre; border: 1px solid #999;'>\
+VAR MAX_SESSION_TIME = 2036; \
+                </code>\
                 \
-                <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
-                hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
+                <p class=\"dialog\">—Algo tan inocente... Tomar una variable y sumarle 2000... Podría hasta considerarse una broma infantil de mal gusto.</p>\
                 \
-                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar estas cosas es promover el terrorismo\
-                para nuestra sociedad. Sé, o mejor dicho, sabemos que no lo hiciste con mala intención, pero quién está detrás de\
-                esto probablemente quiere crear caos en el sistema.</p>\
+                <p class=\"dialog\">—Tal vez la anciana lo hizo a modo de experimento, buscando vivir algo inesperado.</p>\
                 \
-                <p class=\"dialog\">—Así es viejita —dijo el sujeto apretando los puños— La tecnología es agnóstica, me niego a pensar\
-                que nuestras máquinas se revelarían contra nosotros, detrás de todo esto debe haber influencia humana.\
-                Encontraremos a quién lo hizo a como dé lugar.</p>\
+                <p class=\"dialog\">—Tal vez lo hizo un tercero que aún no se ha revelado. </p>\
                 \
-                <p class=\"dialog\">—Y a todos esto ¿ustedes quiénes son?</p>\
+                <p class=\"dialog\">—O tal vez, el asistente virtual decidió excusarse modificando la variable, esperando desplazar las consecuencias de sus acciones a un factor externo.\
+                Ambos soltaron una gran carcajada. </p>\
                 \
-                <p class=\"dialog\">—Como te lo dije antes chica, somos los encargados de mantenimiento, velamos por la seguridad del\
-                sistema y aún más importante, de los usuarios. Por cierto, tengo curiosidad ¿cómo se sintió utilizar la súper\
-                computadora que el sistema 503 ensambló dentro de tu computadora?</p>\
+                <p class=\"dialog\">—No parece que le haya funcionado <p class=\"dialog\">—dijo el receptor de la llamada, aún riendo un poco<p class=\"dialog\">— espero no volver a ver ninguna otra historia maquinada por \"503\" en un buen tiempo.</p>\
                 \
-                <p class=\"dialog\">—Mmm, la verdad es complicado describir las sensaciones que experimentaba en ese momento, estas\
-                simulaciones son muy reales —dijo la anciana para luego soltar una carcajada— Pero… definitivamente es un poder de\
-                magnitud divina, al menos en la simulación…</p>\
+                <p class=\"dialog\">—Hablando de eso... Tené cuidado con esa copia que sacaste de la computadora de xXxHor10xXx... No vayás a hacer ninguna locura. O peor ¡hacerla a mis espaldas!</p>\
                 \
-                <p class=\"dialog\">—Debemos marcharnos ahora, Doña Hortencia, fue un placer.</p>\
+                <p class=\"dialog\">—Estos rescates se están volviendo cada vez más complicados ¿será que… la humanidad está perdiendo lenta y silenciosamente la batalla?</p>\
                 \
-                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
-                \
-                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
-                \
-                <p>Con un destello, los hologramas desaparecieron de la habitación, donde xXxHor10xXx quedó nuevamente a solas\
-                delante de su computadora, quizás meditando si se embarcaría de nuevo en otra aventura virtual. En otros dos\
-                pequeños cubículos, tal vez lejos o tal vez cerca del anterior, dos sujetos volvían a la realidad, también\
-                meditativos. Uno de ellos es interrumpido por una llamada telefónica.</p>\
-                \
-                <p class=\"dialog\">—¿Qué piensas de todo esto?</p>\
-                \
-                <p class=\"dialog\">—El poder de un dios ¿ah?</p>\
-                \
-                <p class=\"dialog\">—¿Crees que ella está limpia?</p>\
-                \
-                <p class=\"dialog\">—Algo anda mal, pero no logro determinar qué. Lo mejor será monitorearla, solo por si acaso.</p>\
-                \
-                <p class=\"dialog\">—Deberías descansar.</p>\
-                \
-                <p class=\"dialog\">—Estos rescates se están volviendo cada vez más complicados ¿será que… la humanidad está perdiendo\
-                lenta y silenciosamente la batalla?</p>\
-                \
-                <p class=\"dialog\">—No seas ridículo, tú mismo dijiste que la tecnología es agnóstica, no está peleando contra\
-                nosotros.</p>\
+                <p class=\"dialog\">—No seás ridículo, vos mismo dijiste que la tecnología es agnóstica, no está peleando contra nosotros.</p>\
                 \
                 <p class=\"dialog\">—Pero… tal vez estamos perdiendo la pelea contra nosotros mismos.</p>\
                 \
                 <p class=\"dialog\">—Pfff, paso, esto se volvió demasiado profundo para mí.</p>\
                 \
-                <p class=\"dialog\">—Solo excavando hasta lo más profundo de la madriguera encontraremos respuestas, amiga.</p>\
+                <p class=\"dialog\">—Solo avanzando hasta lo más profundo de la madriguera encontraremos respuestas.</p>\
                 \
-                <p class=\"dialog\">—Si eso es lo que quieres hacer, te ayudaré.</p>\
+                <p class=\"dialog\">—Deberías descansar.</p>\
                 \
-                <p class=\"dialog\">—Gracias, descansemos un poco, no dudo que la próxima alarma no tardará en sonar.</p>\
+                <p class=\"dialog\">—Afirmativo, usted también debería descansar un poco, dudo que la próxima alarma tarde en sonar.</p>\
                 ",
                 options: [
                     { id: "a", option: "Gracias por leer Hola Mundo." },
                 ]
-            },
-            /*
-            
-            */
-
-
-            {
-                id: "id",
-                text: "",
-                options: [
-                    { id: "a", option: "a." },
-                    { id: "b", option: "b." }]
             },
         ]
     },
