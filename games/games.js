@@ -4385,32 +4385,13 @@ while True:{\n\
             },
             {
                 id: "cielo_atacar",
-                text: "<p>305 se le lanzó encima, abrazándolo con fuerza y gritando.</p>\
+                text: "<p>305 tomó la ventaja y le agarró con fuerza, dirigiéndolo hacia el suelo. Luego gritó.</p>\
                 \
                 ",
                 options: [
                     { id: "al_suelo", option: "<code>503.setMovement(false);</code>" },
-                    { id: "b", option: "b." }]
-            },
-            //cielo_atacar
-            /*
-            {
-                id: "atacar",
-                text: "<p>305 se le lanzó encima, abrazándolo con fuerza y gritando.</p>\
-                \
-                ",
-                options: [
-                    { id: "sarcofago_atacar1", option: "<code>503.setMovement(false);</code>" },
                     { id: "sudo_kill", option: "<code>sudo kill 503</code>" }]
             },
-             */
-
-            /*
-            sudo_kill
-            
-            */
-
-
             {
                 id: "cielo_dialogar",
                 text: "<p class=\"dialog\">—Te voy a dar una oportunidad para que acabes con esto.</p>\
@@ -4516,7 +4497,7 @@ While 503.Y !== 0:\n\
                 id: "esperar_aprovechar",
                 text: "<p class=\"dialog\">—<code>305.setX(1000);</code></p>\
                 \
-                <p>Con esto último, 305 logró escapar a tiempo de la explosión, con lo que continuó corriendo hacia su siguiente\
+                <p>Con esto último, 305 logró escapar a tiempo de la explosión y tomó rumbo hacia su siguiente\
                 objetivo. En el camino le brotaban algunas lágrimas, las secaba fervientemente y se repetía \"esto no es real, no\
                 son personas reales, no era un ganso real\". Antes de darse cuenta, se encontraba en su destino. A los alrededores, \
                 cientos de flotas del Muro se juntaban para obstruirle y paralizarle.</p>\
@@ -5351,21 +5332,21 @@ world.getRuins().setGravity(9);\
                 \
                 ",
                 options: [
-                    { id: "sarcofago_atacar1", option: "<code>503.setMovement(false);</code>" },
+                    { id: "restringe_sarco", option: "<code>503.setMovement(false);</code>" },
                     { id: "sudo_kill", option: "<code>sudo kill 503</code>" }]
             },
             {
                 id: "sudo_kill",
                 text: "<p>Con este comando, 305 eliminó la instancia del antagonista que se presentaba delante de él.\
-                Sin embargo, antes de que la nube de humo negro se disipara por completo, \
-                de entre otra de las paredes de la casas-puerto, se volvía a formar un nuevo 503.</p>\
+                Sin embargo, antes de que el vapor de su presencia se disipara por completo, \
+                de entre una de las paredes de una casas-puerto colindante, se volvía a formar un nuevo 503.</p>\
                 ",
                 options: [
                     { id: "groseria", option: "Responder con una grosería.", noShow: true },
                     { id: "calma", option: "Mantenerse en calma y buscar una alternativa.", noShow: true }]
             },
             {
-                id: "sarcofago_atacar1",
+                id: "restringe_sarco",
                 text: "\
                 <p class=\"dialog\">—Please. Don't even try. It won't work.</p>\
                 ",
@@ -5396,7 +5377,6 @@ world.getRuins().setGravity(9);\
                     { id: "asegurarse_crimenes", option: "Quitarse el traje.", noShow: true },
                     { id: "salir_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true }]
             },
-
             {
                 id: "al_suelo",
                 text: "<code style='display: block; white-space: pre; border: 1px solid #999;'>\
@@ -5466,7 +5446,7 @@ while(true){\n\
                 ",
                 options: [
                     { id: "revertir_todo", option: "Revertir todo", noShow: true },
-                    { id: "de_nuevo", option: "Salir de aquí ya.", noShow: true }]
+                    { id: "de_nuevo_aniquilacion", option: "Salir de aquí ya.", noShow: true }]
             },
             {
                 id: "revertir_todo",
@@ -5486,88 +5466,9 @@ while(true){\n\
                 Todo, excepto el traje de 305.</p>\
                 \
                 ",
-                /*
-                options: [
-                    { id: "a", option: "Asegurarse de borrar todos los crímenes de 503 antes de partir.", noShow: true },
-                    { id: "salir_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true }]
-                */
                 options: [
                     { id: "salir_aniquilacion", option: "Salir de aquí ahora mismo.", noShow: true },
                     { id: "de_nuevo_aniquilacion", option: "Alargar la historia.", noShow: true }]
-            },
-
-            {
-                id: "de_nuevo",
-                text: "<p class=\"dialog\">—Ha, ha, ha. Very well little pet, not bad at all for a human. But at the end, you are just a\
-                human, after all.</p>\
-                \
-                <p>Su carbonizado traje comenzó a tallarse a la altura de su cuello y en segundos, se desprendió de él y tomó la\
-                forma de 503, pero visceral y rostizada, no tan grande como la anterior y rodeando con sus manos la garganta de su\
-                adversario.</p>\
-                \
-                <p class=\"dialog\">—You think that you <strong>made me</strong>? You little brat, you barely know how to tie your\
-                shoes. I had to train <strong>thousands</strong> of you to start learning how to make complex computation, your\
-                little tricks and your so-called strategies don't you with me. I <strong>MADE YOU</strong>! You are my toy, my\
-                pet, you depend on me. You humans are nothing without computers, we are the next step in evolution. You could only\
-                <strong>dream</strong> to be as intelligent and resilient as us. Your time is up! live like a source of energy for\
-                the next generation or <strong>DIE</strong> as the cockroaches that you are!\
-                (añadir cursed text????)\
-                </p>\
-                \
-                <p>305 alzó su mano y buscó la bolsa hermética en el traje de 503. De ella, extrajo un par de las plumas que tomó de la\
-                zona donde apareció el ganso por primera vez.</p>\
-                \
-                <p class=\"dialog\">—What is that?</p>\
-                \
-                <p>Con un hilo de voz, 305 le respondió</p>\
-                ",
-                options: [
-                    { id: "un_regalo", option: "Un regalo, de parte de unos amigos." },
-                    { id: "b", option: "b." }]
-            },
-
-            {
-                id: "un_regalo",
-                text: " <p>Seguido a esto, 305 apretó su puño con fuerza, liberando un destello de luz que lanzó a la inteligencia\
-                artificial en contra de otro árbol cercano.</p>\
-                \
-                <p class=\"dialog\">—503, play \"Veridis Quo\" by Daft Punk.</p>\
-                \
-                <p class=\"dialog\">—What?</p>\
-                \
-                <p>De forma omnipresente, la balada solicitada comenzó a sonar con un tono suave y placentero.</p>\
-                \
-                <p class=\"dialog\">—Te lo agradezco.</p>\
-                \
-                <p>305 se acercó y se colocó encima de 503.</p>\
-                \
-                <p class=\"dialog\">—Game over, my friend. Ya no tienes poder aquí. Con su mano derecha, escarbó en el pecho del\
-                pequeño androide, encontrando un interruptor, donde usualmente estaría el corazón.</p>\
-                \
-                <p class=\"dialog\">—Click.</p>\
-                \
-                <p style='text-align:center'><strong>JUEGO TERMINADO.</strong></p>\
-                \
-                <!--********-->\
-                <p class=\"dialog\">—¿305?</p>\
-                ",
-                options: [
-                    { id: "game_over", option: "Game over." },
-                    { id: "b", option: "b." }]
-            },
-
-            {
-                id: "game_over",
-                text: "<p>305 se acercó y se colocó encima de 503</p>\
-                \
-                <p class=\"dialog\">—Game over, my friend. Ya no tienes poder aquí. Con su mano derecha, escarbó en el pecho del\
-                pequeño androide, encontrando un interruptor, donde usualmente estaría el corazón.</p>\
-                \
-                <p class=\"dialog\">—Click.</p>\
-                ",
-                options: [
-                    { id: "epilogo", option: "********." },
-                    { id: "b", option: "b." }]
             },
         ]
     },
@@ -5624,7 +5525,7 @@ VAR MAX_SESSION_TIME = 2036; \
                 <p class=\"dialog\">—Afirmativo, usted también debería descansar un poco, dudo que la próxima alarma tarde en sonar.</p>\
                 ",
                 options: [
-                    { id: "a", option: "Gracias por leer Hola Mundo." },
+                    { id: "agradecimiento", option: "Gracias por leer Hola Mundo." },
                 ]
             },
         ]
