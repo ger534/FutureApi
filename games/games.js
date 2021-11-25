@@ -306,7 +306,7 @@ const games = [
     },
     {
         id: "hello_world_1",
-        title: "Hola Mundo: Acto I",
+        title: "Hola, mundo: Alerta en la Tierra",
         html: true,
         data: [
             {
@@ -814,7 +814,7 @@ const games = [
     },
     {
         id: "hello_world_2",
-        title: "Hola Mundo: Acto II",
+        title: "Hola, mundo: Rendición de cuentas",
         html: true,
         data: [
             {
@@ -1860,7 +1860,7 @@ const games = [
     },
     {
         id: "hello_world_3",
-        title: "Hola Mundo: Nueva perspectiva",
+        title: "Hola, mundo: Nueva perspectiva",
         html: true,
         data: [
             {
@@ -4215,7 +4215,7 @@ while True:{\n\
     },
     {
         id: "hello_world_4",
-        title: "Hola Mundo: Resolución",
+        title: "Hola, mundo: Resolución",
         html: true,
         data: [
             {
@@ -5573,7 +5573,7 @@ while(true){\n\
     },
     {
         id: "hello_world_5",
-        title: "Hola Mundo: Epílogo",
+        title: "Hola, mundo: Epílogo",
         html: true,
         data: [
             {
