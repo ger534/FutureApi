@@ -2590,7 +2590,7 @@ suma(numero_1, numero_2){\n\
                 <p class=\"dialog\">—Algunos lenguajes son puramente funcionales, pero lo más común es que los lenguajes admitan funciones combinadas con el uso de otros paradigmas.</p>",
                 options: [
                     { id: "submundo_poo", option: "¿Como el paradigma funcional?" },
-                    { id: "submundo_practico", option: "¿Y si mejor vemos como puedo cambiar la realidad?." }]
+                    { id: "submundo_practico", option: "¿Y si mejor vemos como puedo cambiar la realidad?" }]
             },
             {
                 id: "submundo_funcional_rmal",
@@ -2600,7 +2600,7 @@ suma(numero_1, numero_2){\n\
                 <p class=\"dialog\">—Algunos lenguajes son puramente funcionales, pero lo más común es que los lenguajes admitan funciones combinadas con el uso de otros paradigmas.</p>",
                 options: [
                     { id: "submundo_poo", option: "¿Como el paradigma funcional?" },
-                    { id: "submundo_practico", option: "¿Y si mejor vemos como puedo cambiar la realidad?." }]
+                    { id: "submundo_practico", option: "¿Y si mejor vemos como puedo cambiar la realidad?" }]
             },
 
             {
@@ -2622,7 +2622,7 @@ int resultado;\n\
                 <p class=\"dialog\">En este contexto, la clase <code class=\"snippet\">calculadora</code> se vuelve un <u>objeto</u> al ser instanciado. Y este objeto, \
                 tiene los <u>métodos</u> de <code class=\"snippet\">sumar</code> y el <u>atributo</u> <code class=\"snippet\">resultado</code>.</p>\
                 <ul>\
-                        <li>Para instanciar una clase: <ul><li>Calculadora mi_calculadora_1 = new Calculadora();</code></li></ul></li>\
+                        <li>Para instanciar una clase: <ul><li><code class=\"snippet\">Calculadora mi_calculadora_1 = new Calculadora();</code></li></ul></li>\
                         <li>Para crear un objeto: <ul><li><code class=\"snippet\">Calculadora mi_calculadora_2 = new Calculadora();</code></li></ul>(es lo mismo).</li>\
                         <li>Para accionar un objeto: <ul><li><code class=\"snippet\">mi_calculadora_2.sumar(2, 5);</code></li></ul></li>\
                         <li>Para obtener un atributo: <ul><li><code class=\"snippet\">mi_calculadora_1.resultado;</code></li></ul></li>\
@@ -3977,7 +3977,7 @@ int resultado;\n\
                 <p class=\"dialog\">En este contexto, la clase <code class=\"snippet\">calculadora</code> se vuelve un <u>objeto</u> al ser instanciado. Y este objeto, \
                 tiene los <u>métodos</u> de <code class=\"snippet\">sumar</code> y el <u>atributo</u> <code class=\"snippet\">resultado</code>.</p>\
                 <ul>\
-                        <li>Para instanciar una clase: <ul><li>Calculadora mi_calculadora_1 = new Calculadora();</code></li></ul></li>\
+                        <li>Para instanciar una clase: <ul><li><code class=\"snippet\">Calculadora mi_calculadora_1 = new Calculadora();</code></li></ul></li>\
                         <li>Para crear un objeto: <ul><li><code class=\"snippet\">Calculadora mi_calculadora_2 = new Calculadora();</code></li></ul>(es lo mismo).</li>\
                         <li>Para accionar un objeto: <ul><li><code class=\"snippet\">mi_calculadora_2.sumar(2, 5);</code></li></ul></li>\
                         <li>Para obtener un atributo: <ul><li><code class=\"snippet\">mi_calculadora_1.resultado;</code></li></ul></li>\
@@ -3990,9 +3990,6 @@ int resultado;\n\
                     { id: "practica_sintaxis", option: "Sí." },
                     { id: "submundo_practicar_arrepiento", option: "No. Ha sido suficiente. Avancemos con la historia." }]
             },
-            /*
-            <ul><li>Calculadora mi_calculadora_1 = new Calculadora();</code></li></ul>\
-                 */
 
             {
                 id: "practica_sintaxis",
