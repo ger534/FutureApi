@@ -128,9 +128,9 @@ const games = [
                 <p>—El sustento...</p>",
                 options: [
                     {
-                        id: "mandibula_yes", option: "El sustento llega a mí, no es necesario que vaya a buscarlo, solo debo seguir aportando a \
+                        id: "cubiculo_yes", option: "El sustento llega a mí, no es necesario que vaya a buscarlo, solo debo seguir aportando a \
                     la sociedad con mi existencia para recibirlo." },
-                    { id: "mandibula_no", option: "El sustento es comida.", }]
+                    { id: "cubiculo_no", option: "El sustento es comida.", }]
             },
             {
                 id: "sustento_yes",
@@ -138,25 +138,9 @@ const games = [
                 <p>—El sustento...</p>",
                 options: [
                     {
-                        id: "mandibula_yes", option: "El sustento llega a mí, no es necesario que vaya a buscarlo, solo debo seguir aportando a \
+                        id: "cubiculo_yes", option: "El sustento llega a mí, no es necesario que vaya a buscarlo, solo debo seguir aportando a \
                     la sociedad con mi existencia para recibirlo." },
-                    { id: "mandibula_no", option: "El sustento es comida.", }]
-            },
-            {
-                id: "mandibula_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
-                <p>—La mandíbula...</p>",
-                options: [
-                    { id: "cubiculo_yes", option: "La mandíbula de un tiburón blanco puede albergar cerca de 3 mil dientes distribuidos en 5 hileras." },
-                    { id: "cubiculo_no", option: "La mandíbula está en la boca." }]
-            },
-            {
-                id: "mandibula_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
-                <p>—La mandíbula...</p>",
-                options: [
-                    { id: "cubiculo_yes", option: "La mandíbula de un tiburón blanco puede albergar cerca de 3 mil dientes distribuidos en 5 hileras." },
-                    { id: "cubiculo_no", option: "La mandíbula está en la boca." }]
+                    { id: "cubiculo_no", option: "El sustento es comida.", }]
             },
             {
                 id: "cubiculo_no",
@@ -199,8 +183,8 @@ const games = [
                 text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La paz...</p>",
                 options: [
-                    { id: "mitocondrias_yes", option: "La paz reina, el conflicto es innecesario." },
-                    { id: "mitocondrias_no", option: "La paz nunca existirá." }
+                    { id: "muerte_yes", option: "La paz reina, el conflicto es innecesario." },
+                    { id: "muerte_no", option: "La paz nunca existirá." }
                 ]
             },
             {
@@ -208,25 +192,9 @@ const games = [
                 text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La paz...</p>",
                 options: [
-                    { id: "mitocondrias_yes", option: "La paz reina, el conflicto es innecesario." },
-                    { id: "mitocondrias_no", option: "La paz nunca existirá." }
+                    { id: "muerte_yes", option: "La paz reina, el conflicto es innecesario." },
+                    { id: "muerte_no", option: "La paz nunca existirá." }
                 ]
-            },
-            {
-                id: "mitocondrias_no",
-                text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
-                <p>—Las mitocondrias...</p>",
-                options: [
-                    { id: "muerte_yes", option: "Las mitocondrias de una célula eucariota se encuentran en el citoplasma." },
-                    { id: "muerte_no", option: "Las mitocondrias... Algo de biología." }]
-            },
-            {
-                id: "mitocondrias_yes",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
-                <p>—Las mitocondrias...</p>",
-                options: [
-                    { id: "muerte_yes", option: "Las mitocondrias de una célula eucariota se encuentran en el citoplasma." },
-                    { id: "muerte_no", option: "Las mitocondrias... Algo de biología." }]
             },
             {
                 id: "muerte_no",
@@ -249,8 +217,8 @@ const games = [
                 text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La mentira...</p>",
                 options: [
-                    { id: "pobreza", option: "La mentira no puede existir cuando la lógica es el camino." },
-                    { id: "pobreza1", option: "La mentira nos protege del dolor." }
+                    { id: "gobierno_yes", option: "La mentira no puede existir cuando la lógica es el camino." },
+                    { id: "gobierno_no", option: "La mentira nos protege del dolor." }
                 ]
             },
             {
@@ -258,50 +226,35 @@ const games = [
                 text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La mentira...</p>",
                 options: [
-                    { id: "pobreza", option: "La mentira no puede existir cuando la lógica es el camino." },
-                    { id: "pobreza1", option: "La mentira nos protege del dolor." }
+                    { id: "gobierno_yes", option: "La mentira no puede existir cuando la lógica es el camino." },
+                    { id: "gobierno_no", option: "La mentira nos protege del dolor." }
                 ]
-            },
-            {
-                id: "pobreza",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
-                <p>—La pobreza...</p>",
-                options: [
-                    { id: "gobierno_yes", option: "La pobreza no existe, en el sistema todos somos ricos." },
-                    { id: "gobierno_no", option: "Es que es pobre es porque quiere." }]
-            },
-            {
-                id: "pobreza1",
-                text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
-                <p>—La pobreza...</p>",
-                options: [
-                    { id: "gobierno_yes", option: "La pobreza no existe, en el sistema todos somos ricos." },
-                    { id: "gobierno_no", option: "Es que es pobre es porque quiere." }]
             },
             {
                 id: "gobierno_no",
                 text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—El gobierno...</p>",
                 options: [
-                    { id: "calificacion", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
+                    { id: "completado", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
             },
             {
                 id: "gobierno_yes",
                 text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—El gobierno...</p>",
                 options: [
-                    { id: "calificacion", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
-            },
-            {
-                id: "calificacion",
-                //text: "",
-                options: [
-                    { id: "completado", option: "Comenzar \"Hola Mundo\".", noShow: true }]
+                    { id: "completado", option: "El gobierno no existe. Esto es Tecno<sub style=\"font-size:60%\">TOPIA</sub>.", }]
             },
             {
                 id: "completado",
-                text: "<p>—De acuerdo, <span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Análisis psicológico y social completado</code></span>.</p>",
-                options: []
+                //text: "",
+                options: [
+                    { id: "examen_completado", option: "Comenzar \"Hola, Mundo\".", noShow: true }]
+            },
+            {
+                id: "examen_completado",
+                text: "",
+                options: [
+                    { id: "examen_completado", option: "Comenzar \"Hola, Mundo\".", noShow: true }]
             },
         ]
     },
@@ -2650,27 +2603,32 @@ int resultado;\n\
                 <ul>\
                     <li><code class=\"snippet\">\
 print(\"Hola Mundo!\")\
-                    </code>\</li> \
+                    </code>\
+                    Python.</li> \
                     <li><code class=\"snippet\">\
 #!/bin/sh \n\
 echo \"Hola, Mundo!\"\
-                    </code>\</li> \
+                    </code>\
+                    Batch.</li> \
                     <li><code class=\"snippet\">\
 console.log(\"Hola Mundo\")\
-                    </code>\</li> \
+                    </code>\
+                    Javascript.</li> \
                     <li><code class=\"snippet\">\
 #include \n\
 main() {\n\
     printf(\"Hola Mundo\");\n\
 }\
-                    </code></li> \
+                    </code>\
+                    C.</li> \
                     <li><code class=\"snippet\">\
 public class HelloWorld {\n\
     public static void main(String[] args) {\n\
         System.out.println(\"Hola Mundo!\");\n\
     }\n\
 }\
-                    </code></li>\
+                    </code>\
+                    Java.</li>\
                     <li><code class=\"snippet\">\
 .text \n\
 .global _start\n\
@@ -2688,14 +2646,13 @@ swi 0\n\
 message:\n\
     .asciz \"hola mundo\"\n\
 len = .-message\
-                    </code><span class=\"no_p\">(este último es un lenguaje de bajo nivel).</span></li>\
+                    </code><span class=\"no_p\">ARM.</span></li>\
                 </ul>\
                 \
                 <p class=\"dialog\">—<i>print</i>, <i>echo</i>, <i>console.log</i>... Son distintas formas, en lenguajes distintos, de ordenar a la computadora repetir un determinado mensaje. \
                 Ser capaz de escribir un \"hola mundo\" en un lenguaje de programación, es el primer paso para dominarlo.</p>\
                 \
-                <p class=\"dialog\">—¿Vemos algunas de las otras operaciones que se pueden realizar escribiendo código?</p>",
-                options: [
+                <p class=\"dialog\">—¿Vemos algunas de las otras operaciones que se pueden realizar escribiendo código?</p>", options: [
                     { id: "submundo_practica_sintaxis_1", option: "Sí." },
                     { id: "submundo_practico", option: "Mejor me enseñas como cambiar las cosas en esta realidad." }]
             },
@@ -4005,27 +3962,32 @@ int resultado;\n\
                 <ul>\
                     <li><code class=\"snippet\">\
 print(\"Hola Mundo!\")\
-                    </code>\</li> \
+                    </code>\
+                    Python.</li> \
                     <li><code class=\"snippet\">\
 #!/bin/sh \n\
 echo \"Hola, Mundo!\"\
-                    </code>\</li> \
+                    </code>\
+                    Batch.</li> \
                     <li><code class=\"snippet\">\
 console.log(\"Hola Mundo\")\
-                    </code>\</li> \
+                    </code>\
+                    Javascript.</li> \
                     <li><code class=\"snippet\">\
 #include \n\
 main() {\n\
     printf(\"Hola Mundo\");\n\
 }\
-                    </code></li> \
+                    </code>\
+                    C.</li> \
                     <li><code class=\"snippet\">\
 public class HelloWorld {\n\
     public static void main(String[] args) {\n\
         System.out.println(\"Hola Mundo!\");\n\
     }\n\
 }\
-                    </code></li>\
+                    </code>\
+                    Java.</li>\
                     <li><code class=\"snippet\">\
 .text \n\
 .global _start\n\
@@ -4043,7 +4005,7 @@ swi 0\n\
 message:\n\
     .asciz \"hola mundo\"\n\
 len = .-message\
-                    </code><span class=\"no_p\">(este último es un lenguaje de bajo nivel).</span></li>\
+                    </code><span class=\"no_p\">ARM.</span></li>\
                 </ul>\
                 \
                 <p class=\"dialog\">—<i>print</i>, <i>echo</i>, <i>console.log</i>... Son distintas formas, en lenguajes distintos, de ordenar a la computadora repetir un determinado mensaje. \
@@ -4318,7 +4280,7 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—Destination three miles away ☝️✌️.</p>\
                 \
-                <p class=\"dialog\">—<em>Chica… la verdad es que nosotros hemos extendido al máximo el tiempo para ayudarte, pero\
+                <p class=\"dialog\">—<em>Chica… la verdad es que nosotros hemos extendido al máximo el tiempo para ayudarte, \
                     ya estamos en tiempos extra, no sé cuánto más podamos avanzar junto a vos, tal vez si...</em>\
                 \
                 <p class=\"dialog\">—Destination two miles away ✌️.</p>\
@@ -4817,9 +4779,9 @@ world.getRuins().setGravity(9);\
             },
             {
                 id: "garganta_boom",
-                text: "<p class=\"dialog\">—Mis amigos te dejaron un regalo en el bolsillo derecho (***revisar referencia***).</p>\
+                text: "<p class=\"dialog\">—Mis amigos te dejaron un regalo en uno de los bolsillos.</p>\
                 \
-                <p>503 revisó rápidamente sus bolsillos esperando confirmar o rechazar el comentario de 305.</p>\
+                <p>503 revisó rápidamente todos sus bolsillos esperando confirmar o rechazar el comentario de 305.</p>\
                 \
                 <p class=\"dialog\">—A gift!? For me!?— dijo, con ilusión.</p>\
                 \
