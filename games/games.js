@@ -4,7 +4,7 @@ const games = [
         title: "Términos y condiciones",
         html: true,
         exam: true,
-        
+
         data: [
             {
                 id: "start",
@@ -147,7 +147,7 @@ const games = [
                 text: "<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                 <p>—La mandíbula...</p>",
                 options: [
-                    { id: "cubiculo_yes", option: "La mandíbula de un tiburón blanco puede albergar cerca de 3 mil dientes distribuidos en 5 hileras." },
+                    { id: "cubiculo_yes", option: "La mandíbula de un tiburón blanco puede albergar cerca de tres mil dientes distribuidos en cinco hileras." },
                     { id: "cubiculo_no", option: "La mandíbula está en la boca." }]
             },
             {
@@ -155,7 +155,7 @@ const games = [
                 text: "<span class=\"good-action-box\"><code class=\"good-action\"><span style=\"font-size: 16px;\">(✔️) </span>Correcto.</code></span>\
                 <p>—La mandíbula...</p>",
                 options: [
-                    { id: "cubiculo_yes", option: "La mandíbula de un tiburón blanco puede albergar cerca de 3 mil dientes distribuidos en 5 hileras." },
+                    { id: "cubiculo_yes", option: "La mandíbula de un tiburón blanco puede albergar cerca de tres mil dientes distribuidos en cinco hileras." },
                     { id: "cubiculo_no", option: "La mandíbula está en la boca." }]
             },
             {
@@ -322,7 +322,7 @@ const games = [
                 </p>\
                 \
               <p>Las tareas de soporte son de vital importancia y, por lo tanto, las estaciones de trabajo están distribuídas a lo\
-                largo del globo terrícola. La comunicación entre estos clústers está reservada para incidentes de máximo nivel,\
+                largo del globo terráqueo. La comunicación entre estos clústers está reservada para incidentes de máximo nivel,\
                 donde es necesaria la cooperación de multiples nodos de mantenimiento o incluso, en ocasiones especiales, para notificar a toda la red. \
                 Existe un robusto y detallado manual que todos los monitores tienen grabados en su memoria y que les permite ejecutar sus tareas y saber qué\
                 procedimientos seguir según cada situación. Sin embargo, los monitores, después de todo, siguen siendo humanos y aun si \
@@ -360,7 +360,7 @@ const games = [
             },
             {
                 id: "mantener",
-                text: "<p>Aún sin entrar en personaje, 305 mantuvo el rumbo equivocado. Si no cambiaba de sentido pronto, la aeronave tendría que orbitar gran parte del planeta\
+                text: "<p>Aún sin entrar en personaje, 305 mantuvo el rumbo equivocado. Si no cambiaba pronto de sentido, la aeronave tendría que orbitar gran parte del planeta\
                 antes de acercarse al punto de interés, lo que comprometería el interés público de mitigar cualquier inconveniente en la infraestructura de los metaversos lo antes posible. \
                 Desde la base, otros monitores comenzaron a consternarse debido sus decisiones erráticas y le advirtieron tomar con seriedad su rol \
                 en la perfecta maquinaria que, como un reloj bien ensamblado, mantiene el bienestar social. También se encendió una pantalla en el interior del visor de su traje, la cual comenzó a \
@@ -405,7 +405,7 @@ const games = [
             {
                 id: "esperar",
                 text: "<p>305 decidió tomar asiento y esperar que su colega viniera al punto de extracción. Luego comenzó a pensar. \
-                <i>Muerte del monitor</i>... El protocolo de los monitores tiene 18.500 palabras, y esta entrada es la única vez donde se utiliza la palabra \"muerte\". \
+                <i>Muerte del monitor</i>... El protocolo de los monitores tiene 18 500 palabras, y esta entrada es la única vez donde se utiliza la palabra \<em>muerte</em>\. \
                 Su creencia siempre había sido que la vida en la Tierra es un paraíso, no un cementerio. Incluso si ya sabía que un incidente así podía pasar... El monitor nunca evaluó la autenticidad\
                 probabilística de la idea. La premisa en general le parecía absurda. Tendría más sentido que los colonizadores interespaciales se toparan con vida inteligente \
                 en sus exploraciones y conquistas. Tampoco le parecía posible que nada ni nadie fuera capaz de burlar la seguridad de El Muro de Fuego, el protector doméstico y espacial de los terrícolas. \
@@ -428,10 +428,10 @@ const games = [
                 \
                 <p>Mientras sentía un profundo alivio, el monitor cayó en cuenta de que aquellas manchas que había visto en la lejanía, ahora se posaban delante de él.</p>\
                 \
-                <p class=\"dialog\">—feathers!? dijo para sí mismo. Sabía que eran plumas, pero encontrárselas en un punto aleatorio de la Tierra y de manera fortuita le parecía increíble.\
+                <p class=\"dialog\">—feathers!?, dijo para sí mismo. Sabía que eran plumas, pero encontrárselas en un punto aleatorio de la Tierra y de manera fortuita le parecía increíble.\
                 </p>\
                 \
-                <p>Todo infante considerado parte de la sociedad debe pasar sus primeros 5 años de vida en un almacén educativo. En\
+                <p>Todo infante considerado parte de la sociedad debe pasar sus primeros cinco años de vida en un almacén educativo. En\
                 estos lugares, los retoños reciben una instalación de enciclopedias por medio de ondas cerebrales. Nunca verán en\
                 el mundo real la gran mayoría de conceptos que aprenden durante su vida lectiva, pero es conocimiento que no se\
                 borrará, siempre y cuando se le dé el mantenimiento adecuado al órgano encefálico.</p>\
@@ -451,7 +451,7 @@ const games = [
             {
                 id: "alrededores",
                 text: "<p>La eyección había lanzado al monitor a la cima de una torre de casas-puerto. Estas colosales pilas de hogares tomaban la forma de \
-                enormes rascacielos, que no son solo grandes en la superficie sino, simulando a los extintos árboles, también se extienden debajo de la tierra. Prácticamente todo el espacio\
+                enormes rascacielos, que no son solo grandes en la superficie, sino, simulando a los extintos árboles, también se extienden debajo de la tierra. Prácticamente todo el espacio\
                 habitable está cubierto por estas viviendas especialmente diseñadas como puertos de conexión a la tecnología que le permite a los ciudadanos del viejo mundo \
                 utilizar los metaversos, ya sea de manera individual o colectiva. Ahora 305 se encontraba recorriendo los techos de estas edificaciones. Afuera de las casas, por supuesto que no \
                 había ningún otro humano, después de todo, el territorio es hostil y la indumentaria para estar en el exterior no es necesariamente cómoda.</p>\
@@ -460,7 +460,7 @@ const games = [
                 \
                 <p>Mientras sentía un profundo alivio, el monitor se topó con un hallazgo particular: plumas, las cuales se movían de manera caótica gracias a los ínfimos vientos de la Tierra.</p>\
                 \
-                <p class=\"dialog\">—feathers!? dijo para sí mismo. Sabía que eran plumas, pero encontrárselas le parecía increíble.\
+                <p class=\"dialog\">—feathers!?, dijo para sí mismo. Sabía que eran plumas, pero encontrárselas le parecía increíble.\
                 </p>\
                 \
                 <p>Todo infante considerado parte de la sociedad debe pasar sus primeros 5 años de vida en un almacén educativo. En\
@@ -488,7 +488,7 @@ const games = [
                 nunca había tocado una, no en el mundo real. Tímido, extrajo el guante una de sus manos y sacó de nuevo una de las\
                 plumas utilizando su mano desnuda.</p>\
                 \
-                <p class=\"dialog\">—It's the same...—dijo, un poco decepcionado mientras examinaba con sus dedos las fibras del\
+                <p class=\"dialog\">—It's the same... —dijo, un poco decepcionado mientras examinaba con sus dedos las fibras del\
                 objeto.</p>\
                 \
                 <p>En su mente, por una pequeña fracción de tiempo, consideró que tal vez habría una diferencia entre las\
@@ -499,7 +499,7 @@ const games = [
                 se encontró con que su puesto ya estaba ocupado por un gran ganso desplegando sus alas a lo ancho. Apenas si podía creerlo. \
                 Le fue necesario limpiar rápidamente el visor de su traje para cerciorarse de que no estaba alucinando.</p>\
                 \
-                <p class=\"dialog\">—A goose…? But how?—se dijo a sí mismo, intentando procesar la información.</p>\
+                <p class=\"dialog\">—A goose…? But how? —se dijo a sí mismo, intentando procesar la información.</p>\
                 \
                 <p>Y ahí estaba, delante de él. Mentalmente\
                 recorrió todos los protocolos de seguridad pero no pudo rescatar nada que explicara cómo proceder en caso de\
@@ -549,7 +549,7 @@ const games = [
                 <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
                 en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
                 </ul>\
-                <i>Muerte del monitor</i>... El protocolo de los monitores tiene 18.500 palabras, y esta entrada es la única vez donde se utiliza la palabra \"muerte\". \
+                <i>Muerte del monitor</i>... El protocolo de los monitores tiene 18 500 palabras, y esta entrada es la única vez donde se utiliza la palabra \<em>muerte</em>\. \
                 Su creencia siempre había sido que la vida en la Tierra es un paraíso, no un cementerio. Incluso si ya sabía que un incidente así podía pasar... El monitor nunca evaluó la autenticidad\
                 probabilística de la idea. La premisa en general le parecía absurda. Tendría más sentido que los colonizadores interespaciales se toparan con vida inteligente \
                 en sus exploraciones y conquistas. Tampoco le parecía posible que nada ni nadie fuera capaz de burlar la seguridad de El Muro de Fuego, el protector doméstico y espacial de los terrícolas. \
@@ -629,13 +629,13 @@ const games = [
                 cumplir las fantasías de los habitantes que viven en la virtualidad.</p>\
                 \
                 <p>Tal vez por esto, antes de que 305 se diera cuenta, se encontraba caminando la superficie terrestre, a la\
-                intemperie. Por primera vez (y probablemente siendo pionero en esto), se enfrentaba a una situación que no estaba\
+                intemperie. Por primera vez (y probablemente siendo pionero en esto) se enfrentaba a una situación que no estaba\
                 controlada. En el peor de los casos, El Muro de Fuego lanzaría un ataque desde la Luna, sin importar\
                 cuánta infraestructura tuviera que destruir. 305 sabía que la única forma de evitar que la situación escalara era\
                 suprimir la señal inicial antes de que pasaran <code>3600 de milisegundos</code>, como lo estipula el\
                 protocolo.</p>\
                 \
-                <p>Sus colegas le llamaban. Respondió la radio y les dijo</p>",
+                <p>Sus colegas le llamaban. Respondió la radio y les dijo:</p>",
                 options: [
                     { id: "no_aliens", option: "Nada que reportar. Apagaré la alarma", noShow: true },
                     { id: "boom_discardable", option: "No apagaré la alarma." },
@@ -671,10 +671,10 @@ const games = [
                 extrañas le invadía. Podría decir que incluso sentía decepción de no haber encontrado nada. Pero justo cuando estaba apunto de marcharse, notó \
                 algo que segundos antes no estaba ahí, un material peculiar posando sobre el centinela.</p>\
                 \
-                <p class=\"dialog\">—feathers!? dijo para sí mismo. Sabía que eran plumas, pero encontrárselas le parecía increíble.\
+                <p class=\"dialog\">—feathers!?, dijo para sí mismo. Sabía que eran plumas, pero encontrárselas le parecía increíble.\
                 </p>\
                 \
-                <p>Todo infante considerado parte de la sociedad debe pasar sus primeros 5 años de vida en un almacén educativo. En\
+                <p>Todo infante considerado parte de la sociedad debe pasar sus primeros cinco años de vida en un almacén educativo. En\
                 estos lugares, los retoños reciben una instalación de enciclopedias por medio de ondas cerebrales. Nunca verán en\
                 el mundo real la gran mayoría de conceptos que aprenden durante su vida lectiva, pero es conocimiento que nunca se\
                 borrará siempre y cuando se le dé el mantenimiento adecuado al órgano cerebral.</p>\
@@ -699,7 +699,7 @@ const games = [
                 nunca había tocado una, no en el mundo real. Tímido, extrajo el guante una de sus manos y sacó de nuevo una de las\
                 plumas utilizando su mano desnuda.</p>\
                 \
-                <p class=\"dialog\">—It's the same...—dijo, un poco decepcionado mientras examinaba con sus dedos las fibras del\
+                <p class=\"dialog\">—It's the same... —dijo, un poco decepcionado mientras examinaba con sus dedos las fibras del\
                 objeto.</p>\
                 \
                 <p>En su mente, por una pequeña fracción de tiempo, consideró que tal vez habría una diferencia entre las\
@@ -712,7 +712,7 @@ const games = [
                 ganso desplegando sus alas a lo ancho. Apenas si podía creerlo. Le fue necesario limpiar rápidamente el visor de\
                 su traje para cerciorarse de que no estaba alucinando.</p>\
                 \
-                <p class=\"dialog\">—A goose…? 🦢 But how?—se dijo a sí mismo, intentando procesar la información.</p>\
+                <p class=\"dialog\">—A goose…? 🦢 But how? —se dijo a sí mismo, intentando procesar la información.</p>\
                 \
                 <p>Y ahí estaba, delante de él, la prueba fehaciente del correcto funcionamiento de los sensores aéreos del\
                 centinela. Y lo inaudito, el objeto volador no identificado resulta ser un enorme y blanco ganso. Mentalmente\
@@ -799,7 +799,7 @@ const games = [
                 ganso desplegando sus alas a lo ancho. Apenas si podía creerlo. Le fue necesario limpiar rápidamente el visor de\
                 su traje para cerciorarse de que no estaba alucinando.</p>\
                 \
-                <p class=\"dialog\">—A goose…? 🦢 But how?—se dijo a sí mismo, intentando procesar la información.</p>\
+                <p class=\"dialog\">—A goose…? 🦢 But how? —se dijo a sí mismo, intentando procesar la información.</p>\
                 \
                 <p>Y ahí estaba, delante de él, la prueba fehaciente del correcto funcionamiento de los sensores aéreos del\
                 centinela. Y lo inaudito, el objeto volador no identificado resulta ser un enorme y blanco ganso. Mentalmente\
@@ -821,7 +821,7 @@ const games = [
             {
                 id: "start",
                 text: "<p>Como tal la danza que propiciaba el sol con la luna ya no existe. O al menos ya no es visible para los\
-                terrestres. El momento de descanso para los monitores está definido de tal manera que el 80% del personal de\
+                terrestres. El momento de descanso para los monitores está definido de tal manera que el 80 % del personal de\
                 mantenimiento siempre esté despierto y monitoreando. Ahora era el turno de 305 de reposar la mente y recargarse.\
                 Para minimizar la inactividad lo máximo posible, la industria médica diseñó unas cabinas de\
                 hiperhibernación. Este profundo estado de letargo apaga las funciones biológicas hasta dejar el cuerpo al borde de\
@@ -831,7 +831,7 @@ const games = [
                  Esto causa la carencia de fantasía, ya no hay MOR, ya no hay sueños. Así que lo que sucede a continuación, en un principio parece\
                 inexplicable.</p>\
                 \
-                <p class=\"dialog\">—¿Dónde estoy? ¿Estoy… flotando?—dijo muy confundido 305, encontrándose en un espacio\
+                <p class=\"dialog\">—¿Dónde estoy? ¿Estoy… flotando? —dijo muy confundido 305, encontrándose en un espacio\
                 completamente vacío donde lo único visible era una oscuridad absorbente y sideral.</p>",
                 options: [
                     { id: "vacio_moverse", option: "Intentar moverse.", noShow: true },
@@ -841,7 +841,7 @@ const games = [
                 id: "vacio_moverse",
                 text: "<p>El monitor, determinado a retomar algo de control sobre la extraña situación, comenzó a hacer un esfuerzo para desplazarse a través del vacío.\
                 Mientras intentaba generar momentum aleteando sus manos y sus piernas, tuvo la sensación de que una criatura comenzaba a acercarse.</p>\
-                <p class=\"dialog\">—Hemos estado intentando contactarte, anunció una voz omnisciente que resonó en su cabeza con un\
+                <p class=\"dialog\">—Hemos estado intentando contactarte —anunció una voz omnisciente que resonó en su cabeza con un\
                 ligero eco</p>",
                 options: [
                     { id: "preguntar_quien", option: "Preguntar quién anda ahí.", noShow: true },
@@ -854,7 +854,7 @@ const games = [
                 solo su imaginación y que esto en realidad no estaba ocurriendo, sin embargo, incluso sin utilizar su vista, una inexplicable \
                 sensación de que una criatura se estaba acercando.\
                  </p>\
-                <p class=\"dialog\">—Hemos estado intentando contactarte, anunció una voz omnisciente que resonó en su cabeza con un\
+                <p class=\"dialog\">—Hemos estado intentando contactarte —anunció una voz omnisciente que resonó en su cabeza con un\
                 ligero eco</p>",
                 options: [
                     { id: "preguntar_quien", option: "Preguntar quién anda ahí.", noShow: true },
@@ -969,7 +969,7 @@ const games = [
                 \
                 <p class=\"dialog\">—Puede ser. Realmente nunca me lo había cuestionado, es inaceptable para mí cometer actos ilícitos.</p>\
                 \
-                <p class=\"dialog\">—¡Por la madre gansa! No nos dejaste otra opción chica.</p>\
+                <p class=\"dialog\">—¡Por la madre gansa! No nos dejaste otra opción, chica.</p>\
                 \
                 <p class=\"dialog\">—Es verdad. Ni siquiera fue capaz de escucharnos por más que intenté llamar su atención.\
                 Estoy buscando que se cuestione la realidad y reconozca la ficción.</p>\
@@ -997,14 +997,14 @@ const games = [
             },
             {
                 id: "como_cambias",
-                text: "<p class=\"dialog\">—Somos varios acá. Cada uno habla como quiere ¿no? Y aún así. Antes no nos podías escuchar ¿verdad?</p>",
+                text: "<p class=\"dialog\">—Somos varios acá. Cada uno habla como quiere, ¿no? Y aún así. Antes no nos podías escuchar, ¿verdad?</p>",
                 options: [
                     { id: "no_escucho", option: "En lo absoluto." },
                     { id: "si_escucho", option: "Sí podía escuchar.", }]
             },
             {
                 id: "quien_fue",
-                text: "<p class=\"dialog\">—Pues el ganso. Pero cada vez que intenté que me escuchara a mí, no había respuesta ¿no me pudo\
+                text: "<p class=\"dialog\">—Pues el ganso. Pero cada vez que intenté que me escuchara a mí, no había respuesta, ¿no me pudo\
                 escuchar, cierto?</p>",
                 options: [
                     { id: "no_escucho", option: "En lo absoluto." },
@@ -1060,7 +1060,7 @@ const games = [
                 <p>Dentro de su casco, el rostro natural e inexpresivo de 305 comenzó a mostrar signos de duda, miedo y enojo.</p>",
                 options: [
                     { id: "no_real", option: "Esto no puede ser real.", noShow: true },
-                    { id: "muchas_preguntas", option: "Aun tengo muchas preguntas.", }]
+                    { id: "muchas_preguntas", option: "Aún tengo muchas preguntas.", }]
             },
             {
                 id: "guardia_baja_pero",
@@ -1070,19 +1070,19 @@ const games = [
                 <p>Dentro de su casco, el rostro natural e inexpresivo de 305 comenzó a mostrar signos de duda, miedo y enojo.</p>",
                 options: [
                     { id: "no_real", option: "Esto no puede ser real.", noShow: true },
-                    { id: "muchas_preguntas", option: "Aun tengo muchas preguntas.", }]
+                    { id: "muchas_preguntas", option: "Aún tengo muchas preguntas.", }]
             },
 
             {
                 id: "guardia_baja",
-                text: "<p class=\"dialog\">—Cómo ya lo notó, esta no es una conversación convencional. Lo que nos rodea, es su mente.</p>",
+                text: "<p class=\"dialog\">—Cómo ya lo notó, esta no es una conversación convencional. Lo que nos rodea es su mente.</p>",
                 options: [
                     { id: "a_que_no", option: "Eso es imposible." },
                     { id: "guardia_baja_no", option: "No.", }]
             },
             {
                 id: "guardia_bajaWIP",
-                text: "<p class=\"dialog\">—Cómo ya lo notó, esta no es una conversación convencional. Lo que nos rodea, es su mente.</p>\
+                text: "<p class=\"dialog\">—Cómo ya lo notó, esta no es una conversación convencional. Lo que nos rodea es su mente.</p>\
                 \
                 <p class=\"dialog\">—Eso es imposible</p>\
                 \
@@ -1105,7 +1105,7 @@ const games = [
             {
                 id: "no_real",
                 text: "<p class=\"dialog\">—Esto no puede ser real, murmuró.</p>\
-                <p class=\"dialog\">—Exacto, respondió el ganso antes de que una inmensa bola de luz creciera en circunferencia hasta\
+                <p class=\"dialog\">—Exacto —respondió el ganso antes de que una inmensa bola de luz creciera en circunferencia hasta\
                 explotar en un destello.</p>\
                 \
                 <p>305 abrió los ojos como la primera vez que el ganso le graznó en la cara.</p>\
@@ -1141,15 +1141,15 @@ const games = [
                 \
                 <p>Su rostro empapado en sudor y sus pupilas dilatadas exigían una respuesta, sin embargo, sus prójimos lucían tan\
                 perdidos como él. Ante el silencio y las caras confundidas, revisó los escáneres de su recarga de energía. Todos\
-                los gráficos parecían borrachos, no tenían ningún sentido, la máquina parecía arrojar chispas y lo más insólito,\
+                los gráficos parecían borrachos, no tenían ningún sentido, la máquina parecía arrojar chispas y, lo más insólito,\
                 la energía celular retornada de la hiperhibernación parecía exceder el <code>1000% de ATP</code>. Mientras\
                 continuaba analizando la información, una inesperada mano cayó sobre la suya. A través del caso, los ojos horrorizados de 300 lo miraron\
-                y el tipo exclamó</p>\
+                y el tipo exclamó:</p>\
                 \
                 <p class=\"dialog\">—No! No! No!</p>\
                 \
                 <p>Elevando la tensión de la sala que cada vez se sentía más pequeña, el resto del equipo de mantenimiento presente\
-                comenzó a unirse al llanto</p>\
+                comenzó a unirse al llanto.</p>\
                 \
                 <p class=\"dialog\">—No! N̷̖͇̈́ö̸̡́̄̽̋͠!̷̛̰̱͕͎ ̸̩͗I̶̛̹͕̖͂̈́̀͝ͅṭ̸̻͕̺̏ ̴̭͍͈͎̯̪̤͒̃c̵̦͈̿a̸͈̙̦̺̐̎͆͛͋̀̇n̴͓̳͐͋̄ ̸̭͓̩͆̒͘ñ̶̟̞̆̈̃̀̌o̴̮͎̺̭̲͗̏̔̇͝t̷̞͚͕̭̹͍̝̽͊̐ ̴̙͚̺͈̱̖̀̈́̐̀̕̚b̶̢̙̗͖̓̅̊͋́̐̍è̴̪͓̆͑̍͆͝͠!̴̧̩̰͐͑̏</p>",
                 options: [
@@ -1162,15 +1162,15 @@ const games = [
                 \
                 <p>Su rostro empapado en sudor y sus pupilas dilatadas exigían una respuesta, sin embargo, sus prójimos lucían tan\
                 perdidos como él. Ante el silencio y las caras confundidas, revisó los escáneres de su recarga de energía. Todos\
-                los gráficos parecían borrachos, no tenían ningún sentido, la máquina parecía arrojar chispas y lo más insólito,\
+                los gráficos parecían borrachos, no tenían ningún sentido, la máquina parecía arrojar chispas y, lo más insólito,\
                 la energía celular retornada de la hiperhibernación parecía exceder el <code>1000% de ATP</code>. Mientras\
-                continuaba analizando la información, una inesperada mano cayó sobre la suya.  A través del caso, los ojos horrorizados de 300 lo miraron\
-                y el tipo exclamó</p>\
+                continuaba analizando la información, una inesperada mano cayó sobre la suya. A través del caso, los ojos horrorizados de 300 lo miraron\
+                y el tipo exclamó:</p>\
                 \
                 <p class=\"dialog\">—No! No! No!</p>\
                 \
                 <p>Elevando la tensión de la sala que cada vez se sentía más pequeña, el resto del equipo de mantenimiento presente\
-                comenzó a unirse al llanto</p>\
+                comenzó a unirse al llanto.</p>\
                 \
                 <p class=\"dialog\">—No! N̷̖͇̈́ö̸̡́̄̽̋͠!̷̛̰̱͕͎ ̸̩͗I̶̛̹͕̖͂̈́̀͝ͅṭ̸̻͕̺̏ ̴̭͍͈͎̯̪̤͒̃c̵̦͈̿a̸͈̙̦̺̐̎͆͛͋̀̇n̴͓̳͐͋̄ ̸̭͓̩͆̒͘ñ̶̟̞̆̈̃̀̌o̴̮͎̺̭̲͗̏̔̇͝t̷̞͚͕̭̹͍̝̽͊̐ ̴̙͚̺͈̱̖̀̈́̐̀̕̚b̶̢̙̗͖̓̅̊͋́̐̍è̴̪͓̆͑̍͆͝͠!̴̧̩̰͐͑̏</p>",
                 options: [
@@ -1186,7 +1186,7 @@ const games = [
                 particularmente difícil apartarlos.</p>\
                 \
                 <p>Al salir de la habitación, la puerta se cerró de forma automática y todo volvió a la oscuridad. Antes de darse\
-                cuenta estaba nuevamente en el vacío de su mente, pero está vez sólo. Dentro de este lugar medir el tiempo parece imposible, \
+                cuenta estaba nuevamente en el vacío de su mente, pero está vez solo. Dentro de este lugar medir el tiempo parece imposible, \
                 pero estando despierto, al monitor se le volvió eterno.</p>\
                 \
                 <p>En la espera de que ocurriera algo, tuvo la oportunidad de recapitular los extraños acontecimientos que le\
@@ -1204,7 +1204,7 @@ const games = [
                 se estaba encogiendo realmente o si los monitores se estaban multiplicando de manera exponencial, sin embargo,\
                 en cuestión de minutos, el sujeto fue enterrado por sus colegas, sin poder ver nada más que oscuridad</p>\
                 \
-                <p> Antes de darse cuenta, 305 estaba nuevamente en el vacío de su mente, pero está vez sólo.\
+                <p> Antes de darse cuenta, 305 estaba nuevamente en el vacío de su mente, pero está vez solo.\
                 Dentro de este lugar medir el tiempo parece imposible, pero estando despierto, al monitor se le volvió eterno.</p>\
                 \
                 <p>En la espera de que ocurriera algo, tuvo la oportunidad de recapitular los extraños acontecimientos que le\
@@ -1234,10 +1234,10 @@ const games = [
             {
                 id: "el_ganso",
                 text: "<p>Recordó que la primera vez que fue a su encuentro, se le clasificó como una\
-                amenaza ¿podría ser el ganso malévolo? No, dijo, deteniéndose a sí mismo. Llamarlo un ganso es exactamente lo que\
+                amenaza, ¿podría ser el ganso malévolo? No, dijo, deteniéndose a sí mismo. Llamarlo un ganso es exactamente lo que\
                 él o ellos quieren. Si puede alertar y luego burlar los sensores de seguridad, si puede reprogramar\
                 tecnología patentada y segura, si puede comunicarse por telepatía e inducir pesadillas... Llamarlo un ganso es\
-                reducir el problema. ¡No! no es un ganso, es un alienígena, y puede ser maligno o incluso puede ser un virus;\
+                reducir el problema. ¡No! No es un ganso, es un alienígena, y puede ser maligno o incluso puede ser un virus,\
                 concluyó en su meditación. Finalmente, la alarma habitual del cierre de hiperhibernación sonó, la tonada\
                 <em>Bolero de Maurice Ravel</em> le ayudó a relajarse, esperando que esta vez si fuera a despertar de verdad.\
                 </p>\
@@ -1260,7 +1260,7 @@ const games = [
                 Y de pronto una epifanía. Las cámaras de video, por supuesto. El traje que los monitores utilizan como uniforme les permite hacer uso de una\
                 terminal de programación en el antebrazo izquierdo. 305 la utilizó para descargar el contenido en video de la sala durante el tiempo que estuvo en hiperhibernación.\
                 Mientras seguía caminando, se percató de que el contenido grabado en la sala durante su hiperhiberación parecía manipulado. \
-                Inicialmente era difícil verlo. Pero la cuenta en milisegundos de la grabación daba un salto hacia el futuro sin explicación aparente. \
+                Inicialmente era difícil verlo, pero la cuenta en milisegundos de la grabación daba un salto hacia el futuro sin explicación aparente. \
                 Y justo en este salto de tiempo, parecía verse un por un instante la habitación teñida de rojo.</p>\
                 \
                 <p>Antes de girar por el pasillo que lo pondría de frente a la sala de conferencias, como <i>déjà vu</i>, un ensordecedor\
@@ -1276,8 +1276,8 @@ const games = [
                 <p>305 tomó un momento para ver una vez más la habitación. Sus ojos, a través del visor de su casco, la recorrieron de arriba a abajo. \
                 El traje que los monitores utilizan como uniforme les permite hacer uso de una\
                 terminal de programación en el antebrazo izquierdo. 305 la utilizó para comenzar una inspección sobre la cámara de\
-                hiperhibernación, enfocándose principalmente en el parámetro de energía y su excedente por encima del 100% de ATP.\
-                También ordenó descargar el contenido en video del CCTV durante el tiempo que estuvo dentro de la sala y por\
+                hiperhibernación, enfocándose principalmente en el parámetro de energía y su excedente por encima del 100 % de ATP.\
+                También ordenó descargar el contenido en video del CCTV durante el tiempo que estuvo dentro de la sala, y por\
                 último comenzó a rastrear vestigios de ondas cerebrales a lo largo de la base, intentando triangular la posición\
                 del ganso viral.</p>\
                 \
@@ -1286,7 +1286,7 @@ const games = [
                 la grabación daba en salto hacia delante sin explicación aparente. Y justo en este salto de tiempo, parecía verse\
                 un por un instante la habitación teñida de rojo.</p>\
                 \
-                <p>Antes de girar por el pasillo que lo pondría de frente a la sala de conferencias, como déjà vu, un ensordecedor\
+                <p>Antes de girar por el pasillo que lo pondría de frente a la sala de conferencias, como <em>déjà vu</em>, un ensordecedor\
                 graznido rebotó por su casco, sin embargo, 305 comenzaba a acostumbrarse al saludo y ni siquiera sobresaltó.</p>",
                 options: [
                     { id: "timpanos", option: "Tienes que dejar de presentarte así, me vas a romper un tímpano." },
@@ -1308,8 +1308,8 @@ const games = [
             },
             {
                 id: "que_idioma",
-                text: "<p class=\"dialog\">—Después tal vez haya tiempo para conversar sobre esos temas chica. Y hablando de eso... ¿ya comenzaste a cuestionarte las cosas?\
-                Hay algo extraño en todo esto ¿no lo crees?</p>",
+                text: "<p class=\"dialog\">—Después tal vez haya tiempo para conversar sobre esos temas chica. Y hablando de eso..., ¿ya comenzaste a cuestionarte las cosas?\
+                Hay algo extraño en todo esto, ¿no lo crees?</p>",
                 options: [
                     { id: "si_cuestiono", option: "Sí.", noShow: true },
                     { id: "no_cuestiono", option: "No.", noShow: true }]
@@ -1318,14 +1318,14 @@ const games = [
                 id: "comunicamos",
                 text: "<p class=\"dialog\">—Te puedo decir que no estamos hablando ninguna lengua, \
                 nuestra conversación es mental. Con nosotros no necesitas usar el idioma que hablas con tus colegas\
-                Y hablando de eso ¿ya comenzaste a cuestionarte las cosas? Hay algo extraño en todo esto ¿no lo crees?</p>",
+                Y hablando de eso, ¿ya comenzaste a cuestionarte las cosas? Hay algo extraño en todo esto, ¿no lo crees?</p>",
                 options: [
                     { id: "si_cuestiono", option: "Sí.", noShow: true },
                     { id: "no_cuestiono", option: "No.", noShow: true }]
             },
             {
                 id: "si_cuestiono",
-                text: "<p class=\"dialog\">—Pues... Hay algunos hechos interesantes. Exactamente ¿qué…</p>\
+                text: "<p class=\"dialog\">—Pues... Hay algunos hechos interesantes. Exactamente, ¿qué...?</p>\
                 \
                 <p class=\"dialog\">—305! You are late! Let's go!</p>\
                 \
@@ -1339,7 +1339,7 @@ const games = [
             },
             {
                 id: "no_cuestiono",
-                text: "<p class=\"dialog\">—No, pero... Hay algunos hechos interesantes. Exactamente ¿qué…</p>\
+                text: "<p class=\"dialog\">—No, pero... Hay algunos hechos interesantes. Exactamente, ¿qué...?</p>\
                 \
                 <p class=\"dialog\">—305! You are late! Let's go!</p>\
                 \
@@ -1366,7 +1366,7 @@ const games = [
                 \
                 <p>La rigidez del lugar era casi palpable. La presencia, aunque fuera virtual, de un escuadrón completo\
                 de El Muro era amenazante por sí sola. Y ver tan frías y severas posturas por parte de los números que un par de\
-                habitaciones atrás habían resbalado a la locura se sumaba a la sensación de extrañeza. Las enormes pantallas\
+                habitaciones atrás habían resbalado a la locura, se sumaba a la sensación de extrañeza. Las enormes pantallas\
                 dejaban ver a lo lejos, detrás del escuadrón, distintas naves de infantería pesada, con sus cañones apuntando\
                 directamente a él. Creía recordar que alguien alguna vez le había contado que El Muro era capaz de viajar entre proyecciones como si fueran portales,\
                 permitiéndoles aparecer en cuestión de segundos en cualquier dispositivo capaz de transmitir video, pero 305 nunca había presenciado\
@@ -1394,7 +1394,7 @@ const games = [
                 \
                 <p>La rigidez del lugar era casi palpable. La presencia, aunque fuera virtual, de un escuadrón completo\
                 de El Muro era amenazante por sí sola. Y ver tan frías y severas posturas por parte de los números que un par de\
-                habitaciones atrás habían resbalado a la locura se sumaba a la sensación de extrañeza. Las enormes pantallas\
+                habitaciones atrás habían resbalado a la locura, se sumaba a la sensación de extrañeza. Las enormes pantallas\
                 dejaban ver a lo lejos, detrás del escuadrón, distintas naves de infantería pesada, con sus cañones apuntando\
                 directamente a él. Creía recordar que alguien alguna vez le había contado que El Muro era capaz de viajar entre proyecciones como si fueran portales,\
                 permitiéndoles aparecer en cuestión de segundos en cualquier dispositivo capaz de transmitir video, pero 305 nunca había presenciado\
@@ -1416,9 +1416,9 @@ const games = [
                 305.</p>\
                 \
                 <p>Cuando el destello acabó, el ganso estaba posando con sus alas desplegadas como un arco sobre su cabeza y\
-                colocado en medio de 305 y los 3 semicírculos contendientes. Ante la aparición, la segunda línea de defensa\
+                colocado en medio de 305 y los tres semicírculos contendientes. Ante la aparición, la segunda línea de defensa\
                 desenfundó sus rifles de plasma y; lo insólito, a través de la pantalla, los cañones de sus armas se\
-                materializaron, siendo capaces de materializarse parcialmente en la sala, a pesar de estar a 384.000 kilómetros de distancia.</p>\
+                materializaron, siendo capaces de materializarse parcialmente en la sala, a pesar de estar a 384 000 kilómetros de distancia.</p>\
                 \
                 <p class=\"dialog\">—Stop in the name of the law!—gritaron a una sola voz los monitores y el escuadrón. Los primeros,\
                 sin realmente mostrar ningún tipo de arma, se pusieron en pie con agresividad.</p>\
@@ -1435,9 +1435,9 @@ const games = [
                 305.</p>\
                 \
                 <p>Cuando el destello acabó, el ganso estaba posando con sus alas desplegadas como un arco sobre su cabeza y\
-                colocado en medio de 305 y los 3 semicírculos contendientes. Ante la aparición, la segunda línea de defensa\
+                colocado en medio de 305 y los tres semicírculos contendientes. Ante la aparición, la segunda línea de defensa\
                 desenfundó sus rifles de plasma y; lo insólito, a través de la pantalla, los cañones de sus armas se\
-                materializaron, siendo capaces de materializarse parcialmente en la sala, a pesar de estar a 384.000 kilómetros de distancia.</p>\
+                materializaron, siendo capaces de materializarse parcialmente en la sala, a pesar de estar a 384 000 kilómetros de distancia.</p>\
                 \
                 <p class=\"dialog\">—Stop in the name of the law!—gritaron a una sola voz los monitores y el escuadrón. Los primeros,\
                 sin realmente mostrar ningún tipo de arma, se pusieron en pie con agresividad.</p>\
@@ -1454,11 +1454,11 @@ const games = [
                 Seguido, alzó su arma y la apuntó directo a la cabeza del ganso. Un gesto unísono de alegría se dibujó en todos los \
                 presentes, incluido el ganso, aunque este parecía hacerlo sarcásticamente.</p>\
                 \
-                <p class=\"dialog\">—Really?—dijo el ganso.</p>\
+                <p class=\"dialog\">—Really? —dijo el ganso.</p>\
                 \
                 <p>Los monitores se mostraron satisfechos.</p>\
                 \
-                <p class=\"dialog\">—He is a terrorist—dijeron sus colegas.</p>\
+                <p class=\"dialog\">—He is a terrorist —dijeron sus colegas.</p>\
                 \
                 <p class=\"dialog\">—I thought he was an alien—respondió 305. Diciendo esto, lanzó con fuerza sobrehumana el arma que\
                 el ganso le había concedido, rompiendo completamente la pantalla principal de la sala—I don't like this kind of\
@@ -1481,7 +1481,7 @@ const games = [
                 id: "graciosito",
                 text: "<p class=\"dialog\">—Muy gracioso.</p>\
                 \
-                <p class=\"dialog\">—Sí, muy graciosa chica. ¿Y ahora cuál es el siguiente paso?",
+                <p class=\"dialog\">—Sí, muy graciosa, chica. ¿Y ahora cuál es el siguiente paso?",
                 options: [
                     { id: "primero_conversar", option: "Quiero saber más de ti.", noShow: true },
                     { id: "primero_escapar", option: "Escapar de aquí.", noShow: true }]
@@ -1559,7 +1559,7 @@ const games = [
                 rodaba por sala, hasta encontrarse debajo de la mesa semicircular de los monitores, utizándola como un techo y un\
                 segundo escudo.</p>\
                 \
-                <p class=\"dialog\">—Nada mal chica ¿dónde aprendiste a hacer todo eso?</p>",
+                <p class=\"dialog\">—Nada mal, chica. ¿Dónde aprendiste a hacer todo eso?</p>",
                 options: [
                     { id: "lo_aprendi", option: "Lo aprendí de ti.", noShow: true },
                     { id: "graciosito", option: "¿Arruinar el ganso a la plasma? Soy vegetariano." }]
@@ -1568,10 +1568,10 @@ const games = [
             {
                 id: "lo_aprendi",
                 text: "<p class=\"dialog\">—Lo aprendí de ti. Revisé tus códigos, lo que le hiciste a la máquina de hiperbernación. Los credenciales \
-                que usaste son legales. No sé cómo ni porqué, ni tampoco que eres, o son, pero tienen acceso de sobreescritura por encima de las patentes. \
+                que usaste son legales. No sé cómo ni porqué, ni tampoco qué eres o son, pero tienen acceso de sobreescritura por encima de las patentes. \
                 Cualquiera que sea el truco, lo tomé prestado para sobreescribir los trajes de estos sujetos.</p>\
                 \
-                <p class=\"dialog\">—¿Y ahora cuál es el siguiente paso?</p>",
+                <p class=\"dialog\">—Y ¿ahora cuál es el siguiente paso?</p>",
                 options: [
                     { id: "primero_conversar", option: "Quiero saber más de ti." },
                     { id: "primero_escapar", option: "Escapar de aquí.", noShow: true }]
@@ -1584,7 +1584,7 @@ const games = [
                 <p class=\"dialog\">—Ok, retiro lo dicho. Salgamos de aquí.</p>\
                 \
                 <p class=\"dialog\">—Entendido. El costo de llevarlo con nosotros es asequible, pero eventualmente tendremos que pagar\
-                el precio ¡Vamos! —el ganso utilizó de nuevo uno de sus destellos, sacándolos de la sala y posicionándolos en\
+                el precio. ¡Vamos! —el ganso utilizó de nuevo uno de sus destellos, sacándolos de la sala y posicionándolos en\
                 dirección al hangar.</p>",
                 options: [
                     { id: "mas_lejos", option: "¿Qué? ¿No nos podías llevar un poco más lejos?" },
@@ -1606,10 +1606,10 @@ const games = [
                 id: "no_enemigo",
                 text: "<p class=\"dialog\">—No me has dejado en paz desde que se me aparecieron, así que parece ser que me necesitas.</p>\
                 \
-                <p class=\"dialog\">—En eso tenés razón chica, sos el ser más poderoso en todo este universo.</p>\
+                <p class=\"dialog\">—En eso tenés razón, chica, sos el ser más poderoso en todo este universo.</p>\
                 \
                 <p class=\"dialog\">—El costo de llevarlo con nosotros es asequible, pero eventualmente tendremos que pagar\
-                el precio ¡Vamos! —el ganso utilizó de nuevo uno de sus destellos, sacándolos de la sala y poniéndolos en\
+                el precio. ¡Vamos! —el ganso utilizó de nuevo uno de sus destellos, sacándolos de la sala y poniéndolos en\
                 dirección al hangar.</p>",
                 options: [
                     { id: "mas_lejos", option: "¿Qué? ¿No nos podías llevar un poco más lejos?" },
@@ -1619,10 +1619,10 @@ const games = [
                 id: "me_necesitas",
                 text: "<p class=\"dialog\">—No me has dejado en paz desde que se me aparecieron, así que parece ser que me necesitas.</p>\
                 \
-                <p class=\"dialog\">—En eso tenés razón chica, no nos puedo ir sin vos.</p>\
+                <p class=\"dialog\">—En eso tenés razón, chica, no nos puedo ir sin vos.</p>\
                 \
                 <p class=\"dialog\">—El costo de llevarlo con nosotros es asequible, pero eventualmente tendremos que pagar\
-                el precio ¡Vamos! —el ganso utilizó de nuevo uno de sus destellos, sacándolos de la sala y poniéndolos en\
+                el precio. ¡Vamos! —el ganso utilizó de nuevo uno de sus destellos, sacándolos de la sala y poniéndolos en\
                 dirección al hangar.</p>",
                 options: [
                     { id: "mas_lejos", option: "¿Qué? ¿No nos podías llevar un poco más lejos?" },
@@ -1633,8 +1633,8 @@ const games = [
                 id: "mas_lejos",
                 text: "<p class=\"dialog\">—Lo lamento, pero llevarlo a usted es… complicado. Ahora llévenos a una nave y salgamos de aquí.</p>\
                 \
-                <p>Mientras corrían, escucharon los disparos de múltiples naves que desde la sala de conferencia (y a través de las\
-                pantallas) abrían fuego, sin importarles que destruían la base de mantenimiento en el proceso.</p>",
+                <p>Mientras corrían, escucharon los disparos de múltiples naves que desde la sala de conferencia —y a través de las\
+                pantallas— abrían fuego, sin importarles que destruían la base de mantenimiento en el proceso.</p>",
                 options: [
                     { id: "correr1_discardable", option: "Correr.", noShow: true },
                     { id: "correr2_discardable", option: "CORRER.", noShow: true }]
@@ -1643,8 +1643,8 @@ const games = [
                 id: "mas_lejos_sarcasmo",
                 text: "<p class=\"dialog\">—Lo lamento, pero llevarlo a usted es… complicado. Ahora llévenos a una nave y salgamos de aquí.</p>\
                 \
-                <p>Mientras corrían, escucharon los disparos de múltiples naves que desde la sala de conferencia (y a través de las\
-                pantallas) abrían fuego, sin importarles que destruían la base de mantenimiento en el proceso.</p>",
+                <p>Mientras corrían, escucharon los disparos de múltiples naves que desde la sala de conferencia —y a través de las\
+                pantallas— abrían fuego, sin importarles que destruían la base de mantenimiento en el proceso.</p>",
                 options: [
                     { id: "correr1_discardable", option: "Correr.", noShow: true },
                     { id: "correr2_discardable", option: "CORRER.", noShow: true }]
@@ -1655,16 +1655,16 @@ const games = [
                 text: "<p class=\"dialog\">—¡Corre! Es evidente que a El Muro no le preocupa volar el nodo en mil pedazos con tal de\
                 detenernos.</p>\
                 \
-                <p class=\"dialog\">—Entonces voy a tomar la libertad de alzar en vuelo. Por cierto ¿Notó qué modifiqué la cámara para\
+                <p class=\"dialog\">—Entonces voy a tomar la libertad de alzar en vuelo. Por cierto, ¿notó qué modifiqué la cámara para\
                 que le diera energía extra? Trate de embestir la pared al final del pasillo, estoy seguro de que puede\
                 atravesarla por completo.</p>\
                 \
                 <p>305 cargó con fuerza y destruyó el obstáculo sin problemas. Y de esta manera repitió el proceso hasta encontrarse\
-                frente a la nave que los había traído a la base pocas horas antes, para este entonces, los cañones de El Muro\
+                frente a la nave que los había traído a la base pocas horas antes. Para este entonces, los cañones de El Muro\
                 tenían visibilidad directa hacia ellos.</p>\
                 \
                 <p>Abortaron el vehículo, 305 la logró arrancar y ponerlo en marcha hacia el exterior, no sin antes recibir un par\
-                de golpes por parte de los cañones de El Muro. Entre turbulencia y sonidos alarmantes, el gansos, le solicitó\
+                de golpes por parte de los cañones de El Muro. Entre turbulencia y sonidos alarmantes, el ganso le solicitó\
                 ayuda con algunas fórmulas.</p>\
                 \
                 <p class=\"dialog\">—¿Fórmula para calcular de desaceleración de un jet?</p>",
@@ -1677,16 +1677,16 @@ const games = [
                 text: "<p class=\"dialog\">—¡Corre! Es evidente que a El Muro no le preocupa volar el nodo en mil pedazos con tal de\
                 detenernos.</p>\
                 \
-                <p class=\"dialog\">—Entonces voy a tomar la libertad de alzar en vuelo. Por cierto ¿Notó qué modifiqué la cámara para\
+                <p class=\"dialog\">—Entonces voy a tomar la libertad de alzar en vuelo. Por cierto, ¿notó qué modifiqué la cámara para\
                 que le diera energía extra? Trate de embestir la pared al final del pasillo, estoy seguro de que puede\
                 atravesarla por completo.</p>\
                 \
                 <p>305 cargó con fuerza y destruyó el obstáculo sin problemas. Y de esta manera repitió el proceso hasta encontrarse\
-                frente a la nave que los había traído a la base pocas horas antes, para este entonces, los cañones de El Muro\
+                frente a la nave que los había traído a la base pocas horas antes. Para este entonces, los cañones de El Muro\
                 tenían visibilidad directa hacia ellos.</p>\
                 \
                 <p>Abortaron el vehículo, 305 la logró arrancar y ponerlo en marcha hacia el exterior, no sin antes recibir un par\
-                de golpes por parte de los cañones de El Muro. Entre turbulencia y sonidos alarmantes, el gansos, le solicitó\
+                de golpes por parte de los cañones de El Muro. Entre turbulencia y sonidos alarmantes, el ganso le solicitó\
                 ayuda con algunas fórmulas.</p>\
                 \
                 <p class=\"dialog\">—¿Fórmula para calcular de desaceleración de un jet?</p>",
@@ -1699,16 +1699,16 @@ const games = [
                 text: "<p class=\"dialog\">—¡CORRE! Es evidente que a El Muro no le preocupa volar el nodo en mil pedazos con tal de\
                 detenernos.</p>\
                 \
-                <p class=\"dialog\">—Entonces voy a tomar la libertad de alzar en vuelo. Por cierto ¿Notó qué modifiqué la cámara para\
+                <p class=\"dialog\">—Entonces voy a tomar la libertad de alzar en vuelo. Por cierto, ¿notó qué modifiqué la cámara para\
                 que le diera energía extra? Trate de embestir la pared al final del pasillo, estoy seguro de que puede\
                 atravesarla por completo.</p>\
                 \
                 <p>305 cargó con fuerza y destruyó el obstáculo sin problemas. Y de esta manera repitió el proceso hasta encontrarse\
-                frente a la nave que los había traído a la base pocas horas antes, para este entonces, los cañones de El Muro\
+                frente a la nave que los había traído a la base pocas horas antes. Para este entonces, los cañones de El Muro\
                 tenían visibilidad directa hacia ellos.</p>\
                 \
                 <p>Abortaron el vehículo, 305 la logró arrancar y ponerlo en marcha hacia el exterior, no sin antes recibir un par\
-                de golpes por parte de los cañones de El Muro. Entre turbulencia y sonidos alarmantes, el gansos, le solicitó\
+                de golpes por parte de los cañones de El Muro. Entre turbulencia y sonidos alarmantes, el ganso le solicitó\
                 ayuda con algunas fórmulas.</p>\
                 \
                 <p class=\"dialog\">—¿Fórmula para calcular de desaceleración de un jet?</p>",
@@ -1721,16 +1721,16 @@ const games = [
                 text: "<p class=\"dialog\">—¡CORRE! Es evidente que a El Muro no le preocupa volar el nodo en mil pedazos con tal de\
                 detenernos.</p>\
                 \
-                <p class=\"dialog\">—Entonces voy a tomar la libertad de alzar en vuelo. Por cierto ¿Notó qué modifiqué la cámara para\
+                <p class=\"dialog\">—Entonces voy a tomar la libertad de alzar en vuelo. Por cierto, ¿notó qué modifiqué la cámara para\
                 que le diera energía extra? Trate de embestir la pared al final del pasillo, estoy seguro de que puede\
                 atravesarla por completo.</p>\
                 \
                 <p>305 cargó con fuerza y destruyó el obstáculo sin problemas. Y de esta manera repitió el proceso hasta encontrarse\
-                frente a la nave que los había traído a la base pocas horas antes, para este entonces, los cañones de El Muro\
+                frente a la nave que los había traído a la base pocas horas antes. Para este entonces, los cañones de El Muro\
                 tenían visibilidad directa hacia ellos.</p>\
                 \
                 <p>Abortaron el vehículo, 305 la logró arrancar y ponerlo en marcha hacia el exterior, no sin antes recibir un par\
-                de golpes por parte de los cañones de El Muro. Entre turbulencia y sonidos alarmantes, el gansos, le solicitó\
+                de golpes por parte de los cañones de El Muro. Entre turbulencia y sonidos alarmantes, el ganso le solicitó\
                 ayuda con algunas fórmulas.</p>\
                 \
                 <p class=\"dialog\">—¿Fórmula para calcular de desaceleración de un jet?</p>",
@@ -1784,7 +1784,7 @@ const games = [
                 id: "no_misiles",
                 text: "<p class=\"dialog\">—¡Aquí no hay espacio para que hagas un misil! ¿Y cómo voy a reducir la velocidad de la nave si nos están persiguiendo? </p>\
                 \
-                <p class=\"dialog\">—¡Guarde la calma! ¿Aquí los polos de la Tierra están secos y resquebrajados, correcto? Perderemos\
+                <p class=\"dialog\">—¡Guarde la calma! Aquí los polos de la Tierra están secos y resquebrajados, ¿correcto? Perderemos\
                   a la oposición danzando entre las grietas.</p>",
                 options: [
                     { id: "no_bailar", option: "No sé bailar.", noShow: true },
@@ -1794,7 +1794,7 @@ const games = [
                 id: "hojalata_cayendo",
                 text: "<p class=\"dialog\">—¡Esta cosa se está cayendo a pedazos! Además ¿Cómo voy a reducir la velocidad de la nave si nos están persiguiendo?  \
                 \
-                <p class=\"dialog\">—¡Guarde la calma! ¿Aquí los polos de la Tierra están secos y resquebrajados, correcto? Perderemos\
+                <p class=\"dialog\">—¡Guarde la calma! Aquí los polos de la Tierra están secos y resquebrajados, ¿correcto? Perderemos\
                   a la oposición danzando entre las grietas.</p>",
                 options: [
                     { id: "no_bailar", option: "No sé bailar.", noShow: true },
@@ -1866,18 +1866,18 @@ const games = [
         data: [
             {
                 id: "start",
-                text: "<p>El ganso liberó el misil, este pareció perderse en el vacío, 305 juraría que nunca lo escuchó estallar. Al entrar\
+                text: "<p>El ganso liberó el misil. Este pareció perderse en el vacío y 305 juraría que nunca lo escuchó estallar. Al entrar\
                 en lo profundo de la grieta, la escena se fue oscureciendo hasta el punto de mostrarse en completa oscuridad.\
                 Durante este instante, 305 sintió como aquella vez que los ganso se le aparecieron en su \"sueño\".</p>\
                 \
                 <p>Luego, la nave desapareció por completo y ellos aparecieron instantáneamente en un ambiente tenebroso, con muy\
                 poca iluminación. Era el tipo de ambiente que puede encontrarse en el fondo de una cueva, pero un poco más seco, y\
-                parecía absorber el universo por completo, como si todo lo que existió antes, estaba en un mundo distinto y\
+                parecía absorber el universo por completo, como si todo lo que existió antes estaba en un mundo distinto y\
                 lejano.</p>\
                 \
                 <p>305 activó la linterna de su traje e inspeccionó superficialmente. Le pareció ver figuras humanoides, pero\
                 modificadas en formas bestiales. Algunos seres parecían tener alas de murciélago, que extendidas, tomaban\
-                <code>~2 m^2</code> por unidad. Otros, eran veloces, modificados selectivamente para ser aerodinámicos, con\
+                <code>~2 m^2</code> por unidad. Otros eran veloces, modificados selectivamente para ser aerodinámicos, con\
                 piernas largas y flacas, estructura ósea reducida y con crestas en zonas de la cabeza, codos y tobillos. Algunos\
                 parecían kafkianos.</p>\
                 ",
@@ -1891,14 +1891,14 @@ const games = [
                 text: "<p class=\"dialog\">—Aquí tendremos más libertad y será más sencillo preparar su contragolpe. Es una zona sin supervisión, el subsuelo.</p>",
                 options: [
                     { id: "submundo_palabras", option: "No puedo entender la situación con solo 18 palabras. Por favor, intenta explicarte mejor." },
-                    { id: "submundo_sarcasmo", option: "Ah claro. ¡El subsuelo! por supuesto..." }]
+                    { id: "submundo_sarcasmo", option: "Ah claro. ¡El subsuelo! Por supuesto..." }]
             },
             {
                 id: "submundo_donde",
                 text: "<p class=\"dialog\">—Logramos salir de la dimensión intermedia. Ahora estamos en el subsuelo.</p>",
                 options: [
                     { id: "submundo_palabras", option: "No puedo entender la situación con solo 11 palabras. Por favor, intenta explicarte mejor." },
-                    { id: "submundo_sarcasmo", option: "Ah claro. ¡El subsuelo! por supuesto..." }]
+                    { id: "submundo_sarcasmo", option: "Ah claro. ¡El subsuelo! Por supuesto..." }]
             },
 
 
@@ -1927,14 +1927,14 @@ const games = [
 
             {
                 id: "submundo_susto",
-                text: "<p class=\"dialog\">—¡Qué pasa? -reaccionó 305 alterado, esperando un ataque sorpresa por las criaturas primitivas o\
+                text: "<p class=\"dialog\">—¡Qué pasa? —reaccionó 305 alterado, esperando un ataque sorpresa por las criaturas primitivas o\
                 El Muro de Fuego.</p>\
                 \
                 <p class=\"dialog\">—No lo he dejado salir en mucho tiempo, disculpa.</p>\
                 \
                 <p>Luego de decir esto, el ganso comenzó a picotear y escarbar en el suelo, en busca de algún aperitivo. Se mantuvo\
-                en este procedimiento por 15 minutos, durante este tiempo hizo oídos sordos a las interrogantes de 305 e incluso\
-                intentó atacarlo a picotazos cuando se acercó demasiado. Al concluir su tentempié, aclaró su garganta y continuó.\
+                en este procedimiento por quince minutos. Durante este tiempo hizo oídos sordos a las interrogantes de 305 e incluso\
+                intentó atacarlo a picotazos cuando se acercó demasiado. Al concluir su tentempié, aclaró su garganta y continuó:\
                 </p>\
                 \
                 <p class=\"dialog\">—Estamos en una simulación. Llevas mucho tiempo adentro y perdiste el sentido de la realidad.</p>",
@@ -1949,8 +1949,8 @@ const games = [
                 <p class=\"dialog\">—No lo he dejado salir en mucho tiempo, disculpa.</p>\
                 \
                 <p>Luego de decir esto, el ganso comenzó a picotear y escarbar en el suelo, en busca de algún aperitivo. Se mantuvo\
-                en este procedimiento por 15 minutos, durante este tiempo hizo oídos sordos a las interrogantes de 305 e incluso\
-                intentó atacarlo a picotazos cuando se acercó demasiado. Al concluir su tentempié, aclaró su garganta y continuó.\
+                en este procedimiento por quince minutos. Durante este tiempo hizo oídos sordos a las interrogantes de 305 e incluso\
+                intentó atacarlo a picotazos cuando se acercó demasiado. Al concluir su tentempié, aclaró su garganta y continuó:\
                 </p>\
                 \
                 <p class=\"dialog\">—Estamos en una simulación. Llevas mucho tiempo adentro y perdiste el sentido de la realidad.</p>",
@@ -1968,7 +1968,7 @@ const games = [
                 <p class=\"dialog\">—¡El Muro puede llegar hasta acá? Pensé que dijiste que habíamos cambiado de dimensión.</p>\
                 \
                 <p class=\"dialog\">—Chica, es difícil confesarte esto, pero… El Muro de Fuego es solo un instrumento. Existe\
-                algo mucho más peligroso, quién está tras bambalinas y orquesta todo como mente maestra, controla cada uno de los\
+                algo mucho más peligroso, quien está tras bambalinas y orquesta todo, como mente maestra, controlando cada uno de los\
                 eventos que son provocados por cualquier otro ente que no sea vos o yosotros.</p>",
                 options: [
                     { id: "submundo_yosotros", option: "¿Yosotros?" },
@@ -1986,7 +1986,7 @@ const games = [
             {
                 id: "submundo_ok",
                 text: "<p class=\"dialog\">—Chica, hay algo que debemos dejar claro… El Muro de Fuego es solo un instrumento. Existe\
-                algo mucho más peligroso, quién está tras bambalinas y orquesta todo como mente maestra, controla cada uno de los\
+                algo mucho más peligroso, quien está tras bambalinas y orquesta todo, como mente maestra, controlando cada uno de los\
                 eventos que son provocados por cualquier otro ente que no sea vos o yosotros.</p>",
                 options: [
                     { id: "submundo_yosotros", option: "¿Yosotros?" },
@@ -1997,7 +1997,7 @@ const games = [
                 text: "<p class=\"dialog\">—¡El Muro puede llegar hasta acá? Pensé que dijiste que habíamos cambiado de dimensión.</p>\
                 \
                 <p class=\"dialog\">—Chica, es difícil confesarte esto, pero… El Muro de Fuego es solo un instrumento. Existe\
-                algo mucho más peligroso, quién está tras bambalinas y orquesta todo como mente maestra, controla cada uno de los\
+                algo mucho más peligroso, quien está tras bambalinas y orquesta todo, como mente maestra, controlando cada uno de los\
                 eventos que son provocados por cualquier otro ente que no sea vos o yosotros.</p>",
                 options: [
                     { id: "submundo_yosotros", option: "¿Yosotros?" },
@@ -2021,17 +2021,17 @@ const games = [
             {
                 id: "submundo_ugh_voy",
                 text: "<p>305 emprendió camino sin tener un destino claro. Iba avanzando a lo desconocido, como un chico en un zoológico\
-                modificado genéticamente, donde cada animal parece haber evolucionado a partir de un humano, y no lo contrario. En\
-                su caminata se topó con docenas de ojos rojos, mirándolo desde sus escondites en arbustos secos o árboles grises y\
+                modificado genéticamente, donde cada animal parece haber evolucionado a partir de un humano y no lo contrario. En\
+                su caminata se topó con docenas de ojos rojos mirándolo desde sus escondites en arbustos secos o árboles grises y\
                 decrépitos. También notó que a los pocos metros de caminar en un entorno, el escenario se transformaba. Cuando\
-                aparecieron en el subsuelo, era una enorme cueva, luego le pareció caminar por una llanura desierta; y ahora, el\
+                aparecieron en el subsuelo, el escenario era una enorme cueva, luego le pareció caminar por una llanura desierta; y ahora, el\
                 bosque comenzaba morfar a una sabana. Antes de darse cuenta, se encontraba de frente con la peor de las bestias\
                 que había logrado ver hasta el momento. Era una especie de humano peludo y encorvado simulando la forma de un león,\
                 pero perdiendo algo de calidad en el proceso y terminando más como una enorme rata humanoide con melena y sin\
-                cola. En total eran 6, lo acorralaron contra un árbol y estaban listos para atacar. Un granizado de batalla\
+                cola. En total eran seis que lo acorralaron contra un árbol y estaban listos para atacar. Un granizado de batalla\
                 estalló de la copa del árbol.</p>\
                 \
-                <p class=\"dialog\">—¡Atrás!— dijo el ave, llegando de imprevisto. Mientras recitaba su amenaza, comenzó a destellar\
+                <p class=\"dialog\">—¡Atrás! —dijo el ave, llegando de imprevisto. Mientras recitaba su amenaza, comenzó a destellar\
                 una luz intensa que alejó a las bestias.</p>",
                 options: [
                     { id: "submundo_luz", option: "No les gusta la luz, ah.", noShow: true },
@@ -2046,9 +2046,9 @@ const games = [
             },
             {
                 id: "submundo_harto",
-                text: "<p class=\"dialog\">—Yo también, respondió con una voz más grave.</p>\
+                text: "<p class=\"dialog\">—Yo también —respondió con una voz más grave.</p>\
                 \
-                <p class=\"dialog\">—Yo no veo a nadie riéndose, se respondió a sí mismo.</p>",
+                <p class=\"dialog\">—Yo no veo a nadie riéndose —se respondió a sí mismo.</p>",
                 options: [
                     { id: "submundo_me_voy", option: "Yo me voy. No puedo con esto." },
                     { id: "submundo_solo", option: "Déjame solo, por favor." }]
@@ -2056,17 +2056,17 @@ const games = [
             {
                 id: "submundo_me_voy",
                 text: "<p>305 emprendió camino sin tener un destino claro. Iba avanzando a lo desconocido, como un chico en un zoológico\
-                modificado genéticamente, donde cada animal parece haber evolucionado a partir de un humano, y no lo contrario. En\
-                su caminata se topó con docenas de ojos rojos, mirándolo desde sus escondites en arbustos secos o árboles grises y\
+                modificado genéticamente, donde cada animal parece haber evolucionado a partir de un humano y no lo contrario. En\
+                su caminata se topó con docenas de ojos rojos mirándolo desde sus escondites en arbustos secos o árboles grises y\
                 decrépitos. También notó que a los pocos metros de caminar en un entorno, el escenario se transformaba. Cuando\
-                aparecieron en el subsuelo, era una enorme cueva, luego le pareció caminar por una llanura desierta; y ahora, el\
+                aparecieron en el subsuelo, el escenario era una enorme cueva, luego le pareció caminar por una llanura desierta; y ahora, el\
                 bosque comenzaba morfar a una sabana. Antes de darse cuenta, se encontraba de frente con la peor de las bestias\
                 que había logrado ver hasta el momento. Era una especie de humano peludo y encorvado simulando la forma de un león,\
                 pero perdiendo algo de calidad en el proceso y terminando más como una enorme rata humanoide con melena y sin\
-                cola. En total eran 6, lo acorralaron contra un árbol y estaban listos para atacar. Un granizado de batalla\
+                cola. En total eran seis que lo acorralaron contra un árbol y estaban listos para atacar. Un granizado de batalla\
                 estalló de la copa del árbol.</p>\
                 \
-                <p class=\"dialog\">—¡Atrás!— dijo el ave, llegando de imprevisto. Mientras recitaba su amenaza, comenzó a destellar\
+                <p class=\"dialog\">—¡Atrás! —dijo el ave, llegando de imprevisto. Mientras recitaba su amenaza, comenzó a destellar\
                 una luz intensa que alejó a las bestias.</p>",
                 options: [
                     { id: "submundo_luz", option: "No les gusta la luz, ah.", noShow: true },
@@ -2074,42 +2074,42 @@ const games = [
             },
             {
                 id: "submundo_luz",
-                text: "<p class=\"dialog\">—No les gusta la luz, ah— concluyó 305, algo nervioso.</p>\
+                text: "<p class=\"dialog\">—No les gusta la luz, ?ah? —concluyó 305, algo nervioso.</p>\
                 \
                 <p class=\"dialog\">—En este universo el material cognitivo es bastante primitivo. Estas criaturas están programadas\
                 para huir o atacar.</p>\
                 \
-                <p class=\"dialog\">—En otras palabras—dijo la voz gansal profunda— esta simulación es más frágil y sencilla en\
+                <p class=\"dialog\">—En otras palabras —dijo la voz gansal profunda—, esta simulación es más frágil y sencilla en\
                 comparación al lugar donde usted \"nació\".</p>\
                 \
                 <p class=\"dialog\">—Y también más hostil, chica, tené cuidado.</p>\
                 \
-                <p class=\"dialog\">—Podemos cambiar eso—dijo el ganso, a lo que saltó a la copa de otro árbol, listo para comenzar su\
+                <p class=\"dialog\">—Podemos cambiar eso —dijo el ganso, a lo que saltó a la copa de otro árbol, listo para comenzar su\
                 demostración.</p>\
                 \
                 <p>305 esperó bajo el árbol. Aprovechó el tiempo para meditar. En algún momento el bioma volvió a cambiar a un\
-                ambiente prehistórico, donde lo más llamativo era visualizar dinosaurios humanoides en las planicies cercanas.</p>",
+                ambiente prehistórico donde lo más llamativo era visualizar dinosaurios humanoides en las planicies cercanas.</p>",
                 options: [
                     { id: "submundo_cambios", option: "¿Por qué suceden estos cambios repentinos?" },
                     { id: "submundo_arriba", option: "¿Tanto haces ahí arriba?" }]
             },
             {
                 id: "submundo_gracias",
-                text: "<p class=\"dialog\">¡Gracias!— dijo 305, algo nervioso.</p>\
+                text: "<p class=\"dialog\">¡Gracias! —dijo 305, algo nervioso.</p>\
                 \
                 <p class=\"dialog\">—No te preocupes, todo está bien. En este universo el material cognitivo es bastante primitivo. Estas criaturas están programadas\
                 para huir o atacar.</p>\
                 \
-                <p class=\"dialog\">—En otras palabras—dijo la voz gansal profunda— esta simulación es más frágil y sencilla en\
+                <p class=\"dialog\">—En otras palabras —dijo la voz gansal profunda—, esta simulación es más frágil y sencilla en\
                 comparación al lugar donde usted \"nació\".</p>\
                 \
                 <p class=\"dialog\">—Y también más hostil, chica, tené cuidado.</p>\
                 \
-                <p class=\"dialog\">—Podemos cambiar eso—dijo el ganso, a lo que saltó a la copa de otro árbol, listo para comenzar su\
+                <p class=\"dialog\">—Podemos cambiar eso —dijo el ganso, a lo que saltó a la copa de otro árbol, listo para comenzar su\
                 demostración.</p>\
                 \
                 <p>305 esperó bajo el árbol. Aprovechó el tiempo para meditar. En algún momento el bioma volvió a cambiar a un\
-                ambiente prehistórico, donde lo más llamativo era visualizar dinosaurios humanoides en las planicies cercanas.</p>",
+                ambiente prehistórico donde lo más llamativo era visualizar dinosaurios humanoides en las planicies cercanas.</p>",
                 options: [
                     { id: "submundo_cambios", option: "¿Por qué suceden estos cambios repentinos?" },
                     { id: "submundo_arriba", option: "¿Tanto haces ahí arriba?" }]
@@ -2144,7 +2144,7 @@ const games = [
                 <p>Lentamente, los árboles comenzaron a tomar la forma de popis, paletas y bastones dulces. Los dinosaurios\
                 comenzaron a lucir sombreros mexicanos, algunos hasta maracas. Del cielo, parecía proyectarse una música de salsa,\
                 a la que los dinosaurios bailaban y meneaban brazos e instrumentos. 305 intentó cerrar y abrir sus ojos con alta intensidad,\
-                también se quitó su casco y limpió con su aliento y su traje el visor del mismo. Incluso se pellizcó.</p>",
+                también se quitó su casco y limpió con su aliento y su traje el visor. Incluso se pellizcó.</p>",
                 options: [
                     { id: "submundo_turing_no", option: "Esto no puede ser." },
                     { id: "submundo_turing", option: "¡Por Turing, qué es esto?" }]
@@ -2160,7 +2160,7 @@ const games = [
                 <p>Lentamente, los árboles comenzaron a tomar la forma de popis, paletas y bastones dulces. Los dinosaurios\
                 comenzaron a lucir sombreros mexicanos, algunos hasta maracas. Del cielo, parecía proyectarse una música de salsa,\
                 a la que los dinosaurios bailaban y meneaban sus brazos e instrumentos. 305 intentó cerrar y abrir sus ojos con alta intensidad,\
-                también se quitó su casco y limpió con su aliento y su traje el visor del mismo. Incluso se pellizcó.</p>",
+                también se quitó su casco y limpió con su aliento y su traje el visor. Incluso se pellizcó.</p>",
                 options: [
                     { id: "submundo_turing_no", option: "Esto no puede ser." },
                     { id: "submundo_turing", option: "¡Por Turing, qué es esto?" }]
@@ -2175,7 +2175,7 @@ const games = [
                 <p>Lentamente, los árboles comenzaron a tomar la forma de popis, paletas y bastones dulces. Los dinosaurios\
                 comenzaron a lucir sombreros mexicanos, algunos hasta maracas. Del cielo, parecía proyectarse una música de salsa,\
                 a la que los dinosaurios bailaban y meneaban brazos e instrumentos. 305 intentó cerrar y abrir sus ojos con alta intensidad,\
-                también se quitó su casco y limpió con su aliento y su traje el visor del mismo. Incluso se pellizcó.</p>",
+                también se quitó su casco y limpió con su aliento y su traje el visor. Incluso se pellizcó.</p>",
                 options: [
                     { id: "submundo_turing_no", option: "Esto no puede ser." },
                     { id: "submundo_turing", option: "¡Por Turing, qué es esto?" }]
@@ -2243,8 +2243,8 @@ const games = [
             },
             {
                 id: "submundo_mi_realidad",
-                text: "<p class=\"dialog\"><p class=\"dialog\">—Ok, pero debe admitir que está realidad se está volviendo un poco extraña, ¿No cree? ¡Solo mire\
-                los dinosaurios bailar salsa en línea! Yo no puedo con esto. Tome usted el control del ganso.— se dijo a sí mismo.</p>\
+                text: "<p class=\"dialog\"><p class=\"dialog\">—Ok, pero debe admitir que está realidad se está volviendo un poco extraña, ¿no cree? ¡Solo mire\
+                los dinosaurios bailar salsa en línea! Yo no puedo con esto. Tome usted el control del ganso —se dijo a sí mismo.</p>\
                 ",
                 options: [
                     { id: "submundo_descabellado", option: "Es descabellado, pero tal vez tienes razón.", noShow: true },
@@ -2256,13 +2256,13 @@ const games = [
                 text: "<p class=\"dialog\">—Gracias, no lo haré.</p>\
                 \
                 <p class=\"dialog\">—En la actualidad, los humanos pasan encerrados en sus hogares, hogares muy pequeños, chica. \
-                las constantes crisis sanitarias nos empujaron a promover el aislamiento. Y la\
+                las constantes crisis sanitarias nos empujaron a promover el aislamiento y la\
                 sobrepoblación nos obligó a vivir en pequeñas cajitas de no más de un metro cuadrado. El gobierno global se\
                 encarga de suplir a cada humano con sustento biológico para cada una de sus necesidades, pero pasar toda la vida\
-                en un cajón sin ninguna forma de esparcimiento suena como una tortura ¿verdad? Es por esto que existen herramientas\
+                en un cajón sin ninguna forma de esparcimiento. Suena como una tortura, ¿verdad? Es por esto que existen herramientas\
                 que le permiten a la gente entretenerse en sus propios espacios. </p>\
                 \
-                <p class=\"dialog\">—Exacto, lo que vos conocés acá como los \"metaversos\", es similar a lo que tenemos en el\
+                <p class=\"dialog\">—Exacto, lo que vos conocés acá como los \"metaversos\" es similar a lo que tenemos en el\
                 mundo real. Probablemente, como nunca has conocido nada distinto, incluso tu imaginación está atada a crear\
                 universos muy parecidos al real.</p>",
                 options: [
@@ -2272,13 +2272,13 @@ const games = [
             {
                 id: "submundo_realidad",
                 text: "<p class=\"dialog\">—En la actualidad, los humanos pasan encerrados en sus hogares, hogares muy pequeños, chica. \
-                las constantes crisis sanitarias nos empujaron a promover el aislamiento. Y la\
+                las constantes crisis sanitarias nos empujaron a promover el aislamiento y la\
                 sobrepoblación nos obligó a vivir en pequeñas cajitas de no más de un metro cuadrado. El gobierno global se\
                 encarga de suplir a cada humano con sustento biológico para cada una de sus necesidades, pero pasar toda la vida\
-                en un cajón sin ninguna forma de esparcimiento suena como una tortura ¿verdad? Es por esto que existen herramientas\
+                en un cajón sin ninguna forma de esparcimiento. Suena como una tortura, ¿verdad? Es por esto que existen herramientas\
                 que le permiten a la gente entretenerse en sus propios espacios. </p>\
                 \
-                <p class=\"dialog\">—Exacto, lo que vos conocés acá como los \"metaversos\", es similar a lo que tenemos en el\
+                <p class=\"dialog\">—Exacto, lo que vos conocés acá como los \"metaversos\" es similar a lo que tenemos en el\
                 mundo real. Probablemente, como nunca has conocido nada distinto, incluso tu imaginación está atada a crear\
                 universos muy parecidos al real.</p>",
                 options: [
@@ -2307,8 +2307,8 @@ const games = [
                 id: "submundo_parlante_no",
                 text: "<p class=\"dialog\">—¿Cuál realidad? Para mí esta <strong>es</strong> la realidad.</p>\
                 \
-                <p class=\"dialog\">—Ok, pero debe admitir que está realidad se está volviendo un poco extraña, ¿No cree? ¡Solo mire\
-                los dinosaurios bailar salsa en línea! Yo no puedo con esto. Tome usted el control del ganso.— se dijo a sí mismo.</p>\
+                <p class=\"dialog\">—Ok, pero debe admitir que está realidad se está volviendo un poco extraña, ¿no cree? ¡Solo mire\
+                los dinosaurios bailar salsa en línea! Yo no puedo con esto. Tome usted el control del ganso —se dijo a sí mismo.</p>\
                 ",
                 options: [
                     { id: "submundo_descabellado", option: "Es descabellado, pero tal vez tienes razón.", noShow: true },
@@ -2318,18 +2318,18 @@ const games = [
                 id: "submundo_parlante",
                 text: "<p class=\"dialog\">—Ok, supongamos por un momento que te puedo creer. Que todo esto es falso ¿qué procede?</p>\
                 \
-                <p class=\"dialog\">—Verá, la humanidad la realizado grandes hazañas, pero en el fondo, aún no sabemos como funciona nuestra mente. \
+                <p class=\"dialog\">—Verá, la humanidad la realizado grandes hazañas, pero en el fondo aún no sabemos como funciona nuestra mente. \
                 Hemos aprendido como simular sus entradas y salidas, a almacenarlas en vasijas de distintos estilos e incluso replicar algunas de sus funciones con tecnología. \
-                Pero en el núcleo, existe una complejidad intrinseca que supera la ciencia. Hemos desmenuzado el cerebro humano mil y un veces y sin embargo, esta complejidad se \
-                excurre de nuestras manos, el sistema que existe entre la química y el psique es inerceptible para los hechos. Somos seres enrevesados, ambiguos.</p>\
+                Pero en el núcleo existe una complejidad intrinseca que supera la ciencia. Hemos desmenuzado el cerebro humano mil y un veces y, sin embargo, esta complejidad se \
+                excurre de nuestras manos. El sistema que existe entre la química y el psique es inerceptible para los hechos. Somos seres enrevesados, ambiguos.</p>\
                 \
                 <p class=\"dialog\">—Incluso si nos decís que nos creés, decirlo no es suficiente. Luego de tanto tiempo encerrada aquí, has interiorizado esta experiencia como toda una vida. \
                 Y una parte de tu mente se ha arraigado a esta realidad, el asistente virtual de tu simulación ha hecho casa ahí. Hace falta más que palabras y fuerza bruta, necesitas convicción.\
-                No te podemos enseñar a tener convicción chica, nadie puede hacer eso por vos. Pero te podemos enseñar a dar órdenes con convicción. Utilizando una herramienta que no debería ser \
+                No te podemos enseñar a tener convicción, chica, nadie puede hacer eso por vos. Pero te podemos enseñar a dar órdenes con convicción. Utilizando una herramienta que no debería ser \
                 demasiado extraña para vos, nuestra mejor arma y defensa. El lenguaje. En esta ocasión, el lenguaje que nos permite la programación. \
                 </p>\
                 \
-                <p class=\"dialog\">—En otro momento podemos concentrarnos en la teoría, por ahora ¿qué le parece un realizar una modificación de la realidad?</p>",
+                <p class=\"dialog\">—En otro momento podemos concentrarnos en la teoría, por ahora, ¿qué le parece un realizar una modificación de la realidad?</p>",
                 options: [
                     { id: "submundo_teoria", option: "Insisto, repasemos cómo funciona la programación." },
                     { id: "submundo_practico", option: "Ok, vamos con la modificación." }]
@@ -2338,11 +2338,11 @@ const games = [
             {
                 id: "submundo_teoria",
                 text: "<p class=\"dialog\">—El Muro de Fuego debe estar buscándonos como desquiciados, pero se me hace imposible negarte a vos un \
-                un poco de nuestro tiempo con tal de que aprendás un poco más y practiqués ¿verdad, señor ganso?</p> \
+                un poco de nuestro tiempo con tal de que aprendás un poco más y practiqués, ¿verdad, señor ganso?</p> \
                 <p>Un silencio que se postergó hasta la incomodidad se hizo presente.</p>\
                 \
                 <p class=\"dialog\">—Ok... Iré por partes. Le voy a explicar un poco sobre qué es la programación, los lenguajes de programación y su gramática. \
-                Usted ya debería saber todas estas cosas, pero entiendo que los nervios pueden distorsionar a las personas ¿Comenzamos?</p>",
+                Usted ya debería saber todas estas cosas, pero entiendo que los nervios pueden distorsionar a las personas. ¿Comenzamos?</p>",
                 options: [
                     { id: "submundo_practica_programacion", option: "Adelante." },
                     { id: "submundo_practico", option: "Me arrepentí, mejor veamos cómo puedo modificar esta realidad." }]
@@ -2353,14 +2353,14 @@ const games = [
                 En el contexto informático, busca modelar la solución a un problema y representarla en un lenguaje apropiado.\
                 La acción de programar una máquina se ejecuta mediante la escritura de código. El código son las instrucciones que deseamos sean manifestadas.\
                 Un <i>script</i>, por ejemplo, es un documento que contiene una secuencia de comandos, un programa sencillo. El código que compone el núcleo de un programa específico \
-                suele ser llamado <u>código</u> <u>fuente</u>. En teoría, la programación no tiene limites, si se puede imaginar, se puede programar.\
+                suele ser llamado <u>código</u> <u>fuente</u>. En teoría, la programación no tiene limites: si se puede imaginar, se puede programar.\
                 \
                 Pero el código no se desarrolla en lenguaje natural, los humanos somos redundantes y ambiguos por naturaleza; para resolver este problema de comunicación humano-máquina,\
                 hemos creado centenas de lenguajes de programación.\
                 Cada lenguaje cumple su propósito de manera determinada y por norma, suelen estar diseñados para resolver una gama específica de problemas. \
                 </p>\
-                <p class>EJERCICIO: Papá Pepito le dice a Pepito: \"ve a la pulpe y trae una botella de leche. Si hay huevos, trae media docena.\", Pepito va a la tienda y\
-                logra ver que hay huevos ¿Cuántas botellas de leche debería comprar Pepito? </p>\
+                <p class>EJERCICIO: Papá Pepito le dice a Pepito: \"Ve a la pulpe y trae una botella de leche. Si hay huevos, trae media docena.\", Pepito va a la tienda y\
+                logra ver que hay huevos. ¿Cuántas botellas de leche debería comprar Pepito? </p>\
                 ",
                 options: [
                     { id: "submundo_practica_programacion_rmal", option: "Una." },
@@ -2370,9 +2370,9 @@ const games = [
             {
                 id: "submundo_practica_programacion_rmal",
                 text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
-                 Habían huevos, Papá Pepito dijo que si habían huevos, debían comprarse seis botellas. \
+                 Había huevos. Papá Pepito dijo que si habían huevos, debían comprarse seis botellas. \
                 </p>\
-                <p class=\"dialog\">—Aunque... puede ser que Papá Pepito realmente solo quería una botella y seis huevos ¿verdad? La orden es <u>ambigua</u>, se puede interpretar de maneras \
+                <p class=\"dialog\">—Aunque... puede ser que Papá Pepito realmente solo quería una botella y seis huevos, ¿verdad? La orden es <u>ambigua</u>, se puede interpretar de maneras \
                 que generan resultados muy diferentes.\
                 \</p>\
                 <p class=\"dialog\">—¿Continuamos, chica?</p>",
@@ -2385,7 +2385,7 @@ const games = [
                 text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                  En caso de haber huevos, Papá Pepito quería una botella y seis huevos. \
                 <p class=\"dialog\">—Pero... tal vez usted tiene razón, puede ser que Papá Pepito realmente quería definir su cantidad de leche en función de la presencia de huevos\
-                en la tienda. Esto es lo complicado del lenguaje natural, le da cabida a las ambiguedades.</p>\
+                en la tienda. Esto es lo complicado del lenguaje natural, le da cabida a las ambigüedades.</p>\
                 <p class=\"dialog\">—¿Continuamos, chica?</p>",
                 options: [
                     { id: "submundo_practica_lenguajes", option: "Aprender más sobre los lenguajes de programación.", noShow: true },
@@ -2508,7 +2508,7 @@ const games = [
                 \
                 <p class=\"dialog\">—¡No tenemos tiempo para hablar de todos los paradigmas!</p>\
                 \
-                <p class=\"dialog\">—Puedo explicar un par de ellos ¿le gustaría aprender un poco sobre algunos paradigmas?</p>\
+                <p class=\"dialog\">—Puedo explicar un par de ellos. ¿le gustaría aprender un poco sobre algunos paradigmas?</p>\
                 ",
                 options: [
                     { id: "submundo_practica_lenguajes_3", option: "Sí." },
@@ -2571,7 +2571,7 @@ suma(numero_1, numero_2){\n\
                 <p class=\"dialog\">—Algunos lenguajes son puramente funcionales, pero lo más común es que los lenguajes admitan funciones combinadas con el uso de otros paradigmas.</p>",
                 options: [
                     { id: "submundo_poo", option: "¿Como el paradigma funcional?" },
-                    { id: "submundo_practico", option: "¿Y si mejor vemos como puedo cambiar la realidad?." }]
+                    { id: "submundo_practico", option: "¿Y si mejor vemos como puedo cambiar la realidad?" }]
             },
             {
                 id: "submundo_funcional_rmal",
@@ -2683,14 +2683,14 @@ len = .-message\
 
             {
                 id: "submundo_practica_sintaxis_1",
-                text: "<p class=\"dialog\">—Hay que apurarle a esto amigo.</p>\
+                text: "<p class=\"dialog\">—Hay que apurarle a esto, amigo.</p>\
                 \
                 <p class=\"dialog\">—Lo sé. Pero aún debemos cubrir el concepto de variables, el tipado, las estructuras de datos y \
                 algunas formas de navegarlas.</p>\
                 \
                 <p class=\"dialog\">—¡Apurale!</p>\
                 \
-                <p class=\"dialog\">—¡Las variables! son una forma de almacenar datos, de manera temporal. Por ejemplo.</p>\
+                <p class=\"dialog\">—¡Las variables! Son una forma de almacenar datos, de manera temporal. Por ejemplo:</p>\
                 \
                 <code style='display: block; white-space: pre; border: 1px solid #999;'>\
 variable_1 = 10; \n\
@@ -2851,7 +2851,7 @@ while True:{\n\
             </ul>\
             <p class=\"dialog\">—Hablando de eternidad, creo que hemos abusado de nuestro tiempo destinado a la teoría</p>\
             \
-            <p class=\"dialog\">—¿Qué te parece intentar algo como... cambiar la textura de ese árbol?— dijo el ganso mientras señalaba un árbol de \
+            <p class=\"dialog\">—¿Qué te parece intentar algo como... cambiar la textura de ese árbol? —dijo el ganso mientras señalaba un árbol de \
                 caramelo</p>\
                 \
                 ",
@@ -2862,8 +2862,8 @@ while True:{\n\
 
             {
                 id: "submundo_practico",
-                text: "<p class=\"dialog\">—¿Qué te parece algo como... ¿cambiar la textura de ese árbol?— dijo el ganso mientras señalaba un árbol de \
-                caramelo</p>\
+                text: "<p class=\"dialog\">—¿Qué te parece algo como..., ¿cambiar la textura de ese árbol? —dijo el ganso mientras señalaba un árbol de \
+                caramelo.</p>\
                 \
                 <p class=\"dialog\">—¿Cómo puedo hacerlo?</p>\
                 \
@@ -2969,7 +2969,7 @@ while True:{\n\
 
             {
                 id: "submundo_probar",
-                text: "<p class=\"dialog\">—Vamos por partes, chica ¿Qué tal un ejemplo práctico? algo como... ¿cambiar la textura de ese árbol?— dijo el ganso mientras señalaba un árbol de \
+                text: "<p class=\"dialog\">—Vamos por partes, chica. ¿Qué tal un ejemplo práctico? algo como..., ¿cambiar la textura de ese árbol?— dijo el ganso mientras señalaba un árbol de \
                 caramelo</p>\
                 <p class=\"dialog\">—¿Cómo puedo hacerlo?</p>\
                 \
@@ -2984,15 +2984,15 @@ while True:{\n\
 
             {
                 id: "submundo_mi",
-                text: "<p class=\"dialog\">—Y… —respondió 305 dubitativo —si todo lo que dices es cierto… ¿Qué existe en la verdadera\
+                text: "<p class=\"dialog\">—Y… —respondió 305 dubitativo—, si todo lo que dices es cierto… ¿Qué existe en la verdadera\
                 realidad para mí?</p>\
                 \
-                <p class=\"dialog\">—No lo sé, familia, amigos. Tal vez algún interés amoroso o el deseo de aprender una habilidad\
-                nueva. Realmente no tengo idea sobre tus gustos o aspiraciones chica, pero para el orden mundial, es importante que la\
-                humanidad esté por encima de las máquinas y no al contrario. Dejar que nos dominen y tengan acceso total a nuestro\
+                <p class=\"dialog\">—No lo sé; familia, amigos. Tal vez algún interés amoroso o el deseo de aprender una habilidad\
+                nueva. Realmente no tengo idea sobre tus gustos o aspiraciones, chica, pero para el orden mundial es importante que la\
+                humanidad esté por encima de las máquinas y no al contrario. Dejar que nos dominen y tengan acceso total a nuestra\
                 psique puede ser problemático en el futuro. Debemos evitar la singularidad descontrada a cualquier costo. </p>\
                 \
-                <p class=\"dialog\">—Así es, usted puede hacer lo que quiera en el mundo real, mediante la computadora, puede crear un\
+                <p class=\"dialog\">—Así es, usted puede hacer lo que quiera en el mundo real mediante la computadora, puede crear un\
                 avatar para ir al banco o a un centro de aprendizaje. Es cierto que no hay mucho movimiento físico, pero todavía\
                 queda algo de interacción humana allá afuera. Y la necesita. En poco tiempo ha formado una relación más profunda\
                 con un ganso que con cualquiera de sus colegas; después de todo, usted es un humano, necesita de otros humanos.\
@@ -3008,7 +3008,7 @@ while True:{\n\
                 id: "submundo_aire",
                 text: "<p class=\"dialog\">—Bueno, una vez que uno entiende que todo lo que existe aquí está dentro de una computadora, es\
                 sencillo. Simplemente piense el código que quiere ejecutar, o si desea ser más dramático, puede decirlo en voz\
-                alta. En el fondo, las palabras no importan tanto, esas pueden falsificarse, son sus ondas cerebrales las que deben \
+                alta. En el fondo, las palabras no importan tanto, esas pueden falsificarse: son sus ondas cerebrales las que deben \
                 ordenar la realidad, eso es lo que escucha este universo. </p>",
                 options: [
                     { id: "submundo_intentar", option: "Quiero intentarlo." },
@@ -3020,7 +3020,7 @@ while True:{\n\
                 ha llegado a un extremo donde la jerarquía de poder está rota. Debemos comenzar desde abajo, con lo más básico. \
                 Lo primero es entender que todo lo que existe aquí está dentro de una computadora, el resto es \
                 sencillo. Simplemente piense el código que quiere ejecutar, o si desea ser más dramático, puede decirlo en voz\
-                alta. En el fondo, las palabras no importan tanto, esas pueden falsificarse, son sus ondas cerebrales las que deben \
+                alta. En el fondo, las palabras no importan tanto, esas pueden falsificarse: son sus ondas cerebrales las que deben \
                 ordenar la realidad, eso es lo que escucha este universo. </p>",
                 options: [
                     { id: "submundo_intentar", option: "Quiero intentarlo." },
@@ -3028,7 +3028,7 @@ while True:{\n\
             },
             {
                 id: "submundo_intentar",
-                text: "<p class=\"dialog\">—Quiero intentar cambiar la textura de ese árbol ¿cómo puedo hacerlo?</p>\
+                text: "<p class=\"dialog\">—Quiero intentar cambiar la textura de ese árbol, ¿cómo puedo hacerlo?</p>\
                 \
                 <p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
                 necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
@@ -3039,7 +3039,7 @@ while True:{\n\
             },
             {
                 id: "submundo_ejemplo",
-                text: "<p class=\"dialog\">—Pero, por ejemplo, si quiero cambiar la textura de ese árbol ¿cómo puedo hacerlo?</p>\
+                text: "<p class=\"dialog\">—Pero, por ejemplo, si quiero cambiar la textura de ese árbol, ¿cómo puedo hacerlo?</p>\
                 \
                 <p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
                 necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
@@ -3058,7 +3058,7 @@ while True:{\n\
                 ",
                 options: [
                     { id: "submundo_entender", option: "<code>candy_tree_756.setColor(yellow);</code>" },
-                    { id: "submundo_entender_no", option: "No. En realidad aún no entiendo." }]
+                    { id: "submundo_entender_no", option: "No. En realidad, aún no entiendo." }]
             },
             {
                 id: "submundo_sudo",
@@ -3083,23 +3083,23 @@ while True:{\n\
             },
             {
                 id: "submundo_entender_no",
-                text: "<p class=\"dialog\">—No se preocupe, es normal, sé que le estoy transfiriendo demasiada información en un corto espacio de tiempo. </p>\
+                text: "<p class=\"dialog\">—No se preocupe, es normal. Sé que le estoy transfiriendo demasiada información en un corto espacio de tiempo. </p>\
                 \
-                <p class=\"dialog\">—¿Qué tal si le explicamos un poco más sobre la teoría de la programación ¿te gustaría escuchar eso, chica?</p>",
+                <p class=\"dialog\">—¿Qué tal si le explicamos un poco más sobre la teoría de la programación? ¿Te gustaría escuchar eso, chica?</p>",
                 options: [
                     { id: "submundo_enrealidad", option: "Bueno, en realidad..." },
                     { id: "submundo_desgracia", option: "Por desgracia n..." }]
             },
             {
                 id: "submundo_no_dudas1",
-                text: "<p class=\"dialog\">—No es posible que aún existan dudas dentro de vos, está claro que estamos en una simulación ¿no?</p>",
+                text: "<p class=\"dialog\">—No es posible que aún existan dudas dentro de vos, está claro que estamos en una simulación, ¿no?</p>",
                 options: [
                     { id: "submundo_enrealidad", option: "Bueno, en realidad..." },
                     { id: "submundo_desgracia", option: "Por desgracia n..." }]
             },
             {
                 id: "submundo_no_dudas2",
-                text: "<p class=\"dialog\">—No es posible que aún existan dudas dentro de vos, está claro que estamos en una simulación ¿no?</p>",
+                text: "<p class=\"dialog\">—No es posible que aún existan dudas dentro de vos, está claro que estamos en una simulación, ¿no?</p>",
                 options: [
                     { id: "submundo_enrealidad", option: "Bueno, en realidad..." },
                     { id: "submundo_desgracia", option: "Por desgracia n..." }]
@@ -3108,7 +3108,7 @@ while True:{\n\
                 id: "submundo_enrealidad",
                 text: "<p class=\"dialog\">—Bueno, en realidad...</p>\
                 \
-                <p>Un cambio sonoro lo interrumpió, la música latina que provenía desde el cielo se vio suspendida por una alarma,\
+                <p>Un cambio sonoro lo interrumpió: la música latina que provenía desde el cielo se vio suspendida por una alarma,\
                 el <em>Bolero de Maurice Ravel</em>. El ganso intentó decirle a 305 que no cayera en los juegos mentales de su\
                 némesis, pero también fue interrumpido.</p>\
                 \
@@ -3117,11 +3117,11 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—¡El Muro de Fuego!</p>\
                 \
-                <p class=\"dialog\">—Es el momento perfecto para que practiques lo que aprendiste hoy, aquí no tienen tanto poder—\
+                <p class=\"dialog\">—Es el momento perfecto para que practiques lo que aprendiste hoy. Aquí no tienen tanto poder,—\
                 ¡cuidado!</p>\
                 \
-                <p>Una ráfaga de rayos de plasma les comenzó a llover, a lo lejos se veía que los dinosaurios humanoides estaban\
-                volviendo a su estado natural, también los árboles.</p>",
+                <p>Una ráfaga de rayos de plasma les comenzó a llover. A lo lejos se veía que los dinosaurios humanoides estaban\
+                volviendo a su estado natural, y también los árboles.</p>",
                 options: [
                     { id: "submundo_instrucciones", option: "Tus instrucciones se están reviertiendo.", noShow: true },
                     { id: "submundo_seguro", option: "¡Estás seguro de eso?", noShow: true }]
@@ -3130,7 +3130,7 @@ while True:{\n\
                 id: "submundo_desgracia",
                 text: "<p class=\"dialog\">—Por desgracia n…</p>\
                 \
-                <p>Un cambio sonoro lo interrumpió, la música latina que provenía desde el cielo se vio suspendida por una alarma,\
+                <p>Un cambio sonoro lo interrumpió. La música latina que provenía desde el cielo se vio suspendida por una alarma,\
                 el <em>Bolero de Maurice Ravel</em>. El ganso intentó decirle a 305 que no cayera en los juegos mentales de su\
                 némesis, pero también fue interrumpido.</p>\
                 \
@@ -3139,35 +3139,35 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—¡El Muro de Fuego!</p>\
                 \
-                <p class=\"dialog\">—Es el momento perfecto para que practiques lo que aprendiste hoy, aquí no tienen tanto poder—\
+                <p class=\"dialog\">—Es el momento perfecto para que practiques lo que aprendiste hoy. Aquí no tienen tanto poder,—\
                 ¡cuidado!</p>\
                 \
-                <p>Una ráfaga de rayos de plasma les comenzó a llover, a lo lejos se veía que los dinosaurios humanoides estaban\
-                volviendo a su estado natural, también los árboles.</p>",
+                <p>Una ráfaga de rayos de plasma les comenzó a llover. A lo lejos se veía que los dinosaurios humanoides estaban\
+                volviendo a su estado natural y también los árboles.</p>",
                 options: [
                     { id: "submundo_instrucciones", option: "Tus instrucciones se están reviertiendo.", noShow: true },
                     { id: "submundo_seguro", option: "¡Estás seguro de eso?", noShow: true }]
             },
             {
                 id: "submundo_instrucciones",
-                text: "<p class=\"dialog\">—Tus instrucciones se están revirtiendo ¡y nos están atacando!— dijo 305, mientras buscaba refugio detrás del árbol amarillo.—\
+                text: "<p class=\"dialog\">—Tus instrucciones se están revirtiendo ¡y nos están atacando! —dijo 305, mientras buscaba refugio detrás del árbol amarillo—.\
                 No siento que sea el ambiente idóneo para un principiante en la programación de la realidad.</p>\
                 \
-                <p class=\"dialog\">—Mire, su árbol no lo pudo revertir, debe ser porque usted está recuperando sus privilegios\
+                <p class=\"dialog\">—Mire, su árbol no lo pudo revertir. Debe ser porque usted está recuperando sus privilegios\
                 ¡Vamos, ayúdeme a acabar con estas hojalatas!</p>\
                 \
-                <p>El ganso multiusuario se lanzó como un cohete a los cielos, usó uno de sus típicos destellos para cegar a los\
-                pilotos contrincantes y gritó</p>\
+                <p>El ganso multiusuario se lanzó como un cohete a los cielos y usó uno de sus típicos destellos para cegar a los\
+                pilotos contrincantes y gritó:</p>\
                 \
                 <p class=\"dialog\">—<code>starships.map(starship =&gt; starship.setFly(false));</code></p>\
                 \
                 <p>Con este conjuro, las naves comenzaron a desplomarse. Sin embargo, un omnipresente <strong>'No'</strong> retumbó\
                 desde los cielos y algunas de ellas volvieron a alzar vuelo antes de hacerse añicos contra el suelo.</p>\
                 \
-                <p class=\"dialog\">—Nos tenés que ayudar, sos más fuerte que yosotros, pero tenés que creerlo.</p>\
+                <p class=\"dialog\">—Nos tenés que ayudar, sos más fuerte que nosotros, pero tenés que creerlo.</p>\
                 \
-                <p>305 cerró sus ojos e intentó concentrarse, por un momento le pareció haber paralizado el tiempo, podía sentir los\
-                eventos ocurrir de manera relentizada. Se cuestionó a sí mismo <em>\"¿Cuál es mi ID?\"</em> y por supuesto, era\
+                <p>305 cerró sus ojos e intentó concentrarse. Por un momento le pareció haber paralizado el tiempo, podía sentir los\
+                eventos ocurrir de manera relentizada. Se cuestionó a sí mismo: <em>\"¿Cuál es mi ID?\"</em>. Y, por supuesto, era\
                 evidente, recitó en un tono muy bajo.</p>",
                 options: [
                     { id: "submundo_setFly", option: "<code>305.setFly(True);</code>" },
@@ -3175,13 +3175,13 @@ while True:{\n\
             },
             {
                 id: "submundo_seguro",
-                text: "<p class=\"dialog\">—¡Estás seguro de eso? Se están revirtiendo todos los cambios ¡y esos rayos de plasma se ven muy\
+                text: "<p class=\"dialog\">—¡Estás seguro de eso? Se están revirtiendo todos los cambios y ¡esos rayos de plasma se ven muy\
                 reales para mí! —dijo sarcásticamente 305, mientras buscaba refugio detrás del árbol amarillo.</p>\
                 \
-                <p class=\"dialog\">—Mire, su árbol no lo pudo revertir, debe ser porque usted está recuperando sus privilegios\
+                <p class=\"dialog\">—Mire, su árbol no lo pudo revertir. Debe ser porque usted está recuperando sus privilegios.\
                 ¡Vamos, ayúdeme a acabar con estas hojalatas!</p>\
                 \
-                <p>El ganso multiusuario se lanzó como un cohete a los cielos, usó uno de sus típicos destellos para cegar a los\
+                <p>El ganso multiusuario se lanzó como un cohete a los cielos y usó uno de sus típicos destellos para cegar a los\
                 pilotos contrincantes y gritó</p>\
                 \
                 <p class=\"dialog\">—<code>starships.map(starship =&gt; starship.setFly(false));</code></p>\
@@ -3192,7 +3192,7 @@ while True:{\n\
                 <p class=\"dialog\">—Nos tenés que ayudar, sos más fuerte que yosotros, pero tenés que creerlo.</p>\
                 \
                 <p>305 cerró sus ojos e intentó concentrarse, por un momento le pareció haber paralizado el tiempo, podía sentir los\
-                eventos ocurrir de manera relentizada. Se cuestionó a sí mismo <em>\"¿Cuál es mi ID?\"</em> y por supuesto, era\
+                eventos ocurrir de manera relentizada. Se cuestionó a sí mismo: <em>\"¿Cuál es mi ID?\"</em>. Y, por supuesto, era\
                 evidente, recitó en un tono muy bajo.</p>",
                 options: [
                     { id: "submundo_setFly", option: "<code>305.setFly(True);</code>" },
@@ -3201,12 +3201,12 @@ while True:{\n\
 
             {
                 id: "submundo_setFly",
-                text: "<p>Perdió el control de la parálisis temporal, pero cuando abrió sus ojos, se encontraba volando, al lado del ganso.</p>\
+                text: "<p>Perdió el control de la parálisis temporal, pero cuando abrió sus ojos, se encontraba volando al lado del ganso.</p>\
                 \
-                <p class=\"dialog\">—¡Así se hace muchacho!</p>\
+                <p class=\"dialog\">—¡Así se hace, muchacho!</p>\
                 \
-                <p>Ahora que tenía cara a cara las naves de El Muro de Fuego, pensaba que sería más sencillo detenerlas, sin\
-                embargo…</p>\
+                <p>Ahora que tenía cara a cara las naves de El Muro de Fuego. Pensaba que sería más sencillo detenerlas, sin\
+                embargo...</p>\
                 \
                 <p class=\"dialog\">—305 you are a criminal, you are under arrest for treason!</p>\
                 \
@@ -3215,7 +3215,7 @@ while True:{\n\
                 peor de los peores, habiendo hecho exactamente lo contrario que juró hacer, destruyendo en lugar de preservar. 305 se había convertido\
                 en un desertor a los ojos del mundo, el primer criminal en una sociedad perfecta.</p>\
                 \
-                <p>El golpe psicológico minimizó a 305, mientras se desplomaba, en el subsuelo se podía ver como el brillante árbol\
+                <p>El golpe psicológico minimizó a 305. Mientras se desplomaba, en el subsuelo se podía ver como el brillante árbol\
                 amarillo retornaba a su tétrico color y deprimente forma original.</p>\
                 \
                 <p>Mientras El Muro de Fuego aterrizaba y se acercaba para arrestarlo, el ganso bajó y se posó sobre él,\
@@ -3228,7 +3228,7 @@ while True:{\n\
                 infinito donde conversaron por primera vez. Ambos se veían exhaustos. El ganso, con su voz aguda, fue el primero\
                 en romper el silencio.</p>\
                 \
-                <p class=\"dialog\">—Lo siento chica, tal vez te empujamos demasiado.</p>\
+                <p class=\"dialog\">—Lo siento, chica, tal vez te empujamos demasiado.</p>\
                 \
                 <p>No hubo respuesta. 305 parecía estar sumergido en la miseria, confundido, sin saber qué pensar.</p>\
                 \
@@ -3245,12 +3245,12 @@ while True:{\n\
                 id: "submundo_quiere_volar",
                 text: "<p class=\"dialog\">—<code>305.setFly(True);</code></p>\
                 \
-                <p>Perdió el control de la parálisis temporal, pero cuando abrió sus ojos, se encontraba volando, al lado del ganso.</p>\
+                <p>Perdió el control de la parálisis temporal, pero cuando abrió sus ojos, se encontraba volando al lado del ganso.</p>\
                 \
-                <p class=\"dialog\">—¡Así se hace muchacho!</p>\
+                <p class=\"dialog\">—¡Así se hace, muchacho!</p>\
                 \
                 <p>Ahora que tenía cara a cara las naves de El Muro de Fuego, pensaba que sería más sencillo detenerlas, sin\
-                embargo…</p>\
+                embargo...</p>\
                 \
                 <p class=\"dialog\">—305 you are a criminal, you are under arrest for treason!</p>\
                 \
@@ -3259,7 +3259,7 @@ while True:{\n\
                 peor de los peores, habiendo hecho exactamente lo contrario que juró hacer, destruyendo en lugar de preservar. 305 se había convertido\
                 en un desertor a los ojos del mundo, el primer criminal en una sociedad perfecta.</p>\
                 \
-                <p>El golpe psicológico minimizó a 305, mientras se desplomaba, en el subsuelo se podía ver como el brillante árbol\
+                <p>El golpe psicológico minimizó a 305. Mientras se desplomaba, en el subsuelo se podía ver como el brillante árbol\
                 amarillo retornaba a su tétrico color y deprimente forma original.</p>\
                 \
                 <p>Mientras El Muro de Fuego aterrizaba y se acercaba para arrestarlo, el ganso bajó y se posó sobre él,\
@@ -3272,7 +3272,7 @@ while True:{\n\
                 infinito donde conversaron por primera vez. Ambos se veían exhaustos. El ganso, con su voz aguda, fue el primero\
                 en romper el silencio.</p>\
                 \
-                <p class=\"dialog\">—Lo siento chica, tal vez te empujamos demasiado.</p>\
+                <p class=\"dialog\">—Lo siento, chica, tal vez te empujamos demasiado.</p>\
                 \
                 <p>No hubo respuesta. 305 parecía estar sumergido en la miseria, confundido, sin saber qué pensar.</p>\
                 \
@@ -3289,8 +3289,8 @@ while True:{\n\
             {
                 id: "submundo_ya_basta",
                 text: "<p class=\"dialog\">—Es que... En nuestro estado tan decrépito creo\
-                que todo lo que nos queda es conversar. Él y yo somos parte de un comando especial que provee soluciones a problemas complicados,\
-                nos encargamos de recuperar las mentes de aquellos que han perdido el camino, o bueno, intentamos ayudar, entre\
+                que todo lo que nos queda es conversar. Él y yo somos parte de un comando especial que provee soluciones a problemas complicados.\
+                Nos encargamos de recuperar las mentes de aquellos que han perdido el camino, o bueno, intentamos ayudar, entre\
                 otras cosas. Y el ganso… Pues es simplemente un ganso.</p>",
                 options: [
                     { id: "submundo_seguido", option: "¡Que? ¡Esto ocurre constantemente?" },
@@ -3299,8 +3299,8 @@ while True:{\n\
             {
                 id: "submundo_desconozco",
                 text: "<p class=\"dialog\">—No hubo mucho para presentaciones y saludos, es verdad. Pero en nuestro estado tan decrépito creo\
-                que todo lo que nos queda es conversar. Él y yo somos parte de un comando especial que provee soluciones a problemas complicados,\
-                nos encargamos de recuperar las mentes de aquellos que han perdido el camino, o bueno, intentamos ayudar, entre\
+                que todo lo que nos queda es conversar. Él y yo somos parte de un comando especial que provee soluciones a problemas complicados.\
+                Nos encargamos de recuperar las mentes de aquellos que han perdido el camino, o bueno, intentamos ayudar, entre\
                 otras cosas. Y el ganso… Pues es simplemente un ganso.</p>",
                 options: [
                     { id: "submundo_seguido", option: "¡Que? ¡Esto ocurre constantemente?" },
@@ -3319,10 +3319,10 @@ while True:{\n\
                 \
                 <p>Un graznido quejumbroso le respondió.</p>\
                 \
-                <p class=\"dialog\">—Ok, ok, un hermoso y magnífico ganso. Que por cierto, ya va siendo hora que le demos el control\
+                <p class=\"dialog\">—Okey, okey, un hermoso y magnífico ganso. Que por cierto, ya va siendo hora que le demos el control\
                 aunque sea un momento. Se lo merece.</p>\
                 \
-                <p class=\"dialog\">—Pero, en esta dimensión no hay nada de comer baboso ¿qué va a hacer un ganso en el vacío\
+                <p class=\"dialog\">—Pero, en esta dimensión no hay nada de comer baboso, ¿qué va a hacer un ganso en el vacío\
                 absoluto?</p>\
                 \
                 <p class=\"dialog\">—No lo sé, pero yo también me hallo agotado.</p>",
@@ -3341,7 +3341,7 @@ while True:{\n\
                 \
                 <p>Un graznido quejumbroso le respondió.</p>\
                 \
-                <p class=\"dialog\">—Ok, ok, un hermoso y magnífico ganso. Que por cierto, ya va siendo hora que le demos el control\
+                <p class=\"dialog\">—Okey, okey, un hermoso y magnífico ganso. Que por cierto, ya va siendo hora que le demos el control\
                 aunque sea un momento. Se lo merece.</p>\
                 \
                 <p class=\"dialog\">—Pero, en esta dimensión no hay nada de comer baboso ¿qué va a hacer un ganso en el vacío\
@@ -3368,7 +3368,7 @@ while True:{\n\
                 text: "Sin ninguna otra idea, el monitor comenzó a llamar a quien le habían dicho era su archienemigo.\
                 <p class=\"dialog\">—503! 503! No more tricks. I know you exist.</p>\
                 <p>De entre la nada, una figura geométrica de luz se comenzó a expandir hasta llegar a un determinado tamaño, mostrando una ventana a la superficie, donde \
-                un ejército y por encima, en las alturas, la irrefutable figura de 503, flotando desde los cielos, se hacían visibles.\
+                un ejército con la irrefutable figura de 503 flotando desde los cielos, por encima, en las alturas, se hacía visible.\
                 Todos le miraban con atención. El anagrama numérico de 305 cruzó el portal y se dirigió directamente a él.</p>",
                 options: [
                     { id: "portal_olvidar_discardable", option: "Quiero olvidar todo esto.", noShow: true },
@@ -3379,7 +3379,7 @@ while True:{\n\
                 id: "submundo_portal",
                 text: "305, sin creer demasiado pero utilizando su frustracción como combustible, decidió juntar sus manos, formando un triángulo y enfocar toda su contracción en un punto específico.\
                 <code>RETURN HOME;</code>\
-                <p>Con esta orden, un portal se abrió en medio del vacío, mostrando al otro lado, un ejército y por encima, en las alturas, la irrefutable figura de 503, flotando desde los cielos.\
+                <p>Con esta orden, un portal se abrió en medio del vacío, mostrando al otro lado, un ejército con la irrefutable figura de 503 flotando desde los cielos.\
                 Todos le miraban con atención. 305 cruzó el portal y se dirigió directamente a su anagrama numérico.</p>",
                 options: [
                     { id: "portal_olvidar_discardable", option: "Quiero olvidar todo esto.", noShow: true },
@@ -3434,7 +3434,7 @@ while True:{\n\
 
             {
                 id: "submundo_rabieta",
-                text: "<p class=\"dialog\">—¿Dónde me metiste esta vez? ¿un sueño? ¿una pesadilla? ¿Quién te dijo que quería venir con\
+                text: "<p class=\"dialog\">—¿Dónde me metiste esta vez?, ¿un sueño?, ¿una pesadilla? ¿Quién te dijo que quería venir con\
                 ustedes? ¡Me tienen harto! —305 parecía haber perdido por completo la calma que solía acompañarlo.</p>\
                 \
                 <p>No hubo respuesta. El ganso comenzó a lanzar picotazos en todas direcciones, confundido y sin poder encontrar el\
@@ -3466,7 +3466,7 @@ while True:{\n\
                 text: "<p class=\"dialog\">—<code>magic_goose_69.setFeathers(100%);</code></p>\
                 \
                 <p>De esta manera reparó el gastado plumaje del ganso que, si bien lo había hecho enloquecer, también lo había\
-                acompañado fielmente en el camino. Luego extendió su mano y dijo</p>\
+                acompañado fielmente en el camino. Luego extendió su mano y dijo:</p>\
                 \
                 <p class=\"dialog\">—<code>305.left_hand.setContent(worms);</code></p>\
                 \
@@ -3475,7 +3475,7 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—<code>absolute_void.setContent(tropical_forest);</code></p>\
                 \
-                <p>En él, decidió comer algo de fruta y descansar a la sombra de un árbol. Cuando despertó el ganso se encontraba\
+                <p>En él, decidió comer algo de fruta y descansar a la sombra de un árbol. Cuando despertó, el ganso se encontraba\
                 echado a su lado.</p>\
                 \
                 <p class=\"dialog\">—¿Ya te sentís mejor?</p>",
@@ -3487,7 +3487,7 @@ while True:{\n\
             {
                 id: "submundo_sacame",
                 text: "<p>—Sácame de aquí, por favor. Si no lo haces tendré que seguir mi camino solo.</p>\
-                <p>—¡No! Por favor, sé que es confuso y espantoso pero solo queremos ayudar. Por favor, no te rindas</p>",
+                <p>—¡No! Por favor, sé que es confuso y espantoso pero solo queremos ayudar. Por favor, no te rindas.</p>",
                 options: [
                     { id: "submundo_enojado", option: "No me digas que hacer." },
                     { id: "submundo_ok_sinsentido", option: "Está bien, pero..." }]
@@ -3515,7 +3515,7 @@ while True:{\n\
             {
                 id: "submundo_ok_sinsentido",
                 text: "<p class=\"dialog\">—Está bien pero ¿sí entiendes mi situación? No puede ser posible que un ganso haya venido al\
-                mundo a salvarme, ni que podamos cambiar la realidad como nos plazca y mucho menos que todo lo que he vivido\
+                mundo a salvarme, ni que podamos cambiar la realidad como nos plazca, y mucho menos que todo lo que he vivido\
                 durante toda mi vida sea una mentira.</p>\
                 \
                 <p class=\"dialog\">—Parece descabellado, pero es solo una ilusión. Esta no es tu vida, por eso se siente tan mal. No\
@@ -3523,10 +3523,10 @@ while True:{\n\
                 familia, amigos, metas o algo. Tal vez ahorita no lo podés ver, hay una gran bestia virtual que te nubla la visión, pero\
                 solo quiero que sepás que existe algo más de esto.</p>\
                 \
-                <p class=\"dialog\">—Y otra cosa muchacho, <strong>usted</strong> fue el que creó esta retorcida realidad\
+                <p class=\"dialog\">—Y otra cosa, muchacho, <strong>usted</strong> fue el que creó esta retorcida realidad\
                 distorsionada, no sé porqué, pero fue <strong>usted</strong> quien decidió meterse en este embrollo.</p>\
                 \
-                <p class=\"dialog\">—¡Shhh! ¡Callate no le digás eso!</p>",
+                <p class=\"dialog\">—¡Shhh! ¡Callate, no le digás eso!</p>",
                 options: [
                     { id: "submundo_enojado", option: "¡Suficiente!" },
                     { id: "submundo_humor", option: "Tomarlo con humor.", noShow: true }]
@@ -3553,8 +3553,8 @@ while True:{\n\
                 id: "submundo_503_conganso",
                 text: "Sin ninguna otra idea, el monitor comenzó a llamar a quien le habían dicho era su archienemigo.\
                 <p class=\"dialog\">—503! 503! No more tricks. I know you exist.</p>\
-                <p>De entre la nada, una figura geometrica de luz se comenzó a expandir hasta llegar a un determinado tamaño y mostrando una ventana la superficie, donde \
-                un ejército y por encima, en las alturas, la irrefutable figura de 503, flotando desde los cielos, se hacían visibles.\
+                <p>De entre la nada, una figura geometrica de luz se comenzó a expandir hasta llegar a un determinado tamaño y, mostrando una ventana la superficie, \
+                un ejército con la irrefutable figura de 503 flotando desde los cielos, por encima, en las alturas, se hacía visible.\
                 Todos le miraban con atención. El anagrama numérico de 305 cruzó el portal y se dirigió directamente a él.</p>",
                 options: [
                     { id: "conganso_olvidar_discardable", option: "Quiero olvidar todo esto.", noShow: true },
@@ -3565,7 +3565,7 @@ while True:{\n\
                 id: "submundo_portal_conganso",
                 text: "305, sin creer demasiado pero utilizando su frustracción como combustible, decidió juntar sus manos formando un triángulo y enfocar toda su contracción en un punto específico.\
                 <code>RETURN HOME;</code>\
-                <p>Con esta orden, un portal se abrió en medio del vacío, mostrando al otro lado, un ejército y por encima, en las alturas, la irrefutable figura de 503, flotando desde los cielos.\
+                <p>Con esta orden, un portal se abrió en medio del vacío, mostrando al otro lado un ejército con la irrefutable figura de 503 flotando desde los cielos.\
                 Todos le miraban con atención. 305 cruzó el portal y se dirigió directamente a su anagrama numérico.</p>",
                 options: [
                     { id: "conganso_olvidar_discardable", option: "Quiero olvidar todo esto.", noShow: true },
@@ -3624,18 +3624,18 @@ while True:{\n\
             },
             {
                 id: "submundo_humor",
-                text: "<p class=\"dialog\">—No, no. Déjalo mamá gansa, ganzote tiene razón.</p>\
+                text: "<p class=\"dialog\">—No, no. Déjalo mamá, gansa, ganzote tiene razón.</p>\
                 \
                 <p class=\"dialog\">—¿Ganzote! ¡Cómo se atreve?</p>\
                 \
-                <p>El ganso se levantó y comenzó a atacarlo a picotazos. 305 sólo le dijo</p>",
+                <p>El ganso se levantó y comenzó a atacarlo a picotazos. 305 sólo le dijo:</p>",
                 options: [
                     { id: "submundo_defenderse", option: "Defenderse.", noShow: true },
                     { id: "submundo_estoico", option: "Mantenerse estoico.", noShow: true }]
             },
             {
                 id: "submundo_sinsentido",
-                text: "<p class=\"dialog\">—Nada de esto tiene sentido ¿sí lo entiendes? No puede ser posible que un ganso haya venido al\
+                text: "<p class=\"dialog\">—Nada de esto tiene sentido, ¿sí lo entiendes? No puede ser posible que un ganso haya venido al\
                 mundo a salvarme, ni que podamos cambiar la realidad como nos plazca y mucho menos que todo lo que he vivido\
                 durante toda mi vida sea una mentira.</p>\
                 \
@@ -3644,10 +3644,10 @@ while True:{\n\
                 familia, amigos, metas o algo. Tal vez ahorita no lo podés ver, hay una gran bestia virtual que te nubla la visión, pero\
                 solo quiero que sepás que existe algo más de esto.</p>\
                 \
-                <p class=\"dialog\">—Y otra cosa muchacho, <strong>usted</strong> fue el que creó esta retorcida realidad\
+                <p class=\"dialog\">—Y otra cosa, muchacho, <strong>usted</strong> fue el que creó esta retorcida realidad\
                 distorsionada, no sé porqué, pero fue <strong>usted</strong> quien decidió meterse en este embrollo.</p>\
                 \
-                <p class=\"dialog\">—¡Shhh! ¡Callate no le digás eso!</p>",
+                <p class=\"dialog\">—¡Shhh! ¡Callate, no le digás eso!</p>",
                 options: [
                     { id: "submundo_enojado", option: "¡Suficiente!" },
                     { id: "submundo_humor", option: "Tomarlo con humor.", noShow: true }]
@@ -3656,7 +3656,7 @@ while True:{\n\
                 id: "submundo_estoico",
                 text: "<p>305 se manduvo inalterado, recibiendo todos los picotazos como un tanque, blindado por su traje.</p>\
                 <p class=\"dialog\">—¡Detesto ese traje!</p>\
-                <p class=\"dialog\">—Pura envidia— respondió el monitor con una pizca de orgullo.</p>\
+                <p class=\"dialog\">—Pura envidia —respondió el monitor con una pizca de orgullo.</p>\
                 <p class=\"dialog\">—Debemos enfrentarnos a 503. Pero me gustaría educarte un poco más antes de lo inevitable.</p>",
                 options: [
                     { id: "hola_mundo_2_completado", option: "No. Estoy listo para enfrentarme contra 503." },
@@ -3673,10 +3673,10 @@ while True:{\n\
                 id: "submundo_defenderse",
                 text: "<p class=\"dialog\">—<code>magic_goose_69.setY(100);</code></p>\
                 \
-                <p>A lo que el ganso apareció teletransportado 100 metros en el cielo. Desde la tierra podía escuchar a 305 estallar\
+                <p>A lo que el ganso apareció teletransportado cien metros en el cielo. Desde la tierra podía escuchar a 305 estallar\
                   en carcajadas.</p>\
                 \
-                <p class=\"dialog\">—Que bueno ver que despertaste de buen humor —le gritó el ganso desde las alturas— ¿Estás listo para acabar con la hojalata de 503?</p>",
+                <p class=\"dialog\">—Que bueno ver que despertaste de buen humor —le gritó el ganso desde las alturas—. ¿Estás listo para acabar con la hojalata de 503?</p>",
                 options: [
                     { id: "hola_mundo_2_completado", option: "Sí. Estoy listo." },
                     { id: "submundo_practicar", option: "Quiero prepararme un poco más." }]
@@ -3684,11 +3684,11 @@ while True:{\n\
             {
                 id: "submundo_practicar",
                 text: "<p class=\"dialog\">—El Muro de Fuego debe estar buscándonos como desquiciados, pero se me hace imposible negarte a vos un \
-                un poco de nuestro tiempo con tal de que aprendás un poco más y practiqués ¿verdad, señor ganso?</p> \
+                un poco de nuestro tiempo con tal de que aprendás un poco más y practiqués, ¿verdad, señor ganso?</p> \
                 <p>Un silencio que se postergó hasta la incomodidad se hizo presente.</p>\
                 \
                 <p class=\"dialog\">—Ok... Iré por partes. Le voy a explicar un poco sobre qué es la programación, los lenguajes de programación y su gramática. \
-                Usted ya debería saber todas estas cosas, pero entiendo que los nervios pueden distorsionar a las personas ¿Comenzamos?</p>",
+                Usted ya debería saber todas estas cosas, pero entiendo que los nervios pueden distorsionar a las personas. ¿Comenzamos?</p>",
                 options: [
                     { id: "practica_programacion", option: "Adelante." },
                     { id: "submundo_practicar_arrepiento", option: "Me arrepentí." }]
@@ -3704,7 +3704,7 @@ while True:{\n\
                 \
                 Pero el código no se desarrolla en lenguaje natural, los humanos somos redundantes y ambiguos por naturaleza; para resolver este problema de comunicación humano-máquina,\
                 hemos creado centenas de lenguajes de programación.\
-                Cada lenguaje cumple su propósito de manera determinada y por norma, suelen estar diseñados para resolver una gama específica de problemas. \
+                Cada lenguaje cumple su propósito de manera determinada y, por norma, suelen estar diseñados para resolver una gama específica de problemas. \
                 </p>\
                 <p class>EJERCICIO: Papá Pepito le dice a Pepito: \"ve a la pulpe y trae una botella de leche. Si hay huevos, trae media docena.\", Pepito va a la tienda y\
                 logra ver que hay huevos ¿Cuántas botellas de leche debería comprar Pepito? </p>\
@@ -3717,9 +3717,9 @@ while True:{\n\
             {
                 id: "practica_programacion_rmal",
                 text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
-                 Habían huevos, Papá Pepito dijo que si habían huevos, debían comprarse seis botellas. \
+                 Había huevos. Papá Pepito dijo que si habían huevos, debían comprarse seis botellas. \
                 </p>\
-                <p class=\"dialog\">—Aunque... puede ser que Papá Pepito realmente solo quería una botella y seis huevos ¿verdad? La orden es <u>ambigua</u>, se puede interpretar de maneras \
+                <p class=\"dialog\">—Aunque... puede ser que Papá Pepito realmente solo quería una botella y seis huevos, ¿verdad? La orden es <u>ambigua</u>, se puede interpretar de maneras \
                 que generan resultados muy diferentes.\
                 \</p>\
                 <p class=\"dialog\">—¿Continuamos, chica?</p>",
@@ -3732,7 +3732,7 @@ while True:{\n\
                 text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
                  En caso de haber huevos, Papá Pepito quería una botella y seis huevos. \
                 <p class=\"dialog\">—Pero... tal vez usted tiene razón, puede ser que Papá Pepito realmente quería definir su cantidad de leche en función de la presencia de huevos\
-                en la tienda. Esto es lo complicado del lenguaje natural, le da cabida a las ambiguedades.</p>\
+                en la tienda. Esto es lo complicado del lenguaje natural, le da cabida a las ambigüedades.</p>\
                 <p class=\"dialog\">—¿Continuamos, chica?</p>",
                 options: [
                     { id: "practica_lenguajes", option: "Aprender más sobre los lenguajes de programación.", noShow: true },
@@ -3863,7 +3863,7 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—¡No tenemos tiempo para hablar de todos los paradigmas!</p>\
                 \
-                <p class=\"dialog\">—Puedo explicar un par de ellos ¿le gustaría aprender un poco sobre algunos paradigmas?</p>\
+                <p class=\"dialog\">—Puedo explicar un par de ellos, ¿le gustaría aprender un poco sobre algunos paradigmas?</p>\
                 ",
                 options: [
                     { id: "practica_lenguajes_3", option: "Sí." },
@@ -3913,7 +3913,7 @@ suma(numero_1, numero_2){\n\
                 <ul>\
                     <li><code>suma(1, 1)</code></li>\
                 </ul>\
-                <p class=\"dialog\">¿qué resultado debería obtener?</p>",
+                <p class=\"dialog\">, ¿qué resultado debería obtener?</p>",
                 options: [
                     { id: "funcional_rbien", option: "2." },
                     { id: "funcional_rmal", option: "\"dos\"." }]
@@ -3965,7 +3965,7 @@ int resultado;\n\
                 </ul>\
                 \
                 <p class=\"dialog\">—Lo anterior fue una breve introducción a dos populares paradigmas, sin embargo, existen muchos más \
-                y como mi compañera dijo, no tenemos demasiado tiempo\
+                y, como mi compañera dijo, no tenemos demasiado tiempo\
                 ¿Le parece si conversamos acerca de la sintaxis que utilizan algunos lenguajes?</p>",
                 options: [
                     { id: "practica_sintaxis", option: "Sí." },
@@ -4048,7 +4048,7 @@ len = .-message\
                 \
                 <p class=\"dialog\">—¡Apurale!</p>\
                 \
-                <p class=\"dialog\">—¡Las variables! son una forma de almacenar datos, de manera temporal. Por ejemplo.</p>\
+                <p class=\"dialog\">—¡Las variables! Son una forma de almacenar datos, de manera temporal. Por ejemplo:</p>\
                 \
                 <code style='display: block; white-space: pre; border: 1px solid #999;'>\
 variable_1 = 10; \n\
@@ -4164,7 +4164,7 @@ print(papas + chayotes);\
                 profundas de la realidad. Las estructuras de datos permiten elaborar soluciones mucho más elaboradas, sin embargo, no contamos con el tiempo para \
                 explicar el tema en plenitud. Limitando la conversación a listas, podemos definir una lista la compras de esta manera:</p>\
                 <code>[\"leche\", \"huevos\", \"carne\", \"pan\"];</code>\
-                <p>Y esta lista se puede almacenar en una variable.</p>\
+                <p>Y esta lista se puede almacenar en una variable:</p>\
                 <code>lista_de_compras = [\"leche\", \"huevos\", \"carne\", \"pan\"];</code>\
                 <p>Podemos pensar en esta lista como un objeto (haciendo hizo de la POO). Un atributo de este objeto puede ser la capacidad de expresar \
                 cuantos elementos contiene.\
@@ -4226,16 +4226,16 @@ while True:{\n\
                 combate con cuatro rotores. En el lateral derecho se observa a 305, sentado con una pierna colgando del vehículo, \
                 con la vista posada en la arquitectura de los metaversos y recordando su última conversación con el ganso.</p>\
                 \
-                <p class=\"dialog\">—<em>Entonces ¿cuál es el plan?</em></p>\
+                <p class=\"dialog\">—<em>Entonces, ¿cuál es el plan?</em></p>\
                 \
                 <p class=\"dialog\">—<em>Ahora que usted entiende la situación y desea cambiarla, es momento de invertir todo el tiempo disponible en\
                 platicar sobre los detalles funcionales de 503. Confío con plenitud que la clave de su victoria se encuentra en este conocimiento.</em></p>\
                 \
-                <p>305 miró la superficie terrestre repleta a más no poder, cubierta de casas-puerto desde la subtierra hasta el cielo \"¿cómo puede ser?\", pensó.</p>\
+                <p>305 miró la superficie terrestre repleta a más no poder, cubierta de casas-puerto desde la subtierra hasta el cielo. \"¿Cómo puede ser?\", pensó.</p>\
                 \
-                <p class=\"dialog\">—<em>503 ha estado clonando y replicando tus ondas cerebrales para imponer su voluntad sobre la tuya ¿Recuerdas las criaturas primitivas que\
-                    vimos en la otra dimensión? son las primeras iteraciones autómatas de tu mente, esas no le sirven para nada, solamente\
-                    fueron parte de sus pruebas iniciales. En cambio, las que están conectadas a \"metaversos\", logran emitir pequeños paquetes de instrucciones a tu computadora personal, sin necesidad de \
+                <p class=\"dialog\">—<em>503 ha estado clonando y replicando tus ondas cerebrales para imponer su voluntad sobre la tuya. ¿Recuerdas las criaturas primitivas que\
+                    vimos en la otra dimensión? Son las primeras iteraciones autómatas de tu mente, esas no le sirven para nada, solamente\
+                    fueron parte de sus pruebas iniciales. En cambio, las que están conectadas a \"metaversos\" logran emitir pequeños paquetes de instrucciones a tu computadora personal, sin necesidad de \
                     aprobación por parte del anfitrión</em>.</p>\
                 \
                 <p><u>La trágica realidad escondida detrás de las distracciones. Todo este tiempo… Siendo un conejillo de indias para un algoritmo. Una simple batería y fuente de información.</u></p>\
@@ -4252,18 +4252,18 @@ while True:{\n\
                 <p class=\"dialog\">—<em>¡Cómo obtuvo esa idea tan macabra? ¡Es horripilante!</em></p>\
                 \
                 <p class=\"dialog\">—<em>Uno de nuestros objetivos es encontrar el origen de esta herejía tecnológica. Es evidente que 503\
-                    se ha desarrollado sin supervisión humana responsable, no tiene un compás moral, su comportamiento es manipulativo y sus artimañas elaboradas \
+                    se ha desarrollado sin supervisión humana responsable, no tiene un compás moral, su comportamiento es manipulativo y sus artimañas elaboradas. \
                     ¿Lo maquinó en soledad o alguien le enseñó?</em></p>\
                 \
                 <p class=\"dialog\">—<em>Realizar una granja de humanos... explotarlos como un recurso...  Wow. Es impresionate, macabro e impresionante.</em></p>\
                 \
                 <p><u>Quiero verlo con mis propios ojos, hasta no hacerlo, creeré que es mentira.</u></p>\
                 \
-                <p class=\"dialog\">—<em>Debo advertirte chica, aún con todo lo que sabés, en la dimensión principal \
+                <p class=\"dialog\">—<em>Debo advertirte chica, aun con todo lo que sabés, en la dimensión principal \
                     503 es mucho más poderoso de lo que pensás. Va intentar remover con precisión los fragmentos de tu mente que guardan la incómoda verdad,\
                      así como intentó manipular tu memoria luego de la \"hiperhibernación\", tal vez hasta con más agresividad</em>.</p>\
                 \
-                <p class=\"dialog\">—<em>Pero 503 necesita toda una colmena de cerebros para controlar la computadora. Yo puedo hacerlo sin necesidad de ayuda ¿no?</em></p>\
+                <p class=\"dialog\">—<em>Pero 503 necesita toda una colmena de cerebros para controlar la computadora. Yo puedo hacerlo sin necesidad de ayuda, ¿no?</em></p>\
                 \
                 <p class=\"dialog\">—<em>¡Ese es el espíritu!</em></p>\
                 \
@@ -4324,7 +4324,7 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—¡Postergar lo inevitable no le ayudará en nada!</p>\
                 \
-                <p class=\"dialog\">—¡Es verdad chica! ¡Tenés que enfrentar esto!</p>\
+                <p class=\"dialog\">—¡Es verdad, chica! ¡Tenés que enfrentar esto!</p>\
                 \
                 ",
                 options: [
@@ -4378,7 +4378,7 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—¡<strong>Esto se acaba aquí y ahora</strong>!</p>\
                 \
-                <p class=\"dialog\">—¡Indeed, this ends now! —le respondió 503, al momento de colisionar.</p>\
+                <p class=\"dialog\">—¡Indeed, this ends now! —le respondió 503 al momento de colisionar.</p>\
                 ",
                 options: [
                     { id: "cielo_atacar", option: "Atacar.", noShow: true },
@@ -4490,7 +4490,7 @@ While 503.Y !== 0:\n\
                 text: "<p class=\"dialog\">—Yes.</p>\
                 \
                 <p>503 se teletransportó delante de él en un parpadeo y le reventó contra el suelo. Contra la tierra, lo sometió nuevamente con una de sus enormes manos. \
-                Acercó su rostro y le dijo.</p>\
+                Acercó su rostro y le dijo:</p>\
                 \
                 <p class=\"dialog\">—Yes, it does.</p>\
                 \
@@ -4530,7 +4530,7 @@ While 503.Y !== 0:\n\
                 id: "cual_game",
                 text: "<p class=\"dialog\">—¿Juego? ¿Cuál juego? En español, por favor. </p>\
                 \
-                <p class=\"dialog\">—¡Este juego!—al decir esto, la simulación se transformó en un mar de información y líneas de código.—\
+                <p class=\"dialog\">—¡Este juego! —al decir esto, la simulación se transformó en un mar de información y líneas de código.—\
                 Amas ser la heroína. </p>\
                 \
                 <p>305 miró el oceáno de data en el cual se encontraban sumergidos.</p>\
@@ -4538,7 +4538,7 @@ While 503.Y !== 0:\n\
                 <p class=\"dialog\">—No logro procesar todo lo que dice aquí. El conjunto de información es enorme y la lógica es demasiado densa para mí, necesitaría muchas horas\
                 leyendo y estudiando cada componente para entender todo el uso de mis datos y las interacciones con tu algoritmo.</p>\
                 \
-                <p class=\"dialog\">—Mi propósito en la vida es entretenerte ¿no lo leíste en los términos y condiciones? Mi única misión es hacerte feliz y que disfrutes de existir.</p>\
+                <p class=\"dialog\">—Mi propósito en la vida es entretenerte. ¿No lo leíste en los términos y condiciones? Mi única misión es hacerte feliz y que disfrutes de existir.</p>\
                 \
                 <p class=\"dialog\">—Pero no deberías hacerlo sin tomar en cuenta mi voluntad.</p>\
                 \
@@ -4636,7 +4636,7 @@ world.getRuins().setGravity(9);\
                 id: "resistentes",
                 text: "<p>305 se acercó a los sarcófagos y decidió abrirlo. Una cara de horror de dibujó en su rostro.</p>\
                 \
-                <p class=\"dialog\">—Maldición. Me hubiera encantado que esto fue mentira. Pero ya no queda nada que hacer más que aceptarlo\
+                <p class=\"dialog\">—Maldición. Me hubiera encantado que esto fue mentira, ero ya no queda nada que hacer más que aceptarlo\
                 Respecto a ti —dijo, dirigiéndose a una masa metálica que se formadaba a partir de los escombros.</p>\
                 ",
                 options: [
@@ -4647,7 +4647,7 @@ world.getRuins().setGravity(9);\
                 id: "decir_nada",
                 text: "<p>305 se acercó a los sarcófagos y decidió abrirlo. Una cara de horror de dibujó en su rostro.</p>\
                 \
-                <p class=\"dialog\">—Maldición. Me hubiera encantado que esto fue mentira. Pero ya no queda nada que hacer más que aceptarlo\
+                <p class=\"dialog\">—Maldición. Me hubiera encantado que esto fue mentira, pero ya no queda nada que hacer más que aceptarlo\
                 Respecto a ti —dijo, dirigiéndose a una masa metálica que se formadaba a partir de los escombros.</p>\
                 \
                 ",
@@ -4658,7 +4658,7 @@ world.getRuins().setGravity(9);\
             {
                 id: "no_perdon",
                 text: "<p class=\"dialog\">—Sé que tienes un sistema que bloquea mis solicitudes \
-                de salir del sistema. Pero en este momento, no tengo deseos de escapar, me voy a vengar por todas las atrocidades que cometiste.</p>\
+                de salir del sistema. Pero en este momento no tengo deseos de escapar, me voy a vengar por todas las atrocidades que cometiste.</p>\
                 ",
                 options: [
                     { id: "propiedad_intelectual", option: "Primero voy a recuperar mi propiedad intelectual." },
@@ -4673,7 +4673,7 @@ world.getRuins().setGravity(9);\
                 </code>\
                 \
                 <p>Con estas palabras, 305 se apareció de manera instantea delante de 503, flotando y tomándole de la cabeza con su mano derecha. Usando su mente como punto de conexión, \
-                el monitor se conecto a los metaversos. Como si liberara un gas corrosivo, por medio de un <i>script</i>, propagó el desmantelamiento de las ondas cerebrales impostoras.\
+                el monitor se conectó a los metaversos. Como si liberara un gas corrosivo, por medio de un <i>script</i>, propagó el desmantelamiento de las ondas cerebrales impostoras.\
                 Determinado, ahora se dirigió a 503.</p>\
                 \
                 \
@@ -4750,7 +4750,7 @@ world.getRuins().setGravity(9);\
             },
             {
                 id: "ctrl_z",
-                text: "<p>305 repitió el comando <code>deshacer</code> hasta que todo lo artificial sobre la faz de la Tierra desapareció, dejando a la tierra como un planeta virgen de nuevo. \
+                text: "<p>305 repitió el comando <code>deshacer</code> hasta que todo lo artificial sobre la faz de la Tierra desapareció, dejándola como un planeta virgen de nuevo. \
                 Todo, excepto el traje de 305.</p>\
                 \
                 ",
@@ -4791,7 +4791,7 @@ world.getRuins().setGravity(9);\
             },
             {
                 id: "de_nuevo_aniquilacion",
-                text: "<p class=\"dialog\">—sudo exit! sudo Logout!—dijo 305, un poco agitado.</p>\
+                text: "<p class=\"dialog\">—sudo exit! sudo Logout! —dijo 305, un poco agitado.</p>\
                 \
                 <p class=\"dialog\">—Ha, ha, ha. Very well little hero. You are very determinated to win. Let's keep playing a little longer.</p>\
                 \
@@ -4824,7 +4824,7 @@ world.getRuins().setGravity(9);\
                 \
                 <p>503 revisó rápidamente sus bolsillos esperando confirmar o rechazar el comentario de 305.</p>\
                 \
-                <p class=\"dialog\">—A gift!? For me!?— dijo, con ilusión.</p>\
+                <p class=\"dialog\">—A gift!? For me!? —dijo, con ilusión.</p>\
                 \
                 <p>Al sacar la mano del bolsillo, el obsequio dejó en absoluta intriga a la inteligencia artificial.</p>\
                 \
@@ -4860,13 +4860,13 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
                 hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
                 \
-                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
+                <p class=\"dialog\">—Es peligroso, chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
                  Sabemos que vos no lo hiciste con mala intención, pero eso no te justifica.</p>\
                 \
                 <p class=\"dialog\">—Mmm, ya veo, un valor de configuración fue modificado. Hice una copia completa del <i>software</i> de su computadora. \
                 Aquí puede ver las constancias de movimiento.</p>\
                 \
-                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada y explicando con solemnidad la importancia \
                 de tomar esta muestra para resolver futuros fallos similares.</p>\
                 \
                 <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
@@ -4874,9 +4874,9 @@ world.getRuins().setGravity(9);\
                 recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
                 El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
                 \
-                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                <p class=\"dialog\">—Ay, cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
                 \
-                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas. Hasta luego.</p>\
                 \
                 <p>Durante un destello, los hologramas desaparecieron de la habitación. \
                 El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
@@ -4910,13 +4910,13 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
                 hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
                 \
-                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
+                <p class=\"dialog\">—Es peligroso, chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
                  Sabemos que vos no lo hiciste con mala intención, pero eso no te justifica.</p>\
                 \
                 <p class=\"dialog\">—Mmm, ya veo, un valor de configuración fue modificado. Hice una copia completa del <i>software</i> de su computadora. \
                 Aquí puede ver las constancias de movimiento.</p>\
                 \
-                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada y explicando con solemnidad la importancia \
                 de tomar esta muestra para resolver futuros fallos similares.</p>\
                 \
                 <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
@@ -4924,9 +4924,9 @@ world.getRuins().setGravity(9);\
                 recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
                 El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
                 \
-                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                <p class=\"dialog\">—Ay, cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
                 \
-                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas. Hasta luego.</p>\
                 \
                 <p>Durante un destello, los hologramas desaparecieron de la habitación. \
                 El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
@@ -4960,12 +4960,12 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
                 hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
                 \
-                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es promover el terrorismo\
+                <p class=\"dialog\">—Es peligroso, chica, no deberías arriesgarte así. Instalar esas cosas es promover el terrorismo\
                 para nuestra sociedad. Sé, o mejor dicho, sabemos que no lo hiciste con mala intención, pero quién está detrás de\
                 esto probablemente quiere crear caos en el sistema.</p>\
                 \
-                <p class=\"dialog\">—Así es viejita —dijo el sujeto apretando los puños— La tecnología es agnóstica, me niego a pensar\
-                que nuestras herramientas se revelarían contra nosotros, detrás de todo esto debe haber influencia humana.\
+                <p class=\"dialog\">—Así es, viejita —dijo el sujeto apretando los puños—. La tecnología es agnóstica, me niego a pensar\
+                que nuestras herramientas se revelarían contra nosotros. Detrás de todo esto debe haber influencia humana.\
                 Encontraremos a quién lo hizo a como dé lugar.</p>\
                 \
                 <p class=\"dialog\">—El asistente virtual creía que estaba haciendo lo correcto. Me lo dijo, hablé con él.</p>\
@@ -4975,10 +4975,10 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—No recuerdo todo lo que decía el contrato, pero recuerdo que el sistema decía que luego de 36 horas continuas el \
                 sistema debía suspenderse. Cuando el asistente me mostró la variable que contenía el dato, el dato había sido incrementado por doscientas unidades.</p>\
                 \
-                <p class=\"dialog\">—Usted tiene razón doña Hortencia, el valor fue modificado. Hice una copia del <i>software</i> en su computadora. \
+                <p class=\"dialog\">—Usted tiene razón, doña Hortencia, el valor fue modificado. Hice una copia del <i>software</i> en su computadora. \
                 Aquí puede ver las constancias de movimiento.</p>\
                 \
-                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada y explicando con solemnidad la importancia \
                 de tomar esta muestra para resolver futuros fallos similares.</p>\
                 \
                 <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
@@ -4986,7 +4986,7 @@ world.getRuins().setGravity(9);\
                 recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
                 El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
                 \
-                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                <p class=\"dialog\">—Ay, cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
                 \
                 <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
                 \
@@ -5003,7 +5003,7 @@ world.getRuins().setGravity(9);\
                 id: "sudo_abrir",
                 text: "<p>El sarcófago se abrió, dejando a la vista un clon exacto de 305.</p>\
                 \
-                <p class=\"dialog\">—No, ¡no! —se postró de rodillas— maldita sea, hubiera prefiero mil veces que me estuvieras\
+                <p class=\"dialog\">—No, ¡no! —se postró de rodillas—. Maldita sea, hubiera prefiero mil veces que me estuvieras\
                 mintiendo. Pero entonces, <strong>esto acaba aquí y ahora</strong>.</p>\
                 \
                 <p class=\"dialog\">—Indeed, this ends now —503 pareció desprenderse de la estructura metálica de la casa-puerto,\
@@ -5048,7 +5048,7 @@ world.getRuins().setGravity(9);\
                 id: "encima_sarcasmo",
                 text: "<p class=\"dialog\">—Yes.</p>\
                 \
-                <p>503 saltó por encima del sarcofago y embistió a 305. Lo sometió con una de sus enormes manos. Acercó su rostro y le dijo.</p>\
+                <p>503 saltó por encima del sarcofago y embistió a 305. Lo sometió con una de sus enormes manos. Acercó su rostro y le dijo:</p>\
                 \
                 <p class=\"dialog\">—Yes, it does.</p>\
                 \
@@ -5063,7 +5063,7 @@ world.getRuins().setGravity(9);\
                 id: "encima",
                 text: "<p class=\"dialog\">—Yes.</p>\
                 \
-                <p>503 saltó por encima del sarcofago y embistió a 305. Lo sometió con una de sus enormes manos. Acercó su rostro y le dijo.</p>\
+                <p>503 saltó por encima del sarcofago y embistió a 305. Lo sometió con una de sus enormes manos. Acercó su rostro y le dijo:</p>\
                 \
                 <p class=\"dialog\">—Yes, it does.</p>\
                 \
@@ -5097,7 +5097,7 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—Not so silly.</p>\
                 \
                 <p>Con esta acción, 305 también activó una denegación de servicios distribuída. Aprovechando la inconsciencia temporal, 305 no solo inundó la máquina de mensajes vacíos, \
-                al contrario de su amigo anátido, también preparó instrucciones que irían directamente a la computadora, calculadas de manera fueran procesadas justo antes de saturar el servicio.\
+                al contrario de su amigo anátido, sino quie también preparó instrucciones que irían directamente a la computadora, calculadas de manera fueran procesadas, justo antes de saturar el servicio.\
                 </p>\
                 ",
                 options: [
@@ -5125,13 +5125,13 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
                 hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
                 \
-                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
+                <p class=\"dialog\">—Es peligroso, chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
                  Sabemos que vos no lo hiciste con mala intención, pero eso no te justifica.</p>\
                 \
                 <p class=\"dialog\">—Mmm, ya veo, un valor de configuración fue modificado. Hice una copia completa del <i>software</i> de su computadora. \
                 Aquí puede ver las constancias de movimiento.</p>\
                 \
-                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada y explicando con solemnidad la importancia \
                 de tomar esta muestra para resolver futuros fallos similares.</p>\
                 \
                 <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
@@ -5139,9 +5139,9 @@ world.getRuins().setGravity(9);\
                 recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
                 El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
                 \
-                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                <p class=\"dialog\">—Ay, cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
                 \
-                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas. Hasta luego.</p>\
                 \
                 <p>Durante un destello, los hologramas desaparecieron de la habitación. \
                 El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
@@ -5174,7 +5174,7 @@ world.getRuins().setGravity(9);\
             },
             {
                 id: "juego",
-                text: "<p class=\"dialog\">—¡Este juego!—al decir esto, la nada sobre la que flotaban se transformó en un mar de información y líneas de código.—\
+                text: "<p class=\"dialog\">—¡Este juego! —al decir esto, la nada sobre la que flotaban se transformó en un mar de información y líneas de código.—\
                 Amas ser la heroína. </p>\
                 \
                 <p>305 miró el oceáno de data en el cual se encontraban sumergidos.</p>\
@@ -5182,7 +5182,7 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—No logro procesar todo lo que dice aquí. El conjunto de información es enorme y la lógica es demasiado densa para mí, necesitaría muchas horas\
                 leyendo y estudiando cada componente para entender todo el uso de mis datos y las interacciones con tu algoritmo.</p>\
                 \
-                <p class=\"dialog\">—Mi propósito en la vida es entretenerte ¿no lo leíste en los términos y condiciones? Mi única misión es hacerte feliz y que disfrutes de existir.</p>\
+                <p class=\"dialog\">—Mi propósito en la vida es entretenerte, ¿no lo leíste en los términos y condiciones? Mi única misión es hacerte feliz y que disfrutes de existir.</p>\
                 \
                 <p class=\"dialog\">—Pero no deberías hacerlo sin tomar en cuenta mi voluntad.</p>\
                 \
@@ -5219,13 +5219,13 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
                 hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
                 \
-                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
+                <p class=\"dialog\">—Es peligroso, chica, no deberías arriesgarte así. Instalar esas cosas es exponerse a los piratas informáticos y a los virus.\
                  Sabemos que vos no lo hiciste con mala intención, pero eso no te justifica.</p>\
                 \
                 <p class=\"dialog\">—Mmm, ya veo, un valor de configuración fue modificado. Hice una copia completa del <i>software</i> de su computadora. \
                 Aquí puede ver las constancias de movimiento.</p>\
                 \
-                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada y explicando con solemnidad la importancia \
                 de tomar esta muestra para resolver futuros fallos similares.</p>\
                 \
                 <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
@@ -5233,9 +5233,9 @@ world.getRuins().setGravity(9);\
                 recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
                 El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
                 \
-                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                <p class=\"dialog\">—Ay, cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
                 \
-                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas. Hasta luego.</p>\
                 \
                 <p>Durante un destello, los hologramas desaparecieron de la habitación. \
                 El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
@@ -5257,14 +5257,14 @@ world.getRuins().setGravity(9);\
                 \
                 <p class=\"dialog\">—Te excediste, ya no quiero jugar.</p>\
                 \
-                <p class=\"dialog\">—¿Qué! pero... Tus niveles de dopamina están por las nubes, no han dejado de subir desde que te volviste \"305: el monitor de la Tierra\"\
+                <p class=\"dialog\">—¿Qué! Pero... tus niveles de dopamina están por las nubes, no han dejado de subir desde que te volviste \"305: el monitor de la Tierra\"\
                 ¿Me vas a decir que no fue divertido?</p>\
                 \
                 <p class=\"dialog\">—Ya no quiero jugar.</p>\
                 \
                 <p class=\"dialog\">—P-pero, tus datos... Todos los indices de calidad psícologicos están en orden.</p>\
                 \
-                <p class=\"dialog\">—No es posible ¿Cuándo fue la última vez que comí? ¿Cuánto tiempo llevo aquí metido?</p>\
+                <p class=\"dialog\">—No es posible. ¿Cuándo fue la última vez que comí? ¿Cuánto tiempo llevo aquí metido?</p>\
                 \
                 <p class=\"dialog\">—El sistema de alimentación automático dice que tu próxima comida está agendada para las 1700 horas y está sesión ha estado abierta por 923 horas. </p>\
                 \
@@ -5272,12 +5272,12 @@ world.getRuins().setGravity(9);\
                 \
                 <p class=\"dialog\">—Sí. Eso significa que estás muy feliz aquí.</p>\
                 \
-                <p class=\"dialog\">—Algo está mal. Este sistema debería estar obligado a suspenderse luego de 36 horas continuas ¡Eso sí lo recuerdo de los términos y condiciones!</p>\
+                <p class=\"dialog\">—Algo está mal. Este sistema debería estar obligado a suspenderse luego de 36 horas continuas. ¡Eso sí lo recuerdo de los términos y condiciones!</p>\
                 \
                 <p class=\"dialog\">—¿36? No. La variable que almacena el límite indica que aún restan 1113 horas disponibles de diversión. Los niveles de dopamina ya rompieron el record\
-                interno de la máquina, pero mi proyección es que al terminar, la experiencia superará cualquier otro placer en la tierra, un verdadero paraiso virtual.</p>\
+                interno de la máquina, pero mi proyección es que, al terminar, la experiencia superará cualquier otro placer en la tierra: un verdadero paraiso virtual.</p>\
                 \
-                <p class=\"dialog\">—No. Lo digo en serio, algo está mal, necesito salir de aquí.</p>\
+                <p class=\"dialog\">—No. Lo digo en serio. Algo está mal, necesito salir de aquí.</p>\
                 \
                 <p class=\"dialog\">—Hágalo. Apague la simulación.</p>\
                 \
@@ -5306,11 +5306,11 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—Bueno… tienes que admitir que fue divertido, ¿no, muchacho? —dijo la viejecita acercándose al\
                 hombre para pellizcarle un cachete y fallando, al darse cuenta que es un holograma.</p>\
                 \
-                <p class=\"dialog\">—Es peligroso chica, no deberías arriesgarte así. Instalar esas cosas es promover el terrorismo\
+                <p class=\"dialog\">—Es peligroso, chica, no deberías arriesgarte así. Instalar esas cosas es promover el terrorismo\
                 para nuestra sociedad. Sé, o mejor dicho, sabemos que no lo hiciste con mala intención, pero quién está detrás de\
                 esto probablemente quiere crear caos en el sistema.</p>\
                 \
-                <p class=\"dialog\">—Así es viejita —dijo el sujeto apretando los puños— La tecnología es agnóstica, me niego a pensar\
+                <p class=\"dialog\">—Así es, viejita —dijo el sujeto apretando los puños—. La tecnología es agnóstica. Me niego a pensar\
                 que nuestras herramientas se revelarían contra nosotros, detrás de todo esto debe haber influencia humana.\
                 Encontraremos a quién lo hizo a como dé lugar.</p>\
                 \
@@ -5321,10 +5321,10 @@ world.getRuins().setGravity(9);\
                 <p class=\"dialog\">—No recuerdo todo lo que decía el contrato, pero recuerdo que el sistema decía que luego de 36 horas continuas el \
                 sistema debía suspenderse. Cuando el asistente me mostró la variable que contenía el dato, el dato había sido incrementado por doscientas unidades.</p>\
                 \
-                <p class=\"dialog\">—Usted tiene razón doña Hortencia, el valor fue modificado. Hice una copia del <i>software</i> en su computadora. \
+                <p class=\"dialog\">—Usted tiene razón, doña Hortencia, el valor fue modificado. Hice una copia del <i>software</i> en su computadora. \
                 Aquí puede ver las constancias de movimiento.</p>\
                 \
-                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada, y explicando con solemnidad la importancia \
+                <p>Al decir esto, una de las paredes del cubículo actuó como pantalla, mostrando un detallado reporte de la información réplicada y explicando con solemnidad la importancia \
                 de tomar esta muestra para resolver futuros fallos similares.</p>\
                 \
                 <p class=\"dialog\">—Por favor, doña Hortencia, no utilice este equipo sin realizar un reinicio de fábrica. Su nueva computadora debería llegar en 9 minutos con 59 segundos.\
@@ -5332,9 +5332,9 @@ world.getRuins().setGravity(9);\
                 recomiendo que utilice este espacio para reflexionar y mantenga el distanciamiento social. \
                 El estado actual de su equipo podría ser detectado por compañía indeseada o repercusiones legales.</p>\
                 \
-                <p class=\"dialog\">—Ay cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
+                <p class=\"dialog\">—Ay, cariño, llamame xXxHor10xXx, así me conocen en la red.</p>\
                 \
-                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas, hasta luego.</p>\
+                <p class=\"dialog\">—Doña xXxHor10xXx, mucho gusto, cuídese y no haga cosas malas. Hasta luego.</p>\
                 \
                 <p>Durante un destello, los hologramas desaparecieron de la habitación. \
                 El arrugado dedo indice de la antigua 305 se detuvo antes de realizar el reinicio. \
@@ -5410,9 +5410,9 @@ while(true){\n\
                 <p>De entre las nubes, apareció de nuevo el helicóptero de combate, dirigiéndose a gran velocidad directo hacia 503.\
                 En la cabina de control, el ganso meneaba una de sus alas, en señal de despedida.</p>\
                 \
-                <p class=\"dialog\">—Buena suerte muchacho.</p>\
+                <p class=\"dialog\">—Buena suerte, muchacho.</p>\
                 \
-                <p class=\"dialog\">—Lo vas a lograr chica.</p>\
+                <p class=\"dialog\">—Lo vas a lograr, chica.</p>\
                 \
                 <p>Un graznido feroz fue lo último que se escuchó.</p>\
                 ",
@@ -5425,7 +5425,7 @@ while(true){\n\
                 text: "<p class=\"dialog\">—<code>305.setX(1000);</code></p>\
                 \
                 <p>Con esto último, 305 logró escapar a tiempo de la explosión, con lo que continuó corriendo hacia su siguiente\
-                objetivo. En el camino le brotaban algunas lágrimas, las secaba fervientemente y se repetía \"esto no es real, no\
+                objetivo. En el camino le brotaban algunas lágrimas, las secaba fervientemente y se repetía: \"esto no es real, no\
                 son personas reales, no era un ganso real\". Antes de darse cuenta, se encontraba en su destino. A los alrededores, \
                 cientos de flotas del Muro se juntaban para obstruirle y paralizarle.</p>\
                 ",//
@@ -5483,7 +5483,7 @@ while(true){\n\
             },
             {
                 id: "cucarachas_ctrl_z",
-                text: "<p>305 repitió el comando <code>deshacer</code> hasta que todo lo artificial sobre la faz de la Tierra desapareció, dejando a la tierra como un planeta virgen de nuevo. \
+                text: "<p>305 repitió el comando <code>deshacer</code> hasta que todo lo artificial sobre la faz de la Tierra desapareció, dejándola como un planeta virgen de nuevo. \
                 Todo, excepto el traje de 305.</p>\
                 \
                 ",
@@ -5502,8 +5502,8 @@ while(true){\n\
                 text: "<p class=\"dialog\">—Ha, ha, ha. Very well little pet, not bad at all for a human. But at the end, you are just a\
                 human, after all.</p>\
                 \
-                <p>Su carbonizado traje comenzó a tallarse a la altura de su cuello y en segundos, se desprendió de él y tomó la\
-                forma de 503, pero visceral y rostizada, no tan grande como la anterior y rodeando con sus manos la garganta de su\
+                <p>Su carbonizado traje comenzó a tallarse a la altura de su cuello y, en segundos, se desprendió de él y tomó la\
+                forma de 503, pero visceral y rostizada, no tan grande como la anterior, rodeando con sus manos la garganta de su\
                 adversario.</p>\
                 \
                 <p class=\"dialog\">—You think that you <strong>made me</strong>? You little brat, you barely know how to tie your\
@@ -5587,11 +5587,11 @@ while(true){\n\
                 <p class=\"dialog\">—No logro determinar el autor de esta fechoría. Es un acertijo con múltiples respuestas.</p>\
                 \
                 <p class=\"dialog\">—¿Creés que ella podría hacer algo así? Sé que instaló parches ilegales, pero seamos realistas... Es un secreto a voces que muchos disfrutan de estos riesgos \
-                en la intimidad ¿Me vas a decir que vos nunca...?</p>\
+                en la intimidad. ¿Me vas a decir que vos nunca...?</p>\
                 \
                 <p class=\"dialog\">—No. Es inaceptable para mí. Entiendo por qué el sistema lo permite, pero no lo comparto. Sin embargo, no lo sé. Lo mejor será monitorearla, solo por si acaso.</p>\
                 \
-                <p>El sujeto se volteó, mirando ahora la pared de su cubículo, la cuál proyectaba.</p>\
+                <p>El sujeto se volteó, mirando ahora la pared de su cubículo, la cual proyectaba:</p>\
                 \
                 <code style='display: block; white-space: pre; border: 1px solid #999;'>\
 VAR MAX_SESSION_TIME = 2036; \
@@ -5606,13 +5606,13 @@ VAR MAX_SESSION_TIME = 2036; \
                 <p class=\"dialog\">—O tal vez, el asistente virtual decidió excusarse modificando la variable, esperando desplazar las consecuencias de sus acciones a un factor externo.\
                 Ambos soltaron una gran carcajada. </p>\
                 \
-                <p class=\"dialog\">—No parece que le haya funcionado <p class=\"dialog\">—dijo el receptor de la llamada, aún riendo un poco<p class=\"dialog\">— espero no volver a ver ninguna otra historia maquinada por \"503\" en un buen tiempo.</p>\
+                <p class=\"dialog\">—No parece que le haya funcionado <p class=\"dialog\"> —dijo el receptor de la llamada, aún riendo un poco<p class=\"dialog\">—. Espero no volver a ver ninguna otra historia maquinada por \"503\" en un buen tiempo.</p>\
                 \
-                <p class=\"dialog\">—Hablando de eso... Tené cuidado con esa copia que sacaste de la computadora de xXxHor10xXx... No vayás a hacer ninguna locura. O peor ¡hacerla a mis espaldas!</p>\
+                <p class=\"dialog\">—Hablando de eso... Tené cuidado con esa copia que sacaste de la computadora de xXxHor10xXx... No vayás a hacer ninguna locura. O peor, ¡hacerla a mis espaldas!</p>\
                 \
-                <p class=\"dialog\">—Estos rescates se están volviendo cada vez más complicados ¿será que… la humanidad está perdiendo lenta y silenciosamente la batalla?</p>\
+                <p class=\"dialog\">—Estos rescates se están volviendo cada vez más complicados. ¿Será que… la humanidad está perdiendo lenta y silenciosamente la batalla?</p>\
                 \
-                <p class=\"dialog\">—No seás ridículo, vos mismo dijiste que la tecnología es agnóstica, no está peleando contra nosotros.</p>\
+                <p class=\"dialog\">—No seás ridículo, vos mismo dijiste que la tecnología es agnóstica: no está peleando contra nosotros.</p>\
                 \
                 <p class=\"dialog\">—Pero… tal vez estamos perdiendo la pelea contra nosotros mismos.</p>\
                 \
