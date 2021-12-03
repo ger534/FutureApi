@@ -317,14 +317,14 @@ const games = [
                 antes de acercarse al punto de interés, lo que comprometería el interés público de mitigar cualquier inconveniente en la infraestructura de los metaversos lo antes posible. \
                 Desde la base, otros monitores comenzaron a consternarse debido sus decisiones erráticas y le advirtieron tomar con seriedad su rol \
                 en la perfecta maquinaria que, como un reloj bien ensamblado, mantiene el bienestar social. También se encendió una pantalla en el interior del visor de su traje, la cual comenzó a \
-                proyectar en una lengua perdida, el protocolo que debía seguirse en caso de \"<code class=\"snippet\"><i>Red alarm, \
+                proyectar en una lengua perdida, el protocolo que debía seguirse en caso de \"<code><i>Red alarm, \
                 level 5, alien attack</i></code>\", a pesar de que ya se lo sabía de memoria.\
                 <ul>\
                 <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
                 <li>Verifique que los sensores del centinela en cuestión estén en correcto funcionamiento. Eventos a nivel cuántico pueden descalibrar estos instrumentos.\
                 También observe con detenimiento sus alrededores y active el mecanismo de defensa más agresivo que tenga a disposición.\
                 </li>\
-                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code class=\"snippet\">3600 ms</code> desde su disparo, ya sea por \
+                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code>3600 ms</code> desde su disparo, ya sea por \
                 muerte del monitor o por negligencia, el Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
                 \
                 <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
@@ -490,13 +490,13 @@ const games = [
                 id: "meditar",
                 text: "<p>305 decidió meditar por un momento sobre la situación en la que se hallaba. En el momento que decidiera salir de su vehículo e \
                 investigar la amenazaba de seres inteligentes sin descendencia humana, su vida estaría en peligro. Para mantener la calma, comenzó a recitar, \
-                utilizando una lengua perdida en el tiempo, la sección del protocolo donde se estipula como se debe actuar en caso de \"<code class=\"snippet\">Red alarm, level 5, alien attack.</code>\".</p>\
+                utilizando una lengua perdida en el tiempo, la sección del protocolo donde se estipula como se debe actuar en caso de \"<code>Red alarm, level 5, alien attack.</code>\".</p>\
                 <ul>\
                 <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
                 <li>Verifique que los sensores del centinela en cuestión estén en correcto funcionamiento. Eventos a nivel cuántico pueden descalibrar estos instrumentos.\
                 También observe con detenimiento sus alrededores y active el mecánismo de defensa más agresivo que tenga a disposición.\
                 </li>\
-                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code class=\"snippet\">3600 ms</code> desde su disparo, ya sea por \
+                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code>3600 ms</code> desde su disparo, ya sea por \
                 muerte del monitor o por negligencia, El Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
                 \
                 <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
@@ -531,13 +531,13 @@ const games = [
                 text: "<p>Subiendo aún más, y acercándose peligrosamente a zonas restringidas y sin directa relevancia para alguien de mantenimiento, 305 mantuvo su rumbo de forma ascendente.\
                 Su comportamiento errático e insubordinado hizo que su transmisor comenzara a chorrear toda clase de advertencias y represalias. No solo sus compañeros en el nodo de monitores estaban\
                 confundidos y molestos con él, también era posible percibir un comunicado por parte de El Muro de Fuego.  El visor de su traje comenzó a \
-                proyectar en una lengua pérdida, el protocolo que debía seguirse en caso de \"<code class=\"snippet\">Red alarm, level 5, alien attack.</code>\", a pesar de que ya se lo sabía de memoria.\
+                proyectar en una lengua pérdida, el protocolo que debía seguirse en caso de \"<code>Red alarm, level 5, alien attack.</code>\", a pesar de que ya se lo sabía de memoria.\
                 <ul>\
                 <li>Diríjase a la zona del presunto impacto e inspeccione el lugar.</li>\
                 <li>Verifique que los sensores del centinela en cuestión estén en correcto funcionamiento. Eventos a nivel cuántico pueden descalibrar estos instrumentos.\
                 También observe con detenimiento sus alrededores y active el mecánismo de defensa más agresivo que tenga a disposición.\
                 </li>\
-                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code class=\"snippet\">3600 ms</code> desde su disparo, ya sea por \
+                <li>En caso de falsa alarma, desactive la alarma. Si la alarma no es desactivada en menos de <code>3600 ms</code> desde su disparo, ya sea por \
                 muerte del monitor o por negligencia, El Muro de Fuego lanzará un ataque fulminante contra el planeta Tierra.</li>\
                 \
                 <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
@@ -585,7 +585,7 @@ const games = [
                 intemperie. Por primera vez (y probablemente siendo pionero en esto) se enfrentaba a una situación que no estaba\
                 controlada. En el peor de los casos, El Muro de Fuego lanzaría un ataque desde la Luna, sin importar\
                 cuánta infraestructura tuviera que destruir. 305 sabía que la única forma de evitar que la situación escalara era\
-                suprimir la señal inicial antes de que pasaran <code class=\"snippet\">3600 de milisegundos</code>, como lo estipula el\
+                suprimir la señal inicial antes de que pasaran <code>3600 de milisegundos</code>, como lo estipula el\
                 protocolo.</p>\
                 \
                 <p>Sus colegas le llamaban. Respondió la radio y les dijo:</p>",
@@ -916,7 +916,7 @@ const games = [
             {
                 id: "como_sabotear",
                 text: "<p class=\"dialog\">—¿Cómo es posible realizar algo así? Es ilegal modificar tecnología patentada por las grandes\
-                compañías, creería que los <code class=\"snippet\">cortafuegos</code> no te dejarían pasar.</p>\
+                compañías, creería que los <code>cortafuegos</code> no te dejarían pasar.</p>\
                 \
                 <p class=\"dialog\">—Es menos complicado de lo que piensa.</p>\
                 \
@@ -1095,7 +1095,7 @@ const games = [
                 <p>Su rostro empapado en sudor y sus pupilas dilatadas exigían una respuesta, sin embargo, sus prójimos lucían tan\
                 perdidos como él. Ante el silencio y las caras confundidas, revisó los escáneres de su recarga de energía. Todos\
                 los gráficos parecían borrachos, no tenían ningún sentido, la máquina parecía arrojar chispas y lo más insólito,\
-                la energía celular retornada de la hiperhibernación parecía exceder el <code class=\"snippet\">1000% de ATP</code>. Mientras\
+                la energía celular retornada de la hiperhibernación parecía exceder el <code>1000% de ATP</code>. Mientras\
                 continuaba analizando la información, una inesperada mano cayó sobre la suya. A través del caso, los ojos horrorizados de 300 lo miraron\
                 y el tipo exclamó:</p>\
                 \
@@ -1116,7 +1116,7 @@ const games = [
                 <p>Su rostro empapado en sudor y sus pupilas dilatadas exigían una respuesta, sin embargo, sus prójimos lucían tan\
                 perdidos como él. Ante el silencio y las caras confundidas, revisó los escáneres de su recarga de energía. Todos\
                 los gráficos parecían borrachos, no tenían ningún sentido, la máquina parecía arrojar chispas y lo más insólito,\
-                la energía celular retornada de la hiperhibernación parecía exceder el <code class=\"snippet\">1000% de ATP</code>. Mientras\
+                la energía celular retornada de la hiperhibernación parecía exceder el <code>1000% de ATP</code>. Mientras\
                 continuaba analizando la información, una inesperada mano cayó sobre la suya.  A través del caso, los ojos horrorizados de 300 lo miraron\
                 y el tipo exclamó</p>\
                 \
@@ -1224,7 +1224,7 @@ const games = [
             },
             {
                 id: "un_segundo",
-                text: "<p class=\"dialog\">—Ok. Give me a <code class=\"snippet\">60000 miliseconds</code>. I want to check something.</p>\
+                text: "<p class=\"dialog\">—Ok. Give me a <code>60000 miliseconds</code>. I want to check something.</p>\
                 \
                 <p>305 tomó un momento para ver una vez más la habitación. Sus ojos, a través del visor de su casco, la recorrieron de arriba a abajo. \
                 El traje que los monitores utilizan como uniforme les permite hacer uso de una\
@@ -1622,7 +1622,7 @@ const games = [
                 \
                 <p class=\"dialog\">—¿Fórmula para calcular de desaceleración de un jet?</p>",
                 options: [
-                    { id: "jet_discardable", option: "<code class=\"snippet\">a = (V<sub>f</sub> - V<sub>o</sub>) ÷ t, con V<sub>o</sub> &gt; V<sub>f</sub></code>" },
+                    { id: "jet_discardable", option: "<code>a = (V<sub>f</sub> - V<sub>o</sub>) ÷ t, con V<sub>o</sub> &gt; V<sub>f</sub></code>" },
                     { id: "jet1_no", option: "No la recuerdo.", noShow: true }]
             },
             {
@@ -1644,7 +1644,7 @@ const games = [
                 \
                 <p class=\"dialog\">—¿Fórmula para calcular de desaceleración de un jet?</p>",
                 options: [
-                    { id: "jet_discardable", option: "<code class=\"snippet\">a = (V<sub>f</sub> - V<sub>o</sub>) ÷ t, con V<sub>o</sub> &gt; V<sub>f</sub></code>" }]
+                    { id: "jet_discardable", option: "<code>a = (V<sub>f</sub> - V<sub>o</sub>) ÷ t, con V<sub>o</sub> &gt; V<sub>f</sub></code>" }]
             },
 
             {
@@ -1666,7 +1666,7 @@ const games = [
                 \
                 <p class=\"dialog\">—¿Fórmula para calcular de desaceleración de un jet?</p>",
                 options: [
-                    { id: "jet_discardable", option: "<code class=\"snippet\">a = (V<sub>f</sub> - V<sub>o</sub>) ÷ t, con V<sub>o</sub> &gt; V<sub>f</sub></code>" },
+                    { id: "jet_discardable", option: "<code>a = (V<sub>f</sub> - V<sub>o</sub>) ÷ t, con V<sub>o</sub> &gt; V<sub>f</sub></code>" },
                     { id: "jet2_no", option: "No la recuerdo.", noShow: true }]
             },
             {
@@ -1688,14 +1688,14 @@ const games = [
                 \
                 <p class=\"dialog\">—¿Fórmula para calcular de desaceleración de un jet?</p>",
                 options: [
-                    { id: "jet_discardable", option: "<code class=\"snippet\">a = (V<sub>f</sub> - V<sub>o</sub>) ÷ t, con V<sub>o</sub> &gt; V<sub>f</sub></code>" }]
+                    { id: "jet_discardable", option: "<code>a = (V<sub>f</sub> - V<sub>o</sub>) ÷ t, con V<sub>o</sub> &gt; V<sub>f</sub></code>" }]
             },
 
             {
                 id: "jet_discardable",
                 text: "<p class=\"dialog\">—¿Fórmula para calcular la trayectoria de un misil?</p>",
                 options: [
-                    { id: "misil_discardable", option: "<code class=\"snippet\">V<sub>x</sub> = V<sub>0x</sub> = V<sub>0</sub> cos(α)</code>" },
+                    { id: "misil_discardable", option: "<code>V<sub>x</sub> = V<sub>0x</sub> = V<sub>0</sub> cos(α)</code>" },
                     { id: "misil_no", option: "Esa no me la estudié.", noShow: true }]
             },
 
@@ -1703,14 +1703,14 @@ const games = [
                 id: "misil_no",
                 text: "<p class=\"dialog\">—¿Fórmula para calcular la trayectoria de un misil?</p>",
                 options: [
-                    { id: "misil_discardable", option: "<code class=\"snippet\">V<sub>x</sub> = V<sub>0x</sub> = V<sub>0</sub> cos(α)</code>" }]
+                    { id: "misil_discardable", option: "<code>V<sub>x</sub> = V<sub>0x</sub> = V<sub>0</sub> cos(α)</code>" }]
             },
 
             {
                 id: "misil_discardable",
                 text: "<p class=\"dialog\">—¿Fórmula para calcular magnitud de un sismo?</p>",
                 options: [
-                    { id: "sismo", option: "<code class=\"snippet\">M<sub>L</sub> = log<sub>10</sub>(A) + 3log<sub>10</sub>[8Δt<sub>S - P</sub>(s)] - 2.92</code>" },
+                    { id: "sismo", option: "<code>M<sub>L</sub> = log<sub>10</sub>(A) + 3log<sub>10</sub>[8Δt<sub>S - P</sub>(s)] - 2.92</code>" },
                     { id: "sismo_no", option: "No lo sé.", noShow: true }]
             },
 
@@ -1718,14 +1718,14 @@ const games = [
                 id: "sismo_no",
                 text: "<p class=\"dialog\">—¿Fórmula para calcular magnitud de un sismo?</p>",
                 options: [
-                    { id: "sismo", option: "<code class=\"snippet\">M<sub>L</sub> = log<sub>10</sub>(A) + 3log<sub>10</sub>[8Δt<sub>S - P</sub>(s)] - 2.92</code>" }]
+                    { id: "sismo", option: "<code>M<sub>L</sub> = log<sub>10</sub>(A) + 3log<sub>10</sub>[8Δt<sub>S - P</sub>(s)] - 2.92</code>" }]
             },
 
             {
                 id: "sismo",
                 text: "<p>305 respondió lo solicitado con mucha facilidad, como si fuera preguntarle si está lloviendo o cuál es su color favorito. Luego de\
-                pensar por unos minutos, su compañero anatído le indicó que existía una probabilidad del <code class=\"snippet\">0.7%</code> de\
-                escapar al subsuelo, pero debían crear un terremoto de magnitud <code class=\"snippet\">9,7</code>. El plan a ejecutar es \"simple\",\
+                pensar por unos minutos, su compañero anatído le indicó que existía una probabilidad del <code>0.7%</code> de\
+                escapar al subsuelo, pero debían crear un terremoto de magnitud <code>9,7</code>. El plan a ejecutar es \"simple\",\
                 le dijo: reducir la aceleración de la nave, disparar un misil (fabricado por el ganso) y generar una fisura en las\
                 grietas profundas en la superficie terrestre.</p>",
                 options: [
@@ -1830,7 +1830,7 @@ const games = [
                 \
                 <p>305 activó la linterna de su traje e inspeccionó superficialmente. Le pareció ver figuras humanoides, pero\
                 modificadas en formas bestiales. Algunos seres parecían tener alas de murciélago, que extendidas, tomaban\
-                <code class=\"snippet\">~2 m^2</code> por unidad. Otros, eran veloces, modificados selectivamente para ser aerodinámicos, con\
+                <code>~2 m^2</code> por unidad. Otros, eran veloces, modificados selectivamente para ser aerodinámicos, con\
                 piernas largas y flacas, estructura ósea reducida y con crestas en zonas de la cabeza, codos y tobillos. Algunos\
                 parecían kafkianos.</p>\
                 ",
@@ -2379,7 +2379,7 @@ const games = [
                 de manera que sea sencillo traducir a lenguaje máquina. Tome por ejemplo las matemáticas, \"dos más tres es igual a cinco\". Esta oración\
                 está escrita en español, pero su composición lógica es exacta y precisa. Se puede representar así: \
                 \
-                <p><code class=\"snippet\"> 2 + 3 = 5 </code></p>\
+                <p><code> 2 + 3 = 5 </code></p>\
                 \
                 <p class=\"dialog\">—2 + cinco = siete </p>",
 
@@ -2395,14 +2395,14 @@ const games = [
                 <p class=\"dialog\">—Sin embargo, las matemáticas no se consideran un lenguaje de programación. Las matemáticas son parte del viaje, pero la lógica es el destino. \
                 La meta es organizar la composición física de la máquina que debe cumplir la instrucción una determinada instrucción. Hace mucho tiempo, solíamos usar utilizar unos y ceros \
                 para cumplir con esta tarea. El sistema de numeración de base dos, también llamado sistema binario. Se ve así: \
-                <p><code class=\"snippet\">01101100 01111001 01101000</code></p>\
+                <p><code>01101100 01111001 01101000</code></p>\
                 Donde <ul>\
                         <li>ENCENDIDO = 1</li>\
                         <li>APAGADO = 0</li>\
                 </ul>\
                 <p class=\"dialog\">—Esta solución es antigua, ahora dominamos la <strong>computación cuántica</strong>, sin embargo en esencia buscan lo mismo, ordenar a cada átomo de la máquina\
                 a encenderse o apagarse, según los deseos del programador. Elaborando en el proceso, se inicia con el padre de Pepito que quiere comprar \"leche y huevos\" (lenguaje de alto nivel)\
-                y terminamos con <code class=\"snippet\">01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
+                y terminamos con <code>01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
                 \
                 <p class=\"dialog\">—¡No tenemos tiempo para hablar de todo eso!</p>\
                 \
@@ -2418,14 +2418,14 @@ const games = [
                 <p class=\"dialog\">Sin embargo, las matemáticas no se consideran un lenguaje de programación. Las matemáticas son parte del viaje, pero la lógica es el destino. \
                 La meta es organizar la composición física de la máquina que debe cumplir la instrucción una determinada instrucción. Hace mucho tiempo, solíamos usar utilizar unos y ceros \
                 para cumplir con esta tarea. El sistema de numeración de base dos, también llamado sistema binario. Se ve así: \
-                <p><code class=\"snippet\">01101100 01111001 01101000</code></p>\
+                <p><code>01101100 01111001 01101000</code></p>\
                 Donde <ul>\
                         <li>ENCENDIDO = 1</li>\
                         <li>APAGADO = 0</li>\
                     </ul>\
                 <p class=\"dialog\">—Esta solución es antigua, ahora dominamos la <strong>computación cuántica</strong>, sin embargo en esencia buscan lo mismo, ordenar a cada átomo de la máquina\
                 a encenderse o apagarse, según los deseos del programador. Elaborando en el proceso, se inicia con el padre de Pepito que quiere comprar \"leche y huevos\" (lenguaje de alto nivel)\
-                y terminamos con <code class=\"snippet\">01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
+                y terminamos con <code>01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
                 \
                 <p class=\"dialog\">—¡No tenemos tiempo para hablar de todo eso!</p>\
                 \
@@ -2559,7 +2559,7 @@ suma(numero_1, numero_2){\n\
             {
                 id: "submundo_poo",
                 text: " <p class=\"dialog\">—Sí. El paradigma orientado a la programación, también llamado programación orienta a objetos (POO), utiliza objetos para modelar sus soluciones.\
-                Los objetos en este paradigma son abstracciones de la realidad. Por ejemplo, si un programador quiere programar una calculadora, puede crear una clase <code class=\"snippet\">calculadora</code>\
+                Los objetos en este paradigma son abstracciones de la realidad. Por ejemplo, si un programador quiere programar una calculadora, puede crear una clase <code>calculadora</code>\
                 y programarle acciones y atributos pertinentes a una calculadora, como sumar, restar, etcétera.\
                 <ul>\
                     <li><code class=\"snippet\">\
@@ -2572,8 +2572,8 @@ int resultado;\n\
                     </code>\
                     </li>\
                 </ul>\
-                <p class=\"dialog\">En este contexto, la clase <code class=\"snippet\">calculadora</code> se vuelve un <u>objeto</u> al ser instanciado. Y este objeto, \
-                tiene los <u>métodos</u> de <code class=\"snippet\">sumar</code> y el <u>atributo</u> <code class=\"snippet\">resultado</code>.</p>\
+                <p class=\"dialog\">En este contexto, la clase <code>calculadora</code> se vuelve un <u>objeto</u> al ser instanciado. Y este objeto, \
+                tiene los <u>métodos</u> de <code>sumar</code> y el <u>atributo</u> <code>resultado</code>.</p>\
                 <ul>\
                         <li>Para instanciar una clase: <ul><li><code class=\"snippet\">Calculadora mi_calculadora_1 = new Calculadora();</code></li></ul></li>\
                         <li>Para crear un objeto: <ul><li><code class=\"snippet\">Calculadora mi_calculadora_2 = new Calculadora();</code></li></ul>(es lo mismo).</li>\
@@ -2689,7 +2689,7 @@ print(resultado);\
                 <p class=\"dialog\">— Los números 10 y 5, en lugar de ser utilizados directamente, se almacenan en \
                 variables para manipular los datos de esta manera. La simpleza del ejemplo puede hacer ver a las variables como un paso innecesario en una operación, \
                 sin embargo, imagine que esta variable almacena el correo electrónico de un usuario, o su nombre. En un escenario de ese estilo, toda la lógica puede estar \
-                ligada a una variable <code class=\"snippet\">email</code> o <code class=\"snippet\">nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
+                ligada a una variable <code>email</code> o <code>nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
                 \
                 <p class=\"dialog\">—Y las variables pueden ser tipadas o no tipadas.\
                 \
@@ -2701,9 +2701,9 @@ print(resultado);\
                 \
                 </p>\
                 <ul>\
-                        <li><code class=\"snippet\">int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
-                        <li><code class=\"snippet\">string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
-                        <li><code class=\"snippet\">char</code>, <code class=\"snippet\">float</code>, <code class=\"snippet\">double</code>, <code class=\"snippet\">any</code>, <code class=\"snippet\">array</code>, <code class=\"snippet\">list</code> y muchas, muchas más.</li> \
+                        <li><code>int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
+                        <li><code>string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
+                        <li><code>char</code>, <code>float</code>, <code>double</code>, <code>any</code>, <code>array</code>, <code>list</code> y muchas, muchas más.</li> \
                 </ul>\
                 \
             <p>EJERCICIO: </p>\
@@ -2716,7 +2716,7 @@ print(papas + chayotes);\
                 ",
                 options: [
                     { id: "submundo_practica_sintaxis_2_rmal", option: "Papas y chayotes." },
-                    { id: "submundo_practica_sintaxis_2_rbien", option: "Datos de tipo <code class=\"snippet\">string</code>." }]
+                    { id: "submundo_practica_sintaxis_2_rbien", option: "Datos de tipo <code>string</code>." }]
             },
 
             {
@@ -2726,7 +2726,7 @@ print(papas + chayotes);\
                 <p class=\"dialog\">— Los números 10 y 5, en lugar de ser utilizados directamente, se almacenan en \
                 variables para manipular los datos de esta manera. La simpleza del ejemplo puede hacer ver a las variables como un paso innecesario en una operación, \
                 sin embargo, imagine que esta variable almacena el correo electrónico de un usuario, o su nombre. En un escenario de ese estilo, toda la lógica puede estar \
-                ligada a una variable <code class=\"snippet\">email</code> o <code class=\"snippet\">nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
+                ligada a una variable <code>email</code> o <code>nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
                 \
                 <p class=\"dialog\">—Y las variables pueden ser tipadas o no tipadas.\
                 \
@@ -2737,9 +2737,9 @@ print(papas + chayotes);\
                 \
                 </p>\
                 <ul>\
-                        <li><code class=\"snippet\">int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
-                        <li><code class=\"snippet\">string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
-                        <li><code class=\"snippet\">char</code>, <code class=\"snippet\">float</code>, <code class=\"snippet\">double</code>, <code class=\"snippet\">any</code>, <code class=\"snippet\">array</code>, <code class=\"snippet\">list</code> y muchas, muchas más.</li> \
+                        <li><code>int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
+                        <li><code>string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
+                        <li><code>char</code>, <code>float</code>, <code>double</code>, <code>any</code>, <code>array</code>, <code>list</code> y muchas, muchas más.</li> \
                 </ul>\
                 \
             <p>EJERCICIO: </p>\
@@ -2752,13 +2752,13 @@ print(papas + chayotes);\
                 ",
                 options: [
                     { id: "submundo_practica_sintaxis_2_rmal", option: "Papas y chayotes." },
-                    { id: "submundo_practica_sintaxis_2_rbien", option: "Datos de tipo <code class=\"snippet\">string</code>." }]
+                    { id: "submundo_practica_sintaxis_2_rbien", option: "Datos de tipo <code>string</code>." }]
             },
 
             {
                 id: "submundo_practica_sintaxis_2_rmal",
                 text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
-                La palabra reservada antes de la variable (en este caso <code class=\"snippet\">string</code>) muestra el tipo de dato que la variable puede almacenar.</p>\
+                La palabra reservada antes de la variable (en este caso <code>string</code>) muestra el tipo de dato que la variable puede almacenar.</p>\
                 \
                 <p class=\"dialog\">—¿Continuamos con las estructuras de datos y cómo manipularlas?</p>",
                 options: [
@@ -2800,7 +2800,7 @@ print(papas + chayotes);\
             {
                 id: "submundo_practica_sintaxis_4_completado",
                 text: "<p class=\"dialog\">—Se puede recorrer una lista utilizando estrategias muy diferentes, por ejemplo: recursividad o iteración. Por ahora, solo \
-                hablaremos de la iteración. Los métodos iterativos más famosos se pueden utilizan con las palabras reservadas <code class=\"snippet\">for</code> y <code class=\"snippet\">while</code> </p>\
+                hablaremos de la iteración. Los métodos iterativos más famosos se pueden utilizan con las palabras reservadas <code>for</code> y <code>while</code> </p>\
                 <ul>\
                     <li><code class=\"snippet\">\
 for(int i = 0; i <=lista_de_compras.lenght; i++){\n\
@@ -2814,9 +2814,9 @@ while i < len(lista_de_compras):\n\
     i = i + 1\
                     </code>\</li> \
                 </ul>\
-                <p class=\"dialog\">—A mí me gusta mucho el <code class=\"snippet\">map</code>.</p>\
+                <p class=\"dialog\">—A mí me gusta mucho el <code>map</code>.</p>\
                 \
-                <p class=\"dialog\">—Algo interesante de <code class=\"snippet\">while</code> es que permite crear un bucle infinito de forma muy sencilla.</p>\
+                <p class=\"dialog\">—Algo interesante de <code>while</code> es que permite crear un bucle infinito de forma muy sencilla.</p>\
                 <ul>\
                 <li><code class=\"snippet\">\
 while True:{\n\
@@ -2843,31 +2843,31 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—¿Cómo puedo hacerlo?</p>\
                 \
-                <p class=\"dialog\">—Lo primero es tener acceso <code class=\"snippet\">sudo</code>, pero en su caso ya debería tenerlo, luego\
-                necesita el <code class=\"snippet\">ID</code> del objeto, en este caso es <code class=\"snippet\">candy_tree_756</code>.</p>\
+                <p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
                 ",
                 options: [
                     { id: "submundo_saber", option: "¡Qué? ¿Cómo es posible que sepas eso!" },
-                    { id: "submundo_sudo", option: "¿Acceso <code class=\"snippet\">sudo</code>?" }]
+                    { id: "submundo_sudo", option: "¿Acceso <code>sudo</code>?" }]
             },
 
             {
                 id: "submundo_como_puedo",
-                text: "<p class=\"dialog\">—Lo primero es tener acceso <code class=\"snippet\">sudo</code>, pero en su caso ya debería tenerlo, luego\
-                necesita el <code class=\"snippet\">ID</code> del objeto, en este caso es <code class=\"snippet\">candy_tree_756</code>.</p>\
+                text: "<p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
                 ",
                 options: [
                     { id: "submundo_saber", option: "¡Qué? ¿Cómo es posible que sepas eso!" },
-                    { id: "submundo_sudo", option: "¿Acceso <code class=\"snippet\">sudo</code>?" }]
+                    { id: "submundo_sudo", option: "¿Acceso <code>sudo</code>?" }]
             },
             {
                 id: "submundo_como_nose",
-                text: "<p class=\"dialog\">—Lo primero es tener acceso <code class=\"snippet\">sudo</code>, pero en su caso ya debería tenerlo, luego\
-                necesita el <code class=\"snippet\">ID</code> del objeto, en este caso es <code class=\"snippet\">candy_tree_756</code>.</p>\
+                text: "<p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
                 ",
                 options: [
                     { id: "submundo_saber", option: "¡Qué? ¿Cómo es posible que sepas eso!" },
-                    { id: "submundo_sudo", option: "¿Acceso <code class=\"snippet\">sudo</code>?" }]
+                    { id: "submundo_sudo", option: "¿Acceso <code>sudo</code>?" }]
             },
 
             {
@@ -2875,7 +2875,7 @@ while True:{\n\
                 text: "<p class=\"dialog\">—Es demasiado descabellado, incluso viniendo de un ganso parlante con personalidad múltiple. Pero\
                 tienes razón, algo anda mal. Cuéntame más.</p>\
                 \
-                <p class=\"dialog\">—La contraseña es <code class=\"snippet\">42</code>.</p>",
+                <p class=\"dialog\">—La contraseña es <code>42</code>.</p>",
                 options: [
                     { id: "submundo_contra", option: "¿Qué?" },
                     { id: "submundo_broma", option: "¿Otra broma de mal gusto?" }]
@@ -2885,7 +2885,7 @@ while True:{\n\
                 text: "<p class=\"dialog\">—Quiero respuestas. ¿Cómo obtuviste permiso para modificar la cámara de\
                 hiperbernación? ¿Cómo es que escribes código en el aire y reprogramas la realidad?</p>\
                 \
-                <p class=\"dialog\">—La contraseña es <code class=\"snippet\">42</code>.</p>",
+                <p class=\"dialog\">—La contraseña es <code>42</code>.</p>",
                 options: [
                     { id: "submundo_contra", option: "¿Qué?" },
                     { id: "submundo_broma", option: "¿Otra broma de mal gusto?" }]
@@ -2893,7 +2893,7 @@ while True:{\n\
 
             {
                 id: "submundo_contra",
-                text: "<p class=\"dialog\">—La inteligencia virtual que está controlando este entorno utiliza <code class=\"snippet\">42</code> como su\
+                text: "<p class=\"dialog\">—La inteligencia virtual que está controlando este entorno utiliza <code>42</code> como su\
                 contraseña. Deberíamos nombrarlo... ¿Le parece 503? —con un leve graznido, el ave pareció responderse a sí\
                 misma.</p>",
                 options: [
@@ -2902,7 +2902,7 @@ while True:{\n\
             },
             {
                 id: "submundo_broma",
-                text: "<p class=\"dialog\">—No, le hablo en serio. La inteligencia virtual que está controlando este entorno utiliza <code class=\"snippet\">42</code> como \
+                text: "<p class=\"dialog\">—No, le hablo en serio. La inteligencia virtual que está controlando este entorno utiliza <code>42</code> como \
                 contraseña. Deberíamos nombrarlo... ¿Le parece 503? —con un leve graznido, el ave pareció responderse a sí\
                 misma.</p>",
                 options: [
@@ -2912,7 +2912,7 @@ while True:{\n\
 
             {
                 id: "submundo_ridiculo",
-                text: "<p class=\"dialog\">—Es ridículo, el nombre y la contraseña, no puede ser. Utilicé el código <code class=\"snippet\">42</code> para\
+                text: "<p class=\"dialog\">—Es ridículo, el nombre y la contraseña, no puede ser. Utilicé el código <code>42</code> para\
                 darme acceso a los trajes y paralizar a los otros, pero solo estaba copiando los datos que usaste con la cámara,\
                 no es posible que sea la contraseña global del sistema.</p>\
                 \
@@ -2928,7 +2928,7 @@ while True:{\n\
             },
             {
                 id: "submundo_yalo",
-                text: "<p class=\"dialog\">—Ya sabía sobre la contraseña, utilicé el código <code class=\"snippet\">42</code> para\
+                text: "<p class=\"dialog\">—Ya sabía sobre la contraseña, utilicé el código <code>42</code> para\
                 darme acceso a los trajes y paralizar a los otros, pero solo estaba copiando los datos que usaste con la cámara,\
                 jamás imaginé que sería la contraseña global del sistema.</p>\
                 \
@@ -2949,12 +2949,12 @@ while True:{\n\
                 caramelo</p>\
                 <p class=\"dialog\">—¿Cómo puedo hacerlo?</p>\
                 \
-                <p class=\"dialog\">—Lo primero es tener acceso <code class=\"snippet\">sudo</code>, pero en su caso ya debería tenerlo, luego\
-                necesita el <code class=\"snippet\">ID</code> del objeto, en este caso es <code class=\"snippet\">candy_tree_756</code>.</p>\
+                <p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
                 ",
                 options: [
                     { id: "submundo_saber", option: "¡Qué? ¿Cómo es posible que sepas eso!" },
-                    { id: "submundo_sudo", option: "¿Acceso <code class=\"snippet\">sudo</code>?" }]
+                    { id: "submundo_sudo", option: "¿Acceso <code>sudo</code>?" }]
             },
 
 
@@ -3006,45 +3006,45 @@ while True:{\n\
                 id: "submundo_intentar",
                 text: "<p class=\"dialog\">—Quiero intentar cambiar la textura de ese árbol, ¿cómo puedo hacerlo?</p>\
                 \
-                <p class=\"dialog\">—Lo primero es tener acceso <code class=\"snippet\">sudo</code>, pero en su caso ya debería tenerlo, luego\
-                necesita el <code class=\"snippet\">ID</code> del objeto, en este caso es <code class=\"snippet\">candy_tree_756</code>.</p>\
+                <p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
                 ",
                 options: [
                     { id: "submundo_saber", option: "¡Qué? ¿Cómo es posible que sepas eso!" },
-                    { id: "submundo_sudo", option: "¿Acceso <code class=\"snippet\">sudo</code>?" }]
+                    { id: "submundo_sudo", option: "¿Acceso <code>sudo</code>?" }]
             },
             {
                 id: "submundo_ejemplo",
                 text: "<p class=\"dialog\">—Pero, por ejemplo, si quiero cambiar la textura de ese árbol, ¿cómo puedo hacerlo?</p>\
                 \
-                <p class=\"dialog\">—Lo primero es tener acceso <code class=\"snippet\">sudo</code>, pero en su caso ya debería tenerlo, luego\
-                necesita el <code class=\"snippet\">ID</code> del objeto, en este caso es <code class=\"snippet\">candy_tree_756</code>.</p>\
+                <p class=\"dialog\">—Lo primero es tener acceso <code>sudo</code>, pero en su caso ya debería tenerlo, luego\
+                necesita el <code>ID</code> del objeto, en este caso es <code>candy_tree_756</code>.</p>\
                 ",
                 options: [
                     { id: "submundo_saber", option: "¡Qué? ¿Cómo es posible que sepas eso!" },
-                    { id: "submundo_sudo", option: "¿Acceso <code class=\"snippet\">sudo</code>?" }]
+                    { id: "submundo_sudo", option: "¿Acceso <code>sudo</code>?" }]
             },
             {
                 id: "submundo_saber",
                 text: "<p class=\"dialog\">—Lo puede ver si entrecierra los ojos y se concentra. Al principio tal vez sea un poco difícil,\
-                prueba tocarlo y sentir su <code class=\"snippet\">ID</code>. Si es un objeto delicado para 503, tal vez sea necesario utilizar el\
-                comando <code class=\"snippet\">sudo</code> varias veces.</p>\
+                prueba tocarlo y sentir su <code>ID</code>. Si es un objeto delicado para 503, tal vez sea necesario utilizar el\
+                comando <code>sudo</code> varias veces.</p>\
                 \
                 <p>305 se acercó al árbol y puso una mano en su corteza. Luego recitó las palabras que deseaba programar.</p>\
                 ",
                 options: [
-                    { id: "submundo_entender", option: "<code class=\"snippet\">candy_tree_756.setColor(yellow);</code>" },
+                    { id: "submundo_entender", option: "<code>candy_tree_756.setColor(yellow);</code>" },
                     { id: "submundo_entender_no", option: "No. En realidad aún no entiendo." }]
             },
             {
                 id: "submundo_sudo",
                 text: "<p class=\"dialog\">—El comando sudo permite a los usuarios no root ejecutar comandos que normalmente requerirían privilegios de superusuario.\
-                Es una forma autoritaria dar órdenes. Si es un objeto delicado para 503, tal vez sea necesario utilizar el comando <code class=\"snippet\">sudo</code> varias veces.\
+                Es una forma autoritaria dar órdenes. Si es un objeto delicado para 503, tal vez sea necesario utilizar el comando <code>sudo</code> varias veces.\
                 En este momento no creo que sea necesario, intente modificar el árbol.\
                 \
                 <p>305 se acercó al árbol y puso una mano en su corteza. Luego recitó las palabras que deseaba programar.</p>",
                 options: [
-                    { id: "submundo_entender", option: "<code class=\"snippet\">candy_tree_756.setColor(yellow);</code>" },
+                    { id: "submundo_entender", option: "<code>candy_tree_756.setColor(yellow);</code>" },
                     { id: "submundo_entender_no", option: "No. En realidad aún no entiendo." }]
             },
 
@@ -3146,7 +3146,7 @@ while True:{\n\
                 eventos ocurrir de manera relentizada. Se cuestionó a sí mismo: <em>\"¿Cuál es mi ID?\"</em>. Y, por supuesto, era\
                 evidente, recitó en un tono muy bajo.</p>",
                 options: [
-                    { id: "submundo_setFly", option: "<code class=\"snippet\">305.setFly(True);</code>" },
+                    { id: "submundo_setFly", option: "<code>305.setFly(True);</code>" },
                     { id: "submundo_quiere_volar", option: "305 quiere volar, 305 quiere volar, 305 quiere volar.", noShow: true }]
             },
             {
@@ -3171,7 +3171,7 @@ while True:{\n\
                 eventos ocurrir de manera relentizada. Se cuestionó a sí mismo: <em>\"¿Cuál es mi ID?\"</em>. Y, por supuesto, era\
                 evidente, recitó en un tono muy bajo.</p>",
                 options: [
-                    { id: "submundo_setFly", option: "<code class=\"snippet\">305.setFly(True);</code>" },
+                    { id: "submundo_setFly", option: "<code>305.setFly(True);</code>" },
                     { id: "submundo_quiere_volar", option: "305 quiere volar, 305 quiere volar, 305 quiere volar.", noShow: true }]
             },
 
@@ -3219,7 +3219,7 @@ while True:{\n\
             },
             {
                 id: "submundo_quiere_volar",
-                text: "<p class=\"dialog\">—<code class=\"snippet\">305.setFly(True);</code></p>\
+                text: "<p class=\"dialog\">—<code>305.setFly(True);</code></p>\
                 \
                 <p>Perdió el control de la parálisis temporal, pero cuando abrió sus ojos, se encontraba volando al lado del ganso.</p>\
                 \
@@ -3431,7 +3431,7 @@ while True:{\n\
                 frenéticamente, tal vez del ganso incapaz de comprender la situación, tal vez de dolor, tal vez pensando que él no\
                 era muy distinto a ese gastado ganso.</p>\
                 \
-                <p>Cerró sus ojos y los abrió de nuevo, pudo ver con claridad el <code class=\"snippet\">ID</code> de lo poco que había en el lugar.</p>",
+                <p>Cerró sus ojos y los abrió de nuevo, pudo ver con claridad el <code>ID</code> de lo poco que había en el lugar.</p>",
                 options: [
                     { id: "submundo_ayudar", option: "Ayudar al ganso." },
                     { id: "submundo_volver_superficie", option: "Escapar mientras el ganso está débil." }]
@@ -3738,7 +3738,7 @@ while True:{\n\
                 de manera que sea sencillo traducir a lenguaje máquina. Tome por ejemplo las matemáticas, \"dos más tres es igual a cinco\". Esta oración\
                 está escrita en español, pero su composición lógica es exacta y precisa. Se puede representar así: \
                 \
-                <p><code class=\"snippet\"> 2 + 3 = 5 </code></p>\
+                <p><code> 2 + 3 = 5 </code></p>\
                 \
                 <p class=\"dialog\">—2 + cinco = siete </p>",
 
@@ -3754,14 +3754,14 @@ while True:{\n\
                 <p class=\"dialog\">—Sin embargo, las matemáticas no se consideran un lenguaje de programación. Las matemáticas son parte del viaje, pero la lógica es el destino. \
                 La meta es organizar la composición física de la máquina que debe cumplir la instrucción una determinada instrucción. Hace mucho tiempo, solíamos usar utilizar unos y ceros \
                 para cumplir con esta tarea. El sistema de numeración de base dos, también llamado sistema binario. Se ve así: \
-                <p><code class=\"snippet\">01101100 01111001 01101000</code></p>\
+                <p><code>01101100 01111001 01101000</code></p>\
                 Donde <ul>\
                         <li>ENCENDIDO = 1</li>\
                         <li>APAGADO = 0</li>\
                 </ul>\
                 <p class=\"dialog\">—Esta solución es antigua, ahora dominamos la <strong>computación cuántica</strong>, sin embargo en esencia buscan lo mismo, ordenar a cada átomo de la máquina\
                 a encenderse o apagarse, según los deseos del programador. Elaborando en el proceso, se inicia con el padre de Pepito que quiere comprar \"leche y huevos\" (lenguaje de alto nivel)\
-                y terminamos con <code class=\"snippet\">01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
+                y terminamos con <code>01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
                 \
                 <p class=\"dialog\">—¡No tenemos tiempo para hablar de todo eso!</p>\
                 \
@@ -3777,14 +3777,14 @@ while True:{\n\
                 <p class=\"dialog\">Sin embargo, las matemáticas no se consideran un lenguaje de programación. Las matemáticas son parte del viaje, pero la lógica es el destino. \
                 La meta es organizar la composición física de la máquina que debe cumplir la instrucción una determinada instrucción. Hace mucho tiempo, solíamos usar utilizar unos y ceros \
                 para cumplir con esta tarea. El sistema de numeración de base dos, también llamado sistema binario. Se ve así: \
-                <p><code class=\"snippet\">01101100 01111001 01101000</code></p>\
+                <p><code>01101100 01111001 01101000</code></p>\
                 Donde <ul>\
                         <li>ENCENDIDO = 1</li>\
                         <li>APAGADO = 0</li>\
                     </ul>\
                 <p class=\"dialog\">—Esta solución es antigua, ahora dominamos la <strong>computación cuántica</strong>, sin embargo en esencia buscan lo mismo, ordenar a cada átomo de la máquina\
                 a encenderse o apagarse, según los deseos del programador. Elaborando en el proceso, se inicia con el padre de Pepito que quiere comprar \"leche y huevos\" (lenguaje de alto nivel)\
-                y terminamos con <code class=\"snippet\">01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
+                y terminamos con <code>01101100 01111001 01101000</code> (lenguaje máquina). Un conjunto de agentes componen el proceso de traducir y comunicar este mensaje.</p> \
                 \
                 <p class=\"dialog\">—¡No tenemos tiempo para hablar de todo eso!</p>\
                 \
@@ -3918,7 +3918,7 @@ suma(numero_1, numero_2){\n\
             {
                 id: "poo",
                 text: " <p class=\"dialog\">—Sí. El paradigma orientado a la programación, también llamado programación orienta a objetos (POO), utiliza objetos para modelar sus soluciones.\
-                Los objetos en este paradigma son abstracciones de la realidad. Por ejemplo, si un programador quiere programar una calculadora, puede crear una clase <code class=\"snippet\">calculadora</code>\
+                Los objetos en este paradigma son abstracciones de la realidad. Por ejemplo, si un programador quiere programar una calculadora, puede crear una clase <code>calculadora</code>\
                 y programarle acciones y atributos pertinentes a una calculadora, como sumar, restar, etcétera.\
                 <ul>\
                     <li><code class=\"snippet\">\
@@ -3931,8 +3931,8 @@ int resultado;\n\
                     </code>\
                     </li>\
                 </ul>\
-                <p class=\"dialog\">En este contexto, la clase <code class=\"snippet\">calculadora</code> se vuelve un <u>objeto</u> al ser instanciado. Y este objeto, \
-                tiene los <u>métodos</u> de <code class=\"snippet\">sumar</code> y el <u>atributo</u> <code class=\"snippet\">resultado</code>.</p>\
+                <p class=\"dialog\">En este contexto, la clase <code>calculadora</code> se vuelve un <u>objeto</u> al ser instanciado. Y este objeto, \
+                tiene los <u>métodos</u> de <code>sumar</code> y el <u>atributo</u> <code>resultado</code>.</p>\
                 <ul>\
                         <li>Para instanciar una clase: <ul><li><code class=\"snippet\">Calculadora mi_calculadora_1 = new Calculadora();</code></li></ul></li>\
                         <li>Para crear un objeto: <ul><li><code class=\"snippet\">Calculadora mi_calculadora_2 = new Calculadora();</code></li></ul>(es lo mismo).</li>\
@@ -4049,7 +4049,7 @@ print(resultado);\
                 <p class=\"dialog\">— Los números 10 y 5, en lugar de ser utilizados directamente, se almacenan en \
                 variables para manipular los datos de esta manera. La simpleza del ejemplo puede hacer ver a las variables como un paso innecesario en una operación, \
                 sin embargo, imagine que esta variable almacena el correo electrónico de un usuario, o su nombre. En un escenario de ese estilo, toda la lógica puede estar \
-                ligada a una variable <code class=\"snippet\">email</code> o <code class=\"snippet\">nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
+                ligada a una variable <code>email</code> o <code>nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
                 \
                 <p class=\"dialog\">—Y las variables pueden ser tipadas o no tipadas.\
                 \
@@ -4061,9 +4061,9 @@ print(resultado);\
                 \
                 </p>\
                 <ul>\
-                        <li><code class=\"snippet\">int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
-                        <li><code class=\"snippet\">string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
-                        <li><code class=\"snippet\">char</code>, <code class=\"snippet\">float</code>, <code class=\"snippet\">double</code>, <code class=\"snippet\">any</code>, <code class=\"snippet\">array</code>, <code class=\"snippet\">list</code> y muchas, muchas más.</li> \
+                        <li><code>int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
+                        <li><code>string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
+                        <li><code>char</code>, <code>float</code>, <code>double</code>, <code>any</code>, <code>array</code>, <code>list</code> y muchas, muchas más.</li> \
                 </ul>\
                 \
             <p>EJERCICIO: </p>\
@@ -4076,7 +4076,7 @@ print(papas + chayotes);\
                 ",
                 options: [
                     { id: "practica_sintaxis_2_rmal", option: "Papas y chayotes." },
-                    { id: "practica_sintaxis_2_rbien", option: "Datos de tipo <code class=\"snippet\">string</code>." }]
+                    { id: "practica_sintaxis_2_rbien", option: "Datos de tipo <code>string</code>." }]
             },
 
             {
@@ -4086,7 +4086,7 @@ print(papas + chayotes);\
                 <p class=\"dialog\">— Los números 10 y 5, en lugar de ser utilizados directamente, se almacenan en \
                 variables para manipular los datos de esta manera. La simpleza del ejemplo puede hacer ver a las variables como un paso innecesario en una operación, \
                 sin embargo, imagine que esta variable almacena el correo electrónico de un usuario, o su nombre. En un escenario de ese estilo, toda la lógica puede estar \
-                ligada a una variable <code class=\"snippet\">email</code> o <code class=\"snippet\">nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
+                ligada a una variable <code>email</code> o <code>nombre</code> en lugar de tener que escribir el dato cada vez que se necesite.</p>\
                 \
                 <p class=\"dialog\">—Y las variables pueden ser tipadas o no tipadas.\
                 \
@@ -4097,9 +4097,9 @@ print(papas + chayotes);\
                 \
                 </p>\
                 <ul>\
-                        <li><code class=\"snippet\">int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
-                        <li><code class=\"snippet\">string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
-                        <li><code class=\"snippet\">char</code>, <code class=\"snippet\">float</code>, <code class=\"snippet\">double</code>, <code class=\"snippet\">any</code>, <code class=\"snippet\">array</code>, <code class=\"snippet\">list</code> y muchas, muchas más.</li> \
+                        <li><code>int</code>, que viene de la palabra <i>integer</i> (entero) y hace referencia a números enteros (1, 2, 3...).</li>\
+                        <li><code>string</code>, hacer referencia a una cadena de carácteres, por ejemplo: \"hola\", \"mundo\", \"1\", \"dos\", \"3tres3\".</li> \
+                        <li><code>char</code>, <code>float</code>, <code>double</code>, <code>any</code>, <code>array</code>, <code>list</code> y muchas, muchas más.</li> \
                 </ul>\
                 \
             <p>EJERCICIO: </p>\
@@ -4112,13 +4112,13 @@ print(papas + chayotes);\
                 ",
                 options: [
                     { id: "practica_sintaxis_2_rmal", option: "Papas y chayotes." },
-                    { id: "practica_sintaxis_2_rbien", option: "Datos de tipo <code class=\"snippet\">string</code>." }]
+                    { id: "practica_sintaxis_2_rbien", option: "Datos de tipo <code>string</code>." }]
             },
 
             {
                 id: "practica_sintaxis_2_rmal",
                 text: "<p class=\"dialog\">—<span class=\"bad-action-box\"><code class=\"bad-action\"><span style=\"font-size: 16px;\">(✖️) </span>Incorrecto.</code></span>\
-                La palabra reservada antes de la variable (en este caso <code class=\"snippet\">string</code>) muestra el tipo de dato que la variable puede almacenar.</p>\
+                La palabra reservada antes de la variable (en este caso <code>string</code>) muestra el tipo de dato que la variable puede almacenar.</p>\
                 \
                 <p class=\"dialog\">—¿Continuamos con las estructuras de datos y cómo manipularlas?</p>",
                 options: [
@@ -4160,7 +4160,7 @@ print(papas + chayotes);\
             {
                 id: "practica_sintaxis_4_completado",
                 text: "<p class=\"dialog\">—Se puede recorrer una lista utilizando estrategias muy diferentes, por ejemplo: recursividad o iteración. Por ahora, solo \
-                hablaremos de la iteración. Los métodos iterativos más famosos se pueden utilizan con las palabras reservadas <code class=\"snippet\">for</code> y <code class=\"snippet\">while</code> </p>\
+                hablaremos de la iteración. Los métodos iterativos más famosos se pueden utilizan con las palabras reservadas <code>for</code> y <code>while</code> </p>\
                 <ul>\
                     <li><code class=\"snippet\">\
 for(int i = 0; i <=lista_de_compras.lenght; i++){\n\
@@ -4174,9 +4174,9 @@ while i < len(lista_de_compras):\n\
     i = i + 1\
                     </code>\</li> \
                 </ul>\
-                <p class=\"dialog\">—A mí me gusta mucho el <code class=\"snippet\">map</code>.</p>\
+                <p class=\"dialog\">—A mí me gusta mucho el <code>map</code>.</p>\
                 \
-                <p class=\"dialog\">—Algo interesante de <code class=\"snippet\">while</code> es que permite crear un bucle infinito de forma muy sencilla.</p>\
+                <p class=\"dialog\">—Algo interesante de <code>while</code> es que permite crear un bucle infinito de forma muy sencilla.</p>\
                 <ul>\
                 <li><code class=\"snippet\">\
 while True:{\n\
@@ -4247,7 +4247,7 @@ while True:{\n\
                 \
                 <p class=\"dialog\">—<em>Sin embargo, no es tan trivial. 503 ha optimizado la minería cerebral. Este planeta está plagado de \"casas-puerto\" y cada uno de estos aposentos puede\
                 administrar varias conexiones. Esto le permite cancelar las ondas cerebrales que usted emite. No puede cancelar cualquier pensamiento aleatorio, pero tiene un sistema\
-                de control que bloquea instrucciones que lo podrían derrocar: \"<code class=\"snippet\">logout</code>\", \"<code class=\"snippet\">exit</code>\", etc</em>.</p>\
+                de control que bloquea instrucciones que lo podrían derrocar: \"<code>logout</code>\", \"<code>exit</code>\", etc</em>.</p>\
                 \
                 <p class=\"dialog\">—<em>¿Y por qué tus graznidos y tus destellos de luz pueden superar a 503?</em></p>\
                 \
@@ -4368,8 +4368,8 @@ while True:{\n\
                 \
                 ",
                 options: [
-                    { id: "al_suelo", option: "<code class=\"snippet\">503.setMovement(false);</code>" },
-                    { id: "sudo_kill", option: "<code class=\"snippet\">sudo kill 503</code>" }]
+                    { id: "al_suelo", option: "<code>503.setMovement(false);</code>" },
+                    { id: "sudo_kill", option: "<code>sudo kill 503</code>" }]
             },
             {
                 id: "cielo_dialogar",
@@ -4530,7 +4530,7 @@ While 503.Y !== 0:\n\
             },
             {
                 id: "no_caer",
-                text: "<p>Con un movimiento de mano y el comando <code class=\"snippet\">sudo xkill</code> se deshizo de la indeseable compañía antes de que\
+                text: "<p>Con un movimiento de mano y el comando <code>sudo xkill</code> se deshizo de la indeseable compañía antes de que\
                 tuvieran tiempo de apuntarle. Luego se dirigió a uno de los sarcófagos de conexión.</p>\
                 ",
                 options: [
@@ -4684,8 +4684,8 @@ world.getRuins().setGravity(9);\
                 \
                 ",
                 options: [
-                    { id: "alt_f4", option: "<code class=\"snippet\">ALT + F4</code>." },
-                    { id: "ctrl_z", option: "<code class=\"snippet\">CTRL + Z</code>.", noShow: true }]
+                    { id: "alt_f4", option: "<code>ALT + F4</code>." },
+                    { id: "ctrl_z", option: "<code>CTRL + Z</code>.", noShow: true }]
             },
             {
                 id: "groseria",
@@ -4694,8 +4694,8 @@ world.getRuins().setGravity(9);\
                 \
                 ",
                 options: [
-                    { id: "alt_f4", option: "<code class=\"snippet\">ALT + F4</code>." },
-                    { id: "ctrl_z", option: "<code class=\"snippet\">CTRL + Z</code>.", noShow: true }]
+                    { id: "alt_f4", option: "<code>ALT + F4</code>." },
+                    { id: "ctrl_z", option: "<code>CTRL + Z</code>.", noShow: true }]
             },
             {
                 id: "alt_f4",
@@ -4740,7 +4740,7 @@ world.getRuins().setGravity(9);\
             },
             {
                 id: "salir_aniquilacion",
-                text: "<p>—<code class=\"snippet\">Logout</code></p>\
+                text: "<p>—<code>Logout</code></p>\
                 \
                 <p>No ocurrió nada.</p>\
                 ",
@@ -4809,7 +4809,7 @@ world.getRuins().setGravity(9);\
                 \
                 <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
                 \
-                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code class=\"snippet\">veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
                 \
                 <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
                 \
@@ -4859,7 +4859,7 @@ world.getRuins().setGravity(9);\
                 \
                 <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
                 \
-                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code class=\"snippet\">veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
                 \
                 <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
                 \
@@ -4909,7 +4909,7 @@ world.getRuins().setGravity(9);\
                 \
                 <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
                 \
-                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code class=\"snippet\">veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
                 \
                 <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
                 \
@@ -5074,7 +5074,7 @@ world.getRuins().setGravity(9);\
                 \
                 <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
                 \
-                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code class=\"snippet\">veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
                 \
                 <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
                 \
@@ -5168,7 +5168,7 @@ world.getRuins().setGravity(9);\
                 \
                 <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
                 \
-                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code class=\"snippet\">veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
                 \
                 <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
                 \
@@ -5255,7 +5255,7 @@ world.getRuins().setGravity(9);\
                 \
                 <p class=\"dialog\">—¡Te lo dije! Era una chica.</p>\
                 \
-                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code class=\"snippet\">veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
+                <p class=\"dialog\">—Admito su victoria. Le pagaré las <code>veinte crypto</code> en otro momento, antes necesito revisar este equipo.</p>\
                 \
                 <p>El sujeto de la voz grave examinó el equipo electrónico de la pequeña anciana.</p>\
                 \
@@ -5311,8 +5311,8 @@ world.getRuins().setGravity(9);\
                 \
                 ",
                 options: [
-                    { id: "restringe_sarco", option: "<code class=\"snippet\">503.setMovement(false);</code>" },
-                    { id: "sudo_kill", option: "<code class=\"snippet\">sudo kill 503</code>" }]
+                    { id: "restringe_sarco", option: "<code>503.setMovement(false);</code>" },
+                    { id: "sudo_kill", option: "<code>sudo kill 503</code>" }]
             },
             {
                 id: "sudo_kill",
@@ -5346,7 +5346,7 @@ world.getRuins().setGravity(9);\
 
             {
                 id: "sarcofago_alt_f4",
-                text: "<p class=\"dialog\">—<code class=\"snippet\">ALT + F4</code></p>\
+                text: "<p class=\"dialog\">—<code>ALT + F4</code></p>\
                 \
                 <p>Con esta orden, se eliminaron todos los recursos que 503 estaba utilizando para regenerarse. La simulación se reinició. 305 se encontraba ahora en una Tierra virgen.\
                 Victorioso, el monitor, aún con su traje, pudo descansar de la constante aniquilación de las réplicas de su enemigo.</p>\
@@ -5397,8 +5397,8 @@ while(true){\n\
                 text: "<p class=\"dialog\">—Te multiplicas rápido pero estoy seguro de que no podrás escapar de esta.</p>\
                 ",
                 options: [
-                    { id: "cucarachas_alt_f4", option: "<code class=\"snippet\">ALT + F4</code>." },
-                    { id: "cucarachas_ctrl_z", option: "<code class=\"snippet\">CTRL + Z</code>.", noShow: true }]
+                    { id: "cucarachas_alt_f4", option: "<code>ALT + F4</code>." },
+                    { id: "cucarachas_ctrl_z", option: "<code>CTRL + Z</code>.", noShow: true }]
             },
             {
                 id: "cucarachas",
@@ -5406,8 +5406,8 @@ while(true){\n\
                 imposible acabar contigo a golpes o explosiones. Pero estoy seguro de que no podrás escapar de esta.</p>\
                 ",
                 options: [
-                    { id: "cucarachas_alt_f4", option: "<code class=\"snippet\">ALT + F4</code>." },
-                    { id: "cucarachas_ctrl_z", option: "<code class=\"snippet\">CTRL + Z</code>.", noShow: true }]
+                    { id: "cucarachas_alt_f4", option: "<code>ALT + F4</code>." },
+                    { id: "cucarachas_ctrl_z", option: "<code>CTRL + Z</code>.", noShow: true }]
             },
 
             {
