@@ -330,7 +330,7 @@ const games = [
                 <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
                 en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
                 </ul>\
-                Mientras esto sucedía, el vehículo comenzó a estremecerse. Entre la súbita turbulencia, por un instante le pareció escuchar un ruido\
+                <p>Mientras esto sucedía, el vehículo comenzó a estremecerse. Entre la súbita turbulencia, por un instante le pareció escuchar un ruido\
                 inusual, una especie de graznido.\
                 </p> \
                 <p>El GPS dicta: <span style=\"background-color:red\"><strong>TURN AROUND.</strong> ↩️</span></p>",
@@ -543,7 +543,7 @@ const games = [
                 <li>Antes que la amenaza alienígena exprese un comportamiento hostil y tirano, la humanidad terrícola está dispuesta a la inmolar su especie \
                 en nombre de la Libertad. No seremos subyugados por seres que se autoproclaman superiores a nosotros, en hechos o en palabras. \
                 </ul>\
-                Mientras esto sucedía, el vehículo comenzó a estremecerse. </p> \
+                <p>Mientras esto sucedía, el vehículo comenzó a estremecerse. </p> \
                 \
                 <p>El GPS dicta: <span style=\"background-color:red\"><strong>LOWER YOUR ALTITUDE.</strong> 🔽</span></p>",
                 options: [
