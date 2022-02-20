@@ -4846,7 +4846,9 @@ world.getRuins().setGravity(9);\
                 ",
                 options: [
                     { id: "epilogo", option: "¿Leer el epílogo?", noShow: true },
-                    { id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+                    //{ id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+                    { id: "comentarios", option: "¿Dejar un comentario? (se agradece muchísimo)", noShow: true }]
+
             },
             {
                 id: "no_extrano",
@@ -4896,7 +4898,8 @@ world.getRuins().setGravity(9);\
                 ",
                 options: [
                     { id: "epilogo", option: "¿Leer el epílogo?", noShow: true },
-                    { id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+                    //{ id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+                    { id: "comentarios", option: "¿Dejar un comentario? (se agradece muchísimo)", noShow: true }]
             },
             {
                 id: "simulacion_fin_aniquilacion",
@@ -5111,7 +5114,8 @@ world.getRuins().setGravity(9);\
                 ",
                 options: [
                     { id: "epilogo", option: "¿Leer el epílogo?", noShow: true },
-                    { id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+                    //{ id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+                    { id: "comentarios", option: "¿Dejar un comentario? (se agradece muchísimo)", noShow: true }]
             },
             {
                 id: "atrapado",
@@ -5205,7 +5209,8 @@ world.getRuins().setGravity(9);\
                 ",
                 options: [
                     { id: "epilogo", option: "¿Leer el epílogo?", noShow: true },
-                    { id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+                    //{ id: "contenido_extra", option: "¿Ir al contenido adicional?", noShow: true }]
+                    { id: "comentarios", option: "¿Dejar un comentario? (se agradece muchísimo)", noShow: true }]
             },
             {
                 id: "creer",
